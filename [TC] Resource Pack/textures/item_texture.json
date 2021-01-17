@@ -117,7 +117,7 @@
       "textures": "textures/items/trophy/trophy_snowqueen"
     },
     "trophy_urghast": {
-      "textures": "textures/items/trophy/trophy_urghast"
+      "textures": "textures/items/trophy/trophy_ur_ghast"
     },
     "trophy_knight_phantom": {
       "textures": "textures/items/trophy/trophy_knight_phantom"
@@ -125,8 +125,8 @@
     "trophy_minoshroom": {
       "textures": "textures/items/trophy/trophy_minoshroom"
     },
-    "trophy_questing_ram": {
-      "textures": "textures/items/trophy/trophy_questing_ram"
+    "trophy_quest_ram": {
+      "textures": "textures/items/trophy/trophy_quest_ram"
     },
     "steeleaf": {
       "textures": "textures/items/steeleaf/steeleaf"
@@ -254,6 +254,9 @@
     "spawn_ur_ghast": {
       "textures": "textures/items/spawn_egg/egg_ur_ghast"
     },
+    "egg_quest_ram": {
+      "textures": "textures/items/spawn_egg/egg_quest_ram"
+    },
     "giant_pickaxe": {
       "textures": "textures/items/stone_pickaxe"
     },
@@ -268,8 +271,13 @@
         "textures/items/bows/ender/ender_bow_pulling_2"
       ]
     },
-    "ice_bow": {
-      "textures": "textures/items/bows/ice/ice_bow_standby"
+    "ice_bow":{ 
+      "textures": [
+        "textures/items/bows/ice/ice_bow_standby",
+        "textures/items/bows/ender/ender_bow_pulling_0",
+        "textures/items/bows/seeker/seeker_bow_pulling_1",
+        "textures/items/bows/triple/triple_bow_pulling_2"
+      ]
     },
     "seeker_bow": {
       "textures": [

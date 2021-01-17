@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:steeleaf_chestplate",
+      "identifier": "twilightforest:steeleaf_chestplate",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.chestplate"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.steeleaf_chestplate.item"
+        "value": "twilightforest.steeleaf_chestplate.item"
       },
       "minecraft:icon": {
         "texture": "steeleaf_chestplate"

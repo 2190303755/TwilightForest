@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:canopy_log",
+      "identifier": "twilightforest:canopy_log",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

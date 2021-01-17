@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:arctic_helmet"
+      "identifier": "twilightforest:arctic_helmet"
     },
     "components": {
       "minecraft:hand_equipped": false,

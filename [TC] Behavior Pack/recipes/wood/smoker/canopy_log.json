@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:smoker_1"
+    "identifier": "twilightforest:smoker_1"
     },
 
     
@@ -17,7 +17,7 @@
         "item":"minecraft:furnace"
       },
       "L": {
-        "item": "hermit_blocks:canopy_log"
+        "item": "twilightforest:canopy_log"
       }
     },
     "result": {

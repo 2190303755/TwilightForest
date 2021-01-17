@@ -3,7 +3,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:twilight_oak_log",
+      "identifier": "twilightforest:twilight_oak_log",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

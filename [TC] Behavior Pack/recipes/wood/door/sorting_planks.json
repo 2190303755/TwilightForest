@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:door_5"
+    "identifier": "twilightforest:door_5"
     },
 
     
@@ -14,7 +14,7 @@
     ],
     "key": {
       "P": {
-        "item": "hermit_blocks:sorting_planks"
+        "item": "twilightforest:sorting_planks"
       }
     },
     "result": {

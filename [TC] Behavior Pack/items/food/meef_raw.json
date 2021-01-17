@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_food:meef_raw",
+      "identifier": "twilightforest:meef_raw",
       "category": "nature"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.rawFood"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.meef_raw.item"
+        "value": "twilightforest.meef_raw.item"
       },
       "minecraft:icon": {
         "texture": "meef_raw"

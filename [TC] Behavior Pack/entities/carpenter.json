@@ -2,7 +2,7 @@
   "format_version": "1.13.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "hermit:carpenter",
+      "identifier": "twilightforest:carpenter",
       "is_spawnable": false,
       "is_summonable": false,
       "is_experimental": true

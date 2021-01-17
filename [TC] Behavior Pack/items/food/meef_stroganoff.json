@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_food:meef_stroganoff",
+      "identifier": "twilightforest:meef_stroganoff",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.miscFood"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.meef_stroganoff.item"
+        "value": "twilightforest.meef_stroganoff.item"
       },
       "minecraft:icon": {
         "texture": "meef_stroganoff"

@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:liveroot",
+      "identifier": "twilightforest:liveroot",
       "category": "nature"
     },
     "components": {
@@ -10,11 +10,11 @@
         "texture": "liveroot"
       },
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilight_forest.items"
+        "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:render_offsets": "miscellaneous",
       "minecraft:display_name": {
-        "value": "twilight_forest.liveroot.item"
+        "value": "twilightforest.liveroot.item"
       }
     }
   }

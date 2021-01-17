@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:ironwood_shovel",
+      "identifier": "twilightforest:ironwood_shovel",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.shovel"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.ironwood_shovel.item"
+        "value": "twilightforest.ironwood_shovel.item"
       },
       "minecraft:icon": {
         "texture": "ironwood_shovel"

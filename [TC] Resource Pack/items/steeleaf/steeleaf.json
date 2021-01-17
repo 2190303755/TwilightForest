@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:steeleaf",
+      "identifier": "twilightforest:steeleaf",
       "category": "items"
     },
     "components": {
@@ -10,11 +10,11 @@
         "texture": "steeleaf"
       },
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilight_forest_items"
+        "parent": "itemGroup.name.twilightforest_items"
       },
       "minecraft:render_offsets": "miscellaneous",
       "minecraft:display_name": {
-        "value": "twilight_forest.steeleaf.item"
+        "value": "twilightforest.steeleaf.item"
       }
     }
   }

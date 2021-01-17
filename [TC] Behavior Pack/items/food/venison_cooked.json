@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_food:venison_cooked",
+      "identifier": "twilightforest:venison_cooked",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.cookedFood"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.venison_cooked.item"
+        "value": "twilightforest.venison_cooked.item"
       },
       "minecraft:icon": {
         "texture": "venison_cooked"

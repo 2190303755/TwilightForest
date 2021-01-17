@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
       "description": {
-      "identifier": "hermit:time_planks_0"
+      "identifier": "twilightforest:time_planks_0"
       },
   
       
@@ -12,11 +12,11 @@
       ],
       "key": {
         "L": {
-          "item": "hermit_blocks:time_log"
+          "item": "twilightforest:time_log"
         }
       },
       "result": {
-        "item": "hermit_blocks:time_planks",
+        "item": "twilightforest:time_planks",
         "count": 4
       }
     }

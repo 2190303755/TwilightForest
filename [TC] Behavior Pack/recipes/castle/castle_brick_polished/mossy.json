@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:castle_brick_polished_4_mossy"
+    "identifier": "twilightforest:castle_brick_polished_4_mossy"
     },
 
     
@@ -13,11 +13,11 @@
     ],
     "key": {
       "M": {
-        "item": "hermit_blocks:castle_brick_mossy"
+        "item": "twilightforest:castle_brick_mossy"
       }
     },
     "result": {
-      "item": "hermit_blocks:castle_brick_polished",
+      "item": "twilightforest:castle_brick_polished",
       "count": 4
     }
   }

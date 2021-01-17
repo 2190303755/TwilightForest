@@ -2,7 +2,7 @@
     "format_version": "1.0",
     "minecraft:item": {
       "description": {
-        "identifier": "hermit_items:yeti_leggings",
+        "identifier": "twilightforest:yeti_leggings",
         "category": "Equipment"
       },
       "components": {

@@ -2,7 +2,7 @@
     "format_version": "1.12",
     "minecraft:recipe_shaped": {
       "description": {
-      "identifier": "hermit:armor_shard_cluster"
+      "identifier": "twilightforest:armor_shard_cluster"
       },
   
       
@@ -14,11 +14,11 @@
       ],
       "key": {
         "S": {
-          "item": "hermit_items:armor_shard"
+          "item": "twilightforest:armor_shard"
         }
       },
       "result": {
-        "item": "hermit_items:armor_shard_cluster"
+        "item": "twilightforest:armor_shard_cluster"
       }
     }
   }

@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:arctic_leggings"
+      "identifier": "twilightforest:arctic_leggings"
     },
     "components": {
       "minecraft:hand_equipped": false,

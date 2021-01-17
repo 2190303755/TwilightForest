@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:steeleaf_shovel",
+      "identifier": "twilightforest:steeleaf_shovel",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.shovel"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.steeleaf_shovel.item"
+        "value": "twilightforest.steeleaf_shovel.item"
       },
       "minecraft:icon": {
         "texture": "steeleaf_shovel"

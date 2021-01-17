@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:pressure_plate_1"
+    "identifier": "twilightforest:pressure_plate_1"
     },
 
     
@@ -12,7 +12,7 @@
     ],
     "key": {
       "P": {
-        "item": "hermit_blocks:canopy_planks"
+        "item": "twilightforest:canopy_planks"
       }
     },
     "result": {

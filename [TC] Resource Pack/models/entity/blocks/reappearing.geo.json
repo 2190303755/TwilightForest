@@ -3,7 +3,7 @@
   "minecraft:geometry": [
     {
       "description": {
-        "identifier": "geometry.block.reappearing.twilight_forest",
+        "identifier": "geometry.block.reappearing.twilightforest",
         "texture_width": 16,
         "texture_height": 8,
         "visible_bounds_width": 2,

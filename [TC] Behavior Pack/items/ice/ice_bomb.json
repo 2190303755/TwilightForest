@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:ice_bomb" 
+      "identifier": "twilightforest:ice_bomb" 
     },
     "components": {
       "minecraft:hand_equipped": false,

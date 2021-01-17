@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_food:maze_wafer",
+      "identifier": "twilightforest:maze_wafer",
       "category": "equipment"
     },
     "components": {
@@ -15,7 +15,7 @@
       },
       "minecraft:render_offsets": "miscellaneous",
       "minecraft:display_name": {
-        "value": "twilight_forest.maze_wafer.item"
+        "value": "twilightforest.maze_wafer.item"
       }
     }
   }

@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_trophy:urghast",
+      "identifier": "twilightforest:urghast",
       "category": "Items"
     },
     "components": {

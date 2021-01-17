@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:fletching_table_4"
+    "identifier": "twilightforest:fletching_table_4"
     },
 
     
@@ -17,7 +17,7 @@
         "item": "minecraft:flint"
       },
       "P": {
-        "item": "hermit_blocks:mine_planks"
+        "item": "twilightforest:mine_planks"
       }
     },
     "result": {

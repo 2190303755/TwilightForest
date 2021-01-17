@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:smithing_table_3"
+    "identifier": "twilightforest:smithing_table_3"
     },
 
     
@@ -17,7 +17,7 @@
         "item": "minecraft:iron_ingot"
       },
       "P": {
-        "item": "hermit_blocks:mangrove_planks"
+        "item": "twilightforest:mangrove_planks"
       }
     },
     "result": {

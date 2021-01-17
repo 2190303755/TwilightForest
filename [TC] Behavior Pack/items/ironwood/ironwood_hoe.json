@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:ironwood_hoe",
+      "identifier": "twilightforest:ironwood_hoe",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.hoe"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.ironwood_hoe.item"
+        "value": "twilightforest.ironwood_hoe.item"
       },
       "minecraft:icon": {
         "texture": "ironwood_hoe"

@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_blocks:storage_knightmetal",
+      "identifier": "twilightforest:storage_knightmetal",
       "category": "construction"
     },
     "components": {
@@ -10,10 +10,10 @@
         "texture": "knightmetal_block"
       },
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilight_forest.blocks"
+        "parent": "itemGroup.name.twilightforest.blocks"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.storage_knightmetal.item"
+        "value": "twilightforest.storage_knightmetal.item"
       }
     }
   }

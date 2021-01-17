@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:castle_brick_pillar_bold"
+    "identifier": "twilightforest:castle_brick_pillar_bold"
     },
 
     
@@ -13,11 +13,11 @@
     ],
     "key": {
       "P": {
-        "item": "hermit_blocks:castle_brick_polished"
+        "item": "twilightforest:castle_brick_polished"
       }
     },
     "result": {
-      "item": "hermit_blocks:castle_brick_pillar_bold",
+      "item": "twilightforest:castle_brick_pillar_bold",
       "count": 4
     }
   }

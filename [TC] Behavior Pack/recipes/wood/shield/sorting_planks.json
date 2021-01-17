@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:shield_5"
+    "identifier": "twilightforest:shield_5"
     },
 
     
@@ -17,7 +17,7 @@
         "item": "minecraft:iron_ingot"
       },
       "P": {
-        "item": "hermit_blocks:sorting_planks"
+        "item": "twilightforest:sorting_planks"
       }
     },
     "result": {

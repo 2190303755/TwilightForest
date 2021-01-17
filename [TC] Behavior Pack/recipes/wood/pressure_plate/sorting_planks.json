@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:pressure_plate_5"
+    "identifier": "twilightforest:pressure_plate_5"
     },
 
     
@@ -12,7 +12,7 @@
     ],
     "key": {
       "P": {
-        "item": "hermit_blocks:sorting_planks"
+        "item": "twilightforest:sorting_planks"
       }
     },
     "result": {

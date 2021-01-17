@@ -2,13 +2,13 @@
   "format_version": "1.12",
   "minecraft:recipe_furnace": {
     "description": {
-    "identifier": "hermit:meef"
+    "identifier": "twilightforest:meef"
     },
 
     
     "tags": ["furnace", "smoker", "campfire"],
-    "input": "hermit_food:meef_raw",
-    "output": "hermit_food:meef_steak"
+    "input": "twilightforest:meef_raw",
+    "output": "twilightforest:meef_steak"
   }
   
 }

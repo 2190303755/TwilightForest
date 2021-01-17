@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:fiery_sword"
+    "identifier": "twilightforest:fiery_sword"
     },
 
     
@@ -14,14 +14,14 @@
     ],
     "key": {
       "I": {
-        "item": "hermit_items:fiery_ingot"
+        "item": "twilightforest:fiery_ingot"
       },
       "S": {
         "item":"minecraft:blaze_rod"  
       }
     },
     "result": {
-      "item": "hermit_items:fiery_sword"
+      "item": "twilightforest:fiery_sword"
     }
   }
 }

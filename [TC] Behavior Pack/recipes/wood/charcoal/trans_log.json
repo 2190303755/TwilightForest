@@ -2,10 +2,10 @@
   "format_version": "1.12",
   "minecraft:recipe_furnace": {
     "description": {
-    "identifier": "hermit:charcoal_7"
+    "identifier": "twilightforest:charcoal_7"
     },
     "tags": ["furnace"],
-    "input": "hermit_blocks:trans_log",
+    "input": "twilightforest:trans_log",
     "output": "minecraft:coal:1"
   }
   

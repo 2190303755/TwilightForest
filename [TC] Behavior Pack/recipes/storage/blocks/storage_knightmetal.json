@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:storage_knightmetal"
+    "identifier": "twilightforest:storage_knightmetal"
     },
 
     
@@ -14,11 +14,11 @@
     ],
     "key": {
       "I": {
-        "item": "hermit_items:knightmetal_ingot"
+        "item": "twilightforest:knightmetal_ingot"
       }
     },
     "result": {
-      "item": "hermit_blocks:storage_knightmetal"
+      "item": "twilightforest:storage_knightmetal"
     }
   }
 }

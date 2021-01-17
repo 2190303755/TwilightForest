@@ -5,7 +5,8 @@
       "identifier": "twilightforest:bighorn_sheep",
       "is_spawnable": true,
       "is_summonable": true,
-      "is_experimental": false
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:sheep"
     },
     "component_groups": {
       "minecraft:loot_sheared": {
@@ -242,7 +243,7 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "hermit_items:transformation_powder" }
+                  { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "twilightforest:transformation_powder" }
                 ]
               },
             "event": "tf:transform",

@@ -1,12 +1,20 @@
 {
-  "format_version": "1.0",
+  "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:arctic_fur"
+      "identifier": "twilightforest:arctic_fur",
+      "category": "items"
     },
     "components": {
-      "minecraft:hand_equipped": false,
-      "minecraft:stacked_by_data": true
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilightforest.items"
+      },
+      "minecraft:display_name": {
+        "value": "twilightforest.arctic_fur.item"
+      },
+      "minecraft:icon": {
+        "texture": "arctic_fur"
+      }
     }
   }
 }

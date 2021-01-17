@@ -1,0 +1,28 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.quest_ram": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "part_visibility": [
+        { "white": /*"query.scoreboard('QuestRamWhite')"*/ 0 },
+        { "orange": /*"query.scoreboard('QuestRamOrange')"*/ 0 },
+        { "magenta": /*"query.scoreboard('QuestRamMagenta')"*/ 0 },
+        { "light_blue": /*"query.scoreboard('QuestRamLBlue')"*/ 0 },
+        { "yellow": /*"query.scoreboard('QuestRamYellow')"*/ 0 },
+        { "lime": /*"query.scoreboard('QuestRamLime')"*/ 0 },
+        { "pink": /*"query.scoreboard('QuestRamPink')"*/ 0 },
+        { "gray": /*"query.scoreboard('QuestRamGray')"*/ 0 },
+        { "silver": /*"query.scoreboard('QuestRamSilver')"*/ 0 },
+        { "cyan": /*"query.scoreboard('QuestRamCyan')"*/ 0 },
+        { "purple": /*"query.scoreboard('QuestRamPurple')"*/ 0 },
+        { "blue": /*"query.scoreboard('QuestRamBlue')"*/ 0 },
+        { "brown": /*"query.scoreboard('QuestRamBrown')"*/ 0 },
+        { "green": /*"query.scoreboard('QuestRamGreen')"*/ 0 },
+        { "red": /*"query.scoreboard('QuestRamRed')"*/ 0 },
+        { "black": /*"query.scoreboard('QuestRamBlack')"*/ 0 }
+      ],
+      "textures": [ "Texture.default" ]
+    }
+  }
+}

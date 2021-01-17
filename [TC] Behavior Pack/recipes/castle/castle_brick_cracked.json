@@ -2,11 +2,11 @@
   "format_version": "1.12",
   "minecraft:recipe_furnace": {
     "description": {
-    "identifier": "hermit:castle_brick_cracked"
+    "identifier": "twilightforest:castle_brick_cracked"
     },
 
   "tags": [ "furnace" ],
-  "input": "hermit_blocks:castle_brick",
-  "output": "hermit_blocks:castle_brick_cracked"
+  "input": "twilightforest:castle_brick",
+  "output": "twilightforest:castle_brick_cracked"
   }
 }

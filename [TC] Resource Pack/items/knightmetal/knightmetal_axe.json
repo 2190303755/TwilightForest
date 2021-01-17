@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:knightmetal_axe",
+      "identifier": "twilightforest:knightmetal_axe",
       "category": "equipment"
     },
     "components": {
@@ -14,7 +14,7 @@
       },
       "minecraft:render_offsets": "tools",
       "minecraft:display_name": {
-        "value": "twilight_forest.knightmetal_axe.item"
+        "value": "twilightforest.knightmetal_axe.item"
       }
     }
   }

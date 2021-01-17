@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:ironwood_axe",
+      "identifier": "twilightforest:ironwood_axe",
       "category": "equipment"
     },
     "components": {
@@ -14,7 +14,7 @@
       },
       "minecraft:render_offsets": "tools",
       "minecraft:display_name": {
-        "value": "twilight_forest.ironwood_axe.item"
+        "value": "twilightforest.ironwood_axe.item"
       }
     }
   }

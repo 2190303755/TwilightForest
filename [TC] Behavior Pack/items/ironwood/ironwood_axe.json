@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:ironwood_axe",
+      "identifier": "twilightforest:ironwood_axe",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.axe"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.ironwood_axe.item"
+        "value": "twilightforest.ironwood_axe.item"
       },
       "minecraft:icon": {
         "texture": "ironwood_axe"
@@ -55,6 +55,14 @@
         ]
       },
       "tag:minecraft:is_axe": {}
+    },
+    "events": {
+      "on_tool_used": {
+        "damage": {
+          "type": "none",
+          "amount": 1
+        }
+      }
     }
   }
 }

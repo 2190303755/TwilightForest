@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:steeleaf_shovel"
+    "identifier": "twilightforest:steeleaf_shovel"
     },
 
     
@@ -14,14 +14,14 @@
     ],
     "key": {
       "I": {
-        "item": "hermit_items:steeleaf"
+        "item": "twilightforest:steeleaf"
       },
       "S": {
         "item":"minecraft:stick" 
       }
     },
     "result": {
-      "item": "hermit_items:steeleaf_shovel"
+      "item": "twilightforest:steeleaf_shovel"
     }
   }
 }

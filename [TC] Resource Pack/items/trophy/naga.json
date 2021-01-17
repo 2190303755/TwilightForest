@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_trophy:naga",
+      "identifier": "twilightforest:naga",
       "category": "Items"
     },
     "components": {

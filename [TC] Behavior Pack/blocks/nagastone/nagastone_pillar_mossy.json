@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:nagastone_pillar_mossy",
+      "identifier": "twilightforest:nagastone_pillar_mossy",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

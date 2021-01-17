@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:ender_bow",
+      "identifier": "twilightforest:ender_bow",
       "category": "Equipment"
     },
     "components": {

@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:stairs_4"
+    "identifier": "twilightforest:stairs_4"
     },
 
     
@@ -14,7 +14,7 @@
     ],
     "key": {
       "P": {
-        "item": "hermit_blocks:mine_planks"
+        "item": "twilightforest:mine_planks"
       }
     },
     "result": {

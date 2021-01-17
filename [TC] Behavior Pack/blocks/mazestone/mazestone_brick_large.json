@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:mazestone_brick_large",
+      "identifier": "twilightforest:mazestone_brick_large",
       "register_to_creative_menu": false,
       "is_experimental": false
     },

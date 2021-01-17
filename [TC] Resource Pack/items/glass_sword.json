@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:glass_sword",
+      "identifier": "twilightforest:glass_sword",
       "category": "equipment"
     },
     "components": {
@@ -15,7 +15,7 @@
       },
       "minecraft:render_offsets": "tools",
       "minecraft:display_name": {
-        "value": "twilight_forest.glass_sword.item"
+        "value": "twilightforest.glass_sword.item"
       }
     }
   }

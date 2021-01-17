@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:boat_1"
+    "identifier": "twilightforest:boat_1"
     },
 
     
@@ -16,7 +16,7 @@
         "item": "minecraft:wooden_shovel"
       },
       "P": {
-        "item": "hermit_blocks:canopy_planks"
+        "item": "twilightforest:canopy_planks"
       }
     },
     "result": {

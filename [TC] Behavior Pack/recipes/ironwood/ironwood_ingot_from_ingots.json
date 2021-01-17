@@ -2,18 +2,18 @@
   "format_version": "1.12",
   "minecraft:recipe_shapeless": {
     "description": {
-    "identifier": "hermit:ironwood_ingot_from_ingots"
+    "identifier": "twilightforest:ironwood_ingot_from_ingots"
     },
 
     
     "tags": [ "crafting_table" ],
     "ingredients": [
       {
-        "item": "hermit_items:ironwood_ingots"
+        "item": "twilightforest:ironwood_ingots"
       }
     ],
     "result": {
-      "item": "hermit_items:ironwood_ingot",
+      "item": "twilightforest:ironwood_ingot",
       "count": 2
     }
   }

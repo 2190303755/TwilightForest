@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:fiery_ingot",
+      "identifier": "twilightforest:fiery_ingot",
       "category": "items"
     },
     "components": {
@@ -11,11 +11,11 @@
       },
       "minecraft:hover_text_color": "yellow",
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilight_forest_items"
+        "parent": "itemGroup.name.twilightforest_items"
       },
       "minecraft:render_offsets": "miscellaneous",
       "minecraft:display_name": {
-        "value": "twilight_forest.fiery_ingot.item"
+        "value": "twilightforest.fiery_ingot.item"
       }
     }
   }

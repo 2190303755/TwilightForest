@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:ironwood_boots",
+      "identifier": "twilightforest:ironwood_boots",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.boots"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.ironwood_boots.item"
+        "value": "twilightforest.ironwood_boots.item"
       },
       "minecraft:icon": {
         "texture": "ironwood_boots"

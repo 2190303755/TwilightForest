@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:fiery_sword",
+      "identifier": "twilightforest:fiery_sword",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.sword"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.fiery_sword.item"
+        "value": "twilightforest.fiery_sword.item"
       },
       "minecraft:icon": {
         "texture": "fiery_sword"
@@ -19,18 +19,47 @@
       "minecraft:use_duration": 3600,
       "minecraft:hand_equipped": true,
       "minecraft:durability": {
-          "max_durability": 1024
+        "max_durability": 1024,
+        "damage_chance": {
+          "min": 0,
+          "max": 0
+        }
       },
       "minecraft:mining_speed": 1.5,
-      "minecraft:weapon": {},
+      "minecraft:weapon": {
+        "on_hurt_entity": {
+          "event": "twilightforest:on_hurt_entity",
+          "target": "self"
+        }
+      },
       "minecraft:damage": 8,
       "minecraft:enchantable": {
         "value": 10,
         "slot": "sword"
       },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "twilightforest:fiery_ingot"
+            ],
+            "repair_amount": "256"
+          },
+          {
+            "items": [
+              "twilightforest:fiery_sword"
+            ],
+              "repair_amount": "context.other->query.remaining_durability + 51"
+          }
+        ]
+      },
       "minecraft:can_destroy_in_creative": false,
       "minecraft:digger": {
-        "use_efficiency": false,
+        "use_efficiency": true,
+        "on_dig": {
+          "event": "twilightforest:on_dig",
+          "target": "self"
+        },
         "destroy_speeds": [
           {
             "block": "minecraft:web",
@@ -39,6 +68,35 @@
           {
             "block": "minecraft:bamboo",
             "speed": 10
+          },
+          {
+            "block": {
+              "tags": "q.any_tag('plant')"
+            },
+            "speed": 1
+          }
+        ]
+      }
+    },
+
+    "events": {
+      "twilightforest:on_hurt_entity": {
+        "sequence": [
+          {
+            "damage": {
+              "type": "none",
+              "amount": 1
+            }
+          }
+        ]
+      },
+      "twilightforest:on_dig": {
+        "sequence": [
+          {
+            "damage": {
+              "type": "none",
+              "amount": 2
+            }
           }
         ]
       }

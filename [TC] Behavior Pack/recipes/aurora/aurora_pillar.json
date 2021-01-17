@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:aurora_pillar"
+    "identifier": "twilightforest:aurora_pillar"
     },
 
     
@@ -13,11 +13,11 @@
     ],
     "key": {
       "B": {
-        "item": "hermit_blocks:aurora_block"
+        "item": "twilightforest:aurora_block"
       }
     },
     "result": {
-      "item": "hermit_blocks:aurora_pillar",
+      "item": "twilightforest:aurora_pillar",
       "count": 2
     }
   }

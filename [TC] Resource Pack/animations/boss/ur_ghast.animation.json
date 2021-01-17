@@ -5,42 +5,114 @@
 			"loop" : true,
 			"bones" : {
 				"tentacles_0" : {
-					"rotation" : [ "math.sin(query.life_time * 360.0 + 0) * 11.5 + 23", 0.0, 0.0 ]
+					"rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "tentacles_1" : {
+					"rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
 				},
-				"tentacles_1" : {
-					"rotation" : [ "math.sin(query.life_time * 360.0 + 57) * 11.5 + 23", 0.0, 0.0 ]
+        "tentacles_2" : {
+					"rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
 				},
-				"tentacles_2" : {
-					"rotation" : [ "math.sin(query.life_time * 360.0 + 115) * 11.5 + 23", 0.0, 0.0 ]
+        "tentacles_3" : {
+					"rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
 				},
-				"tentacles_3" : {
-					"rotation" : [ "math.sin(query.life_time * 360.0 + 172) * 11.5 + 23", 0.0, 0.0 ]
+        "tentacles_4" : {
+					"rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
 				},
-				"tentacles_4" : {
-					"rotation" : [ "math.sin(query.life_time * 360.0 + 229) * 11.5 + 23", 0.0, 0.0 ]
+        "tentacles_5" : {
+					"rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
 				},
-				"tentacles_5" : {
-					"rotation" : [ "math.sin(query.life_time * 360.0 + 286) * 11.5 + 23", 0.0, 0.0 ]
+        "tentacles_6" : {
+					"rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
 				},
-				"tentacles_6" : {
-					"rotation" : [ "math.sin(query.life_time * 360.0 + 344) * 11.5 + 23", 0.0, 0.0 ]
+        "tentacles_7" : {
+					"rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
 				},
-				"tentacles_7" : {
-					"rotation" : [ "math.sin(query.life_time * 360.0 + 402) * 11.5 + 23", 0.0, 0.0 ]
-				},
-				"tentacles_8" : {
-					"rotation" : [ "math.sin(query.life_time * 360.0 + 458) * 11.5 + 23", 0.0, 0.0 ]
+        "tentacles_8" : {
+					"rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_0_0" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_0_1" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_0_2" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_1_0" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_1_1" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_1_2" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_2_0" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_2_1" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_2_2" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_3_0" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_3_1" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_3_2" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_4_0" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_4_1" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_4_2" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_5_0" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_5_1" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_5_2" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_6_0" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_6_1" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_6_2" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_7_0" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_7_1" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_7_2" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_8_0" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_8_1" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
+        },
+        "subTentacles_8_2" : {
+          "rotation" : [ "math.sin(query.life_time * 90) * 12 + 6", 0, 0 ]
         }
 			}
-    },
-    "animation.ur_ghast.scale" : {
-			"loop" : true,
-			"bones" : {
-				"body" : {
-          "scale" : 12.5,
-          "position": [0, 92.25, 0]
-				}
-			}
-		}
+    }
 	}
 }

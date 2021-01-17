@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:ironwood_boots"
+    "identifier": "twilightforest:ironwood_boots"
     },
 
     
@@ -13,11 +13,11 @@
     ],
     "key": {
       "I": {
-        "item": "hermit_items:ironwood_ingot"
+        "item": "twilightforest:ironwood_ingot"
       }
     },
     "result": {
-      "item": "hermit_items:ironwood_boots"
+      "item": "twilightforest:ironwood_boots"
     }
   }
 }

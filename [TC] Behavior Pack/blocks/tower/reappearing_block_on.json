@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:reappearing_block_on",
+      "identifier": "twilightforest:reappearing_block_on",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

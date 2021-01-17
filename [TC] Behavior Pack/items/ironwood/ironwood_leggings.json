@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:ironwood_leggings",
+      "identifier": "twilightforest:ironwood_leggings",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.leggings"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.ironwood_leggings.item"
+        "value": "twilightforest.ironwood_leggings.item"
       },
       "minecraft:icon": {
         "texture": "ironwood_leggings"

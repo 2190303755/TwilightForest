@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:bed:0_3"
+    "identifier": "twilightforest:bed:0_3"
     },
 
     
@@ -16,7 +16,7 @@
         "item": "minecraft:wool:0"
       },
       "P": {
-        "item": "hermit_blocks:mangrove_planks"
+        "item": "twilightforest:mangrove_planks"
       }
     },
     "result": {

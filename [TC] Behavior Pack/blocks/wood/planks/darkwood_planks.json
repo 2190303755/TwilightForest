@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:darkwood_planks",
+      "identifier": "twilightforest:darkwood_planks",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

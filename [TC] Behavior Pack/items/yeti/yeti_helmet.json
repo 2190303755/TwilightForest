@@ -2,7 +2,7 @@
     "format_version": "1.0",
     "minecraft:item": {
       "description": {
-        "identifier": "hermit_items:yeti_helmet" 
+        "identifier": "twilightforest:yeti_helmet" 
       },
       "components": {
         "minecraft:hand_equipped": false,

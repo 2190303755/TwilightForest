@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:ironwood_axe"
+    "identifier": "twilightforest:ironwood_axe"
     },
 
     
@@ -14,14 +14,14 @@
     ],
     "key": {
       "I": {
-        "item": "hermit_items:ironwood_ingot"
+        "item": "twilightforest:ironwood_ingot"
       },
       "S": {
         "item":"minecraft:stick" 
       }
     },
     "result": {
-      "item": "hermit_items:ironwood_axe"
+      "item": "twilightforest:ironwood_axe"
     }
   }
 }

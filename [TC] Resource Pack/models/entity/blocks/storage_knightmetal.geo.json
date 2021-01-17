@@ -3,7 +3,7 @@
   "minecraft:geometry": [
     {
       "description": {
-        "identifier": "geometry.storage_knightmetal.twilight_forest",
+        "identifier": "geometry.storage_knightmetal.twilightforest",
         "texture_width": 64,
         "texture_height": 28,
         "visible_bounds_width": 2,

@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:wooden_pickaxe_7"
+    "identifier": "twilightforest:wooden_pickaxe_7"
     },
 
     
@@ -17,7 +17,7 @@
         "item": "minecraft:stick"
       },
       "P": {
-        "item": "hermit_blocks:trans_planks"
+        "item": "twilightforest:trans_planks"
       }
     },
     "result": {

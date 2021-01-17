@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:steeleaf_axe",
+      "identifier": "twilightforest:steeleaf_axe",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.axe"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.steeleaf_axe.item"
+        "value": "twilightforest.steeleaf_axe.item"
       },
       "minecraft:icon": {
         "texture": "steeleaf_axe"

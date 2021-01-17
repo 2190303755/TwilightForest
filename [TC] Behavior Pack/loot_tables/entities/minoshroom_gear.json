@@ -5,8 +5,9 @@
       "entries": [
         {
           "type": "item",
-          "name": "hermit_items:minotaur_axe_diamond",
+          "name": "twilightforest:minotaur_axe_diamond",
           "weight": 1
+        }
       ]
     }
   ]

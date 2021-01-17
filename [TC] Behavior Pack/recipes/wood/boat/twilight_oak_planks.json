@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:boat_8"
+    "identifier": "twilightforest:boat_8"
     },
 
     
@@ -16,7 +16,7 @@
         "item": "minecraft:wooden_shovel"
       },
       "P": {
-        "item": "hermit_blocks:twilight_oak_planks"
+        "item": "twilightforest:twilight_oak_planks"
       }
     },
     "result": {

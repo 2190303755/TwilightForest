@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:chest_2"
+    "identifier": "twilightforest:chest_2"
     },
 
     
@@ -14,7 +14,7 @@
     ],
     "key": {
       "P": {
-        "item": "hermit_blocks:darkwood_planks"
+        "item": "twilightforest:darkwood_planks"
       }
     },
     "result": {

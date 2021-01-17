@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_food:maze_wafer",
+      "identifier": "twilightforest:maze_wafer",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.miscFood"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.maze_wafer.item"
+        "value": "twilightforest.maze_wafer.item"
       },
       "minecraft:icon": {
         "texture": "maze_wafer"

@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:carminite_from_storage"
+    "identifier": "twilightforest:carminite_from_storage"
     },
 
     
@@ -12,11 +12,11 @@
     ],
     "key": {
       "S": {
-        "item": "hermit_blocks:storage_carminite"
+        "item": "twilightforest:storage_carminite"
       }
     },
     "result": {
-      "item": "hermit_items:carminite",
+      "item": "twilightforest:carminite",
       "count": 9
     }
   }

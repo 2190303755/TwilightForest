@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:ironwood_ingot_from_storage"
+    "identifier": "twilightforest:ironwood_ingot_from_storage"
     },
 
     
@@ -12,11 +12,11 @@
     ],
     "key": {
       "S": {
-        "item": "hermit_blocks:storage_ironwood"
+        "item": "twilightforest:storage_ironwood"
       }
     },
     "result": {
-      "item": "hermit_items:ironwood_ingot",
+      "item": "twilightforest:ironwood_ingot",
       "count": 9
     }
   }

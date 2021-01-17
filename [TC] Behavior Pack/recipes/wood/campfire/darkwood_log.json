@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:campfire_coal_2"
+    "identifier": "twilightforest:campfire_coal_2"
     },
 
     
@@ -20,7 +20,7 @@
         "item":"minecraft:coal"
       },
       "L": {
-        "item": "hermit_blocks:darkwood_log"
+        "item": "twilightforest:darkwood_log"
       }
     },
     "result": {

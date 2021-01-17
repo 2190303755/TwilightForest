@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:grindstone_2"
+    "identifier": "twilightforest:grindstone_2"
     },
 
     
@@ -20,7 +20,7 @@
         "item": "minecraft:stick"
       },
       "P": {
-        "item": "hermit_blocks:darkwood_planks"
+        "item": "twilightforest:darkwood_planks"
       }
     },
     "result": {

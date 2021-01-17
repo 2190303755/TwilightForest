@@ -2,7 +2,7 @@
     "format_version": "1.0",
     "minecraft:item": {
       "description": {
-        "identifier": "hermit_items:naga_chestplate" 
+        "identifier": "twilightforest:naga_chestplate" 
       },
       "components": {
         "minecraft:hand_equipped": false,

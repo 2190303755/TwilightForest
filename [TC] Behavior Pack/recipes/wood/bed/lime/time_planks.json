@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:bed:5_6"
+    "identifier": "twilightforest:bed:5_6"
     },
 
     
@@ -16,7 +16,7 @@
         "item": "minecraft:wool:5"
       },
       "P": {
-        "item": "hermit_blocks:time_planks"
+        "item": "twilightforest:time_planks"
       }
     },
     "result": {

@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:steeleaf_hoe",
+      "identifier": "twilightforest:steeleaf_hoe",
       "category": "equipment"
     },
     "components": {
@@ -14,7 +14,7 @@
       },
       "minecraft:render_offsets": "tools",
       "minecraft:display_name": {
-        "value": "twilight_forest.steeleaf_hoe.item"
+        "value": "twilightforest.steeleaf_hoe.item"
       }
     }
   }

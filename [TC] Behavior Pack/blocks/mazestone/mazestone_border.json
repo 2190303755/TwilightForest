@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:mazestone_border",
+      "identifier": "twilightforest:mazestone_border",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

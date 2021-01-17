@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:mazestone_mosaic",
+      "identifier": "twilightforest:mazestone_mosaic",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

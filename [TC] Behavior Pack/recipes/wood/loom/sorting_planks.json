@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:loom_5"
+    "identifier": "twilightforest:loom_5"
     },
 
     
@@ -16,7 +16,7 @@
         "item": "minecraft:string"
       },
       "P": {
-        "item": "hermit_blocks:sorting_planks"
+        "item": "twilightforest:sorting_planks"
       }
     },
     "result": {

@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:ice_sword",
+      "identifier": "twilightforest:ice_sword",
       "category": "equipment"
     },
     "components": {
@@ -15,7 +15,7 @@
       "minecraft:hover_text_color": "aqua",
       "minecraft:render_offsets": "tools",
       "minecraft:display_name": {
-        "value": "twilight_forest.ice_sword.item"
+        "value": "twilightforest.ice_sword.item"
       }
     }
   }

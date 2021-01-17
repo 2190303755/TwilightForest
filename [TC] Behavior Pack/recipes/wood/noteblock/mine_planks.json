@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:noteblock_4"
+    "identifier": "twilightforest:noteblock_4"
     },
 
     
@@ -17,7 +17,7 @@
         "item": "minecraft:redstone"
       },
       "P": {
-        "item": "hermit_blocks:mine_planks"
+        "item": "twilightforest:mine_planks"
       }
     },
     "result": {

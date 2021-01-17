@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:steeleaf_from_storage"
+    "identifier": "twilightforest:steeleaf_from_storage"
     },
 
     
@@ -12,11 +12,11 @@
     ],
     "key": {
       "S": {
-        "item": "hermit_blocks:storage_steeleaf"
+        "item": "twilightforest:storage_steeleaf"
       }
     },
     "result": {
-      "item": "hermit_items:steeleaf",
+      "item": "twilightforest:steeleaf",
       "count": 9
     }
   }

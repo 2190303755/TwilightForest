@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:steeleaf_leggings",
+      "identifier": "twilightforest:steeleaf_leggings",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.leggings"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.steeleaf_leggings.item"
+        "value": "twilightforest.steeleaf_leggings.item"
       },
       "minecraft:icon": {
         "texture": "steeleaf_leggings"

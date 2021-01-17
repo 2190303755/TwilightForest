@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:reactor_off",
+      "identifier": "twilightforest:reactor_off",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

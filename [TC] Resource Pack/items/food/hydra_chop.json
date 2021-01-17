@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_food:hydra_chop",
+      "identifier": "twilightforest:hydra_chop",
       "category": "equipment"
     },
     "components": {
@@ -16,7 +16,7 @@
       },
       "minecraft:render_offsets": "miscellaneous",
       "minecraft:display_name": {
-        "value": "twilight_forest.hydra_chop.item"
+        "value": "twilightforest.hydra_chop.item"
       }
     }
   }

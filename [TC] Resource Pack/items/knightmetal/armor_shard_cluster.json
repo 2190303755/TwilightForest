@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:armor_shard_cluster",
+      "identifier": "twilightforest:armor_shard_cluster",
       "category": "items"
     },
     "components": {
@@ -14,7 +14,7 @@
       },
       "minecraft:render_offsets": "miscellaneous",
       "minecraft:display_name": {
-        "value": "twilight_forest.armor_shard_cluster.item"
+        "value": "twilightforest.armor_shard_cluster.item"
       }
     }
   }

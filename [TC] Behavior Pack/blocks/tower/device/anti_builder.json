@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:device_anti_builder",
+      "identifier": "twilightforest:device_anti_builder",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

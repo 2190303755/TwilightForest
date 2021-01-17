@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:device_carminite_built_on",
+      "identifier": "twilightforest:device_carminite_built_on",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

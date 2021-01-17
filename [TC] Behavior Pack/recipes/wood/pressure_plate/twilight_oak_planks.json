@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:pressure_plate_8"
+    "identifier": "twilightforest:pressure_plate_8"
     },
 
     
@@ -12,7 +12,7 @@
     ],
     "key": {
       "P": {
-        "item": "hermit_blocks:twilight_oak_planks"
+        "item": "twilightforest:twilight_oak_planks"
       }
     },
     "result": {

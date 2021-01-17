@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "hermit_trophy:hydra",
+                    "name": "twilightforest:hydra",
                     "weight": 1
                 }
             ]
@@ -15,7 +15,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "hermit_items:fiery_blood",
+                    "name": "twilightforest:fiery_blood",
                     "weight": 1,
                     "functions": [
                         {
@@ -34,7 +34,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "hermit_food:hydra_chop",
+                    "name": "twilightforest:hydra_chop",
                     "weight": 1,
                     "functions": [
                         {

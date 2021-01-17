@@ -1,0 +1,10 @@
+{
+  "format_version": "1.10",
+  "render_controllers": {
+    "controller.render.giant_sword": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "variable.is_enchanted ? Material.enchanted : Material.default" } ],
+      "textures": [ "Texture.default", "Texture.enchanted" ]
+    }
+  }
+}

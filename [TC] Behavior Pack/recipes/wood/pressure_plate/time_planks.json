@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:pressure_plate_6"
+    "identifier": "twilightforest:pressure_plate_6"
     },
 
     
@@ -12,7 +12,7 @@
     ],
     "key": {
       "P": {
-        "item": "hermit_blocks:time_planks"
+        "item": "twilightforest:time_planks"
       }
     },
     "result": {

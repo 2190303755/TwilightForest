@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "hermit_trophy:minoshroom",
+                    "name": "twilightforest:minoshroom",
                     "weight": 1
                 }
             ]
@@ -15,7 +15,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "hermit_items:minotaur_axe_diamond",
+                    "name": "twilightforest:minotaur_axe_diamond",
                     "weight": 1
                 }
             ]
@@ -25,7 +25,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "hermit_food:meef_stroganoff",
+                    "name": "twilightforest:meef_stroganoff",
                     "weight": 1,
                     "functions": [
                         {

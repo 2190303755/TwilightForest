@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:fiery_pickaxe",
+      "identifier": "twilightforest:fiery_pickaxe",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.pickaxe"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.fiery_pickaxe.item"
+        "value": "twilightforest.fiery_pickaxe.item"
       },
       "minecraft:icon": {
         "texture": "fiery_pickaxe"
@@ -20,8 +20,29 @@
       "minecraft:durability": {
         "max_durability": 1024
       },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "twilightforest:fiery_ingot"
+            ],
+            "repair_amount": "256"
+          },
+          {
+            "items": [
+              "twilightforest:fiery_pickaxe"
+            ],
+              "repair_amount": "context.other->query.remaining_durability + 51"
+          }
+        ]
+      },
       "minecraft:mining_speed": 1,
-      "minecraft:weapon": {},
+      "minecraft:weapon": {
+        "on_hurt_entity": {
+          "event": "twilightforest:on_hurt_entity",
+          "target": "self"
+        }
+      },
       "minecraft:damage": 6,
       "minecraft:enchantable": {
         "value": 10,
@@ -29,11 +50,19 @@
       },
       "minecraft:digger": {
         "use_efficiency": true,
+        "on_dig": {
+          "event": "twilightforest:on_dig",
+          "target": "self"
+        },
         "destroy_speeds": [
           {
             "block": {
               "tags": "q.any_tag('stone', 'metal', 'diamond_pick_diggable')"
             },
+                    "on_dig": {
+          "event": "twilightforest:on_dig",
+          "target": "self"
+        },
             "speed": 8
           },
           {
@@ -47,6 +76,21 @@
         ]
       },
       "tag:minecraft:is_pickaxe": {}
+    },
+
+    "events": {
+      "twilightforest:on_hurt_entity": {
+        "damage": {
+          "type": "none",
+          "amount": 2
+        }
+      },
+      "twilightforest:on_dig": {
+        "damage": {
+          "type": "none",
+          "amount": 1
+        }
+      }
     }
   }
 }

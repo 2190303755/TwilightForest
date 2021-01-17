@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:fence_gate_4"
+    "identifier": "twilightforest:fence_gate_4"
     },
 
     
@@ -16,7 +16,7 @@
         "item": "minecraft:stick"
       },
       "P": {
-        "item": "hermit_blocks:mine_planks"
+        "item": "twilightforest:mine_planks"
       }
     },
     "result": {

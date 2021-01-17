@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "twilightforest:quest_ram",
@@ -10,20 +10,21 @@
       "geometry": {
         "default": "geometry.quest_ram"
       },
+      "scripts": {
+        "animate": ["wool", "move", "look_at_target"],
+        "pre_animation": [
+          "variable.general0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "variable.general1 = -variable.general0;"
+        ]
+      },
       "animations": {
-        "walk": "animation.iron_golem.walk",
-        "move": "animation.iron_golem.move",
-        "attack": "animation.iron_golem.attack",
-        "flower": "animation.iron_golem.flower",
+        "wool": "animation.quest_ram.wool",
+        "move": "animation.quest_ram.move",
         "look_at_target": "animation.common.look_at_target"
       },
-      "animation_controllers": [
-        { "move": "controller.animation.iron_golem.move" },
-        { "arm": "controller.animation.iron_golem.arm_movement"}
-      ],
-      "render_controllers": [ "controller.render.iron_golem" ],
+      "render_controllers": [ "controller.render.quest_ram" ],
       "spawn_egg": {
-        "texture": "egg_raven"
+        "texture": "egg_quest_ram"
       }
     }
   }

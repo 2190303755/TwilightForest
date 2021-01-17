@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:glass_sword",
+      "identifier": "twilightforest:glass_sword",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.sword"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.glass_sword.item"
+        "value": "twilightforest.glass_sword.item"
       },
       "minecraft:icon": {
         "texture": "glass_sword"
@@ -19,11 +19,7 @@
       "minecraft:use_duration": 3600,
       "minecraft:hand_equipped": true,
       "minecraft:durability": {
-        "max_durability": 0,
-        "damage_chance": {
-          "min": 60,
-          "max": 100
-        }
+        "max_durability": 0
       },
       "minecraft:mining_speed": 1.5,
       "minecraft:weapon": {},
@@ -31,6 +27,23 @@
       "minecraft:enchantable": {
         "value": 10,
         "slot": "sword"
+      },
+            "minecraft:shooter": {
+                    "ammunition": [
+          {
+            "item": "minecraft:snowball",
+            "use_offhand": true,
+            "search_inventory": true,
+            "use_in_creative": true
+          }
+        ],
+        "min_draw_duration": 0.5,
+        "max_draw_duration": 1.0,
+        "scale_power_by_draw_duration": true
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "minecraft:thrown_trident",
+        "minimum_critical_power": 1.0
       },
       "minecraft:can_destroy_in_creative": false,
       "minecraft:digger": {

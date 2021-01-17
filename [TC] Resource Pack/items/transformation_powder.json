@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:transformation_powder",
+      "identifier": "twilightforest:transformation_powder",
       "category": "items"
     },
     "components": {
@@ -11,11 +11,11 @@
       },
       "minecraft:hover_text_color": "aqua",
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilight_forest.items"
+        "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:render_offsets": "powders",
       "minecraft:display_name": {
-        "value": "twilight_forest.transformation_powder.item"
+        "value": "twilightforest.transformation_powder.item"
       }
     }
   }

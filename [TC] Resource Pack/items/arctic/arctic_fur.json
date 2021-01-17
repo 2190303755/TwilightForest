@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:arctic_fur",
+      "identifier": "twilightforest:arctic_fur",
       "category": "Items"
     },
     "components": {

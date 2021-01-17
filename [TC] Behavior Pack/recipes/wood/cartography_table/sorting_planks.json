@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:cartography_table_5"
+    "identifier": "twilightforest:cartography_table_5"
     },
 
     
@@ -17,7 +17,7 @@
         "item": "minecraft:paper"
       },
       "P": {
-        "item": "hermit_blocks:sorting_planks"
+        "item": "twilightforest:sorting_planks"
       }
     },
     "result": {

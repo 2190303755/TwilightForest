@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:steeleaf_sword",
+      "identifier": "twilightforest:steeleaf_sword",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.sword"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.steeleaf_sword.item"
+        "value": "twilightforest.steeleaf_sword.item"
       },
       "minecraft:icon": {
         "texture": "steeleaf_sword"

@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:arctic_chestplate"
+    "identifier": "twilightforest:arctic_chestplate"
     },
 
     
@@ -14,11 +14,11 @@
     ],
     "key": {
       "F": {
-        "item": "hermit_items:arctic_fur"
+        "item": "twilightforest:arctic_fur"
       }
     },
     "result": {
-      "item": "hermit_items:arctic_chestplate"
+      "item": "twilightforest:arctic_chestplate"
     }
   }
 }

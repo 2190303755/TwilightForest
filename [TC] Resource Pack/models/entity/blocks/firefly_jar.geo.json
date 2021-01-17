@@ -3,7 +3,7 @@
   "minecraft:geometry": [
     {
       "description": {
-        "identifier": "geometry.block.firefly_jar.twilight_forest",
+        "identifier": "geometry.block.firefly_jar.twilightforest",
         "texture_width": 40,
         "texture_height": 36,
         "visible_bounds_width": 2,

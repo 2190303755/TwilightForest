@@ -1,8 +1,8 @@
-{
+/*{
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:scepter_twilight",
+      "identifier": "twilightforest:scepter_twilight",
       "category": "equipment"
     },
     "components": {
@@ -13,8 +13,22 @@
       "minecraft:hover_text_color": "aqua",
       "minecraft:render_offsets": "tools",
       "minecraft:display_name": {
-        "value": "twilight_forest.scepter_twilight.item"
+        "value": "twilightforest.scepter_twilight.item"
       }
+    }
+  }
+}*/
+{
+  "format_version": "1.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "twilightforest:scepter_twilight",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "scepter_twilight",
+      "minecraft:hover_text_color": "aqua",
+      "minecraft:render_offsets": "tools"
     }
   }
 }

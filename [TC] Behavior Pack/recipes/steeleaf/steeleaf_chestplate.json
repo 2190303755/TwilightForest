@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:steeleaf_chestplate"
+    "identifier": "twilightforest:steeleaf_chestplate"
     },
 
     
@@ -14,11 +14,11 @@
     ],
     "key": {
       "I": {
-        "item": "hermit_items:steeleaf"
+        "item": "twilightforest:steeleaf"
       }
     },
     "result": {
-      "item": "hermit_items:steeleaf_chestplate"
+      "item": "twilightforest:steeleaf_chestplate"
     }
   }
 }

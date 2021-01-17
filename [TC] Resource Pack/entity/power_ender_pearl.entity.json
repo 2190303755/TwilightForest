@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "twilight_forest:power_ender_pearl",
+      "identifier": "twilightforest:power_ender_pearl",
       "materials": {
         "default": "ender_pearl"
       },

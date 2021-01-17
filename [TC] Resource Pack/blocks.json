@@ -1,34 +1,34 @@
 {
   "format_version": [1,1,0],
-  "hermit_blocks:device_anti_builder": {
+  "twilightforest:device_anti_builder": {
     "textures": "tower_antibuilder",
     "sound": "stone"
   },
-  "hermit_blocks:anti_built": {
+  "twilightforest:anti_built": {
     "textures": "tower_antibuilt",
     "sound": "stone"
   },
-  "hermit_blocks:device_builder_off": {
+  "twilightforest:device_builder_off": {
     "textures": "tower_builder_off",
     "sound": "stone"
   },
-  "hermit_blocks:device_builder_on": {
+  "twilightforest:device_builder_on": {
     "textures": "tower_builder_on",
     "sound": "stone"
   },
-  "hermit_blocks:device_builder_timeout": {
+  "twilightforest:device_builder_timeout": {
     "textures": "tower_builder_timeout",
     "sound": "stone"
   },
-  "hermit_blocks:device_carminite_built_off": {
+  "twilightforest:device_carminite_built_off": {
     "textures": "tower_carminite_built_off",
     "sound": "stone"
   },
-  "hermit_blocks:device_carminite_built_on": {
+  "twilightforest:device_carminite_built_on": {
     "textures": "tower_carminite_built_on",
     "sound": "stone"
   },
-  "hermit_blocks:fire_jet_off": {
+  "twilightforest:fire_jet_off": {
     "textures": {
       "up": "tower_top_off",
       "down": "towerwood_encased",
@@ -36,7 +36,7 @@
     },
     "sound": "stone"
 },
-  "hermit_blocks:fire_jet_on": {
+  "twilightforest:fire_jet_on": {
     "textures": {
       "up": "tower_top_on",
       "down": "towerwood_encased",
@@ -44,7 +44,7 @@
     },
     "sound": "stone"
 },
-  "hermit_blocks:smoker_off": {
+  "twilightforest:smoker_off": {
     "textures": {
       "up": "tower_top_off",
       "down": "towerwood_encased",
@@ -52,7 +52,7 @@
     },
     "sound": "stone"
 },
-  "hermit_blocks:smoker_on": {
+  "twilightforest:smoker_on": {
     "textures": {
       "up": "tower_top_on",
       "down": "towerwood_encased",
@@ -60,7 +60,7 @@
     },
     "sound": "stone"
 },
-  "hermit_blocks:ghast_trap_off": {
+  "twilightforest:ghast_trap_off": {
     "textures": {
       "up": "tower_top_off",
       "down": "towerwood_encased",
@@ -68,7 +68,7 @@
     },
     "sound": "stone"
 },
-  "hermit_blocks:ghast_trap_on": {
+  "twilightforest:ghast_trap_on": {
     "textures": {
       "up": "tower_top_on",
       "down": "towerwood_encased",
@@ -76,31 +76,31 @@
     },
     "sound": "stone"
 },
-  "hermit_blocks:towerwood_alt": {
+  "twilightforest:towerwood_alt": {
     "textures": "towerwood_alt",
     "sound": "stone"
 },
-  "hermit_blocks:towerwood_cracked": {
+  "twilightforest:towerwood_cracked": {
     "textures": "towerwood_cracked",
     "sound": "stone"
 },
-  "hermit_blocks:towerwood_encased": {
+  "twilightforest:towerwood_encased": {
     "textures": "towerwood_encased",
     "sound": "stone"
 },
-  "hermit_blocks:towerwood_infested": {
+  "twilightforest:towerwood_infested": {
     "textures": "towerwood_infested",
     "sound": "stone"
 },
-  "hermit_blocks:towerwood_mossy": {
+  "twilightforest:towerwood_mossy": {
     "textures": "towerwood_mossy",
     "sound": "stone"
 },
-  "hermit_blocks:towerwood_planks": {
+  "twilightforest:towerwood_planks": {
     "textures": "towerwood_planks",
     "sound": "stone"
 },
-  "hermit_blocks:canopy_log": {
+  "twilightforest:canopy_log": {
     "textures": {
       "up": "canopy_top",
       "down": "canopy_top",
@@ -108,7 +108,7 @@
     },
     "sound": "wood"
 },
-  "hermit_blocks:darkwood_log": {
+  "twilightforest:darkwood_log": {
     "textures": {
       "up": "darkwood_top",
       "down": "darkwood_top",
@@ -116,7 +116,7 @@
     },
     "sound": "wood"
 },
-  "hermit_blocks:mangrove_log": {
+  "twilightforest:mangrove_log": {
    "textures": {
       "up": "mangrove_top",
       "down": "mangrove_top",
@@ -124,7 +124,7 @@
     },
     "sound": "wood"
 },
-  "hermit_blocks:minelog": {
+  "twilightforest:minelog": {
    "textures": {
     "up": "mine_section",
     "down": "mine_section",
@@ -132,7 +132,7 @@
     },
     "sound": "wood"
 },
-  "hermit_blocks:twilight_oak_log": {
+  "twilightforest:twilight_oak_log": {
     "textures": {
       "up": "oak_top",
       "down": "oak_top",
@@ -140,7 +140,7 @@
     },
     "sound": "wood"
 },
-  "hermit_blocks:sorting_log": {
+  "twilightforest:sorting_log": {
     "textures": {
       "up": "sort_section",
       "down": "sort_section",
@@ -148,7 +148,7 @@
     },
    "sound": "wood"
 },
-  "hermit_blocks:time_log": {
+  "twilightforest:time_log": {
     "textures": {
       "up": "time_section",
       "down": "time_section",
@@ -156,7 +156,7 @@
     },
     "sound": "wood"
 },
-  "hermit_blocks:trans_log": {
+  "twilightforest:trans_log": {
     "textures": {
       "up": "trans_section",
       "down": "trans_section",
@@ -164,7 +164,7 @@
     },
     "sound": "wood"
   },
-  "hermit_blocks:uncrafting_table": {
+  "twilightforest:uncrafting_table": {
     "textures": {
       "up": "uncrafting_particle",
       "down": "planks_jungle",
@@ -172,119 +172,119 @@
     },
     "sound": "wood"
   },
-  "hermit_blocks:reappearing_block_off": {
+  "twilightforest:reappearing_block_off": {
     "textures": "reappearing_block_off",
     "sound": "wood"
   },
-  "hermit_blocks:reappearing_block_on": {
+  "twilightforest:reappearing_block_on": {
     "textures": "reappearing_block_on",
     "sound": "wood"
   },
-  "hermit_blocks:reappearing_trace_block_off": {
+  "twilightforest:reappearing_trace_block_off": {
     "textures": "reappearing_trace_block_off",
     "sound": "stone"
   },
-  "hermit_blocks:reappearing_trace_block_on": {
+  "twilightforest:reappearing_trace_block_on": {
     "textures": "reappearing_trace_block_on",
     "sound": "stone"
   },
-    "hermit_blocks:vanishing_block_locked": {
+    "twilightforest:vanishing_block_locked": {
     "textures": "vanishing_block_locked",
     "sound": "wood"
   },
-  "hermit_blocks:vanishing_block_unlocked": {
+  "twilightforest:vanishing_block_unlocked": {
     "textures": "vanishing_block_unlocked",
     "sound": "wood"
   },
-  "hermit_blocks:vanishing_block_off": {
+  "twilightforest:vanishing_block_off": {
     "textures": "vanishing_block_off",
     "sound": "wood"
   },
-  "hermit_blocks:vanishing_block_on": {
+  "twilightforest:vanishing_block_on": {
     "textures": "vanishing_block_on",
     "sound": "wood"
   },
-  "hermit_blocks:reactor_off": {
+  "twilightforest:reactor_off": {
     "textures": "reactor_off",
     "sound": "wood"
   },
-  "hermit_blocks:reactor_on": {
+  "twilightforest:reactor_on": {
     "textures": "reactor_on",
     "sound": "wood"
   },
-  "hermit_blocks:reactor_debris": {
+  "twilightforest:reactor_debris": {
     "textures": "reactor_debris",
     "sound": "wood"
   },
-  "hermit_blocks:canopy_planks": {
+  "twilightforest:canopy_planks": {
     "textures": "canopy_planks",
     "sound": "wood"
   },
-  "hermit_blocks:darkwood_planks": {
+  "twilightforest:darkwood_planks": {
     "textures": "darkwood_planks",
     "sound": "wood"
   },
-  "hermit_blocks:mangrove_planks": {
+  "twilightforest:mangrove_planks": {
     "textures": "mangrove_planks",
     "sound": "wood"
   },
-  "hermit_blocks:mine_planks": {
+  "twilightforest:mine_planks": {
     "textures": "mine_planks",
     "sound": "wood"
   },
-  "hermit_blocks:storage_arctic_fur": {
+  "twilightforest:storage_arctic_fur": {
     "textures": "storage_arctic_fur",
     "sound": "metal"
   },
-  "hermit_blocks:storage_carminite": {
+  "twilightforest:storage_carminite": {
     "textures": "storage_carminite",
     "sound": "metal"
   },
-  "hermit_blocks:storage_fierymetal": {
+  "twilightforest:storage_fierymetal": {
     "textures": "storage_fierymetal",
     "sound": "metal"
   },
-  "hermit_blocks:storage_ironwood": {
+  "twilightforest:storage_ironwood": {
     "textures": "storage_ironwood",
     "sound": "metal"
   },
-  "hermit_blocks:storage_knightmetal": {
+  "twilightforest:storage_knightmetal": {
     "textures": "storage_knightmetal",
     "sound": "metal"
   },
-  "hermit_blocks:storage_steeleaf": {
+  "twilightforest:storage_steeleaf": {
     "textures": "storage_steeleaf",
     "sound": "metal"
   },
-  "hermit_blocks:sorting_planks": {
+  "twilightforest:sorting_planks": {
     "textures": "sorting_planks",
     "sound": "wood"
   },
-  "hermit_blocks:time_planks": {
+  "twilightforest:time_planks": {
     "textures": "time_planks",
     "sound": "wood"
   },
-  "hermit_blocks:trans_planks": {
+  "twilightforest:trans_planks": {
     "textures": "trans_planks",
     "sound": "wood"
   },
-  "hermit_blocks:twilight_oak_planks": {
+  "twilightforest:twilight_oak_planks": {
     "textures": "twilight_oak_planks",
     "sound": "wood"
   },
-    "hermit_blocks:twilight_oak_slab": {
+    "twilightforest:twilight_oak_slab": {
     "textures": "twilight_oak_planks",
     "sound": "wood"
   },
-  "hermit_blocks:liveroot": {
+  "twilightforest:liveroot": {
     "textures": "liveroot",
     "sound": "grass"
   },
-  "hermit_blocks:root": {
+  "twilightforest:root": {
     "textures": "root",
     "sound": "gravel"
   },
-  "hermit_blocks:terrorcotta_diagonal": {
+  "twilightforest:terrorcotta_diagonal": {
     "textures": {
       "up": "terrorcotta_1",
       "down": "terrorcotta_1",
@@ -295,7 +295,7 @@
     },
     "sound": "stone"
   },
-    "hermit_blocks:terrorcotta_circle": {
+    "twilightforest:terrorcotta_circle": {
     "textures": {
       "up": "terrorcotta_d",
       "down": "terrorcotta_c",
@@ -306,7 +306,7 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:nagastone_enched": {
+  "twilightforest:nagastone_enched": {
     "textures": {
       "up": "stone_tiles",
       "down": "stone_tiles",
@@ -314,7 +314,7 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:nagastone_enched_mossy": {
+  "twilightforest:nagastone_enched_mossy": {
     "textures": {
       "up": "stone_tiles_mossy",
       "down": "stone_tiles_mossy",
@@ -322,7 +322,7 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:nagastone_enched_weathered": {
+  "twilightforest:nagastone_enched_weathered": {
     "textures": {
       "up": "stone_tiles_weathered",
       "down": "stone_tiles_weathered",
@@ -330,7 +330,7 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:nagastone_pillar": {
+  "twilightforest:nagastone_pillar": {
     "textures": {
       "up": "nagastone_pillar_end",
       "down": "nagastone_pillar_end",
@@ -338,7 +338,7 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:nagastone_pillar_mossy": {
+  "twilightforest:nagastone_pillar_mossy": {
     "textures": {
       "up": "nagastone_pillar_end_mossy",
       "down": "nagastone_pillar_end_mossy",
@@ -346,7 +346,7 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:nagastone_pillar_weathered": {
+  "twilightforest:nagastone_pillar_weathered": {
     "textures": {
       "up": "nagastone_pillar_end_weathered",
       "down": "nagastone_pillar_end_weathered",
@@ -354,51 +354,51 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:deadrock": {
+  "twilightforest:deadrock": {
     "textures": "deadrock",
     "sound": "stone"
   },
-  "hermit_blocks:deadrock_cracked": {
+  "twilightforest:deadrock_cracked": {
     "textures": "deadrock_cracked",
     "sound": "stone"
   },
-  "hermit_blocks:deadrock_weathered": {
+  "twilightforest:deadrock_weathered": {
     "textures": "deadrock_weathered",
     "sound": "stone"
   },
-  "hermit_blocks:underbrick": {
+  "twilightforest:underbrick": {
     "textures": "underbrick",
     "sound": "stone"
   },
-  "hermit_blocks:underbrick_cracked": {
+  "twilightforest:underbrick_cracked": {
     "textures": "underbrick_cracked",
     "sound": "stone"
   },
-  "hermit_blocks:underbrick_floor": {
+  "twilightforest:underbrick_floor": {
     "textures": "underbrick_floor",
     "sound": "stone"
   },
-  "hermit_blocks:underbrick_mossy": {
+  "twilightforest:underbrick_mossy": {
     "textures": "underbrick_mossy",
     "sound": "stone"
   },
-  "hermit_blocks:mazestone": {
+  "twilightforest:mazestone": {
     "textures": "mazestone",
     "sound": "stone"
   },
-  "hermit_blocks:mazestone_brick": {
+  "twilightforest:mazestone_brick": {
     "textures": "mazestone_brick",
     "sound": "stone"
   },
-  "hermit_blocks:mazestone_brick_cracked": {
+  "twilightforest:mazestone_brick_cracked": {
     "textures": "mazestone_brick_cracked",
     "sound": "stone"
   },
-  "hermit_blocks:mazestone_brick_mossy": {
+  "twilightforest:mazestone_brick_mossy": {
     "textures": "mazestone_brick_mossy",
     "sound": "stone"
   },
-  "hermit_blocks:mazestone_brick_decorative": {
+  "twilightforest:mazestone_brick_decorative": {
     "textures": {
       "up": "mazestone",
       "down": "mazestone",
@@ -406,7 +406,7 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:mazestone_border": {
+  "twilightforest:mazestone_border": {
     "textures": {
       "up": "mazestone_border",
       "down": "mazestone_border",
@@ -414,7 +414,7 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:mazestone_chiseled": {
+  "twilightforest:mazestone_chiseled": {
     "textures": {
       "up": "mazestone",
       "down": "mazestone",
@@ -422,7 +422,7 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:mazestone_mosaic": {
+  "twilightforest:mazestone_mosaic": {
     "textures": {
       "up": "mazestone_mosaic",
       "down": "mazestone_mosaic",
@@ -430,15 +430,15 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:mazestone_brick_large": {
+  "twilightforest:mazestone_brick_large": {
     "textures": "mazestone_brick_large",
     "sound": "stone"
   },
-  "hermit_blocks:aurora_block": {
+  "twilightforest:aurora_block": {
     "textures": "aurora_block",
     "sound": "stone"
   },
-  "hermit_blocks:aurora_pillar": {
+  "twilightforest:aurora_pillar": {
     "textures": {
       "up": "aurora_pillar_top",
       "down": "aurora_pillar_top",
@@ -446,35 +446,35 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:castle_rune_brick_blue": {
+  "twilightforest:castle_rune_brick_blue": {
     "textures": "castle_rune_brick_blue",
     "sound": "stone"
   },
-  "hermit_blocks:castle_rune_brick_pink": {
+  "twilightforest:castle_rune_brick_pink": {
     "textures": "castle_rune_brick_pink",
     "sound": "stone"
   },
-  "hermit_blocks:castle_rune_brick_violet": {
+  "twilightforest:castle_rune_brick_violet": {
     "textures": "castle_rune_brick_violet",
     "sound": "stone"
   },
-  "hermit_blocks:castle_rune_brick_yellow": {
+  "twilightforest:castle_rune_brick_yellow": {
     "textures": "castle_rune_brick_yellow",
     "sound": "stone"
   },
-  "hermit_blocks:castle_brick": {
+  "twilightforest:castle_brick": {
     "textures": "castle_brick",
     "sound": "stone"
   },
-  "hermit_blocks:castle_brick_cracked": {
+  "twilightforest:castle_brick_cracked": {
     "textures": "castle_brick_cracked",
     "sound": "stone"
   },
-  "hermit_blocks:castle_brick_mossy": {
+  "twilightforest:castle_brick_mossy": {
     "textures": "castle_brick_mossy",
     "sound": "stone"
   },
-  "hermit_blocks:castle_brick_pillar_bold": {
+  "twilightforest:castle_brick_pillar_bold": {
     "textures": {
       "up": "castle_brick_pillar_bold_top",
       "down": "castle_brick_pillar_bold_top",
@@ -482,7 +482,7 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:castle_brick_pillar_encased": {
+  "twilightforest:castle_brick_pillar_encased": {
     "textures": {
       "up": "castle_brick_encased",
       "down": "castle_brick_encased",
@@ -490,27 +490,27 @@
     },
     "sound": "stone"
   },
-  "hermit_blocks:castle_brick_polished": {
+  "twilightforest:castle_brick_polished": {
     "textures": "castle_brick_polished",
     "sound": "stone"
   },
-  "hermit_blocks:castle_brick_tile_bold": {
+  "twilightforest:castle_brick_tile_bold": {
     "textures": "castle_brick_tile_bold",
     "sound": "stone"
   },
-  "hermit_blocks:castle_brick_tile_encased": {
+  "twilightforest:castle_brick_tile_encased": {
     "textures": "castle_brick_encased",
     "sound": "stone"
   },
-  "hermit_blocks:castle_brick_tile_roof": {
+  "twilightforest:castle_brick_tile_roof": {
     "textures": "castle_brick_tile_roof",
     "sound": "stone"
   },
-  "hermit_blocks:castle_brick_worn": {
+  "twilightforest:castle_brick_worn": {
     "textures": "castle_brick_worn",
     "sound": "stone"
   },
-  "hermit_blocks:firefly_jar": {
+  "twilightforest:firefly_jar": {
     "textures": "firefly_jar",
     "sound": "glass"
   }

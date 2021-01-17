@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:mazebreaker" 
+      "identifier": "twilightforest:mazebreaker" 
     },
     "components": {
       "minecraft:hand_equipped": true,

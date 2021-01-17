@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:castle_brick_pillar_encased_6_encased"
+    "identifier": "twilightforest:castle_brick_pillar_encased_6_encased"
     },
 
     
@@ -13,11 +13,11 @@
     ],
     "key": {
       "E": {
-        "item": "hermit_blocks:castle_brick_tile_encased"
+        "item": "twilightforest:castle_brick_tile_encased"
       }
     },
     "result": {
-      "item": "hermit_blocks:castle_brick_pillar_encased",
+      "item": "twilightforest:castle_brick_pillar_encased",
       "count": 4
     }
   }

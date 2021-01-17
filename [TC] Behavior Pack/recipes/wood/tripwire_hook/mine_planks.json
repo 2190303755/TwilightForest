@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:tripwire_hook_4"
+    "identifier": "twilightforest:tripwire_hook_4"
     },
 
     
@@ -20,7 +20,7 @@
         "item": "minecraft:stick"
       },
       "P": {
-        "item": "hermit_blocks:mine_planks"
+        "item": "twilightforest:mine_planks"
       }
     },
     "result": {

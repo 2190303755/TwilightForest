@@ -23,7 +23,7 @@
         {
           "wants": [
                 {
-                  "item": "hermit_blocks:canopy_log",
+                  "item": "twilightforest:canopy_log",
                   "quantity": 4
                 },
                 {
@@ -42,7 +42,7 @@
         {
           "wants": [
             {
-              "item": "hermit_blocks:darkwood_log",
+              "item": "twilightforest:darkwood_log",
                   "quantity": 4
                 },
                 {
@@ -61,7 +61,7 @@
         {
           "wants": [
             {
-              "item": "hermit_blocks:mangrove_log",
+              "item": "twilightforest:mangrove_log",
                   "quantity": 4
                 },
                 {
@@ -80,7 +80,7 @@
         {
           "wants": [
             {
-              "item": "hermit_blocks:minelog",
+              "item": "twilightforest:minelog",
               "quantity": 4
             },
             {
@@ -99,7 +99,7 @@
         {
           "wants": [
             {
-              "item": "hermit_blocks:sorting_log",
+              "item": "twilightforest:sorting_log",
                   "quantity": 4
                 },
                 {
@@ -118,7 +118,7 @@
                 {
           "wants": [
             {
-              "item": "hermit_blocks:time_log",
+              "item": "twilightforest:time_log",
                   "quantity": 4
                 },
                 {
@@ -137,7 +137,7 @@
                 {
           "wants": [
             {
-              "item": "hermit_blocks:trans_log",
+              "item": "twilightforest:trans_log",
                   "quantity": 4
                 },
                 {
@@ -156,7 +156,7 @@
                 {
           "wants": [
             {
-              "item": "hermit_blocks:twilight_oak_log",
+              "item": "twilightforest:twilight_oak_log",
                   "quantity": 4
                 },
                 {

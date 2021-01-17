@@ -2,14 +2,14 @@
   "format_version": "1.12",
   "minecraft:recipe_shapeless": {
     "description": {
-    "identifier": "hermit:ironwood_raw"
+    "identifier": "twilightforest:ironwood_raw"
     },
 
     
     "tags": [ "crafting_table" ],
     "ingredients": [
       {
-        "item": "hermit_items:liveroot"
+        "item": "twilightforest:liveroot"
       },
       {
         "item": "minecraft:iron_ingot"
@@ -19,7 +19,7 @@
       }
     ],
     "result": {
-      "item": "hermit_items:ironwood_raw"
+      "item": "twilightforest:ironwood_raw"
     }
   }
 }

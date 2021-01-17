@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:alpha_yeti_fur",
+      "identifier": "twilightforest:alpha_yeti_fur",
       "category": "equipment"
     },
     "components": {
@@ -10,11 +10,11 @@
         "texture": "yeti_fur"
       },
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilight_forest.items"
+        "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:render_offsets": "miscellaneous",
       "minecraft:display_name": {
-        "value": "twilight_forest.alpha_yeti_fur.item"
+        "value": "twilightforest.alpha_yeti_fur.item"
       }
     }
   }

@@ -2,30 +2,62 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:scepter_zombie",
+      "identifier": "twilightforest:scepter_zombie",
       "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilight_forest.scepter"
+        "parent": "itemGroup.name.twilightforest.scepter"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.scepter_zombie.item"
+        "value": "twilightforest.scepter_zombie.item"
       },
       "minecraft:icon": {
         "texture": "scepter_zombie"
       },
       "minecraft:max_stack_size": 1,
-      "minecraft:use_duration": 3600,
-      "minecraft:frame_count": 3,
-      "minecraft:animates_in_toolbar": false,
       "minecraft:hand_equipped": true,
       "minecraft:durability": {
-        "max_durability": 99
+        "max_durability": 9
       },
-      "minecraft:entity_placer": {
-        "entity": "minecraft:zombie"
+      "minecraft:on_use_on": {
+        "on_use_on": {
+          "event": "twilightforest:on_use_on"
+        }
+      },
+      "minecraft:damage": 2,
+      "minecraft:weapon": {
+        "on_hurt_entity": {
+          "event": "twilightforest:on_hurt_entity"
+        }
+      }
+    },
+    "events": {
+      "twilightforest:on_use_on": {
+        "sequence": [
+          {
+            "damage": {
+              "amount": 1,
+              "target": "item",
+              "type": "none"
+            },
+            "run_command": {
+              "command": "summon twilightforest:loyal_zombie ~ ~ ~ twilightforest:from_scepter"
+            }
+          }
+        ]
+      },
+      "twilightforest:on_hurt_entity": {
+        "sequence": [
+          {
+            "damage": {
+              "amount": 0,
+              "target": "item",
+              "type": "none"
+            }
+          }
+        ]
       }
     }
-   }
+  }
 }

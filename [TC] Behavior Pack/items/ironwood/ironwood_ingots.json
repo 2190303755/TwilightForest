@@ -2,15 +2,15 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:ironwood_ingots",
+      "identifier": "twilightforest:ironwood_ingots",
       "category": "items"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilight_forest.items"
+        "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.ironwood_ingots.item"
+        "value": "twilightforest.ironwood_ingots.item"
       },
       "minecraft:icon": {
         "texture": "ironwood_ingots"

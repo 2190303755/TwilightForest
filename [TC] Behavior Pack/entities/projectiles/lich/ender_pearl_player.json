@@ -1,0 +1,87 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "twilightforest:ender_pearl_player",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:arrow"
+    },
+    "component_groups": {
+      "remove_on_hit": {
+        "minecraft:explode": {
+          "fuse_length": 0,
+          "fuse_lit": true,
+          "power": 0,
+          "causes_fire": false,
+          "fire_affected_by_griefing": false,
+          "destroy_affected_by_griefing": false
+        } //硬核移除
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "CouldHurtLich"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.32,
+        "height": 0.32
+      },
+      "minecraft:scale": {
+        "value": 0.75
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": 6,
+            "semi_random_diff_damage": false,
+            "destroy_on_hit": true
+          },
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "remove_on_hit",
+              "target": "self"
+            }
+          }
+        },
+        "power": 1.5,
+        "gravity": 0,
+        "inertia": 1,
+        "liquid_inertia": 1,
+        "uncertainty_base": 0,
+        "is_dangerous": true,
+        "uncertainty_multiplier": 0,
+        "offset": [ 0, -0.1, 0 ],
+        "reflect_on_hurt": true,
+        "anchor": 1,
+        "on_fire_time": 0,
+        "catch_fire": false
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 80.0,
+          "max_dropped_ticks": 10,
+          "use_motion_prediction_hints": true
+        }
+      }
+    },
+    "events": {
+      "remove_on_hit": {
+        "add": {
+          "component_groups": [
+            "remove_on_hit"
+          ]
+        }
+      }
+    }
+  }
+}

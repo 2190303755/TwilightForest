@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:steeleaf_helmet",
+      "identifier": "twilightforest:steeleaf_helmet",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.helmet"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.steeleaf_helmet.item"
+        "value": "twilightforest.steeleaf_helmet.item"
       },
       "minecraft:icon": {
         "texture": "steeleaf_helmet"

@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:ice_sword",
+      "identifier": "twilightforest:ice_sword",
       "category": "equipment"
     },
     "components": {
@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.sword"
       },
       "minecraft:display_name": {
-        "value": "twilight_forest.ice_sword.item"
+        "value": "twilightforest.ice_sword.item"
       },
       "minecraft:icon": {
         "texture": "ice_sword"
@@ -24,7 +24,7 @@
       "minecraft:mining_speed": 1.5,
       "minecraft:weapon": {
         "on_hurt_entity": {
-          "event": "twilight_forest:frost",
+          "event": "twilightforest:frost",
           "target": "self"
         }
       },
@@ -49,7 +49,7 @@
       }
     },
     "events": {
-      "twilight_forest:frost": {
+      "twilightforest:frost": {
         "add_mob_effect": {
           "effect": "slowness",
           "target": "other",

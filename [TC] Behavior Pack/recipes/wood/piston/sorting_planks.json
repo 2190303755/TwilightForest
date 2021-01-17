@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:piston_5"
+    "identifier": "twilightforest:piston_5"
     },
 
     
@@ -23,7 +23,7 @@
         "item": "minecraft:cobblestone"
       },
       "P": {
-        "item": "hermit_blocks:sorting_planks"
+        "item": "twilightforest:sorting_planks"
       }
     },
     "result": {

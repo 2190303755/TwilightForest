@@ -24,7 +24,6 @@
               "damage_multiplier": 0.25
             }
           ]
-
         }
       }
     },
@@ -35,7 +34,7 @@
         "hud_range": 64
       },
       "minecraft:experience_reward": {
-        "on_death": "10"
+        "on_death": "317"
       },
       "minecraft:breathable": {
         "total_supply": 15,
@@ -50,8 +49,11 @@
         "max": 250
       },
       "minecraft:collision_box": {
-        "width": 12.5,
-        "height": 12.5
+        "width": 1,
+        "height": 1
+      },
+      "minecraft:scale": {
+        "value": 12.5
       },
       "minecraft:movement": {
         "value": 0.01
@@ -72,7 +74,7 @@
         "def": "minecraft:fireball"
       },
       "minecraft:type_family": {
-        "family": [ "ghast", "monster", "mob" ]
+        "family": [ "ghast", "monster", "mob", "boss" ]
       },
       "minecraft:damage_sensor": {
         "triggers": {
@@ -96,7 +98,7 @@
         "burst_shots": 3,
         "burst_interval": 0.25
       },
-      "minecraft:area_attack":{
+      /*"minecraft:area_attack":{
         "cause": "attack",
         "damage_per_tick": 3,
         "damage_range": 256,
@@ -107,7 +109,7 @@
             { "test": "in_water_or_rain", "subject": "other", "operator": "==", "value": true }
           ]
         }
-      },
+      },*/
       "minecraft:follow_range": {
         "value": 64,
         "max": 64

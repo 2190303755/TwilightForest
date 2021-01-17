@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:fiery_leggings"
+    "identifier": "twilightforest:fiery_leggings"
     },
 
     
@@ -14,11 +14,11 @@
     ],
     "key": {
       "I": {
-        "item": "hermit_items:fiery_ingot"
+        "item": "twilightforest:fiery_ingot"
       }
     },
     "result": {
-      "item": "hermit_items:fiery_leggings"
+      "item": "twilightforest:fiery_leggings"
     }
   }
 }

@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:ironwood_sword",
+      "identifier": "twilightforest:ironwood_sword",
       "category": "equipment"
     },
     "components": {
@@ -14,7 +14,7 @@
       },
       "minecraft:render_offsets": "tools",
       "minecraft:display_name": {
-        "value": "twilight_forest.ironwood_sword.item"
+        "value": "twilightforest.ironwood_sword.item"
       }
     }
   }

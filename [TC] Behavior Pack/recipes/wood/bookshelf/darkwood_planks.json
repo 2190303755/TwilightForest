@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:bookshelf_2"
+    "identifier": "twilightforest:bookshelf_2"
     },
 
     
@@ -17,7 +17,7 @@
         "item": "minecraft:book"
       },
       "P": {
-        "item": "hermit_blocks:darkwood_planks"
+        "item": "twilightforest:darkwood_planks"
       }
     },
     "result": {

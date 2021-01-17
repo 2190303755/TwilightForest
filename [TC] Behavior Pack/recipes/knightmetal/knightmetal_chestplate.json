@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:knightmetal_chestplate"
+    "identifier": "twilightforest:knightmetal_chestplate"
     },
 
     
@@ -14,11 +14,11 @@
     ],
     "key": {
       "I": {
-        "item": "hermit_items:knightmetal_ingot"
+        "item": "twilightforest:knightmetal_ingot"
       }
     },
     "result": {
-      "item": "hermit_items:knightmetal_chestplate"
+      "item": "twilightforest:knightmetal_chestplate"
     }
   }
 }

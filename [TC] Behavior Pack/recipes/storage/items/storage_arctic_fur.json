@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:arctic_fur_from_storage"
+    "identifier": "twilightforest:arctic_fur_from_storage"
     },
 
     
@@ -12,11 +12,11 @@
     ],
     "key": {
       "S": {
-        "item": "hermit_blocks:storage_arctic_fur"
+        "item": "twilightforest:storage_arctic_fur"
       }
     },
     "result": {
-      "item": "hermit_items:arctic_fur",
+      "item": "twilightforest:arctic_fur",
       "count": 9
     }
   }

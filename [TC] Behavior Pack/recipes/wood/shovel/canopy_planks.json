@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:wooden_shovel_1"
+    "identifier": "twilightforest:wooden_shovel_1"
     },
 
     
@@ -17,7 +17,7 @@
         "item": "minecraft:stick"
       },
       "P": {
-        "item": "hermit_blocks:canopy_planks"
+        "item": "twilightforest:canopy_planks"
       }
     },
     "result": {

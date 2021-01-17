@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:fence_gate_2"
+    "identifier": "twilightforest:fence_gate_2"
     },
 
     
@@ -16,7 +16,7 @@
         "item": "minecraft:stick"
       },
       "P": {
-        "item": "hermit_blocks:darkwood_planks"
+        "item": "twilightforest:darkwood_planks"
       }
     },
     "result": {

@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:reappearing_trace_block_on"
+      "identifier": "twilightforest:reappearing_trace_block_on"
     },
     "components": {
       "minecraft:destroy_time": 3,
@@ -10,7 +10,7 @@
       "minecraft:map_color": "#ffffff",
       "minecraft:explosion_resistance": 6,
       "minecraft:entity_collision": false,
-      "minecraft:geometry": "geometry.block.reappearing.twilight_forest",
+      "minecraft:geometry": "geometry.block.reappearing.twilightforest",
       "minecraft:material_instances" : {
         "*": {
           "texture": "reappearing_trace_block_on",
@@ -23,15 +23,15 @@
       },
       "minecraft:random_ticking": {
         "on_tick": {
-          "event": "twilight_forest:on_ticking",
+          "event": "twilightforest:on_ticking",
           "target": "self"
         }
       }
     },
     "events":{
-      "twilight_forest:on_ticking": {
+      "twilightforest:on_ticking": {
         "set_block_at_pos": {
-            "block_type": "hermit_blocks:reappearing_trace_block_off",
+            "block_type": "twilightforest:reappearing_trace_block_off",
             "block_offset": [ 0, 0, 0 ]
         }
       }

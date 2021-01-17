@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "hermit_blocks:ghast_trap_off",
+      "identifier": "twilightforest:ghast_trap_off",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

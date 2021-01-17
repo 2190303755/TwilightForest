@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "hermit:castle_brick_polished_4_worn"
+    "identifier": "twilightforest:castle_brick_polished_4_worn"
     },
 
     
@@ -13,11 +13,11 @@
     ],
     "key": {
       "W": {
-        "item": "hermit_blocks:castle_brick_worn"
+        "item": "twilightforest:castle_brick_worn"
       }
     },
     "result": {
-      "item": "hermit_blocks:castle_brick_polished",
+      "item": "twilightforest:castle_brick_polished",
       "count": 4
     }
   }

@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "hermit_items:minotaur_axe_golden",
+      "identifier": "twilightforest:minotaur_axe_golden",
       "category": "Equipment"
     },
     "components": {
