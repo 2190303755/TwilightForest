@@ -1,0 +1,201 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "twilightforest:bunny",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+ 
+    "component_groups": {
+      "module:model_change": {
+        "minecraft:transformation": {
+          "into": "minecraft:rabbit<minecraft:entity_spawned>"
+        }        
+      },
+      
+      "module:model_varied.0": {
+        "minecraft:variant": {
+          "value": 0
+        }
+      },
+      
+      "module:model_varied.1": {
+        "minecraft:variant": {
+          "value": 1
+        }
+      },
+      
+      "module:model_varied.2": {
+        "minecraft:variant": {
+          "value": 2
+        }
+      }      
+    },
+
+    "components": {
+      "minecraft:nameable": {
+      },	
+      "minecraft:type_family": {
+        "family": [ "bunny", "rabbit", "mob" ]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:health": {
+        "value": 3,
+        "max": 3
+      },
+      "minecraft:movement": {
+        "value": 0.3
+      },
+      "minecraft:collision_box": {
+        "width": 0.3,
+        "height": 0.5
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/rabbit.json"
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "on_interact": {
+              "filters": {
+                "all_of": [
+                  { "test": "is_family", "subject": "other", "value": "player" },
+                  { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "twilightforest:transformpowder" }
+                ]
+              },
+              "event": "minecraft:model_change",
+              "target": "self"
+            },
+            "use_item": true,
+            "play_sounds": "bullet.hit",
+            "interact_text": "转换"
+          }
+        ]
+      },      
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": false
+        }
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": true
+      },
+      "minecraft:movement.skip": {
+      },
+      "minecraft:jump.dynamic": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },      
+      "minecraft:behavior.panic": {
+        "priority": 0,
+        "speed_multiplier": 1.25
+      },
+      "minecraft:behavior.raid_garden": {
+        "priority": 5,
+        "blocks": [ "carrots" ],
+        "search_range": 16,
+        "goal_radius": 0.8
+      },      
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 7,
+        "look_distance": 6.0,
+        "probability": 0.02
+      },
+      "minecraft:behavior.avoid_mob_type": {
+        "priority": 4,
+        "entity_types":[
+          {
+            "filters": { "test": "is_family", "subject": "other", "value": "player" },
+            "max_dist": 8,
+            "walk_speed_multiplier": 1.5,
+            "sprint_speed_multiplier": 1.8
+          },
+          {
+            "filters": { "test": "is_family", "subject": "other", "value": "wolf" },
+            "max_dist": 4,
+            "walk_speed_multiplier": 1.5,
+            "sprint_speed_multiplier": 1.8
+          },
+          {
+            "filters": { "test": "is_family", "subject": "other", "value": "monster" },
+            "max_dist": 4,
+            "walk_speed_multiplier": 1.5,
+            "sprint_speed_multiplier": 1.5
+          }
+        ]
+      },      
+      "minecraft:behavior.random_look_around": {
+        "priority": 8
+      },
+      "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    },
+ 
+    "events": {
+      "minecraft:entity_spawned": {
+        "randomize": [
+          {
+            "weight": 50,
+            "remove": {
+             "component_groups": [ "module:model_change" ]
+            },
+            "add": {
+              "component_groups": [ "module:model_varied.0" ]
+            }
+		  },
+          {
+            "weight": 50,
+            "remove": {
+             "component_groups": [ "module:model_change" ]
+            },            
+            "add": {
+              "component_groups": [ "module:model_varied.1" ]
+            }
+		  },
+          {
+            "weight": 50,
+            "remove": {
+             "component_groups": [ "module:model_change" ]
+            },            
+            "add": {
+              "component_groups": [ "module:model_varied.2" ]
+            }
+		  }
+		]
+      },
+
+      "minecraft:model_change": {
+        "add": {
+          "component_groups": [ "module:model_change" ]
+        }
+      }      
+    }
+  }
+}

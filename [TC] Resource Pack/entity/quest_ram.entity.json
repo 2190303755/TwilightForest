@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "twilightforest:quest_ram",
+      "materials": { "default": "magma_cube" },
+      "textures": {
+        "default": "textures/entity/boss/quest_ram"
+      },
+      "geometry": {
+        "default": "geometry.quest_ram"
+      },
+      "animations": {
+        "walk": "animation.iron_golem.walk",
+        "move": "animation.iron_golem.move",
+        "attack": "animation.iron_golem.attack",
+        "flower": "animation.iron_golem.flower",
+        "look_at_target": "animation.common.look_at_target"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.iron_golem.move" },
+        { "arm": "controller.animation.iron_golem.arm_movement"}
+      ],
+      "render_controllers": [ "controller.render.iron_golem" ],
+      "spawn_egg": {
+        "texture": "egg_raven"
+      }
+    }
+  }
+}

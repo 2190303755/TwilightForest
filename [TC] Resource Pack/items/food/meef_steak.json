@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_food:meef_steak",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "meef_steak"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.cookedFood"
+      },
+      "minecraft:render_offsets": "miscellaneous",
+      "minecraft:display_name": {
+        "value": "twilight_forest.meef_steak.item"
+      }
+    }
+  }
+}

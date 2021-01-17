@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:smithing_table_2"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "II",
+      "PP",
+      "PP"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "P": {
+        "item": "hermit_blocks:darkwood_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:smithing_table"
+    }
+  }
+}

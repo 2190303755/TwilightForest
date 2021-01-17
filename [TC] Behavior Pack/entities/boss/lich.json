@@ -1,0 +1,191 @@
+{
+"format_version": "1.10.0",
+"minecraft:entity": {
+"description": {
+"identifier": "twilightforest:lich",
+"is_spawnable": true,
+"is_summonable": true,
+"is_experimental": false
+},
+"component_groups": {
+"末影弹丸": {
+"minecraft:shooter": {
+"def": "twilightforest:ender_projectile"
+},
+"minecraft:behavior.ranged_attack": {
+"attack_interval_min": 1,
+"attack_interval_max": 1,
+"attack_radius": 32,
+"burst_shots": 1
+},
+"minecraft:timer": {
+"looping": false,
+"randomInterval": true,
+"time": [ 8.0, 15.0 ],
+"time_down_event": {
+"event": "切换爆炸火球"
+}
+}
+},
+"爆炸火球": {
+"minecraft:shooter": {
+"def": "twilightforest:blast_fireball"
+},
+"minecraft:behavior.ranged_attack": {
+"attack_interval_min": 2,
+"attack_interval_max": 3,
+"attack_radius": 32,
+"burst_shots": 1
+},
+"minecraft:timer": {
+"looping": false,
+"randomInterval": true,
+"time": [ 5.0, 8.0 ],
+"time_down_event": {
+"event": "切换末影弹丸"
+}
+}
+}
+//——结束
+},
+"components": {
+"minecraft:nameable": {
+},
+"minecraft:type_family": {
+"family": [ "lich", "monster", "boss" ] 
+},
+"minecraft:boss": {
+"should_darken_sky": false,
+"name": "巫妖",
+"hud_range": 125
+},
+"minecraft:breathable": {
+"totalSupply": 15,
+"suffocateTime": 0
+},
+"minecraft:health": {
+"value": 100,
+"max": 100
+},
+"minecraft:movement": {
+"value": 0.25
+},
+"minecraft:underwater_movement": {
+"value": 0.25
+},
+"minecraft:scale": {
+"value": 1.0
+},
+"minecraft:collision_box": {
+"width": 0.6,
+"height": 1.9
+},
+"minecraft:fire_immune": true,
+"minecraft:loot": {
+"table": "loot_tables/entities/lich.json"
+},
+"minecraft:equipment": {
+"table": "loot_tables/entities/lich_gear.json"
+},
+"minecraft:teleport": {
+"randomTeleports": true,
+"maxRandomTeleportTime": 30,
+"randomTeleportCube": [ 8, 8, 8],
+"targetDistance": 6,
+"target_teleport_chance": 0.05,
+"lightTeleportChance": 0.01
+},
+"minecraft:navigation.generic": {
+"can_path_over_water": true,
+"avoid_water": true,
+"avoid_damage_blocks": true,
+"can_walk": true
+},
+"minecraft:movement.basic": {
+},
+"minecraft:jump.static": {
+},
+"minecraft:can_climb": {
+},
+"minecraft:behavior.random_stroll": {
+"priority": 5,
+"speed_multiplier": 1
+},
+"minecraft:behavior.float": {
+"priority": 0
+},
+"minecraft:behavior.hurt_by_target": {
+"priority": 1
+},
+"minecraft:behavior.look_at_target": {
+"priority": 5
+},
+"minecraft:behavior.look_at_player": {
+"priority": 6,
+"look_distance": 8
+},
+"minecraft:behavior.random_look_around": {
+"priority": 7
+},
+"minecraft:behavior.nearest_attackable_target": {
+"priority": 3,
+"entity_types": [
+{
+"filters": { "test": "is_family", "subject": "other", "value": "player" },
+"max_dist": 64
+},
+{
+"filters": {
+"all_of": [
+{ "test": "is_family", "subject": "other", "operator": "!=", "value": "lich" },
+{ "test": "is_family", "subject": "other", "value": "player" }
+]
+},
+"max_dist": 64
+}
+],
+"must_see": true
+},
+"minecraft:physics": {
+}
+},
+"events": {
+"minecraft:entity_spawned": {
+"add": { "component_groups": [ "末影弹丸" ] }
+},
+"切换末影弹丸": {
+"add": { "component_groups": [ "末影弹丸" ] },
+"remove": { "component_groups": [ "爆炸火球" ] }
+},
+"切换爆炸火球": {
+"sequence": [
+{
+"randomize": [
+{
+"weight": 1,
+"sequence": [
+{
+"randomize": [
+{
+"weight": 85,
+"add": { "component_groups": [ "末影弹丸" ] },
+"remove": { "component_groups": [ "爆炸火球" ] }
+},
+{
+"weight": 65,
+"add": { "component_groups": [ "爆炸火球" ] },
+"remove": { "component_groups": [ "末影弹丸" ] }
+}
+]
+}
+//——区域
+]
+}
+]
+}
+]
+}
+//——销毁
+}
+}
+}

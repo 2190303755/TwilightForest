@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:noteblock_4"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP",
+      "PRP",
+      "PPP"
+    ],
+    "key": {
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "P": {
+        "item": "hermit_blocks:mine_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:noteblock"
+    }
+  }
+}

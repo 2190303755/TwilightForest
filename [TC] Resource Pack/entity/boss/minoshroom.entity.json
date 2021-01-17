@@ -1,0 +1,36 @@
+{
+"format_version": "1.8.0",
+"minecraft:client_entity": {
+"description": {
+"identifier": "twilightforest:minoshroom",
+"materials": {
+"default": "minoshroom"
+},
+"geometry": {
+"default": "geometry.minoshroom"
+},
+"textures": {
+"default": "textures/entity/boss/minoshroomtaur"
+},
+"render_controllers": [ "controller.render.minoshroom" ],
+"spawn_egg": {
+"texture": "spawn_minoshroom"
+},
+"scripts": {
+"pre_animation": [
+"variable.general0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+"variable.general1 = -variable.general0;"
+]
+},
+"animations": {
+"general": "animation.minoshroom.general",
+"move": "animation.minoshroom.move"
+},
+"animation_controllers": [
+{ "general": "controller.animation.minoshroom.general" },
+{ "move": "controller.animation.minoshroom.move" }
+]
+}
+//——销毁
+}
+}

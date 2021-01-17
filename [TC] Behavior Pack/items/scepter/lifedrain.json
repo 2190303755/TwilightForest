@@ -1,0 +1,15 @@
+{
+  "format_version": "1.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:scepter_lifedrain"
+    },
+    "components": {
+      "minecraft:hand_equipped": true,
+      "minecraft:use_duration": 32,
+      "minecraft:max_stack_size": 1,
+      "minecraft:max_damage": 99,
+      "minecraft:stacked_by_data": true
+    }
+  }
+}

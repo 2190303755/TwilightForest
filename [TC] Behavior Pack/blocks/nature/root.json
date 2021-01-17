@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "hermit_blocks:root",
+      "register_to_creative_menu": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/blocks/root.json",
+      "minecraft:destroy_time": 0.55,
+      "minecraft:block_light_absorption": 7,
+      "minecraft:block_light_emission": 0,
+      "minecraft:map_color": "#ffffff",
+      "minecraft:explosion_resistance": 2.5
+    }
+  }
+}

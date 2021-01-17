@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:ironwood_helmet",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "ironwood_helmet"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.helmet"
+      },
+      "minecraft:render_offsets": "helmets",
+      "minecraft:display_name": {
+        "value": "twilight_forest.ironwood_helmet.item"
+      }
+    }
+  }
+}

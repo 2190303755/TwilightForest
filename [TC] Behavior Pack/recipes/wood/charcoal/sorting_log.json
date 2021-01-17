@@ -1,0 +1,12 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hermit:charcoal_5"
+    },
+    "tags": ["furnace"],
+    "input": "hermit_blocks:sorting_log",
+    "output": "minecraft:coal:1"
+  }
+  
+}

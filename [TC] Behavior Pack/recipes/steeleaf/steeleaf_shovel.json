@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:steeleaf_shovel"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "I",
+      "S",
+      "S"
+    ],
+    "key": {
+      "I": {
+        "item": "hermit_items:steeleaf"
+      },
+      "S": {
+        "item":"minecraft:stick" 
+      }
+    },
+    "result": {
+      "item": "hermit_items:steeleaf_shovel"
+    }
+  }
+}

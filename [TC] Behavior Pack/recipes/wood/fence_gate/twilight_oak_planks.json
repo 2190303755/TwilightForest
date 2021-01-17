@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:fence_gate_8"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "SPS",
+      "SPS"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:twilight_oak_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:fence_gate"
+    }
+  }
+}

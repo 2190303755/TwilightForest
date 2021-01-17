@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "hermit_blocks:castle_brick_polished",
+      "register_to_creative_menu": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:destroy_time": 9.4,
+      "minecraft:block_light_absorption": 15,
+      "minecraft:block_light_emission": 0,
+      "minecraft:map_color": "#000000",
+      "minecraft:explosion_resistance": 6
+    }
+  }
+}

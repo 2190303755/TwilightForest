@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:pressure_plate_2"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PP"
+    ],
+    "key": {
+      "P": {
+        "item": "hermit_blocks:darkwood_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:spruce_pressure_plate"
+    }
+  }
+}

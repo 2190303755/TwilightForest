@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:mangrove_planks_0"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "hermit_blocks:mangrove_log"
+      }
+    },
+    "result": {
+      "item": "hermit_blocks:mangrove_planks",
+      "count": 4
+    }
+  }
+}

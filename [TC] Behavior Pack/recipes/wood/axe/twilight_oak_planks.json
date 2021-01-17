@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:wooden_axe_8"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PP",
+      "PS",
+      " S"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:twilight_oak_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:wooden_axe"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hermit:venison"
+    },
+
+    
+    "tags": ["furnace", "smoker", "campfire"],
+    "input": "hermit_food:venison_raw",
+    "output": "hermit_food:venison_cooked"
+  }
+  
+}

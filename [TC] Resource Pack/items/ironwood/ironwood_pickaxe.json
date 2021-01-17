@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:ironwood_pickaxe",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "ironwood_pickaxe"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.pickaxe"
+      },
+      "minecraft:render_offsets": "tools",
+      "minecraft:display_name": {
+        "value": "twilight_forest.ironwood_pickaxe.item"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+    "identifier": "hermit:meef"
+    },
+
+    
+    "tags": ["furnace", "smoker", "campfire"],
+    "input": "hermit_food:meef_raw",
+    "output": "hermit_food:meef_steak"
+  }
+  
+}

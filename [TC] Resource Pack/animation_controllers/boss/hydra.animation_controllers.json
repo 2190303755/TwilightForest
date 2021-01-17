@@ -1,0 +1,28 @@
+{
+"format_version": "1.8.0",
+"animation_controllers": {
+"controller.animation.hydra.general": {
+"states": {
+"default": {
+"animations": [ { "general": [] } ]
+}
+}
+},
+"controller.animation.hydra.action": {
+"states": {
+"default": {
+"animations": [ { "action": [] } ]
+}
+}
+},
+"controller.animation.hydra.walk": {
+"states": {
+"default": {
+"parameters": [ "query.modified_move_speed" ],
+"animations": [ { "walk": [ { "0.0": 1.0, "1.0": 1.0 } ] } ]
+}
+}
+}
+//——销毁
+}
+}

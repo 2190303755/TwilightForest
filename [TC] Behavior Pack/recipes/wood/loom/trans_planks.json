@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:loom_7"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "SS",
+      "PP"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:string"
+      },
+      "P": {
+        "item": "hermit_blocks:trans_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:loom"
+    }
+  }
+}

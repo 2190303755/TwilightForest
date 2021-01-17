@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:mine_planks_0"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "hermit_blocks:minelog"
+      }
+    },
+    "result": {
+      "item": "hermit_blocks:mine_planks",
+      "count": 4
+    }
+  }
+}

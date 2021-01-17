@@ -1,0 +1,14 @@
+{
+    "format_version": "1.0",
+    "minecraft:item": {
+      "description": {
+        "identifier": "hermit_items:phantom_chestplate",
+        "category": "Equipment"
+      },
+      "components": {
+        "minecraft:icon": "phantom_chestplate",
+        "minecraft:hover_text_color": "aqua",
+        "minecraft:render_offsets": "chestplates"
+      }
+    }
+  }

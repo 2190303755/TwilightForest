@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:fiery_boots"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "I I",
+      "I I"
+    ],
+    "key": {
+      "I": {
+        "item": "hermit_items:fiery_ingot"
+      }
+    },
+    "result": {
+      "item": "hermit_items:fiery_boots"
+    }
+  }
+}

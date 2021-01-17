@@ -1,0 +1,14 @@
+{
+  "format_version": "1.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:ice_bow",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "ice_bow",
+      "minecraft:hover_text_color": "aqua",
+      "minecraft:render_offsets": "bow"
+    }
+  }
+}

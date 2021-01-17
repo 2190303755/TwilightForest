@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:sign_6"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP",
+      "PPP",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:time_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:jungle_sign",
+      "count": 3
+    }
+  }
+}

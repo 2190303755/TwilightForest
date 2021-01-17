@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:storage_arctic_fur"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "FFF",
+      "FFF",
+      "FFF"
+    ],
+    "key": {
+      "F": {
+        "item": "hermit_items:arctic_fur"
+      }
+    },
+    "result": {
+      "item": "hermit_blocks:storage_arctic_fur"
+    }
+  }
+}

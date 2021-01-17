@@ -1,0 +1,14 @@
+{
+  "format_version": "1.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:arctic_helmet",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "arctic_helmet",
+      "minecraft:hover_text_color": "yellow",
+      "minecraft:render_offsets": "helmets"
+    }
+  }
+}

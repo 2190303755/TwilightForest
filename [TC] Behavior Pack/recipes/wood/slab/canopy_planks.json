@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:wooden_slab_1"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "hermit_blocks:canopy_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:wooden_slab:5",
+      "count": 6
+    }
+  }
+}

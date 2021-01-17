@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:carminite",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilight_forest.items"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.carminite.item"
+      },
+      "minecraft:icon": {
+        "texture": "carminite"
+      }
+    }
+  }
+}

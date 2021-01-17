@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_food:maze_wafer",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "maze_wafer"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.miscFood"
+      },
+      "minecraft:render_offsets": "miscellaneous",
+      "minecraft:display_name": {
+        "value": "twilight_forest.maze_wafer.item"
+      }
+    }
+  }
+}

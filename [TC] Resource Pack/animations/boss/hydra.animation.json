@@ -1,0 +1,101 @@
+{
+"format_version" : "1.8.0",
+"animations" : {
+"animation.hydra.action" : {
+"loop" : true, 
+"animation_length": 8.0,
+"bones" : {
+"jaw1" : {
+"rotation" : {
+"0.3" : [0.0,0.0,0.0],
+"0.6" : [0.0,0.0,0.0],
+"0.9" : [0.0,0.0,0.0],
+"1.2" : [0.0,0.0,0.0],
+"1.5" : [0.0,0.0,0.0],
+"1.8" : [0.0,0.0,0.0],
+"2.1" : [0.0,0.0,0.0],
+"2.4" : [0.0,0.0,0.0],
+"2.7" : [0.0,0.0,0.0],
+"3.0" : [0.0,0.0,0.0],
+"3.3" : [0.0,0.0,0.0],
+"3.6" : [10.0,0.0,0.0],
+"3.9" : [15.0,0.0,0.0],
+"4.2" : [20.0,0.0,0.0],
+"4.5" : [25.0,0.0,0.0]
+}
+},
+"jaw2" : {
+"rotation" : {
+"0.3" : [0.0,0.0,0.0],
+"0.6" : [0.0,0.0,0.0],
+"0.9" : [0.0,0.0,0.0],
+"1.2" : [0.0,0.0,0.0],
+"1.5" : [0.0,0.0,0.0],
+"1.8" : [0.0,0.0,0.0],
+"2.1" : [0.0,0.0,0.0],
+"2.4" : [0.0,0.0,0.0],
+"2.7" : [0.0,0.0,0.0],
+"3.0" : [0.0,0.0,0.0],
+"3.3" : [0.0,0.0,0.0],
+"3.6" : [10.0,0.0,0.0],
+"3.9" : [15.0,0.0,0.0],
+"4.2" : [20.0,0.0,0.0],
+"4.5" : [25.0,0.0,0.0]
+}
+},
+"jaw3" : {
+"rotation" : {
+"0.3" : [0.0,0.0,0.0],
+"0.6" : [0.0,0.0,0.0],
+"0.9" : [0.0,0.0,0.0],
+"1.2" : [0.0,0.0,0.0],
+"1.5" : [0.0,0.0,0.0],
+"1.8" : [0.0,0.0,0.0],
+"2.1" : [0.0,0.0,0.0],
+"2.4" : [0.0,0.0,0.0],
+"2.7" : [0.0,0.0,0.0],
+"3.0" : [0.0,0.0,0.0],
+"3.3" : [0.0,0.0,0.0],
+"3.6" : [10.0,0.0,0.0],
+"3.9" : [15.0,0.0,0.0],
+"4.2" : [20.0,0.0,0.0],
+"4.5" : [25.0,0.0,0.0]
+}
+}
+}
+},
+"animation.hydra.general": {
+"loop" : true,
+"bones" : {
+"head1": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck1a": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck2a": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck3a": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck4a": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck5a": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"head2": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck1b": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck2b": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck3b": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck4b": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck5b": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"head3": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck1c": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck2c": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck3c": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck4c": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"neck5c": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] }
+}
+},
+"animation.hydra.walk": {
+"loop": true,
+"bones": {
+"leg0": { "rotation": [ "variable.general0 * 1.4", 0.0, 0.0 ] },
+"leg1": { "rotation": [ "variable.general1 * 1.4", 0.0, 0.0 ] },
+"leg2": { "rotation": [ "variable.general0 * 1.4", 0.0, 0.0 ] },
+"leg3": { "rotation": [ "variable.general1 * 1.4", 0.0, 0.0 ] }
+}
+}
+//——结束
+}
+} 

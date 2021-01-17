@@ -1,0 +1,41 @@
+{
+"format_version": "1.10.0",
+"minecraft:entity": {
+"description": {
+"identifier": "twilightforest:ender_projectile",
+"is_spawnable": false,
+"is_summonable": true,
+"is_experimental": false
+},
+"components": {
+"minecraft:collision_box": {
+"width": 0.15,
+"height": 0.15
+},
+"minecraft:projectile": {
+"onHit": {
+"impact_damage": {
+"damage": 6,
+"knockback": false
+},
+"remove_on_hit": { },
+"particle_on_hit": {
+"num_particles": 6,
+"on_entity_hit": true,
+"on_other_hit": true
+}
+},
+"power": 1.8,
+"gravity": 0.10,
+"angleoffset": 0.0,
+"offset": [ 0, 0.5, 0 ],
+"destroyOnHurt": true,
+"shouldbounce": true,
+"reflectOnHurt": false
+},
+"minecraft:physics": {
+}
+//——销毁
+}
+}
+}

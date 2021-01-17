@@ -1,0 +1,37 @@
+[
+  {
+    "flipbook_texture": "textures/blocks/aurora/aurora_block",
+    "atlas_tile": "aurora_block",
+    "ticks_per_frame": 150
+  },
+  {
+    "flipbook_texture": "textures/blocks/aurora/aurora_pillar_top",
+    "atlas_tile": "aurora_pillar_top",
+    "ticks_per_frame": 150
+  },
+  {
+    "flipbook_texture": "textures/blocks/aurora/aurora_pillar_side",
+    "atlas_tile": "aurora_pillar_side",
+    "ticks_per_frame": 150
+  },
+  {
+    "flipbook_texture": "textures/blocks/castle/castle_rune_brick_blue",
+    "atlas_tile": "castle_rune_brick_blue",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/castle/castle_rune_brick_pink",
+    "atlas_tile": "castle_rune_brick_pink",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/castle/castle_rune_brick_violet",
+    "atlas_tile": "castle_rune_brick_violet",
+    "ticks_per_frame": 10
+  },
+  {
+    "flipbook_texture": "textures/blocks/castle/castle_rune_brick_yellow",
+    "atlas_tile": "castle_rune_brick_yellow",
+    "ticks_per_frame": 10
+  }
+]

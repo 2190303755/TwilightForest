@@ -1,0 +1,32 @@
+{
+"format_version": "1.8.0",
+"minecraft:client_entity": {
+"description": {
+"identifier": "twilightforest:penguin",
+"materials": {
+"default": "penguin"
+},
+"geometry": {
+"default": "geometry.penguin"
+},
+"textures": {
+"default": "textures/entity/penguin"
+},
+"render_controllers": [ "controller.render.penguin" ],
+"spawn_egg": {
+"texture": "spawn_penguin"
+},
+"animations": {
+"general": "animation.penguin.general",
+"move": "animation.penguin.move",
+"baby": "animation.penguin.baby"
+},
+"animation_controllers": [
+{ "general": "controller.animation.penguin.general" },
+{ "move": "controller.animation.penguin.move" },
+{ "baby": "controller.animation.penguin.baby" }
+]
+}
+//——销毁
+}
+}

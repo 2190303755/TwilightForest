@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "twilightforest:ur_ghast",
+      "materials": { "default": "ghast" },
+      "textures": {
+        "default": "textures/entity/boss/ur_ghast",
+        "incited": "textures/entity/boss/ur_ghast_incited",
+        "charging": "textures/entity/boss/ur_ghast_charging"
+      },
+      "geometry": {
+        "default": "geometry.towerboss"
+      },
+      "spawn_egg": {
+        "texture": "spawn_ur_ghast"
+      },
+      "animations": {
+        "move": "animation.ur_ghast.move",
+        "scale": "animation.ur_ghast.scale"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.ur_ghast.move" },
+        { "scale": "controller.animation.ur_ghast.scale" }
+      ],
+      "render_controllers": [ "controller.render.ur_ghast" ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:castle_brick_tile_bold"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PP",
+      "PP"
+    ],
+    "key": {
+      "P": {
+        "item": "hermit_blocks:castle_brick_pillar_bold"
+      }
+    },
+    "result": {
+      "item": "hermit_blocks:castle_brick_tile_bold",
+      "count": 4
+    }
+  }
+}

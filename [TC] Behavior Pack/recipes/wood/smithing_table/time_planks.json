@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:smithing_table_6"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "II",
+      "PP",
+      "PP"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "P": {
+        "item": "hermit_blocks:time_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:smithing_table"
+    }
+  }
+}

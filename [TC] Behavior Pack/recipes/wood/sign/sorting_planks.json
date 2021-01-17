@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:sign_5"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP",
+      "PPP",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:sorting_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:darkoak_sign",
+      "count": 3
+    }
+  }
+}

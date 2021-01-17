@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hermit:mangrove_planks_2"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "hermit_blocks:mangrove_log"
+      }
+    ],
+    "result": {
+      "item": "minecraft:planks:2",
+      "count": 5
+    }
+  }
+}

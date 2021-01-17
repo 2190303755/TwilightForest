@@ -1,0 +1,39 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:ironwood_leggings",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.leggings"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.ironwood_leggings.item"
+      },
+      "minecraft:icon": {
+        "texture": "ironwood_leggings"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 9,
+        "slot": "armor_legs"
+      },
+      "minecraft:durability": {
+        "max_durability": 300,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:armor": {
+        "protection": 5
+      },
+      "minecraft:foil": true,
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs"
+      }
+    }
+  }
+}

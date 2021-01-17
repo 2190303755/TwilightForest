@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:stairs_6"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "P  ",
+      "PP ",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "hermit_blocks:time_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:jungle_stairs",
+      "count": 4
+    }
+  }
+}

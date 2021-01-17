@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:aurora_pillar"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "B",
+      "B"
+    ],
+    "key": {
+      "B": {
+        "item": "hermit_blocks:aurora_block"
+      }
+    },
+    "result": {
+      "item": "hermit_blocks:aurora_pillar",
+      "count": 2
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:wooden_hoe_1_6"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PP",
+      " S",
+      " S"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:time_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:wooden_hoe"
+    }
+  }
+}

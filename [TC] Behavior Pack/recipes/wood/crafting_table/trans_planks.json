@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:crafting_table_7"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PP",
+      "PP"
+    ],
+    "key": {
+      "P": {
+        "item": "hermit_blocks:trans_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:crafting_table"
+    }
+  }
+}

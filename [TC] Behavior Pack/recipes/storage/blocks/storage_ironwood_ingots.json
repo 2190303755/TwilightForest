@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:storage_ironwoods"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "III",
+      "III",
+      "III"
+    ],
+    "key": {
+      "I": {
+        "item": "hermit_items:ironwood_ingots"
+      }
+    },
+    "result": {
+      "item": "hermit_blocks:storage_ironwood",
+      "count": 2
+    }
+  }
+}

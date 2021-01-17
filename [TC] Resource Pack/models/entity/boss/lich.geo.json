@@ -1,0 +1,196 @@
+{
+"format_version": "1.10.0",
+"geometry.lich": {
+"visible_bounds_width": 1.5,
+"visible_bounds_height": 1.5,
+"visible_bounds_offset": [ 0, 0.5, 0 ],
+"texturewidth": 64,
+"textureheight": 64,
+"bones": [
+{
+"name": "head",
+"pivot": [ 0.0, 26.0, -2.0 ],
+"cubes": [
+{
+"origin": [ -4.0, 26.0, -4.0 ],"size": [ 8, 8, 8 ],"uv": [ 0, 0 ]
+}
+]
+},
+{
+"name": "headwear",
+"parent": "head",
+"pivot": [ 0.0, 26.0, -2.0 ],
+"cubes": [
+{
+"origin": [ -4.0, 30.0, -4.0 ],"size": [ 8, 8, 8 ],"uv": [ 32, 0 ],"inflate": 0.2
+}
+]
+},
+//——区域
+{
+"name": "body",
+"pivot": [ 0.0, 5.9, 1.0 ],
+"cubes": [
+{
+"origin": [ -4.0, 1.9, -2.0 ],"size": [ 8, 24, 4 ],"uv": [ 8, 16 ]
+}
+]
+},
+{
+"name": "collar",
+"pivot": [ 0.0, 29.0, 10.0 ],
+"rotation": [ 124.0, 0.0, 0.0 ],
+"cubes": [
+{
+"origin": [ -6.0, 29.0, 13.0 ],"size": [ 12, 12, 1 ],"uv": [ 32, 16 ]
+}
+]
+},
+{
+"name": "cloak",
+"pivot": [ 0.0, 10.8, 1.7 ],
+"cubes": [
+{
+"origin": [ -6.0, 6.8, 2.7 ],"size": [ 12, 19, 1 ],"uv": [ 0, 44 ]
+}
+]
+},
+{
+"name": "rightItem",
+"pivot": [ -5.2, 27.0, -9.0 ],
+"neverRender": true,
+"parent": "rightArm"
+},
+{
+"name": "rightArm",
+"pivot": [ -5.2, 23.0, -10.0 ],
+"rotation": [ -90.0, 0.0, 0.0 ],
+"cubes": [
+{
+"origin": [ -6.2, 23.0, -13.0 ],"size": [ 2, 12, 2 ],"uv": [ 0, 16 ]
+}
+]
+},
+{
+"name": "leftArm",
+"pivot": [ 11.6, 32.0, 2.0 ],
+"rotation": [ 0.0, 0.0, -150.0 ],
+"cubes": [
+{
+"origin": [ 12.6, 32.0, -1.0 ],"size": [ 2, 12, 2 ],"uv": [ 0, 16 ]
+}
+]
+},
+{
+"name": "rightLeg",
+"pivot": [ -2.5, 12.0, 2.0 ],
+"cubes": [
+{
+"origin": [ -3.5, 0.0, -1.0 ],"size": [ 2, 12, 2 ],"uv": [ 0, 16 ]
+}
+]
+},
+{
+"name": "leftLeg",
+"pivot": [ 0.4, 12.0, 2.0 ],
+"cubes": [
+{
+"origin": [ 1.4, 0.0, -1.0 ],"size": [ 2, 12, 2 ],"uv": [ 0, 16 ]
+}
+]
+},
+//——区域
+{
+"name": "shield0",
+"pivot": [ 0.0, 0.0, 0.0 ],
+"cubes": [
+{
+"origin": [ -12.0, 13.0, -5.0 ],"size": [ 0, 13, 13 ],"uv": [ 26, 38 ]
+},
+{
+"origin": [ -13.0, 13.0, -5.0 ],"size": [ 0, 13, 13 ],"uv": [ 26, 38 ]
+}
+]
+},
+{
+"name": "shield1",
+"pivot": [ 0.0, 0.0, 0.0 ],
+"cubes": [
+{
+"origin": [ 11.0, 13.0, -5.0 ],"size": [ 0, 13, 13 ],"uv": [ 26, 38 ]
+},
+{
+"origin": [ 12.0, 13.0, -5.0 ],"size": [ 0, 13, 13 ],"uv": [ 26, 38 ]
+}
+]
+},
+{
+"name": "shield2",
+"pivot": [ 0.0, 0.0, 0.0 ],
+"cubes": [
+{
+"origin": [ -6.0, 13.0, -11.0 ],"size": [ 13, 13, 0 ],"uv": [ 26, 52 ]
+},
+{
+"origin": [ -6.0, 13.0, -12.0 ],"size": [ 13, 13, 0 ],"uv": [ 26, 52 ]
+}
+]
+},
+{
+"name": "shield3",
+"pivot": [ 0.0, 0.0, 0.0 ],
+"cubes": [
+{
+"origin": [ -6.0, 13.0, 12.0 ],"size": [ 13, 13, 0 ],"uv": [ 26, 52 ]
+},
+{
+"origin": [ -6.0, 13.0, 13.0 ],"size": [ 13, 13, 0 ],"uv": [ 26, 52 ]
+}
+]
+}
+//——区域
+]
+},
+"geometry.trophy": {
+"texturewidth": 64,
+"textureheight": 64,
+"bones": [
+{
+"name": "body",
+"pivot": [ -3.0, 0.0, -2.0 ],
+"cubes": [
+{
+"origin": [ -4.0, 0.0, -4.0 ],"size": [ 8, 8, 8 ],"uv": [ 0, 0 ]
+}
+]
+},
+{
+"name": "bodywear",
+"parent": "body",
+"pivot": [ -3.0, 4.0, -2.0 ],
+"cubes": [
+{
+"origin": [ -4.0, 4.0, -4.0 ],"size": [ 8, 8, 8 ],"uv": [ 32, 0 ],"inflate": 0.2
+}
+]
+}
+//——区域
+]
+},
+"geometry.projectile": {
+"texturewidth": 16,
+"textureheight": 16,
+"bones": [
+{
+"name": "body",
+"pivot": [ 0.0, 4.0, 0.0 ],
+"cubes": [
+{
+"origin": [ -7.0, 0.0, 0.0 ],"size": [ 16, 16, 1 ],"uv": [ 0, 0 ]
+}
+]
+}
+//——销毁
+]
+}
+}

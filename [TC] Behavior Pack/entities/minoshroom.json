@@ -1,0 +1,195 @@
+{
+"format_version": "1.10.0",
+"minecraft:entity": {
+"description": {
+"identifier": "twilightforest:minoshroom",
+"is_spawnable": true,
+"is_summonable": true,
+"is_experimental": false
+},
+"component_groups": {
+"速度": {
+"minecraft:movement": {
+"value": 0.25
+},
+"minecraft:attack": {
+"damage": [ 4, 10 ]
+},
+"minecraft:behavior.melee_attack": {
+"priority": 3,
+"speed_multiplier": 1,
+"track_target": false
+},
+"minecraft:timer": {
+"looping": false,
+"randomInterval": true,
+"time": [ 8.0, 12.0 ],
+"time_down_event": {
+"event": "切换冲撞"
+}
+}
+},
+"冲撞": {
+"minecraft:movement": {
+"value": 0.5
+},
+"minecraft:attack": {
+"damage": [ 4, 10 ]
+},
+"minecraft:behavior.melee_attack": {
+"priority": 3,
+"speed_multiplier": 1,
+"track_target": false
+},
+"minecraft:timer": {
+"looping": false,
+"randomInterval": true,
+"time": [ 3.0, 5.0 ],
+"time_down_event": {
+"event": "切换速度"
+}
+}
+}
+//——结束
+},
+"components": {
+"minecraft:nameable": {
+},
+"minecraft:type_family": {
+"family": [ "minoshroom", "monster", "boss" ] 
+},
+"minecraft:breathable": {
+"totalSupply": 15,
+"suffocateTime": 0
+},
+"minecraft:health": {
+"value": 160,
+"max": 160
+},
+"minecraft:movement": {
+"value": 0.25
+},
+"minecraft:underwater_movement": {
+"value": 0.25
+},
+"minecraft:scale": {
+"value": 1.0
+},
+"minecraft:collision_box": {
+"width": 0.8,
+"height": 2.3
+},
+"minecraft:loot": {
+"table": "loot_tables/entities/minoshroom.json"
+},
+"minecraft:equipment": {
+"table": "loot_tables/entities/minoshroom_gear.json",
+"slot_drop_chance": [
+{
+"slot": "slot.weapon.mainhand",
+"drop_chance": 0
+}
+]
+},
+"minecraft:attack": {
+"damage": [ 4, 10 ]
+},
+"minecraft:behavior.melee_attack": {
+"priority": 3,
+"speed_multiplier": 1,
+"track_target": true
+},
+"minecraft:navigation.generic": {
+"can_path_over_water": true,
+"avoid_water": true,
+"avoid_damage_blocks": true,
+"can_walk": true
+},
+"minecraft:movement.basic": {
+},
+"minecraft:jump.static": {
+},
+"minecraft:can_climb": {
+},
+"minecraft:behavior.random_stroll": {
+"priority": 5,
+"speed_multiplier": 1
+},
+"minecraft:behavior.float": {
+"priority": 0
+},
+"minecraft:behavior.hurt_by_target": {
+"priority": 1
+},
+"minecraft:behavior.look_at_target": {
+"priority": 5
+},
+"minecraft:behavior.look_at_player": {
+"priority": 6,
+"look_distance": 8
+},
+"minecraft:behavior.random_look_around": {
+"priority": 7
+},
+"minecraft:behavior.nearest_attackable_target": {
+"priority": 3,
+"entity_types": [
+{
+"filters": { "test" :  "is_family", "subject" : "other", "value" :  "player"},
+"max_dist": 48
+},
+{
+"filters": { 
+"all_of": [ 
+{ "test": "is_family", "subject": "other", "operator": "!=", "value": "minoshroom" },
+{ "test": "is_family", "subject": "other", "value": "player" }
+]
+},
+"max_dist": 48
+}
+],
+"must_see": true
+},
+"minecraft:physics": {
+}
+},
+"events": {
+"minecraft:entity_spawned": {
+"add": { "component_groups": [ "速度" ] }
+},
+"切换速度": {
+"add": { "component_groups": [ "速度" ] },
+"remove": { "component_groups": [ "冲撞" ] }
+},
+"切换冲撞": {
+"sequence": [
+{
+"randomize": [
+{
+"weight": 1,
+"sequence": [
+{
+"randomize": [
+{
+"weight": 75,
+"add": { "component_groups": [ "速度" ] },
+"remove": { "component_groups": [ "冲撞" ] }
+},
+{
+"weight": 80,
+"add": { "component_groups": [ "冲撞" ] },
+"remove": { "component_groups": [ "速度" ] }
+}
+]
+}
+//——区域
+]
+}
+]
+}
+]
+}
+//——销毁
+}
+}
+}

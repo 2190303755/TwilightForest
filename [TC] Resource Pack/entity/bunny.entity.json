@@ -1,0 +1,37 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "twilightforest:bunny",
+      "materials": {
+        "default": "bunny"
+      },
+      "geometry": {
+        "default": "geometry.bunny"
+      },
+      "textures": {
+        "brown": "textures/entity/bunny/bunny_brown",
+        "dutch": "textures/entity/bunny/bunny_dutch",
+        "white": "textures/entity/bunny/bunny_white"
+      },
+      "spawn_egg": {
+        "texture": "egg_bunny"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;", 
+          "variable.tcos1 = -variable.tcos0;"
+        ],
+        "animate": [
+          "general",
+          "move"
+        ]
+      },
+      "animations": {
+        "general": "animation.bunny.general",
+        "move": "animation.bunny.move"
+      },
+      "render_controllers": [ "controller.render.bunny" ]
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:scepter_twilight",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilight_forest.scepter"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.scepter_twilight.item"
+      },
+      "minecraft:icon": {
+        "texture": "scepter_twilight"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:use_duration": 3600,
+      "minecraft:frame_count": 3,
+      "minecraft:animates_in_toolbar": false,
+      "minecraft:hand_equipped": true,
+      "minecraft:shooter": {
+        "ammunition": [
+          {
+            "item": "minecraft:arrow",
+            "use_offhand": true,
+            "search_inventory": true,
+            "use_in_creative": true
+          }
+        ],
+        "scale_power_by_draw_duration": true,
+        "max_draw_duration": 1.0
+      },
+      "minecraft:durability": {
+        "max_durability": 99
+      }
+    }
+   }
+}

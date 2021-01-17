@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+      "description": {
+      "identifier": "hermit:armor_shard_cluster"
+      },
+  
+      
+      "tags": [ "crafting_table" ],
+      "pattern": [
+        "SSS",
+        "SSS",
+        "SSS"
+      ],
+      "key": {
+        "S": {
+          "item": "hermit_items:armor_shard"
+        }
+      },
+      "result": {
+        "item": "hermit_items:armor_shard_cluster"
+      }
+    }
+  }

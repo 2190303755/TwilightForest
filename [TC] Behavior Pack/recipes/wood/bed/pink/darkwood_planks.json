@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:bed:6_2"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "WWW",
+      "PPP"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wool:6"
+      },
+      "P": {
+        "item": "hermit_blocks:darkwood_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:bed:6"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:fence_5"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PSP",
+      "PSP"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:sorting_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:fence:5",
+      "count": 3
+    }
+  }
+}

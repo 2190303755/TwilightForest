@@ -1,0 +1,17 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "hermit_blocks:fire_jet_off",
+      "register_to_creative_menu": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:destroy_time": 3,
+      "minecraft:block_light_absorption": 15,
+      "minecraft:block_light_emission": 0,
+      "minecraft:map_color": "#ffffff",
+      "minecraft:explosion_resistance": 6
+    }
+  }
+}

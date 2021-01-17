@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:pressure_plate_6"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PP"
+    ],
+    "key": {
+      "P": {
+        "item": "hermit_blocks:time_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:jungle_pressure_plate"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "hermit_blocks:twilight_oak_slab"
+    },
+    "components": {
+      "minecraft:destroy_time": 9.4,
+      "minecraft:block_light_absorption": 0,
+      "minecraft:block_light_emission": 0,
+      "minecraft:map_color": "#000000",
+      "minecraft:explosion_resistance": 6,
+      "minecraft:entity_collision":{
+        "origin":[-8,0,-8],
+        "size":[16,8,16]
+      },
+      "minecraft:pick_collision":{
+        "origin":[-8,0,-8],
+        "size":[16,8,16]
+      },
+      "minecraft:geometry": "geometry.block.slab.twilight_forest",
+      "minecraft:material_instances" : {
+    "*": {
+      "texture": "twilight_oak_slab_down",
+      "render_method" : "blend"
+    }
+  }
+    }
+  }
+}

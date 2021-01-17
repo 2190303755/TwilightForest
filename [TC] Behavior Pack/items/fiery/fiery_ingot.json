@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:fiery_ingot",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilight_forest.items"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.fiery_ingot.item"
+      },
+      "minecraft:icon": {
+        "texture": "fiery_ingot"
+      }
+    }
+  }
+}

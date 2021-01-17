@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:liveroot",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilight_forest.items"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.liveroot.item"
+      },
+      "minecraft:icon": {
+        "texture": "liveroot"
+      }
+    }
+  }
+}

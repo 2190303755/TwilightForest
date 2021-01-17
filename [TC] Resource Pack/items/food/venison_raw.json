@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_food:venison_raw",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "venison_raw"
+      },
+      "minecraft:use_animation": "eat",
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.rawFood"
+      },
+      "minecraft:render_offsets": "miscellaneous",
+      "minecraft:display_name": {
+        "value": "twilight_forest.venison_raw.item"
+      }
+    }
+  }
+}

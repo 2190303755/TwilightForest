@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.block.firefly_jar.twilight_forest",
+        "texture_width": 40,
+        "texture_height": 36,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "block",
+          "pivot": [0, 0, 0],
+          "cubes": [
+            {"origin": [-4, 12, -4], "size": [8, 4, 8], "uv": [0, 0]},
+            {"origin": [-5, 0, -5], "size": [10, 14, 10], "uv": [0, 12]}
+          ]
+        }
+      ]
+    }
+  ]
+}

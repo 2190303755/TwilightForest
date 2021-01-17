@@ -1,0 +1,35 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "twilightforest:raven",
+      "materials": {
+        "default": "raven"
+      },
+      "geometry": {
+        "default": "geometry.raven"
+      },
+      "textures": {
+        "default": "textures/entity/raven"
+      },
+      "spawn_egg": {
+        "texture": "egg_raven"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;", 
+          "variable.tcos1 = -variable.tcos0;"
+        ],
+        "animate": [
+          "general",
+          "move"
+        ]
+      },
+      "animations": {
+        "general": "animation.raven.general",
+        "move": "animation.raven.move"
+      },
+      "render_controllers": [ "controller.render.raven" ]
+    }
+  }
+}

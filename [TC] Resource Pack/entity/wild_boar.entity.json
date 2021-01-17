@@ -1,0 +1,39 @@
+{
+"format_version": "1.8.0",
+"minecraft:client_entity": {
+"description": {
+"identifier": "twilightforest:wild_boar",
+"materials": {
+"default": "wild_boar"
+},
+"geometry": {
+"default": "geometry.wild_boar"
+},
+"textures": {
+"default": "textures/entity/wild_boar/wild_boar",
+"saddled": "textures/entity/wild_boar/wild_boar_saddle"
+},
+"render_controllers": [ "controller.render.wild_boar" ],
+"spawn_egg": {
+"texture": "spawn_wild_boar"
+},
+"scripts": {
+"pre_animation": [
+"variable.general0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+"variable.general1 = -variable.general0;"
+]
+},
+"animations": {
+"general": "animation.wild_boar.general",
+"move": "animation.wild_boar.move",
+"baby": "animation.wild_boar.baby"
+},
+"animation_controllers": [
+{ "general": "controller.animation.wild_boar.general" },
+{ "move": "controller.animation.wild_boar.move" },
+{ "baby": "controller.animation.wild_boar.baby" }
+]
+}
+//——销毁
+}
+}

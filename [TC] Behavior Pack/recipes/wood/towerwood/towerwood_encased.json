@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:towerwood_encased"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "P",
+      "P",
+      "P"
+    ],
+    "key": {
+      "P": {
+        "item": "hermit_blocks:towerwood_planks"
+      }
+    },
+    "result": {
+      "item": "hermit_blocks:towerwood_encased",
+      "count": 3
+    }
+  }
+}

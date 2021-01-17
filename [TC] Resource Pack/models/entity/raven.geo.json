@@ -1,0 +1,125 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.raven",
+				"texture_width": 32,
+				"texture_height": 32,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 1,
+				"visible_bounds_offset": [0, 0.5, 0]
+			},
+			"bones": [
+				{
+					"name": "WhiteGuest",
+					"pivot": [0, 2, 0]
+				},
+				{
+					"name": "head",
+					"parent": "WhiteGuest",
+					"pivot": [0, 5.5, -1],
+					"cubes": [
+						{"origin": [-1.5, 5, -4], "size": [3, 3, 3], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "beak1",
+					"parent": "head",
+					"pivot": [-0.5, 6.5, -3.5],
+					"rotation": [15, 0, 0],
+					"cubes": [
+						{"origin": [-0.5, 6.5, -5.5], "size": [1, 1, 2], "uv": [12, 0]}
+					]
+				},
+				{
+					"name": "beak2",
+					"parent": "head",
+					"pivot": [-0.5, 6.5, -3.5],
+					"rotation": [-15, 0, 0],
+					"cubes": [
+						{"origin": [-0.5, 5.5, -5.5], "size": [1, 1, 2], "uv": [12, 0]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "WhiteGuest",
+					"pivot": [0, 5, -1],
+					"rotation": [-30, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 3.75, -2.25], "size": [3, 4, 6], "uv": [0, 6]}
+					]
+				},
+				{
+					"name": "wing1",
+					"parent": "WhiteGuest",
+					"pivot": [-1.5, 6.5, -1.5],
+					"cubes": [
+						{"origin": [-2.5, 3.5, -1.5], "size": [1, 3, 6], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "wing2",
+					"parent": "WhiteGuest",
+					"pivot": [1.5, 6.5, -1.5],
+					"cubes": [
+						{"origin": [1.5, 3.5, -1.5], "size": [1, 3, 6], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "leg1",
+					"parent": "WhiteGuest",
+					"pivot": [-0.5, 1.8, 1.2]
+				},
+				{
+					"name": "rightleg1",
+					"parent": "leg1",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 1.5, 1.25], "size": [1, 2, 0], "uv": [16, 17]}
+					]
+				},
+				{
+					"name": "rightleg2",
+					"parent": "leg1",
+					"pivot": [0, 1.5, 1.25],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 1.5, -0.75], "size": [1, 0, 2], "uv": [14, 20]}
+					]
+				},
+				{
+					"name": "leg2",
+					"parent": "WhiteGuest",
+					"pivot": [1.5, 1.8, 1.2]
+				},
+				{
+					"name": "leftleg1",
+					"parent": "leg2",
+					"pivot": [2, 0, 0],
+					"cubes": [
+						{"origin": [0.5, 1.5, 1.25], "size": [1, 2, 0], "uv": [16, 17]}
+					]
+				},
+				{
+					"name": "leftleg2",
+					"parent": "leg2",
+					"pivot": [0, 1.5, 1.25],
+					"rotation": [30, 0, 0],
+					"cubes": [
+						{"origin": [0.5, 1.5, -0.75], "size": [1, 0, 2], "uv": [14, 20]}
+					]
+				},
+				{
+					"name": "tail",
+					"parent": "WhiteGuest",
+					"pivot": [0, 5, -1],
+					"rotation": [-30, 0, 0],
+					"cubes": [
+						{"origin": [-1.5, 5.25, 3.25], "size": [3, 1, 3], "uv": [0, 25]}
+					]
+				}
+			]
+		}
+	]
+}

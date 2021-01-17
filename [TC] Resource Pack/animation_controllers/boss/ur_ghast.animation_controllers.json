@@ -1,0 +1,21 @@
+{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+		"controller.animation.ur_ghast.move" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "move" ]
+				}
+			}
+		},
+		"controller.animation.ur_ghast.scale" : {
+			"initial_state" : "default",
+			"states" : {
+				"default" : {
+					"animations" : [ "scale" ]
+				}
+			}
+		}
+	}
+}

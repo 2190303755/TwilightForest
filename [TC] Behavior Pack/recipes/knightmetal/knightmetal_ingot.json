@@ -1,0 +1,13 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_furnace": {
+      "description": {
+      "identifier": "hermit:knightmetal_ingot"
+      },
+  
+    "tags": [ "furnace", "blast_furnace" ],
+    "input": "hermit_items:armor_shard_cluster",
+    "output": "hermit_items:knightmetal_ingot"
+    }
+  }
+  

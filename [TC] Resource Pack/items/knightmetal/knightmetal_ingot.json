@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:knightmetal_ingot",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "knightmetal_ingot"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.knightmetal_ingot"
+      },
+      "minecraft:render_offsets": "miscellaneous",
+      "minecraft:display_name": {
+        "value": "twilight_forest.knightmetal_ingot.item"
+      }
+    }
+  }
+}

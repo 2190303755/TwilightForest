@@ -1,0 +1,25 @@
+{
+"format_version": "1.8.0",
+"animations": {
+"animation.minoshroom.general": {
+"loop": true,
+"bones": {
+"head": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"rightArm": { "rotation": [ -36.0, 0.0, 0.0 ] },
+"body": { "rotation": ["-this", 0.0, 0.0 ] }
+}
+},
+"animation.minoshroom.move": {
+"loop": true,
+"bones": {
+"leg1": { "rotation": [ "variable.general0 * 1.4", 0.0, 0.0 ] },
+"leg2": { "rotation": [ "variable.general1 * 1.4", 0.0, 0.0 ] },
+"leg3": { "rotation": [ "variable.general0 * 1.4", 0.0, 0.0 ] },
+"leg4": { "rotation": [ "variable.general1 * 1.4", 0.0, 0.0 ] },
+"rightArm": { "rotation": [ "variable.general0", 0.0, 0.0 ] },
+"leftArm": { "rotation": [ "variable.general1", 0.0, 0.0 ] }
+}
+}
+//——销毁
+}
+}

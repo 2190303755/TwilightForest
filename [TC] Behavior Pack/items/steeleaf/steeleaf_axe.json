@@ -1,0 +1,60 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:steeleaf_axe",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.axe"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.steeleaf_axe.item"
+      },
+      "minecraft:icon": {
+        "texture": "steeleaf_axe"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 131
+      },
+      "minecraft:mining_speed": 1,
+      "minecraft:weapon": {},
+      "minecraft:damage": 8,
+      "minecraft:foil": true,
+      "minecraft:enchantable": {
+        "value": 22,
+        "slot": "axe"
+      },
+      "minecraft:use_on": {
+        "blocks": [
+          "log",
+          "log2",
+          "wood"
+        ]
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "q.any_tag('wood', 'pumpkin', 'plant')"
+            },
+            "speed": 12
+          },
+          {
+            "block": "minecraft:chest",
+            "speed": 12
+          },
+          {
+            "block": "minecraft:melon_block",
+            "speed": 12
+          }
+        ]
+      },
+      "tag:minecraft:is_axe": {}
+    }
+  }
+}

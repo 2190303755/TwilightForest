@@ -1,0 +1,14 @@
+{
+    "format_version": "1.0",
+    "minecraft:item": {
+      "description": {
+        "identifier": "hermit_items:yeti_leggings",
+        "category": "Equipment"
+      },
+      "components": {
+        "minecraft:icon": "yeti_leggings",
+        "minecraft:hover_text_color": "aqua",
+        "minecraft:render_offsets": "leggings"
+      }
+    }
+  }

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.health": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "rain": "query.health <= 232"
+            }
+          ],
+          "on_entry": [
+            "@s twilightforest:remove_projectile_resistance"
+          ]
+        },
+        "rain": {
+          "transitions": [
+            {"default": "query.health > 232"}
+          ],
+          "on_entry": [
+            "/weather thunder",
+            "@s twilightforest:add_projectile_resistance"
+          ]
+        }
+      }
+    }
+  }
+}

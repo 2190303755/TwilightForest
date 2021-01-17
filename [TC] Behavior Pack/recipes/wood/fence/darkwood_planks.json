@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:fence_2"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PSP",
+      "PSP"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:darkwood_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:fence:1",
+      "count": 3
+    }
+  }
+}

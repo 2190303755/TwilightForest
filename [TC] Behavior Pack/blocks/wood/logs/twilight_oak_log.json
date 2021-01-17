@@ -1,0 +1,18 @@
+
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "hermit_blocks:twilight_oak_log",
+      "register_to_creative_menu": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:destroy_time": 3,
+      "minecraft:block_light_absorption": 15,
+      "minecraft:block_light_emission": 0,
+      "minecraft:map_color": "#ffff99",
+      "minecraft:explosion_resistance": 2
+    }
+  }
+}

@@ -1,0 +1,319 @@
+twilightforest.mira.version=§6Anniversary§r §bRc§f.§b2§r
+[§6TC§r]暮色森林=[§6TC§r]Twilight Forest §b20w40a§r
+[§6TC§r]暮色森林拓展=[§6TC§r]The Expand of Twilight Forest
+
+#1.16.100
+itemGroup.name.twilight_forest.items=Twilight Forest	#
+
+#If you are good at Chinese and English,you can translate this document by your self! --@2190303755
+#arctic
+item.hermit_items:arctic_chestplate.name=Arctic Jacket	#
+item.hermit_items:arctic_boots.name=Arctic Boots	#
+item.hermit_items:arctic_helmet.name=Arctic Hood	#
+item.hermit_items:arctic_fur.name=Arctic Fur	#
+item.hermit_items:arctic_legging.name=Arctic Leggings	#
+#bows
+item.hermit_items:ender_bow.name=Ender Bow	#
+item.hermit_items:ice_bow.name=Ice Bow	#
+item.hermit_items:seeker_bow.name=Seeker Bow	#
+item.hermit_items:triple_bow.name=Tri-bow	#
+#fiery
+item.hermit_items:fiery_blood.name=Fiery Blood	#
+item.hermit_items:fiery_boots.name=Fiery Boots	#
+item.hermit_items:fiery_chestplate.name=Fiery Chestplate	#
+item.hermit_items:fiery_helmet.name=Fiery Helmet	#
+item.hermit_items:fiery_ingot.name=Fiery Ingot	#
+item.hermit_items:fiery_leggings.name=Fiery Leggings	#
+item.hermit_items:fiery_pickaxe.name=Fiery Pickaxe	#
+item.hermit_items:fiery_sword.name=Fiery Sword	#
+item.hermit_items:fiery_tears.name=Fiery Tears	#
+#ironwood
+item.hermit_items:ironwood_axe.name=Ironwood Axe	#
+item.hermit_items:ironwood_boots.name=Ironwood Boots	#
+item.hermit_items:ironwood_chestplate.name=Ironwood Chestplate	#
+item.hermit_items:ironwood_helmet.name=Ironwood Helmet	#
+item.hermit_items:ironwood_hoe.name=Ironwood Hoe	#
+item.hermit_items:ironwood_ingot.name=Ironwood Ingot	#
+item.hermit_items:ironwood_ingots.name=Ironwood Ingot	#
+item.hermit_items:ironwood_leggings.name=Ironwood Leggings	#
+item.hermit_items:ironwood_pickaxe.name=Ironwood Pickaxe	#
+item.hermit_items:ironwood_raw.name=Raw Ironwood Materials	#
+item.hermit_items:ironwood_shovel.name=Ironwood Shovel	#
+item.hermit_items:ironwood_sword.name=Ironwood Sword	#
+#giant
+item.hermit_items:giant_pickaxe.name=Giant's Pickaxe	#
+item.hermit_items:giant_sword.name=Giant's Sword	#
+#ice
+item.hermit_items:frost_sword.name=Ice Sword	#
+item.hermit_items:ice_bomb.name=Ice Bomb	#
+#knightmetal
+item.hermit_items:armor_shard.name=Armor Shard	#
+item.hermit_items:armor_shard_cluster.name=Armor Shard Cluster	#
+item.hermit_items:knightmetal_axe.name=Knightly Axe	#
+item.hermit_items:knightmetal_boots.name=Knightly Boots	#
+item.hermit_items:knightmetal_chestplate.name=Knightly Chestplate	#
+item.hermit_items:knightmetal_helmet.name=Knightly Helmet	#
+item.hermit_items:knightmetal_ingot.name=Knightmetal Ingot	#
+item.hermit_items:knightmetal_leggings.name=Knightly Leggings	#
+item.hermit_items:knightmetal_pickaxe.name=Knightly Pickaxe	#
+item.hermit_items:knightmetal_sword.name=Knightly Sword	#
+#maze
+item.hermit_items:mazebreaker.name=Mazebreaker	#
+#naga
+item.hermit_items:naga_chestplate.name=Naga Scale Tunic	#
+item.hermit_items:naga_leggings.name=Naga Scale Leggings	#
+#phantom
+item.hermit_items:phantom_chestplate.name=Phantom Chestplate	#
+item.hermit_items:phantom_helmet.name=Phantom Helmet	#
+#steeleaf
+item.hermit_items:steeleaf.name=Steeleaf	#
+item.hermit_items:steeleaf_axe.name=Steeleaf Axe	#
+item.hermit_items:steeleaf_boots.name=Steeleaf Boots	#
+item.hermit_items:steeleaf_chestplate.name=Steeleaf Chestplate	#
+item.hermit_items:steeleaf_helmet.name=Steeleaf Helmet	#
+item.hermit_items:steeleaf_hoe.name=Steeleaf Hoe	#
+item.hermit_items:steeleaf_leggings.name=Steeleaf Leggings	#
+item.hermit_items:steeleaf_pickaxe.name=Steeleaf Pickaxe	#
+item.hermit_items:steeleaf_shovel.name=Steeleaf Shovel	#
+item.hermit_items:steeleaf_sword.name=Steeleaf Sword	#
+#scepter
+item.hermit_items:scepter_lifedrain.name=Scepter of Life Draining	#
+item.hermit_items:scepter_shield.name=Scepter of Fortification	#
+item.hermit_items:scepter_twilight.name=Scepter of Twilight	#
+item.hermit_items:scepter_zombie.name=Scepter of Zombie	#
+#trophy
+item.hermit_trophy:hydra.name=Hydra Trophy	#
+item.hermit_trophy:lich.name=Twilight Lich Trophy	#
+item.hermit_trophy:naga.name=Naga Trophy	#
+item.hermit_trophy:snow_queen.name=Snow Queen Trophy	#
+item.hermit_trophy:ur_ghast.name=Ur-ghast Trophy	#
+item.hermit_trophy:knight_phantom.name=Knight Phantom Trophy	#
+item.hermit_trophy:minoshroom.name=Minoshroom Trophy	#
+item.hermit_trophy:questing_ram.name=Questing Ram Trophy	#
+#yeti
+item.hermit_items:yeti_boots.name=Yeti Boots	#
+item.hermit_items:yeti_chestplate.name=Yeti Jacket	#
+item.hermit_items:yeti_helmet.name=Yeti Horned Helmet	#
+item.hermit_items:yeti_leggings.name=Yeti Leggings	#
+#food
+item.hermit_food:hydra_chop.name=Hydra Chop	#
+item.hermit_food:maze_wafer.name=Maze Wafer	#
+item.hermit_food:meef_raw.name=Raw Meef	#
+item.hermit_food:meef_steak.name=Meef Steak	#
+item.hermit_food:meef_stroganoff.name=Meef Stroganoff	#
+item.hermit_food:venison_raw.name=Raw Venison	#
+item.hermit_food:venison_cooked.name=Venison Steak	#
+#aurora
+tile.hermit_blocks:aurora_block.name=Aurora Block	#
+tile.hermit_blocks:aurora_pillar.name=Aurora Pillar	#
+#castle
+tile.hermit_blocks:castle_rune_brick_blue.name=Blue Castle Rune Brick	#
+tile.hermit_blocks:castle_rune_brick_pink.name=Pink Castle Rune Brick	#
+tile.hermit_blocks:castle_rune_brick_violet.name=Violet Castle Rune Brick	#
+tile.hermit_blocks:castle_rune_brick_yellow.name=Yellow Castle Rune Brick	#
+
+tile.hermit_blocks:castle_brick.name=Castle Brick	#
+tile.hermit_blocks:castle_brick_cracked.name=Cracked Castle Brick	#
+tile.hermit_blocks:castle_brick_mossy.name=Mossy Castle Brick	#
+tile.hermit_blocks:castle_brick_pillar_bold.name=Bold Castle Brick Pillar	#
+tile.hermit_blocks:castle_brick_pillar_encased.name=Encased Castle Brick Pillar	#
+tile.hermit_blocks:castle_brick_polished.name=Polished Castle Brick	#
+tile.hermit_blocks:castle_brick_tile_bold.name=Bold Castle Brick Tiles	#
+tile.hermit_blocks:castle_brick_tile_encased.name=Encased Castle Brick Tile	#
+tile.hermit_blocks:castle_brick_tile_roof.name=Castle Roof Tile	#
+tile.hermit_blocks:castle_brick_worn.name=Worn Castle Brick	#
+#logs
+tile.hermit_blocks:canopy_log.name=Canopy Tree Wood	#
+tile.hermit_blocks:darkwood_log.name=Darkwood	#
+tile.hermit_blocks:mangrove_log.name=Mangrove Wood	#
+tile.hermit_blocks:minelog.name=Minewood	#
+tile.hermit_blocks:twilight_oak_log.name=Twilight Oak Wood	#
+tile.hermit_blocks:sorting_log.name=Sortingwood	#
+tile.hermit_blocks:time_log.name=Timewood	#
+tile.hermit_blocks:trans_log.name=Transwood	#
+#planks
+tile.hermit_blocks:canopy_planks.name=Canopy Planks	#
+tile.hermit_blocks:darkwood_planks.name=Darkwood Planks	#
+tile.hermit_blocks:mangrove_planks.name=Mangrove Planks	#
+tile.hermit_blocks:mine_planks.name=Minewood Planks	#
+tile.hermit_blocks:twilight_oak_planks.name=Twilight Oak Planks	#
+tile.hermit_blocks:sorting_planks.name=Sortingwood Planks	#
+tile.hermit_blocks:time_planks.name=Timewood Planks	#
+tile.hermit_blocks:trans_planks.name=Transwood Planks	#
+#towerwoods
+tile.hermit_blocks:towerwood_alt.name=[§4Version Exclusive§r]-Towerwood Planks	#
+tile.hermit_blocks:towerwood_cracked.name=Cracked Towerwood	#
+tile.hermit_blocks:towerwood_encased.name=Encased Towerwood	#
+tile.hermit_blocks:towerwood_infested.name=Infested Towerwood	#
+tile.hermit_blocks:towerwood_mossy.name=Mossy Towerwood	#
+tile.hermit_blocks:towerwood_planks.name=Towerwood Planks	#
+#tower blocks
+tile.hermit_blocks:device_anti_builder.name=Anti-builder	#
+tile.hermit_blocks:anti_built.name=Anti-built Block	#
+tile.hermit_blocks:device_builder_off.name=Carminite Builder	#
+tile.hermit_blocks:device_builder_on.name=Carminite Builder	#
+tile.hermit_blocks:device_builder_timeout.name=Carminite Builder	#
+tile.hermit_blocks:device_carminite_built_off.name=Built Carminite Block	#
+tile.hermit_blocks:device_carminite_built_on.name=Active Built Carminite Block	#
+tile.hermit_blocks:reactor_debris.name=Carminite Reactor Debris	#
+tile.hermit_blocks:reactor_off.name=Carminite Reactor	#
+tile.hermit_blocks:reactor_on.name=Carminite Reactor	#
+tile.hermit_blocks:vanishing_block_locked.name=Locked Vanishing Block	#
+tile.hermit_blocks:vanishing_block_unlocked.name=Unlocked Vanishing Block	#
+tile.hermit_blocks:vanishing_block_off.name=Vanishing Block	#
+tile.hermit_blocks:vanishing_block_on.name=Vanishing Block	#
+tile.hermit_blocks:reappearing_block_off.name=Reappearing Block	#
+tile.hermit_blocks:reappearing_block_on.name=Reappearing Block	#
+tile.hermit_blocks:fire_jet_off.name=Encased Fire Jet	#
+tile.hermit_blocks:fire_jet_on.name=Encased Fire Jet	#
+tile.hermit_blocks:smoker_off.name=Encased Smoker	#
+tile.hermit_blocks:smoker_on.name=Encased Smoker	#
+tile.hermit_blocks:ghast_trap_off.name=Ghast Trap	#
+tile.hermit_blocks:ghast_trap_on.name=Ghast Trap	#
+#storage
+tile.hermit_blocks:storage_arctic_fur.name=Block of Arctic Fur	#
+tile.hermit_blocks:storage_carminite.name=Block of Carminite	#
+tile.hermit_blocks:storage_fierymetal.name=Block of Fiery Metal	#
+tile.hermit_blocks:storage_ironwood.name=Block of Ironwood	#
+tile.hermit_blocks:storage_knightmetal.name=Block of Knightmetal	#
+tile.hermit_blocks:storage_knightmetal:0.name=Block of Knightmetal	#
+tile.hermit_blocks:storage_knightmetal:1.name=Block of Knightmetal	#
+tile.hermit_blocks:storage_steeleaf.name=Block of Steeleaf	#
+#nagastone
+tile.hermit_blocks:nagastone_enched.name=Etched Nagastone	#
+tile.hermit_blocks:nagastone_enched_mossy.name=Mossy Etched Nagastone	#
+tile.hermit_blocks:nagastone_enched_weathered.name=Ruined Etched Nagastone	#
+tile.hermit_blocks:nagastone_pillar.name=Nagastone Pillar	#
+tile.hermit_blocks:nagastone_pillar_mossy.name=Mossy Nagastone Pillar	#
+tile.hermit_blocks:nagastone_pillar_weathered.name=Ruined Nagastone Pillar	#
+#deadrock
+tile.hermit_blocks:deadrock.name=Deadrock	#
+tile.hermit_blocks:deadrock_cracked.name=Cracked Deadrock	#
+tile.hermit_blocks:deadrock_weathered.name=Weathered Deadrock	#
+#underbrick
+tile.hermit_blocks:underbrick.name=Underbrick	#
+tile.hermit_blocks:underbrick_cracked.name=Cracked Underbrick	#
+tile.hermit_blocks:underbrick_floor.name=Underbrick Floor	#
+tile.hermit_blocks:underbrick_mossy.name=Mossy Underbrick	#
+#mazestone
+tile.hermit_blocks:mazestone.name=Mazestone	#
+tile.hermit_blocks:mazestone_border.name=Mazestone Border	#
+tile.hermit_blocks:mazestone_brick.name=Mazestone Brick	#
+tile.hermit_blocks:mazestone_brick_cracked.name=Cracked Mazestone Brick	#
+tile.hermit_blocks:mazestone_brick_decorative.name=Decorative Mazestone Brick	#
+tile.hermit_blocks:mazestone_brick_mossy.name=Mossy Mazestone Brick	#
+tile.hermit_blocks:mazestone_chiseled.name=Chiseled Mazestone	#
+tile.hermit_blocks:mazestone_mosaic.name=Mazestone Mosaic	#
+tile.hermit_blocks:mazestone_brick_large.name=[§4Version Exclusive§r]-Mazestone Brick	#
+
+entity.hermit:carpenter.name=木匠
+item.spawn_egg.entity.hermit:carpenter.name=Spwan 木匠
+entity.twilightforest:wild_deer.name=Wild Deer
+item.spawn_egg.entity.twilightforest:wild_deer.name=Spwan Wild Deer
+entity.twilightforest:raven.name=Forest Raven
+item.spawn_egg.entity.twilightforest:raven.name=Spwan Forest Raven
+entity.twilightforest:bunny.name=Dwarf Rabbit
+item.spawn_egg.entity.twilightforest:bunny.name=Spwan Dwarf Rabbit
+############################################
+item.hermit_items:glass_sword.name=Glass Sword	#
+item.hermit_items:liveroot.name=Liveroot	#
+tile.hermit_blocks:liveroot.name=Liveroots	#
+tile.hermit_blocks:root.name=Roots	#
+tile.hermit_blocks:terrorcotta_circle.name=Terrorcotta (Circular)	#
+tile.hermit_blocks:terrorcotta_diagonal.name=Terrorcotta (Diagonal)	#
+tile.hermit_blocks:uncrafting_table.name=Uncrafting Table	#
+item.hermit_items:minotaur_axe_diamond.name=Diamond Minotaur Axe	#
+item.hermit_items:minotaur_axe_golden.name=Golden Minotaur Axe	#
+item.hermit_items:transformation_powder.name=Transformation Powder	#
+action.interact.transform=Transform	#
+action.hint.exit.pig=Tap sneak to dismount	#
+action.hint.exit.twilightforest:wild_boar=Tap sneak to dismount	#
+
+#update
+mira.translation=These update logs have used machine translation,so there may be errors.
+#If you are good at Chinese and English,you can translate it by your self! --@2190303755
+settings.group.update_log.label=ABOUT	#
+twilight_forest.mira.name=Twilight Forest Beta	#
+twilight_forest.mira.title=The Expand of Twilight Forest 20w40a	#
+twilight_forest.mira.title_1.14=The Expand of Twilight Forest	#
+twilight_forest.mira.update_tltle=Update Logs
+#Last update: 20w30b
+twilight_forest.mira.update_log.01=§o20w30b:§r
+twilight_forest.mira.update_log.02= 
+twilight_forest.mira.update_log.03=Additions:
+twilight_forest.mira.update_log.04= User Interface
+twilight_forest.mira.update_log.05= -Added a new button with new icon of this Add-on in menu screen.
+twilight_forest.mira.update_log.06= 
+twilight_forest.mira.update_log.07= 
+twilight_forest.mira.update_log.08=Changes:
+twilight_forest.mira.update_log.09= General
+twilight_forest.mira.update_log.10= -Repainted the title of Minecraft.
+twilight_forest.mira.update_log.11= -Repainted the icon of this Add-on.
+twilight_forest.mira.update_log.12= -The name of this Add-on has been translated into English.
+twilight_forest.mira.update_log.13= User Interface
+twilight_forest.mira.update_log.14= -New Update Logs
+twilight_forest.mira.update_log.15=  -Optimized the layout of the update logs.
+twilight_forest.mira.update_log.16=   -The new title of Minecraft will appear here.
+twilight_forest.mira.update_log.17=  -No longer use Unicode to encryption.
+twilight_forest.mira.update_log.18= 
+twilight_forest.mira.update_log.19= 
+twilight_forest.mira.update_log.20= 
+twilight_forest.mira.update_log.21= 
+twilight_forest.mira.update_log.22= 
+twilight_forest.mira.update_log.23= 
+twilight_forest.mira.update_log.24= 
+twilight_forest.mira.update_log.25= 
+twilight_forest.mira.update_log.26= 
+twilight_forest.mira.update_log.27= 
+twilight_forest.mira.update_log.28= 
+twilight_forest.mira.update_log.29= 
+twilight_forest.mira.update_log.30= 
+twilight_forest.mira.update_log.31= 
+twilight_forest.mira.update_log.32= 
+twilight_forest.mira.update_log.33= 
+twilight_forest.mira.update_log.34= 
+twilight_forest.mira.update_log.35= 
+twilight_forest.mira.update_log.36= 
+twilight_forest.mira.update_log.37= 
+twilight_forest.mira.update_log.38= 
+twilight_forest.mira.update_log.39= 
+twilight_forest.mira.update_log.40= 
+twilight_forest.mira.update_log.41= 
+twilight_forest.mira.update_log.42= 
+twilight_forest.mira.update_log.43= 
+twilight_forest.mira.update_log.44= 
+twilight_forest.mira.update_log.45= 
+twilight_forest.mira.update_log.46= 
+twilight_forest.mira.update_log.47= 
+twilight_forest.mira.update_log.48= 
+twilight_forest.mira.update_log.49= 
+twilight_forest.mira.update_log.50= 
+twilight_forest.mira.update_log.51= 
+twilight_forest.mira.update_log.52= 
+twilight_forest.mira.update_log.53= 
+twilight_forest.mira.update_log.54= 
+twilight_forest.mira.update_log.55= 
+twilight_forest.mira.update_log.56= 
+twilight_forest.mira.update_log.57= 
+twilight_forest.mira.update_log.58= 
+twilight_forest.mira.update_log.59= 
+twilight_forest.mira.update_log.60= 
+twilight_forest.mira.update_log.61= 
+twilight_forest.mira.update_log.62= 
+twilight_forest.mira.update_log.63= 
+twilight_forest.mira.update_log.64= 
+twilight_forest.mira.update_log.65= 
+twilight_forest.mira.update_log.66= 
+twilight_forest.mira.update_log.67= 
+twilight_forest.mira.update_log.68= 
+twilight_forest.mira.update_log.69= 
+twilight_forest.mira.update_log.70= 
+twilight_forest.mira.update_log.71= 
+twilight_forest.mira.update_log.72= 
+twilight_forest.mira.update_log.73= 
+twilight_forest.mira.update_log.74= 
+twilight_forest.mira.update_log.75= 
+
+#expand
+§4[ERROR]§r:=[§6TC§r]暮色森林拓展
+The Twilight Forest add-on may be missing.=By:§6HermitMira§r & §62190303755§r

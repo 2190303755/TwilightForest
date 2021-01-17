@@ -1,0 +1,18 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.raven.general": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ { "move": "query.modified_move_speed" } ],
+          "transitions": [ { "grazing": "query.is_grazing" } ]
+        },
+        "grazing": {
+          "animations": [ "grazing" ],
+          "transitions": [ { "default": "query.all_animations_finished" } ]
+        }        
+      }
+    }
+  }
+}

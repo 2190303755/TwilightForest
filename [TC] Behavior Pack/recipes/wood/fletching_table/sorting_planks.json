@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:fletching_table_5"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "FF",
+      "PP",
+      "PP"
+    ],
+    "key": {
+      "F": {
+        "item": "minecraft:flint"
+      },
+      "P": {
+        "item": "hermit_blocks:sorting_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:fletching_table"
+    }
+  }
+}

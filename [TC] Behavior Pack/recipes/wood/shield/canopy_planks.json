@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:shield_1"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PIP",
+      "PPP",
+      " P "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "P": {
+        "item": "hermit_blocks:canopy_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:shield"
+    }
+  }
+}

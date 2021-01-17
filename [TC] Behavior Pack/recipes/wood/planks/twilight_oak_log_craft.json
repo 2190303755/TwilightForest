@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:twilight_oak_planks_0"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "hermit_blocks:twilight_oak_log"
+      }
+    },
+    "result": {
+      "item": "hermit_blocks:twilight_oak_planks",
+      "count": 4
+    }
+  }
+}

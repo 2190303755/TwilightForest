@@ -1,0 +1,28 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_food:meef_raw",
+      "category": "nature"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.rawFood"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.meef_raw.item"
+      },
+      "minecraft:icon": {
+        "texture": "meef_raw"
+      },
+      "minecraft:hand_equipped": false,
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 1.6,
+      "minecraft:use_animation": "eat",
+      "minecraft:food": {
+        "nutrition": 2,
+        "saturation_modifier": "normal"
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:smoker_2"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " L ",
+      "LFL",
+      " L "
+    ],
+    "key": {
+      "F": {
+        "item":"minecraft:furnace"
+      },
+      "L": {
+        "item": "hermit_blocks:darkwood_log"
+      }
+    },
+    "result": {
+      "item": "minecraft:smoker"
+    }
+  }
+}

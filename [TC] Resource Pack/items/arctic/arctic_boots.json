@@ -1,0 +1,14 @@
+{
+  "format_version": "1.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:arctic_boots",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "arctic_boots",
+      "minecraft:hover_text_color": "yellow",
+      "minecraft:render_offsets": "boots"
+    }
+  }
+}

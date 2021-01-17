@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hermit:mine_planks_1"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "hermit_blocks:minelog"
+      }
+    ],
+    "result": {
+      "item": "hermit_blocks:mine_planks",
+      "count": 5
+    }
+  }
+}

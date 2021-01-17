@@ -1,0 +1,517 @@
+{
+  "format_version": [1,1,0],
+  "hermit_blocks:device_anti_builder": {
+    "textures": "tower_antibuilder",
+    "sound": "stone"
+  },
+  "hermit_blocks:anti_built": {
+    "textures": "tower_antibuilt",
+    "sound": "stone"
+  },
+  "hermit_blocks:device_builder_off": {
+    "textures": "tower_builder_off",
+    "sound": "stone"
+  },
+  "hermit_blocks:device_builder_on": {
+    "textures": "tower_builder_on",
+    "sound": "stone"
+  },
+  "hermit_blocks:device_builder_timeout": {
+    "textures": "tower_builder_timeout",
+    "sound": "stone"
+  },
+  "hermit_blocks:device_carminite_built_off": {
+    "textures": "tower_carminite_built_off",
+    "sound": "stone"
+  },
+  "hermit_blocks:device_carminite_built_on": {
+    "textures": "tower_carminite_built_on",
+    "sound": "stone"
+  },
+  "hermit_blocks:fire_jet_off": {
+    "textures": {
+      "up": "tower_top_off",
+      "down": "towerwood_encased",
+      "side": "tower_firejet_off"
+    },
+    "sound": "stone"
+},
+  "hermit_blocks:fire_jet_on": {
+    "textures": {
+      "up": "tower_top_on",
+      "down": "towerwood_encased",
+      "side": "tower_firejet_on"
+    },
+    "sound": "stone"
+},
+  "hermit_blocks:smoker_off": {
+    "textures": {
+      "up": "tower_top_off",
+      "down": "towerwood_encased",
+      "side": "tower_smoker_off"
+    },
+    "sound": "stone"
+},
+  "hermit_blocks:smoker_on": {
+    "textures": {
+      "up": "tower_top_on",
+      "down": "towerwood_encased",
+      "side": "tower_smoker_on"
+    },
+    "sound": "stone"
+},
+  "hermit_blocks:ghast_trap_off": {
+    "textures": {
+      "up": "tower_top_off",
+      "down": "towerwood_encased",
+      "side": "ghast_trap_off"
+    },
+    "sound": "stone"
+},
+  "hermit_blocks:ghast_trap_on": {
+    "textures": {
+      "up": "tower_top_on",
+      "down": "towerwood_encased",
+      "side": "ghast_trap_on"
+    },
+    "sound": "stone"
+},
+  "hermit_blocks:towerwood_alt": {
+    "textures": "towerwood_alt",
+    "sound": "stone"
+},
+  "hermit_blocks:towerwood_cracked": {
+    "textures": "towerwood_cracked",
+    "sound": "stone"
+},
+  "hermit_blocks:towerwood_encased": {
+    "textures": "towerwood_encased",
+    "sound": "stone"
+},
+  "hermit_blocks:towerwood_infested": {
+    "textures": "towerwood_infested",
+    "sound": "stone"
+},
+  "hermit_blocks:towerwood_mossy": {
+    "textures": "towerwood_mossy",
+    "sound": "stone"
+},
+  "hermit_blocks:towerwood_planks": {
+    "textures": "towerwood_planks",
+    "sound": "stone"
+},
+  "hermit_blocks:canopy_log": {
+    "textures": {
+      "up": "canopy_top",
+      "down": "canopy_top",
+      "side": "canopy_side"
+    },
+    "sound": "wood"
+},
+  "hermit_blocks:darkwood_log": {
+    "textures": {
+      "up": "darkwood_top",
+      "down": "darkwood_top",
+      "side": "darkwood_side"
+    },
+    "sound": "wood"
+},
+  "hermit_blocks:mangrove_log": {
+   "textures": {
+      "up": "mangrove_top",
+      "down": "mangrove_top",
+      "side": "mangrove_side"
+    },
+    "sound": "wood"
+},
+  "hermit_blocks:minelog": {
+   "textures": {
+    "up": "mine_section",
+    "down": "mine_section",
+    "side": "mine_side"
+    },
+    "sound": "wood"
+},
+  "hermit_blocks:twilight_oak_log": {
+    "textures": {
+      "up": "oak_top",
+      "down": "oak_top",
+      "side": "oak_side"
+    },
+    "sound": "wood"
+},
+  "hermit_blocks:sorting_log": {
+    "textures": {
+      "up": "sort_section",
+      "down": "sort_section",
+      "side": "sort_side"
+    },
+   "sound": "wood"
+},
+  "hermit_blocks:time_log": {
+    "textures": {
+      "up": "time_section",
+      "down": "time_section",
+      "side": "time_side"
+    },
+    "sound": "wood"
+},
+  "hermit_blocks:trans_log": {
+    "textures": {
+      "up": "trans_section",
+      "down": "trans_section",
+      "side": "trans_side"
+    },
+    "sound": "wood"
+  },
+  "hermit_blocks:uncrafting_table": {
+    "textures": {
+      "up": "uncrafting_particle",
+      "down": "planks_jungle",
+      "side": "uncrafting_side"
+    },
+    "sound": "wood"
+  },
+  "hermit_blocks:reappearing_block_off": {
+    "textures": "reappearing_block_off",
+    "sound": "wood"
+  },
+  "hermit_blocks:reappearing_block_on": {
+    "textures": "reappearing_block_on",
+    "sound": "wood"
+  },
+  "hermit_blocks:reappearing_trace_block_off": {
+    "textures": "reappearing_trace_block_off",
+    "sound": "stone"
+  },
+  "hermit_blocks:reappearing_trace_block_on": {
+    "textures": "reappearing_trace_block_on",
+    "sound": "stone"
+  },
+    "hermit_blocks:vanishing_block_locked": {
+    "textures": "vanishing_block_locked",
+    "sound": "wood"
+  },
+  "hermit_blocks:vanishing_block_unlocked": {
+    "textures": "vanishing_block_unlocked",
+    "sound": "wood"
+  },
+  "hermit_blocks:vanishing_block_off": {
+    "textures": "vanishing_block_off",
+    "sound": "wood"
+  },
+  "hermit_blocks:vanishing_block_on": {
+    "textures": "vanishing_block_on",
+    "sound": "wood"
+  },
+  "hermit_blocks:reactor_off": {
+    "textures": "reactor_off",
+    "sound": "wood"
+  },
+  "hermit_blocks:reactor_on": {
+    "textures": "reactor_on",
+    "sound": "wood"
+  },
+  "hermit_blocks:reactor_debris": {
+    "textures": "reactor_debris",
+    "sound": "wood"
+  },
+  "hermit_blocks:canopy_planks": {
+    "textures": "canopy_planks",
+    "sound": "wood"
+  },
+  "hermit_blocks:darkwood_planks": {
+    "textures": "darkwood_planks",
+    "sound": "wood"
+  },
+  "hermit_blocks:mangrove_planks": {
+    "textures": "mangrove_planks",
+    "sound": "wood"
+  },
+  "hermit_blocks:mine_planks": {
+    "textures": "mine_planks",
+    "sound": "wood"
+  },
+  "hermit_blocks:storage_arctic_fur": {
+    "textures": "storage_arctic_fur",
+    "sound": "metal"
+  },
+  "hermit_blocks:storage_carminite": {
+    "textures": "storage_carminite",
+    "sound": "metal"
+  },
+  "hermit_blocks:storage_fierymetal": {
+    "textures": "storage_fierymetal",
+    "sound": "metal"
+  },
+  "hermit_blocks:storage_ironwood": {
+    "textures": "storage_ironwood",
+    "sound": "metal"
+  },
+  "hermit_blocks:storage_knightmetal": {
+    "textures": "storage_knightmetal",
+    "sound": "metal"
+  },
+  "hermit_blocks:storage_steeleaf": {
+    "textures": "storage_steeleaf",
+    "sound": "metal"
+  },
+  "hermit_blocks:sorting_planks": {
+    "textures": "sorting_planks",
+    "sound": "wood"
+  },
+  "hermit_blocks:time_planks": {
+    "textures": "time_planks",
+    "sound": "wood"
+  },
+  "hermit_blocks:trans_planks": {
+    "textures": "trans_planks",
+    "sound": "wood"
+  },
+  "hermit_blocks:twilight_oak_planks": {
+    "textures": "twilight_oak_planks",
+    "sound": "wood"
+  },
+    "hermit_blocks:twilight_oak_slab": {
+    "textures": "twilight_oak_planks",
+    "sound": "wood"
+  },
+  "hermit_blocks:liveroot": {
+    "textures": "liveroot",
+    "sound": "grass"
+  },
+  "hermit_blocks:root": {
+    "textures": "root",
+    "sound": "gravel"
+  },
+  "hermit_blocks:terrorcotta_diagonal": {
+    "textures": {
+      "up": "terrorcotta_1",
+      "down": "terrorcotta_1",
+      "north": "terrorcotta_2",
+      "south": "terrorcotta_2",
+      "west": "terrorcotta_1",
+      "east": "terrorcotta_1"
+    },
+    "sound": "stone"
+  },
+    "hermit_blocks:terrorcotta_circle": {
+    "textures": {
+      "up": "terrorcotta_d",
+      "down": "terrorcotta_c",
+      "north": "terrorcotta_c",
+      "south": "terrorcotta_a",
+      "west": "terrorcotta_d",
+      "east": "terrorcotta_b"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:nagastone_enched": {
+    "textures": {
+      "up": "stone_tiles",
+      "down": "stone_tiles",
+      "side": "etched_nagastone_side"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:nagastone_enched_mossy": {
+    "textures": {
+      "up": "stone_tiles_mossy",
+      "down": "stone_tiles_mossy",
+      "side": "etched_nagastone_mossy_side"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:nagastone_enched_weathered": {
+    "textures": {
+      "up": "stone_tiles_weathered",
+      "down": "stone_tiles_weathered",
+      "side": "etched_nagastone_weathered_side"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:nagastone_pillar": {
+    "textures": {
+      "up": "nagastone_pillar_end",
+      "down": "nagastone_pillar_end",
+      "side": "nagastone_pillar_side"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:nagastone_pillar_mossy": {
+    "textures": {
+      "up": "nagastone_pillar_end_mossy",
+      "down": "nagastone_pillar_end_mossy",
+      "side": "nagastone_pillar_side_mossy"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:nagastone_pillar_weathered": {
+    "textures": {
+      "up": "nagastone_pillar_end_weathered",
+      "down": "nagastone_pillar_end_weathered",
+      "side": "nagastone_pillar_side_weathered"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:deadrock": {
+    "textures": "deadrock",
+    "sound": "stone"
+  },
+  "hermit_blocks:deadrock_cracked": {
+    "textures": "deadrock_cracked",
+    "sound": "stone"
+  },
+  "hermit_blocks:deadrock_weathered": {
+    "textures": "deadrock_weathered",
+    "sound": "stone"
+  },
+  "hermit_blocks:underbrick": {
+    "textures": "underbrick",
+    "sound": "stone"
+  },
+  "hermit_blocks:underbrick_cracked": {
+    "textures": "underbrick_cracked",
+    "sound": "stone"
+  },
+  "hermit_blocks:underbrick_floor": {
+    "textures": "underbrick_floor",
+    "sound": "stone"
+  },
+  "hermit_blocks:underbrick_mossy": {
+    "textures": "underbrick_mossy",
+    "sound": "stone"
+  },
+  "hermit_blocks:mazestone": {
+    "textures": "mazestone",
+    "sound": "stone"
+  },
+  "hermit_blocks:mazestone_brick": {
+    "textures": "mazestone_brick",
+    "sound": "stone"
+  },
+  "hermit_blocks:mazestone_brick_cracked": {
+    "textures": "mazestone_brick_cracked",
+    "sound": "stone"
+  },
+  "hermit_blocks:mazestone_brick_mossy": {
+    "textures": "mazestone_brick_mossy",
+    "sound": "stone"
+  },
+  "hermit_blocks:mazestone_brick_decorative": {
+    "textures": {
+      "up": "mazestone",
+      "down": "mazestone",
+      "side": "mazestone_brick_decorative"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:mazestone_border": {
+    "textures": {
+      "up": "mazestone_border",
+      "down": "mazestone_border",
+      "side": "mazestone_brick"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:mazestone_chiseled": {
+    "textures": {
+      "up": "mazestone",
+      "down": "mazestone",
+      "side": "mazestone_chiseled"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:mazestone_mosaic": {
+    "textures": {
+      "up": "mazestone_mosaic",
+      "down": "mazestone_mosaic",
+      "side": "mazestone_brick"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:mazestone_brick_large": {
+    "textures": "mazestone_brick_large",
+    "sound": "stone"
+  },
+  "hermit_blocks:aurora_block": {
+    "textures": "aurora_block",
+    "sound": "stone"
+  },
+  "hermit_blocks:aurora_pillar": {
+    "textures": {
+      "up": "aurora_pillar_top",
+      "down": "aurora_pillar_top",
+      "side": "aurora_pillar_side"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_rune_brick_blue": {
+    "textures": "castle_rune_brick_blue",
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_rune_brick_pink": {
+    "textures": "castle_rune_brick_pink",
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_rune_brick_violet": {
+    "textures": "castle_rune_brick_violet",
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_rune_brick_yellow": {
+    "textures": "castle_rune_brick_yellow",
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_brick": {
+    "textures": "castle_brick",
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_brick_cracked": {
+    "textures": "castle_brick_cracked",
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_brick_mossy": {
+    "textures": "castle_brick_mossy",
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_brick_pillar_bold": {
+    "textures": {
+      "up": "castle_brick_pillar_bold_top",
+      "down": "castle_brick_pillar_bold_top",
+      "side": "castle_brick_pillar_bold_side"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_brick_pillar_encased": {
+    "textures": {
+      "up": "castle_brick_encased",
+      "down": "castle_brick_encased",
+      "side": "castle_brick_pillar_encased_side"
+    },
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_brick_polished": {
+    "textures": "castle_brick_polished",
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_brick_tile_bold": {
+    "textures": "castle_brick_tile_bold",
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_brick_tile_encased": {
+    "textures": "castle_brick_encased",
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_brick_tile_roof": {
+    "textures": "castle_brick_tile_roof",
+    "sound": "stone"
+  },
+  "hermit_blocks:castle_brick_worn": {
+    "textures": "castle_brick_worn",
+    "sound": "stone"
+  },
+  "hermit_blocks:firefly_jar": {
+    "textures": "firefly_jar",
+    "sound": "glass"
+  }
+}

@@ -1,0 +1,86 @@
+{  
+    "mob.villager.death": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/villager/death"
+    ]
+  },
+  "mob.villager.haggle": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/villager/haggle1",
+      "sounds/mob/villager/haggle2",
+      "sounds/mob/villager/haggle3"
+    ]
+  },
+  "mob.villager.hit": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/villager/hit1",
+      "sounds/mob/villager/hit2",
+      "sounds/mob/villager/hit3",
+      "sounds/mob/villager/hit4"
+    ]
+  },
+  "mob.villager.idle": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/villager/idle1",
+      "sounds/mob/villager/idle2",
+      "sounds/mob/villager/idle3"
+    ]
+  },
+  "mob.villager.no": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/villager/no1",
+      "sounds/mob/villager/no2",
+      "sounds/mob/villager/no3"
+    ]
+  },
+  "mob.villager.yes": {
+    "category": "neutral",
+    "sounds": [
+      "sounds/mob/villager/yes1",
+      "sounds/mob/villager/yes2",
+      "sounds/mob/villager/yes3"
+    ]
+  },
+"mob.hydra.hurt": {
+"category": "hostile",
+"sounds": [
+"sounds/hydra/hurt0",
+"sounds/hydra/hurt1",
+"sounds/hydra/hurt2",
+"sounds/hydra/hurt3"
+]
+},
+"mob.hydra.death": {
+"category": "hostile",
+"sounds": [
+"sounds/hydra/death0"
+]
+},
+"mob.hydra.growl": {
+"category": "hostile",
+"sounds": [
+"sounds/hydra/growl0",
+"sounds/hydra/growl1",
+"sounds/hydra/growl2"
+]
+},
+"mob.hydra.roar": {
+"category": "hostile",
+"sounds": [
+"sounds/hydra/roar0",
+"sounds/hydra/roar1"
+]
+},
+"mob.hydra.warn": {
+"category": "hostile",
+"sounds": [
+"sounds/hydra/warn0"
+]
+}
+//——destruction
+}

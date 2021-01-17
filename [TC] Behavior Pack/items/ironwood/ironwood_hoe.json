@@ -1,0 +1,41 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:ironwood_hoe",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.hoe"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.ironwood_hoe.item"
+      },
+      "minecraft:icon": {
+        "texture": "ironwood_hoe"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 512
+      },
+      "minecraft:mining_speed": 6,
+      "minecraft:weapon": {},
+      "minecraft:damage": 4,
+      "minecraft:foil": true,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "hoe"
+      },
+      "minecraft:use_on": {
+        "blocks": [
+          "grass",
+          "dirt",
+          "grass_path"
+        ]
+      },
+      "tag:minecraft:is_hoe": {}
+    }
+  }
+}

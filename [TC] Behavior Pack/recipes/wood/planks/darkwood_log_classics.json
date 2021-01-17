@@ -1,0 +1,21 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "hermit:darkwood_planks_2"
+    },
+
+    
+    "tags": [ "stonecutter" ],
+    "priority": 1,
+    "ingredients": [
+      {
+        "item": "hermit_blocks:darkwood_log"
+      }
+    ],
+    "result": {
+      "item": "minecraft:planks:1",
+      "count": 5
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:steeleaf_from_storage"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "S"
+    ],
+    "key": {
+      "S": {
+        "item": "hermit_blocks:storage_steeleaf"
+      }
+    },
+    "result": {
+      "item": "hermit_items:steeleaf",
+      "count": 9
+    }
+  }
+}

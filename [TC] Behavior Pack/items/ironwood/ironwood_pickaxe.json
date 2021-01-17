@@ -1,0 +1,52 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:ironwood_pickaxe",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.pickaxe"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.ironwood_pickaxe.item"
+      },
+      "minecraft:icon": {
+        "texture": "ironwood_pickaxe"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 512
+      },
+      "minecraft:mining_speed": 6,
+      "minecraft:weapon": {},
+      "minecraft:damage": 4,
+      "minecraft:foil": true,
+      "minecraft:enchantable": {
+        "value": 14,
+        "slot": "pickaxe"
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "q.any_tag('stone', 'metal', 'iron_pick_diggable')"
+            },
+            "speed": 6
+          },
+          {
+            "block": "minecraft:ice",
+            "speed": 6
+          },
+          {
+            "block": "minecraft:sandstone",
+            "speed": 6
+          }
+        ]
+      }
+    }
+  }
+}

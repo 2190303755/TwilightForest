@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:ironwood_chestplate"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "I I",
+      "III",
+      "III"
+    ],
+    "key": {
+      "I": {
+        "item": "hermit_items:ironwood_ingot"
+      }
+    },
+    "result": {
+      "item": "hermit_items:ironwood_chestplate"
+    }
+  }
+}

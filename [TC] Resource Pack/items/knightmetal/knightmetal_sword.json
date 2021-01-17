@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:knightmetal_sword",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "knightmetal_sword"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.sword"
+      },
+      "minecraft:render_offsets": "tools",
+      "minecraft:display_name": {
+        "value": "twilight_forest.knightmetal_sword.item"
+      }
+    }
+  }
+}

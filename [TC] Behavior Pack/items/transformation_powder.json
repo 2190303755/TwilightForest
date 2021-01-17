@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:transformation_powder",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilight_forest.items"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.transformation_powder.item"
+      },
+      "minecraft:icon": {
+        "texture": "transformation_powder"
+      }
+    }
+  }
+}

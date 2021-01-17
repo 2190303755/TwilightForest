@@ -1,0 +1,52 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:steeleaf_shovel",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.shovel"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.steeleaf_shovel.item"
+      },
+      "minecraft:icon": {
+        "texture": "steeleaf_shovel"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 131
+      },
+      "minecraft:mining_speed": 1,
+      "minecraft:weapon": {},
+      "minecraft:damage": 4,
+      "minecraft:foil": true,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "shovel"
+      },
+      "minecraft:use_on": {
+        "blocks": [
+          "minecraft:grass",
+          "minecraft:snow",
+          "minecraft:snow_layer"
+        ]
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow')"
+            },
+            "speed": 8
+          }
+        ]
+      },
+      "tag:minecraft:is_shovel": {}
+    }
+  }
+}

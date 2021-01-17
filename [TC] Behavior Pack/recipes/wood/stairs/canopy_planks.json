@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:stairs_1"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "P  ",
+      "PP ",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "hermit_blocks:canopy_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:dark_oak_stairs",
+      "count": 4
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:steeleaf_boots"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "I I",
+      "I I"
+    ],
+    "key": {
+      "I": {
+        "item": "hermit_items:steeleaf"
+      }
+    },
+    "result": {
+      "item": "hermit_items:steeleaf_boots"
+    }
+  }
+}

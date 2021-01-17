@@ -1,0 +1,23 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_food:hydra_chop",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "hydra_chop"
+      },
+      "minecraft:hover_text_color": "light_purple",
+      "minecraft:use_animation": "eat",
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.miscFood"
+      },
+      "minecraft:render_offsets": "miscellaneous",
+      "minecraft:display_name": {
+        "value": "twilight_forest.hydra_chop.item"
+      }
+    }
+  }
+}

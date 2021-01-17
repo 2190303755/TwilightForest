@@ -1,0 +1,421 @@
+twilightforest.mira.version=§6七周年版§r §bRc§f.§b2§r
+[§6TC§r]暮色森林=[§6TC§r]暮色森林 §6七周年版§r §bRc§r.§b2§r
+[§6TC§r]暮色森林拓展=[§6TC§r]暮色森林拓展 §b20w40a§r
+
+#1.16.100
+itemGroup.name.twilight_forest.items=Twilight Forest	#
+
+#arctic
+item.hermit_items:arctic_chestplate.name=极地皮衣#
+item.hermit_items:arctic_boots.name=极地护靴	#
+item.hermit_items:arctic_helmet.name=极地风帽	#
+item.hermit_items:arctic_fur.name=极地皮毛	#
+item.hermit_items:arctic_legging.name=极地护腿	#
+#bows
+item.hermit_items:ender_bow.name=末影弓	#
+item.hermit_items:ice_bow.name=冰霜弓	#
+item.hermit_items:seeker_bow.name=寻踪弓	#
+item.hermit_items:triple_bow.name=三重弓	#
+#giant
+item.hermit_items:giant_pickaxe.name=巨人镐	#
+item.hermit_items:giant_sword.name=巨人剑	#
+#ice
+item.hermit_items:frost_sword.name=冰霜剑	#
+item.hermit_items:ice_bomb.name=冰晶爆弹	#
+#ironwood
+item.hermit_items:ironwood_axe.name=铁树斧	#
+item.hermit_items:ironwood_boots.name=铁树靴	#
+item.hermit_items:ironwood_chestplate.name=铁树胸甲	#
+item.hermit_items:ironwood_helmet.name=铁树头盔	#
+item.hermit_items:ironwood_hoe.name=铁树锄	#
+item.hermit_items:ironwood_ingot.name=铁树锭	#
+item.hermit_items:ironwood_ingots.name=铁树锭堆	#
+item.hermit_items:ironwood_leggings.name=铁树护腿	#
+item.hermit_items:ironwood_pickaxe.name=铁树镐	#
+item.hermit_items:ironwood_raw.name=生铁树原料	#
+item.hermit_items:ironwood_shovel.name=铁树锹	#
+item.hermit_items:ironwood_sword.name=铁树剑	#
+#knightmetal
+item.hermit_items:armor_shard.name=装甲碎片	#
+item.hermit_items:armor_shard_cluster.name=装甲碎片堆	#
+item.hermit_items:knightmetal_axe.name=骑士斧	#
+item.hermit_items:knightmetal_boots.name=骑士护靴	#
+item.hermit_items:knightmetal_chestplate.name=骑士胸甲	#
+item.hermit_items:knightmetal_helmet.name=骑士头盔	#
+item.hermit_items:knightmetal_ingot.name=骑士金属锭	#
+item.hermit_items:knightmetal_leggings.name=骑士护腿	#
+item.hermit_items:knightmetal_pickaxe.name=骑士镐	#
+item.hermit_items:knightmetal_sword.name=骑士剑	#
+#maze
+item.hermit_items:mazebreaker.name=迷宫破坏者	#
+#naga
+item.hermit_items:naga_chestplate.name=娜迦胸甲	#
+item.hermit_items:naga_leggings.name=娜迦护腿	#
+#phantom
+item.hermit_items:phantom_chestplate.name=幻影胸甲	#
+item.hermit_items:phantom_helmet.name=幻影头盔	#
+#steeleaf
+item.hermit_items:steeleaf.name=钢叶	#
+item.hermit_items:steeleaf_axe.name=钢叶斧	#
+item.hermit_items:steeleaf_boots.name=钢叶靴	#
+item.hermit_items:steeleaf_chestplate.name=钢叶胸甲	#
+item.hermit_items:steeleaf_helmet.name=钢叶头盔	#
+item.hermit_items:steeleaf_hoe.name=钢叶锄	#
+item.hermit_items:steeleaf_leggings.name=钢叶护腿	#
+item.hermit_items:steeleaf_pickaxe.name=钢叶镐	#
+item.hermit_items:steeleaf_shovel.name=钢叶锹	#
+item.hermit_items:steeleaf_sword.name=钢叶剑	#
+#scepter
+item.hermit_items:scepter_lifedrain.name=吸血权杖	#
+item.hermit_items:scepter_shield.name=护盾权杖	#
+item.hermit_items:scepter_twilight.name=黄昏权杖	#
+item.hermit_items:scepter_zombie.name=僵尸权杖	#
+#trophy
+item.hermit_trophy:hydra.name=九头蛇战利品	#
+item.hermit_trophy:lich.name=巫妖战利品	#
+item.hermit_trophy:naga.name=娜迦战利品	#
+item.hermit_trophy:snowqueen.name=冰雪女王战利品	#
+item.hermit_trophy:urghast.name=暮色恶魂战利品	#
+item.hermit_trophy:knight_phantom.name=幻影骑士战利品	#
+item.hermit_trophy:minoshroom.name=米诺陶战利品	#
+item.hermit_trophy:questing_ram.name=谜题羊战利品	#
+#yeti
+item.hermit_items:yeti_boots.name=雪怪护靴	#
+item.hermit_items:yeti_chestplate.name=雪怪皮衣	#
+item.hermit_items:yeti_helmet.name=雪怪角盔	#
+item.hermit_items:yeti_leggings.name=雪怪护腿	#
+#food
+item.hermit_food:hydra_chop.name=九头蛇肉排	#
+item.hermit_food:maze_wafer.name=迷宫薄饼	#
+item.hermit_food:meef_raw.name=生牛头人肉	#
+item.hermit_food:meef_steak.name=牛头人肉排	#
+item.hermit_food:meef_stroganoff.name=牛头人沙拉酱肉	#
+item.hermit_food:venison_raw.name=生鹿肉	#
+item.hermit_food:venison_cooked.name=鹿肉排	#
+#aurora
+tile.hermit_blocks:aurora_block.name=极光方块	#
+tile.hermit_blocks:aurora_pillar.name=极光柱	#
+#castle
+tile.hermit_blocks:castle_rune_brick_blue.name=蓝色城堡符文砖块	#
+tile.hermit_blocks:castle_rune_brick_pink.name=粉色城堡符文砖块	#
+tile.hermit_blocks:castle_rune_brick_violet.name=紫色城堡符文砖块	#
+tile.hermit_blocks:castle_rune_brick_yellow.name=黄色城堡符文砖块	#
+
+tile.hermit_blocks:castle_brick.name=城堡砖块	#
+tile.hermit_blocks:castle_brick_cracked.name=裂纹城堡砖块	#
+tile.hermit_blocks:castle_brick_mossy.name=城堡苔砖	#
+tile.hermit_blocks:castle_brick_pillar_bold.name=粗纹城堡砖柱	#
+tile.hermit_blocks:castle_brick_pillar_encased.name=黑纹城堡砖柱	#
+tile.hermit_blocks:castle_brick_polished.name=磨制城堡砖块	#
+tile.hermit_blocks:castle_brick_tile_bold.name=粗纹城堡砖瓦	#
+tile.hermit_blocks:castle_brick_tile_encased.name=黑纹城堡砖瓦	#
+tile.hermit_blocks:castle_brick_tile_roof.name=城堡顶瓦	#
+tile.hermit_blocks:castle_brick_worn.name=风化城堡砖块	#
+#logs
+tile.hermit_blocks:canopy_log.name=苍穹木	#
+tile.hermit_blocks:darkwood_log.name=黑木	#
+tile.hermit_blocks:mangrove_log.name=红木	#
+tile.hermit_blocks:minelog.name=矿石树原木	#
+tile.hermit_blocks:twilight_oak_log.name=暮色橡木	#
+tile.hermit_blocks:sorting_log.name=分类树原木	#
+tile.hermit_blocks:time_log.name=时光树原木	#
+tile.hermit_blocks:trans_log.name=变化树原木	#
+#planks
+tile.hermit_blocks:canopy_planks.name=苍穹木板	#
+tile.hermit_blocks:darkwood_planks.name=黑木木板	#
+tile.hermit_blocks:mangrove_planks.name=红木木板	#
+tile.hermit_blocks:mine_planks.name=矿石木板	#
+tile.hermit_blocks:twilight_oak_planks.name=暮色橡木板	#
+tile.hermit_blocks:sorting_planks.name=分类木板	#
+tile.hermit_blocks:time_planks.name=时光木板	#
+tile.hermit_blocks:trans_planks.name=变化木板	#
+#towerwoods
+tile.hermit_blocks:towerwood_alt.name=[§4Java爱§r]-塔树木版	#
+tile.hermit_blocks:towerwood_cracked.name=破裂塔木	#
+tile.hermit_blocks:towerwood_encased.name=塔树板箱	#
+tile.hermit_blocks:towerwood_infested.name=虫蛀塔木	#
+tile.hermit_blocks:towerwood_mossy.name=青苔塔木	#
+tile.hermit_blocks:towerwood_planks.name=塔树木板	#
+#tower blocks
+tile.hermit_blocks:device_anti_builder.name=反建器	#
+tile.hermit_blocks:anti_built.name=反建方块	#
+tile.hermit_blocks:device_builder_off.name=高塔建设者	#
+tile.hermit_blocks:device_builder_on.name=高塔建设者	#
+tile.hermit_blocks:device_builder_timeout.name=高塔建设者	#
+tile.hermit_blocks:device_carminite_built_off.name=建造的砷铅铁方块	#
+tile.hermit_blocks:device_carminite_built_on.name=激活的建造的砷铅铁方块	#
+tile.hermit_blocks:reactor_debris.name=砷铅铁反应堆碎片	#
+tile.hermit_blocks:reactor_off.name=砷铅铁反应堆	#
+tile.hermit_blocks:reactor_on.name=砷铅铁反应堆	#
+tile.hermit_blocks:vanishing_block_locked.name=锁定的消失方块	#
+tile.hermit_blocks:vanishing_block_unlocked.name=解锁的消失方块	#
+tile.hermit_blocks:vanishing_block_off.name=消失方块	#
+tile.hermit_blocks:vanishing_block_on.name=消失方块	#
+tile.hermit_blocks:reappearing_block_off.name=重现方块	#
+tile.hermit_blocks:reappearing_block_on.name=重现方块	#
+tile.hermit_blocks:fire_jet_off.name=火焰喷射器	#
+tile.hermit_blocks:fire_jet_on.name=火焰喷射器	#
+tile.hermit_blocks:smoker_off.name=烟雾喷射器	#
+tile.hermit_blocks:smoker_on.name=烟雾喷射器	#
+tile.hermit_blocks:ghast_trap_off.name=恶魂陷阱	#
+tile.hermit_blocks:ghast_trap_on.name=恶魂陷阱	#
+#storage
+tile.hermit_blocks:storage_arctic_fur.name=极地皮毛块	#
+tile.hermit_blocks:storage_carminite.name=砷铅铁块	#
+tile.hermit_blocks:storage_fierymetal.name=炽热金属块	#
+tile.hermit_blocks:storage_ironwood.name=铁树块	#
+tile.hermit_blocks:storage_knightmetal.name=骑士金属块	#
+tile.hermit_blocks:storage_steeleaf.name=钢叶块	#
+#nagastone
+tile.hermit_blocks:nagastone_enched.name=蚀刻娜迦石	#
+tile.hermit_blocks:nagastone_enched_mossy.name=蚀刻娜迦苔石	#
+tile.hermit_blocks:nagastone_enched_weathered.name=风化的蚀刻娜迦石	#
+tile.hermit_blocks:nagastone_pillar.name=娜迦石柱	#
+tile.hermit_blocks:nagastone_pillar_mossy.name=娜迦苔石柱	#
+tile.hermit_blocks:nagastone_pillar_weathered.name=风化的娜迦石柱	#
+#deadrock
+tile.hermit_blocks:deadrock.name=死岩	#
+tile.hermit_blocks:deadrock_cracked.name=裂纹死岩	#
+tile.hermit_blocks:deadrock_weathered.name=风化死岩	#
+#underbrick
+tile.hermit_blocks:underbrick.name=地下砖	#
+tile.hermit_blocks:underbrick_cracked.name=碎裂地下砖	#
+tile.hermit_blocks:underbrick_floor.name=抛光地下砖	#
+tile.hermit_blocks:underbrick_mossy.name=青苔地下砖	#
+#mazestone
+tile.hermit_blocks:mazestone.name=遗迹石头	#
+tile.hermit_blocks:mazestone_border.name=遗迹石沿	#
+tile.hermit_blocks:mazestone_brick.name=遗迹石砖	#
+tile.hermit_blocks:mazestone_brick_cracked.name=破碎遗迹石砖	#
+tile.hermit_blocks:mazestone_brick_decorative.name=装饰遗迹石砖	#
+tile.hermit_blocks:mazestone_brick_mossy.name=遗迹苔石砖	#
+tile.hermit_blocks:mazestone_chiseled.name=錾制遗迹石	#
+tile.hermit_blocks:mazestone_mosaic.name=拼花遗迹石砖	#
+tile.hermit_blocks:mazestone_brick_large.name=[§4版本独有§r]-遗迹石砖	#
+
+entity.hermit:carpenter.name=木匠
+item.spawn_egg.entity.hermit:carpenter.name=生成 木匠
+entity.twilightforest:wild_deer.name=野鹿
+item.spawn_egg.entity.twilightforest:wild_deer.name=生成 野鹿
+entity.twilightforest:raven.name=乌鸦
+item.spawn_egg.entity.twilightforest:raven.name=生成 乌鸦
+entity.twilightforest:bunny.name=小兔子
+item.spawn_egg.entity.twilightforest:bunny.name=生成 小兔子
+############################################
+item.hermit_items:glass_sword.name=玻璃剑	#
+item.hermit_items:liveroot.name=活根	#
+tile.hermit_blocks:liveroot.name=活根	#
+tile.hermit_blocks:root.name=根茎	#
+tile.hermit_blocks:terrorcotta_circle.name=圈状陶瓦	#
+tile.hermit_blocks:terrorcotta_diagonal.name=对角陶瓦	#
+tile.hermit_blocks:uncrafting_table.name=拆解台	#
+action.interact.transform=转换	#
+action.hint.exit.pig=按下潜行以离开猪	#
+action.hint.exit.twilightforest:wild_boar=按下潜行以离开野猪	#
+entity.twilightforest:ur_ghast.name=暮色恶魂	#
+entity.twilightforest:penguin.name=冰川企鹅	#
+entity.twilightforest:wild_boar.name=野猪	#
+entity.twilightforest:bighorn_sheep.name=大山角羊	#
+entity.twilightforest:maze_slime.name=迷宫史莱姆	#
+entity.twilightforest:minoshroom.name=米诺菇	#
+entity.twilightforest:lich.name=巫妖	#
+entity.twilightforest:hydra.name=九头蛇	#
+item.spawn_egg.entity.twilightforest:ur_ghast.name=生成 暮色恶魂	#
+item.spawn_egg.entity.twilightforest:penguin.name=生成 冰川企鹅	#
+item.spawn_egg.entity.twilightforest:wild_boar.name=生成 野猪	#
+item.spawn_egg.entity.twilightforest:minoshroom.name=生成 米诺菇	#
+item.spawn_egg.entity.twilightforest:bighorn_sheep.name=生成 大山角羊	#
+item.spawn_egg.entity.twilightforest:lich.name=生成 巫妖	#
+item.spawn_egg.entity.twilightforest:hydra.name=生成 九头蛇	#
+item.spawn_egg.entity.twilightforest:maze_slime.name=生成 迷宫史莱姆	#
+item.spawn_egg.entity.twilightforest:trophy.lich.name=巫妖战利品	#
+
+twilight_forest.minotaur_axe_diamond.item=钻石米诺陶战斧	#
+twilight_forest.minotaur_axe_golden.item=金米诺陶战斧	#
+twilight_forest.transformation_powder.item=转换粉	#
+twilight_forest.liveroot.item=活根	#
+twilight_forest.borer_essence.item=木蠹精华	#
+twilight_forest.carminite.item=砷铅铁矿石	#
+#swords
+twilight_forest.glass_sword.item=玻璃剑	#
+#arctic
+twilight_forest.arctic_chestplate.item=极地皮衣#
+twilight_forest.arctic_boots.item=极地护靴	#
+twilight_forest.arctic_helmet.item=极地风帽	#
+twilight_forest.arctic_fur.item=极地皮毛	#
+twilight_forest.arctic_legging.item=极地护腿	#
+#bows
+twilight_forest.ender_bow.item=末影弓	#
+twilight_forest.ice_bow.item=冰霜弓	#
+twilight_forest.seeker_bow.item=寻踪弓	#
+twilight_forest.triple_bow.item=三重弓	#
+#fiery
+twilight_forest.fiery_blood.item=炽热之血	#
+twilight_forest.fiery_boots.item=炽铁之靴	#
+twilight_forest.fiery_chestplate.item=炽铁胸甲	#
+twilight_forest.fiery_helmet.item=炽铁头盔	#
+twilight_forest.fiery_ingot.item=炽铁锭	#
+twilight_forest.fiery_leggings.item=炽铁护腿	#
+twilight_forest.fiery_pickaxe.item=炽铁镐	#
+twilight_forest.fiery_sword.item=炽铁剑	#
+twilight_forest.fiery_tears.item=炽热之泪	#
+#giant
+twilight_forest.giant_pickaxe.item=巨人镐	#
+twilight_forest.giant_sword.item=巨人剑	#
+#ice
+twilight_forest.ice_sword.item=冰霜剑	#
+twilight_forest.ice_bomb.item=冰晶爆弹	#
+#ironwood
+twilight_forest.ironwood_axe.item=铁树斧	#
+twilight_forest.ironwood_boots.item=铁树靴	#
+twilight_forest.ironwood_chestplate.item=铁树胸甲	#
+twilight_forest.ironwood_helmet.item=铁树头盔	#
+twilight_forest.ironwood_hoe.item=铁树锄	#
+twilight_forest.ironwood_ingot.item=铁树锭	#
+twilight_forest.ironwood_ingots.item=铁树锭堆	#
+twilight_forest.ironwood_leggings.item=铁树护腿	#
+twilight_forest.ironwood_pickaxe.item=铁树镐	#
+twilight_forest.ironwood_raw.item=生铁树原料	#
+twilight_forest.ironwood_shovel.item=铁树锹	#
+twilight_forest.ironwood_sword.item=铁树剑	#
+#knightmetal
+twilight_forest.armor_shard.item=装甲碎片	#
+twilight_forest.armor_shard_cluster.item=装甲碎片堆	#
+twilight_forest.knightmetal_axe.item=骑士斧	#
+twilight_forest.knightmetal_boots.item=骑士护靴	#
+twilight_forest.knightmetal_chestplate.item=骑士胸甲	#
+twilight_forest.knightmetal_helmet.item=骑士头盔	#
+twilight_forest.knightmetal_ingot.item=骑士金属锭	#
+twilight_forest.knightmetal_leggings.item=骑士护腿	#
+twilight_forest.knightmetal_pickaxe.item=骑士镐	#
+twilight_forest.knightmetal_sword.item=骑士剑	#
+#maze
+twilight_forest.mazebreaker.item=迷宫破坏者	#
+#naga
+twilight_forest.naga_chestplate.item=娜迦胸甲	#
+twilight_forest.naga_leggings.item=娜迦护腿	#
+#phantom
+twilight_forest.phantom_chestplate.item=幻影胸甲	#
+twilight_forest.phantom_helmet.item=幻影头盔	#
+#steeleaf
+twilight_forest.steeleaf.item=钢叶	#
+twilight_forest.steeleaf_axe.item=钢叶斧	#
+twilight_forest.steeleaf_boots.item=钢叶靴	#
+twilight_forest.steeleaf_chestplate.item=钢叶胸甲	#
+twilight_forest.steeleaf_helmet.item=钢叶头盔	#
+twilight_forest.steeleaf_hoe.item=钢叶锄	#
+twilight_forest.steeleaf_leggings.item=钢叶护腿	#
+twilight_forest.steeleaf_pickaxe.item=钢叶镐	#
+twilight_forest.steeleaf_shovel.item=钢叶锹	#
+twilight_forest.steeleaf_sword.item=钢叶剑	#
+#scepter
+twilight_forest.scepter_lifedrain.item=吸血权杖	#
+twilight_forest.scepter_shield.item=护盾权杖	#
+twilight_forest.scepter_twilight.item=黄昏权杖	#
+twilight_forest.scepter_zombie.item=僵尸权杖	#
+#trophy
+twilight_forest.hydra.item=九头蛇战利品	#
+twilight_forest.lich.item=巫妖战利品	#
+twilight_forest.naga.item=娜迦战利品	#
+twilight_forest.snowqueen.item=冰雪女王战利品	#
+twilight_forest.urghast.item=暮色恶魂战利品	#
+twilight_forest.knight_phantom.item=幻影骑士战利品	#
+twilight_forest.minoshroom.item=米诺陶战利品	#
+twilight_forest.questing_ram.item=谜题羊战利品	#
+#yeti
+twilight_forest.alpha_yeti_fur.item=雪怪首领皮毛	#
+twilight_forest.yeti_boots.item=雪怪护靴	#
+twilight_forest.yeti_chestplate.item=雪怪皮衣	#
+twilight_forest.yeti_helmet.item=雪怪角盔	#
+twilight_forest.yeti_leggings.item=雪怪护腿	#
+#food
+twilight_forest.hydra_chop.item=九头蛇肉排	#
+twilight_forest.maze_wafer.item=迷宫薄饼	#
+twilight_forest.meef_raw.item=生牛头人肉	#
+twilight_forest.meef_steak.item=牛头人肉排	#
+twilight_forest.meef_stroganoff.item=牛头人沙拉酱肉	#
+twilight_forest.venison_raw.item=生鹿肉	#
+twilight_forest.venison_cooked.item=鹿肉排	#
+
+#update
+mira.translation= 
+settings.group.update_log.label=关于	#
+twilight_forest.mira.name=暮色森林物品方块	#
+twilight_forest.mira.title=暮色森林物品方块	#
+twilight_forest.mira.title_1.14=暮色森林物品方块	#
+twilight_forest.mira.update_tltle=更新日志
+twilight_forest.mira.update_log.01=§o20w52a:§r
+twilight_forest.mira.update_log.02=  §620w52a§r是§6暮色森林物品方块§r在2020年的最后一个快照,发布于2020年12月26日,适配了§6Minecraft§r §b1.16.210.53§r并修复了一些漏洞.
+twilight_forest.mira.update_log.03= 
+twilight_forest.mira.update_log.04=新内容
+twilight_forest.mira.update_log.05= 物品
+twilight_forest.mira.update_log.06= -木蠹精华
+twilight_forest.mira.update_log.07=   -暂无实际用途
+twilight_forest.mira.update_log.08= -砷铅铁矿石
+twilight_forest.mira.update_log.09=   -暂无实际用途
+twilight_forest.mira.update_log.10= -雪怪首领皮毛
+twilight_forest.mira.update_log.11=   -暂无实际用途
+twilight_forest.mira.update_log.12= 方块
+twilight_forest.mira.update_log.13= -萤火虫罐子
+twilight_forest.mira.update_log.14=   -仅实装模型及照明
+twilight_forest.mira.update_log.15= -再现方块
+twilight_forest.mira.update_log.16=   -仅实装模型及部分功能
+twilight_forest.mira.update_log.17= -暮色橡木台阶
+twilight_forest.mira.update_log.18=   -仅实装模型
+twilight_forest.mira.update_log.19= 结构
+twilight_forest.mira.update_log.20= -圆石阵
+twilight_forest.mira.update_log.21=   -暂不可自然生成
+twilight_forest.mira.update_log.22= -水井
+twilight_forest.mira.update_log.23=   -暂不可自然生成
+twilight_forest.mira.update_log.24= 
+twilight_forest.mira.update_log.25=更改
+twilight_forest.mira.update_log.26= 方块
+twilight_forest.mira.update_log.27= -骑士金属块
+twilight_forest.mira.update_log.28=   -更改了模型以匹配Java版
+twilight_forest.mira.update_log.29= 物品
+twilight_forest.mira.update_log.30= -部分物品已完全适配Minecraft 1.16.210.53
+twilight_forest.mira.update_log.31= -部分物品已部分适配Minecraft 1.16.210.53
+twilight_forest.mira.update_log.32= -更改了部分物品的伤害
+twilight_forest.mira.update_log.33= -更改了刷怪蛋贴图以匹配Java版
+twilight_forest.mira.update_log.34= -更改了部分物品贴图以减少内存占用
+twilight_forest.mira.update_log.35= 生物
+twilight_forest.mira.update_log.36= -更改了部分生物贴图以减少内存占用
+twilight_forest.mira.update_log.37= 常规
+twilight_forest.mira.update_log.38= -更改了Minecraft标题以减少内存占用
+twilight_forest.mira.update_log.39= -更改部分本地化键名及对应中文译名
+twilight_forest.mira.update_log.40= -移除天空渲染
+twilight_forest.mira.update_log.41= -移除部分UI
+twilight_forest.mira.update_log.42= -移除部分配方
+twilight_forest.mira.update_log.43= 
+twilight_forest.mira.update_log.44= 修复
+twilight_forest.mira.update_log.45= -修复了一个由于拼写错误导致的米诺陶战斧掉落异常的BUG
+twilight_forest.mira.update_log.46= -修复了小兔子贴图异常的BUG
+twilight_forest.mira.update_log.47= 
+twilight_forest.mira.update_log.48= 
+twilight_forest.mira.update_log.49= 
+twilight_forest.mira.update_log.50= 
+twilight_forest.mira.update_log.51= 
+twilight_forest.mira.update_log.52= 
+twilight_forest.mira.update_log.53= 
+twilight_forest.mira.update_log.54= 
+twilight_forest.mira.update_log.55= 
+twilight_forest.mira.update_log.56= 
+twilight_forest.mira.update_log.57= 
+twilight_forest.mira.update_log.58= 
+twilight_forest.mira.update_log.59= 
+twilight_forest.mira.update_log.60= 
+twilight_forest.mira.update_log.61= 
+twilight_forest.mira.update_log.62=1.16.100已知BUG
+twilight_forest.mira.update_log.63=-暮色恶魂的材质在未知版本开始无法正常显示
+twilight_forest.mira.update_log.64=  -还好暮色恶魂不是我写的(((((
+twilight_forest.mira.update_log.65=-1.16.100.59以上部分物品贴图...淦
+twilight_forest.mira.update_log.66=-部分武器伤害异常(player的动画控制器和行为懒得删
+twilight_forest.mira.update_log.67=-未适配1.16.100.57的物品不显示正确名称
+twilight_forest.mira.update_log.68=-未适配1.16.100.56的物品无法使用/give获取
+twilight_forest.mira.update_log.69=-挖掘效果仅在1.16.100.56生效
+twilight_forest.mira.update_log.70=-铁砧修复相关组件导致无法进入存档(已移除)
+twilight_forest.mira.update_log.71=-黄昏权杖贴图异常(懒得改回来
+twilight_forest.mira.update_log.72=-在1.16.100.57中物品耐久度失效(除玻璃剑,懂的都懂:(
+twilight_forest.mira.update_log.73= 
+twilight_forest.mira.update_log.74=修复
+twilight_forest.mira.update_log.75=-修复了一个由于拼写导致的米诺陶战斧掉落异常的BUG (蔡

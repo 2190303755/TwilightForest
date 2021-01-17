@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:bed:8_3"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "WWW",
+      "PPP"
+    ],
+    "key": {
+      "W": {
+        "item": "minecraft:wool:8"
+      },
+      "P": {
+        "item": "hermit_blocks:mangrove_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:bed:8"
+    }
+  }
+}

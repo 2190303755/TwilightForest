@@ -1,0 +1,28 @@
+{
+"format_version": "1.8.0",
+"animations": {
+"animation.wild_boar.general": {
+"loop": true,
+"bones": {
+"head": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] }
+}
+},
+"animation.wild_boar.move": {
+"anim_time_update": "query.modified_distance_moved",
+"loop": true,
+"bones": {
+"leg0": { "rotation": [ "variable.general0 * 1.4", 0.0, 0.0 ] },
+"leg1": { "rotation": [ "variable.general1 * 1.4", 0.0, 0.0 ] },
+"leg2": { "rotation": [ "variable.general1 * 1.4", 0.0, 0.0 ] },
+"leg3": { "rotation": [ "variable.general0 * 1.4", 0.0, 0.0 ] }
+}
+},
+"animation.wild_boar.baby": {
+"loop": true,
+"bones": {
+"head": { "scale": 2.0 }
+}
+}
+//——销毁
+}
+}

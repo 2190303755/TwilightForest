@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:geometry": [
+    {
+      "description": {
+        "identifier": "geometry.block.reappearing.twilight_forest",
+        "texture_width": 16,
+        "texture_height": 8,
+        "visible_bounds_width": 2,
+        "visible_bounds_height": 2.5,
+        "visible_bounds_offset": [0, 0.75, 0]
+      },
+      "bones": [
+        {
+          "name": "block",
+          "pivot": [0, 0, 0],
+          "cubes": [
+            {"origin": [-2, 6, -2], "size": [4, 4, 4], "uv": [0, 0]}
+          ]
+        }
+      ]
+    }
+  ]
+}

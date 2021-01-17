@@ -1,0 +1,28 @@
+{
+"format_version": "1.8.0",
+"animations": {
+"animation.penguin.general": {
+"loop": true,
+"bones": {
+"head": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"wing0": { "rotation": [ 0.0, 0.0, "variable.wing_flap - this" ] },
+"wing1": { "rotation": [ 0.0, 0.0, "-variable.wing_flap - this" ] }
+}
+},
+"animation.penguin.move": {
+"anim_time_update": "query.modified_distance_moved",
+"loop": true,
+"bones": {
+"leg0": { "rotation": [ "Math.cos(query.anim_time * 38.17) * -20.0", 0.0, 0.0 ] },
+"leg1": { "rotation": [ "Math.cos(query.anim_time * 38.17) * 20.0", 0.0, 0.0 ] }
+}
+},
+"animation.penguin.baby": {
+"loop": true,
+"bones": {
+"head": { "scale": 2.0 }
+}
+}
+//——销毁
+}
+}

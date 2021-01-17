@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.raven.general": {
+      "loop": true,
+      "bones": {
+        "head": { 
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] 
+		},
+        "wing1": { 
+          "rotation": [  0.0, 0.0, "math.cos(query.life_time * 343.774) * 20.0" ] 
+		},
+        "wing2": { 
+          "rotation": [  0.0, 0.0, "math.cos(query.life_time * 343.774) * -20.0" ] 
+		}
+      }
+    },
+
+    "animation.raven.move": {
+      "loop": true,
+      "bones": {     
+        "leg1": { 
+          "rotation": [ "variable.tcos0 * 1.4", 0.0, 0.0 ] 
+		},
+        "leg2": {
+          "rotation": [ "variable.tcos1 * 1.4", 0.0, 0.0 ] 
+		}
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:steeleaf_helmet"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "III",
+      "I I"
+    ],
+    "key": {
+      "I": {
+        "item": "hermit_items:steeleaf"
+      }
+    },
+    "result": {
+      "item": "hermit_items:steeleaf_helmet"
+    }
+  }
+}

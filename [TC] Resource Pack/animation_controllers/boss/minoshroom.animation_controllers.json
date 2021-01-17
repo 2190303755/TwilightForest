@@ -1,0 +1,21 @@
+{
+"format_version": "1.8.0",
+"animation_controllers": {
+"controller.animation.minoshroom.general": {
+"states": {
+"default": {
+"animations": [ { "general": [] } ]
+}
+}
+},
+"controller.animation.minoshroom.move": {
+"states": {
+"default": {
+"parameters": [ "query.modified_move_speed" ],
+"animations": [ { "move": [ { "0.0": 1.0, "1.0": 1.0 } ] } ]
+}
+}
+}
+//——销毁
+}
+}

@@ -1,0 +1,78 @@
+{
+  "biomes": {
+    "default": {
+      "water_surface_color": "#3F76E4",
+      "water_surface_transparency": 0.5,
+      "water_fog_color": "#050533",
+      "water_fog_distance": 85
+    },
+    "swampland": {
+      "water_surface_color": "#617B64",
+      "water_fog_color": "#232317"
+    },
+    "swampland_mutated": {
+      "water_surface_color": "#617B64",
+      "water_fog_color": "#232317"
+    },
+    "river": {
+      "water_surface_color": "#3F76E4",
+      "water_fog_color": "#050533"
+    },
+    "frozen_river": {
+      "water_surface_color": "#3938C9",
+      "water_fog_color": "#050533"
+    },
+    "beach": {
+      "water_surface_color": "#3F76E4",
+      "water_fog_color": "#050533"
+    },
+    "stone_beach": {
+      "water_surface_color": "#3F76E4",
+      "water_fog_color": "#050533"
+    },
+    "cold_beach": {
+      "water_surface_color": "#3F76E4",
+      "water_fog_color": "#050533"
+    },
+    "ocean": {
+      "water_surface_color": "#3F76E4",
+      "water_fog_color": "#050533"
+    },
+    "deep_ocean": {
+      "water_surface_color": "#3F76E4",
+      "water_fog_color": "#050533"
+    },
+    "warm_ocean": {
+      "water_surface_color": "#45ADF2",
+      "water_fog_color": "#041633"
+    },
+    "deep_warm_ocean": {
+      "water_surface_color": "#45ADF2",
+      "water_fog_color": "#041633"
+    },
+    "lukewarm_ocean": {
+      "water_surface_color": "#43D5EE",
+      "water_fog_color": "#041F33"
+    },
+    "deep_lukewarm_ocean": {
+      "water_surface_color": "#43D5EE",
+      "water_fog_color": "#041F33"
+    },
+    "cold_ocean": {
+      "water_surface_color": "#3D57D6",
+      "water_fog_color": "#050533"
+    },
+    "deep_cold_ocean": {
+      "water_surface_color": "#3D57D6",
+      "water_fog_color": "#050533"
+    },
+    "frozen_ocean": {
+      "water_surface_color": "#3938C9",
+      "water_fog_color": "#050533"
+    },
+    "deep_frozen_ocean": {
+      "water_surface_color": "#3938C9",
+      "water_fog_color": "#050533"
+    }
+  }
+}

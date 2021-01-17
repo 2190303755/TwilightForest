@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:darkwood_planks_0"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "hermit_blocks:darkwood_log"
+      }
+    },
+    "result": {
+      "item": "hermit_blocks:darkwood_planks",
+      "count": 4
+    }
+  }
+}

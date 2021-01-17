@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:button_1"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "P"
+    ],
+    "key": {
+      "P": {
+        "item": "hermit_blocks:canopy_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:dark_oak_button"
+    }
+  }
+}

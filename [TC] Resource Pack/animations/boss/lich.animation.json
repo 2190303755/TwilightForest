@@ -1,0 +1,28 @@
+{
+"format_version": "1.8.0",
+"animations": {
+"animation.lich.general": {
+"loop": true,
+"bones": {
+"head": { "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ] },
+"rightArm": { "rotation": [ "variable.general0 * 0.01", 0.0, 0.0 ] },
+"leftArm": { "rotation": [ "variable.general1 * 0.01", 0.0, 0.0 ] },
+"rightLeg": { "rotation": [ "variable.general0 * 1.4", 0.0, 0.0 ] },
+"leftLeg": { "rotation": [ "variable.general1 * 1.4", 0.0, 0.0 ] },
+"body": { "rotation": ["-this", 0.0, 0.0 ] }
+}
+},
+"animation.lich.shield": {
+"loop": true,
+"animation_length": 1.2,
+"bones": {
+"shield0": { "rotation" : { "0.0" : [0,0,0], "0.3" : [0,90,3], "0.6" : [0,180,6], "0.9" : [0,270,9], "1.2" : [0,360,12] } },
+"shield1": { "rotation" : { "0.0" : [0,0,0], "0.3" : [0,90,3], "0.6" : [0,180,6], "0.9" : [0,270,9], "1.2" : [0,360,12] } },
+"shield2": { "rotation" : { "0.0" : [0,0,0], "0.3" : [0,90,3], "0.6" : [0,180,6], "0.9" : [0,270,9], "1.2" : [0,360,12] } },
+"shield3": { "rotation" : { "0.0" : [0,0,0], "0.3" : [0,90,3], "0.6" : [0,180,6], "0.9" : [0,270,9], "1.2" : [0,360,12] } }
+}
+}
+}
+//——销毁
+}
+}

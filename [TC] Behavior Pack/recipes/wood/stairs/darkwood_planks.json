@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:stairs_2"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "P  ",
+      "PP ",
+      "PPP"
+    ],
+    "key": {
+      "P": {
+        "item": "hermit_blocks:darkwood_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:spruce_stairs",
+      "count": 4
+    }
+  }
+}

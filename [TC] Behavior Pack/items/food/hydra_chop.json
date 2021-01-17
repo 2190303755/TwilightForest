@@ -1,0 +1,45 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_food:hydra_chop",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.miscFood"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.hydra_chop.item"
+      },
+      "minecraft:icon": {
+        "texture": "hydra_chop"
+      },
+      "minecraft:use_duration": 1.6,
+      "minecraft:use_animation": "eat",
+      "minecraft:food": {
+        "nutrition": 18,
+        "saturation_modifier": "supernatural",
+        "can_always_eat": true,
+        "on_consume": {
+          "event": "consumed",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "consumed": {
+        "sequence": [
+          {
+            "add_mob_effect": {
+              "effect": "regeneration",
+              "duration": 5,
+              "amplifier": 2,
+              "target": "holder"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

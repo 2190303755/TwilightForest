@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:pressure_plate_5"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PP"
+    ],
+    "key": {
+      "P": {
+        "item": "hermit_blocks:sorting_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:dark_oak_pressure_plate"
+    }
+  }
+}

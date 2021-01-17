@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:alpha_yeti_fur",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilight_forest.items"
+      },
+      "minecraft:display_name": {
+        "value": "twilight_forest.alpha_yeti_fur.item"
+      },
+      "minecraft:icon": {
+        "texture": "yeti_fur"
+      }
+    }
+  }
+}

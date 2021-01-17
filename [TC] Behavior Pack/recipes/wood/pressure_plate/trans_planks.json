@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:pressure_plate_7"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PP"
+    ],
+    "key": {
+      "P": {
+        "item": "hermit_blocks:trans_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:birch_pressure_plate"
+    }
+  }
+}

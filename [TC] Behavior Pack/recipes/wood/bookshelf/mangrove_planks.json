@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:bookshelf_3"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP",
+      "BBB",
+      "PPP"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:book"
+      },
+      "P": {
+        "item": "hermit_blocks:mangrove_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:bookshelf"
+    }
+  }
+}

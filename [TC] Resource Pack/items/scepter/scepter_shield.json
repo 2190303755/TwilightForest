@@ -1,0 +1,14 @@
+{
+  "format_version": "1.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:scepter_shield",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "scepter_shield",
+      "minecraft:hover_text_color": "aqua",
+      "minecraft:render_offsets": "tools"
+    }
+  }
+}

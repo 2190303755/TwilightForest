@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:glass_sword",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "glass_sword"
+      },
+      "minecraft:hover_text_color": "aqua",
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.sword"
+      },
+      "minecraft:render_offsets": "tools",
+      "minecraft:display_name": {
+        "value": "twilight_forest.glass_sword.item"
+      }
+    }
+  }
+}

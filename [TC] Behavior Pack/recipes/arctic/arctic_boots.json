@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:arctic_boots"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "F F",
+      "F F"
+    ],
+    "key": {
+      "F": {
+        "item": "hermit_items:arctic_fur"
+      }
+    },
+    "result": {
+      "item": "hermit_items:arctic_boots"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:wooden_pickaxe_1"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP",
+      " S ",
+      " S "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:canopy_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:wooden_pickaxe"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:fence_3"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PSP",
+      "PSP"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:mangrove_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:fence:2",
+      "count": 3
+    }
+  }
+}

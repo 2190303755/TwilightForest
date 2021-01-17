@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:fiery_chestplate",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "fiery_chestplate"
+      },
+      "minecraft:hover_text_color": "aqua",
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.chestplate"
+      },
+      "minecraft:render_offsets": "chestplates",
+      "minecraft:display_name": {
+        "value": "twilight_forest.fiery_chestplate.item"
+      }
+    }
+  }
+}

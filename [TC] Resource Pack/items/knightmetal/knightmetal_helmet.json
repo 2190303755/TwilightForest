@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:knightmetal_helmet",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "knightmetal_helmet"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.helmet"
+      },
+      "minecraft:render_offsets": "helmets",
+      "minecraft:display_name": {
+        "value": "twilight_forest.knightmetal_helmet.item"
+      }
+    }
+  }
+}

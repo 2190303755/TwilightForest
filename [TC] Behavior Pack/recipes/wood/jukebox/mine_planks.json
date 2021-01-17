@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:jukebox_4"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "PPP",
+      "PDP",
+      "PPP"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:diamond"
+      },
+      "P": {
+        "item": "hermit_blocks:mine_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:jukebox"
+    }
+  }
+}

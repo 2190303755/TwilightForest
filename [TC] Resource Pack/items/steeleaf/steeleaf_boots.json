@@ -1,0 +1,21 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:steeleaf_boots",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "steeleaf_boots"
+      },
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.boots"
+      },
+      "minecraft:render_offsets": "boots",
+      "minecraft:display_name": {
+        "value": "twilight_forest.steeleaf_boots.item"
+      }
+    }
+  }
+}

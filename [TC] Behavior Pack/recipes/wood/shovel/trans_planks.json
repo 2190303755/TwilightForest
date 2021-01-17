@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:wooden_shovel_7"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "P",
+      "S",
+      "S"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:trans_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:wooden_shovel"
+    }
+  }
+}

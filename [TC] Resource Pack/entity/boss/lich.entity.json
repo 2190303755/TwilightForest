@@ -1,0 +1,36 @@
+{
+"format_version": "1.8.0",
+"minecraft:client_entity": {
+"description": {
+"identifier": "twilightforest:lich",
+"materials": {
+"default": "lich"
+},
+"geometry": {
+"default": "geometry.lich"
+},
+"textures": {
+"default": "textures/entity/boss/twilight_lich"
+},
+"render_controllers": [ "controller.render.lich" ],
+"spawn_egg": {
+"texture": "spawn_lich"
+},
+"scripts": {
+"pre_animation": [
+"variable.general0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+"variable.general1 = -variable.general0;"
+]
+},
+"animations": {
+"general": "animation.lich.general",
+"shield": "animation.lich.shield"
+},
+"animation_controllers": [
+{ "general": "controller.animation.lich.general" },
+{ "shield": "controller.animation.lich.shield" }
+]
+}
+//——销毁
+}
+}

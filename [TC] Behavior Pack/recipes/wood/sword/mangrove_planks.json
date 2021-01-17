@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:wooden_sword_3"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "P",
+      "P",
+      "S"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:mangrove_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:wooden_sword"
+    }
+  }
+}

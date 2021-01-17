@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:tripwire_hook_5"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "I",
+      "S",
+      "P"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:sorting_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:tripwire_hook"
+    }
+  }
+}

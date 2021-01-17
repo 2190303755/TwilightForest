@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:fiery_sword"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "I",
+      "I",
+      "S"
+    ],
+    "key": {
+      "I": {
+        "item": "hermit_items:fiery_ingot"
+      },
+      "S": {
+        "item":"minecraft:blaze_rod"  
+      }
+    },
+    "result": {
+      "item": "hermit_items:fiery_sword"
+    }
+  }
+}

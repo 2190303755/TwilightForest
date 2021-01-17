@@ -1,0 +1,14 @@
+{
+  "format_version": "1.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "hermit_items:arctic_fur",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": "arctic_fur",
+      "minecraft:hover_text_color": "yellow",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "hermit_blocks:storage_knightmetal"
+    },
+    "components": {
+      "minecraft:destroy_time": 6.25,
+      "minecraft:block_light_emission": 0,
+      "minecraft:map_color": "#000000",
+      "minecraft:explosion_resistance": 6,
+      "minecraft:entity_collision":{
+        "origin":[-7,1,-7],
+        "size":[14,14,14]
+      },
+      "minecraft:geometry": "geometry.storage_knightmetal.twilight_forest",
+      "minecraft:material_instances" : {
+        "*": {
+          "texture": "storage_knightmetal",
+          "render_method" : "blend"
+        }
+      }
+    }
+  }
+}

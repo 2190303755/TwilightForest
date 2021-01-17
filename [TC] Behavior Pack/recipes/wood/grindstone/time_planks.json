@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "hermit:grindstone_6"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "S#S",
+      "P P"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:double_stone_slab4",
+        "data": 2
+      },
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "P": {
+        "item": "hermit_blocks:time_planks"
+      }
+    },
+    "result": {
+      "item": "minecraft:grindstone"
+    }
+  }
+}
