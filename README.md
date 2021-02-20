@@ -2,6 +2,8 @@
 # Minecraft基岩版暮色森林Add-on
 
 更新日志？[这里](https://github.com/2190303755/TwilightForest/wiki/%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97/)！
+
+不会真的有人不知道怎么[下载TwilightForest-main.zip](https://github.com/2190303755/TwilightForest/archive/main.zip)吧，不会吧，不会吧，不会吧
 ***
 ## Add-on作者：
 - [2190303755](https://space.bilibili.com/436439712)<br>
