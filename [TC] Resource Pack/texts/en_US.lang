@@ -225,7 +225,7 @@ tile.twilightforest:uncrafting_table.name=Uncrafting Table	#
 item.twilightforest:minotaur_axe_diamond.name=Diamond Minotaur Axe	#
 item.twilightforest:minotaur_axe_golden.name=Golden Minotaur Axe	#
 item.twilightforest:transformation_powder.name=Transformation Powder	#
-action.interact.transform=Transform	#
+action.interact.transformation=Transform	#
 action.hint.exit.pig=Tap sneak to dismount	#
 action.hint.exit.twilightforest:wild_boar=Tap sneak to dismount	#
 
