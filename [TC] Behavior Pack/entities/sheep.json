@@ -425,15 +425,7 @@
         }
       },
       "minecraft:entity_born": {
-        "remove": {
-        },
-        "add": {
-          "component_groups": [
-            "minecraft:sheep_baby",
-            "minecraft:sheep_dyeable",
-            "minecraft:rideable_sheared"
-          ]
-        }
+        "trigger": "spawn_baby"
       },
 
       "minecraft:entity_transformed": {

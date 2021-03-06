@@ -1,8 +1,9 @@
 {
-  "format_version": "1.13.0",
+  "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
       "identifier": "twilightforest:wild_deer",
+      "runtime_identifier": "minecraft:cow",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false
@@ -54,7 +55,7 @@
           }
         }
       },
-      "tf:transform": {
+      "twilightforest:transformation": {
         "minecraft:transformation": {
           "into": "minecraft:cow"
         }
@@ -102,6 +103,9 @@
       },
       "minecraft:movement": {
         "value": 0.25
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
       },
       "minecraft:behavior.float": {
         "priority": 0
@@ -174,7 +178,7 @@
                   { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "twilightforest:transformation_powder" }
                 ]
               },
-            "event": "tf:transform",
+            "event": "twilightforest:transformation",
             "target": "self"
             },
           "use_item": true,
@@ -185,28 +189,10 @@
     },
 
     "events": {
-      "tf:transform": {
+      "twilightforest:transformation": {
         "add": {
           "component_groups": [
-           "tf:transform"
-          ]
-        }
-      },
-      "minecraft:from_baby": {
-        "remove": {
-        },
-        "add": {
-          "component_groups": [
-           "minecraft:cow_baby"
-          ]
-        }
-      },
-      "minecraft:from_adult": {
-        "remove": {
-        },
-        "add": {
-          "component_groups": [
-            "minecraft:cow_adult"
+           "twilightforest:transformation"
           ]
         }
       },
@@ -214,48 +200,28 @@
         "randomize": [
           {
             "weight": 95,
-            "add": {
-              "component_groups": [
-                "minecraft:cow_adult"
-              ]
-            }
+            "trigger": "minecraft:spawn_adult"
           },
           {
             "weight": 5,
-            "add": {
-              "component_groups": [
-                "minecraft:cow_baby"
-              ]
-            }
+            "trigger": "minecraft:spawn_baby"
           }
         ]
       },
 
       "minecraft:entity_born": {
-        "add": {
-          "component_groups": [
-            "minecraft:cow_baby"
-          ]
-        }
+        "trigger": "minecraft:spawn_baby"
       },
 
       "minecraft:entity_transformed": {
         "sequence":[
           {
             "filters": { "test": "has_component", "subject": "other", "value": "minecraft:is_baby" },
-            "add": {
-              "component_groups": [
-                "minecraft:cow_baby"
-              ]
-            }
+            "trigger": "minecraft:spawn_baby"
           },
           {
             "filters": { "test": "has_component", "subject": "other", "operator": "!=", "value": "minecraft:is_baby" },
-              "add": {
-              "component_groups": [
-                "minecraft:cow_adult"
-              ]
-            }
+            "trigger": "minecraft:spawn_adult"
           }
         ]
       },
@@ -269,6 +235,20 @@
         "add": {
           "component_groups": [
             "minecraft:cow_adult"
+          ]
+        }
+      },
+      "minecraft:spawn_adult": {
+        "add": {
+          "component_groups": [
+            "minecraft:cow_adult"
+          ]
+        }
+      },
+      "minecraft:spawn_baby": {
+        "add": {
+          "component_groups": [
+            "minecraft:cow_baby"
           ]
         }
       }

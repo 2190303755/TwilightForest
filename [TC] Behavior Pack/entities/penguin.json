@@ -1,5 +1,5 @@
 {
-  "format_version": "1.13.0",
+  "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
       "identifier": "twilightforest:penguin",
@@ -62,7 +62,7 @@
           "speed_multiplier": 1.0
         }
       },
-      "tf:transform": {
+      "twilightforest:transformation": {
         "minecraft:transformation": {
           "into": "minecraft:chicken"
         }
@@ -111,7 +111,7 @@
         "max_distance": 10.0
       },
       "minecraft:balloonable": {
-        "mass": 0.6
+        "mass": 0.5
        },
       "minecraft:navigation.walk": {
         "can_path_over_water": true,
@@ -122,6 +122,9 @@
       "minecraft:jump.static": {
       },
       "minecraft:can_climb": {
+      },
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
       },
       "minecraft:behavior.float": {
         "priority": 0
@@ -171,7 +174,7 @@
                 { "test": "has_equipment", "domain": "hand", "subject": "other", "value": "twilightforest:transformation_powder" }
               ]
             },
-          "event": "tf:transform",
+          "event": "twilightforest:transformation",
           "target": "self"
           },
         "use_item": true,
@@ -181,28 +184,10 @@
     },
 
     "events": {
-      "tf:transform": {
+      "twilightforest:transformation": {
         "add": {
           "component_groups": [
-            "tf:transform"
-          ]
-        }
-      },
-      "minecraft:from_baby": {
-        "remove": {
-        },
-        "add": {
-          "component_groups": [
-            "minecraft:chicken_baby"
-          ]
-        }
-      },
-      "minecraft:from_adult": {
-        "remove": {
-        },
-        "add": {
-          "component_groups": [
-            "minecraft:chicken_adult"
+            "twilightforest:transformation"
           ]
         }
       },
@@ -211,54 +196,28 @@
         "randomize": [
           {
             "weight": 95,
-            "remove": {
-            },
-            "add": {
-              "component_groups": [
-                "minecraft:chicken_adult"
-              ]
-            }
+            "trigger": "minecraft:spawn_adult"
           },
           {
             "weight": 5,
-            "remove": {
-            },
-            "add": {
-              "component_groups": [
-                "minecraft:chicken_baby"
-              ]
-            }
+            "trigger": "minecraft:spawn_baby"
           }
         ]
       },
 
       "minecraft:entity_born": {
-        "remove": {
-        },
-        "add": {
-          "component_groups": [
-            "minecraft:chicken_baby"
-          ]
-        }
+        "trigger": "minecraft:spawn_baby"
       },
 
       "minecraft:entity_transformed": {
         "sequence":[
           {
             "filters": { "test": "has_component", "subject": "other", "value": "minecraft:is_baby" },
-            "add": {
-              "component_groups": [
-                "minecraft:chicken_baby"
-              ]
-            }
+            "trigger": "minecraft:spawn_baby"
           },
           {
             "filters": { "test": "has_component", "subject": "other", "operator": "!=", "value": "minecraft:is_baby" },
-              "add": {
-              "component_groups": [
-                "minecraft:chicken_adult"
-              ]
-            }
+            "trigger": "minecraft:spawn_adult"
           }
         ]
       },
@@ -272,6 +231,20 @@
         "add": {
           "component_groups": [
             "minecraft:chicken_adult"
+          ]
+        }
+      },
+      "minecraft:spawn_adult": {
+        "add": {
+          "component_groups": [
+            "minecraft:chicken_adult"
+          ]
+        }
+      },
+      "minecraft:spawn_baby": {
+        "add": {
+          "component_groups": [
+            "minecraft:chicken_baby"
           ]
         }
       }

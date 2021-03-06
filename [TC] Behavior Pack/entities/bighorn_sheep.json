@@ -3,10 +3,10 @@
   "minecraft:entity": {
     "description": {
       "identifier": "twilightforest:bighorn_sheep",
+      "runtime_identifier": "minecraft:sheep",
       "is_spawnable": true,
       "is_summonable": true,
-      "is_experimental": false,
-      "runtime_identifier": "minecraft:sheep"
+      "is_experimental": false
     },
     "component_groups": {
       "minecraft:loot_sheared": {
@@ -418,15 +418,7 @@
         }
       },
       "minecraft:entity_born": {
-        "remove": {
-        },
-        "add": {
-          "component_groups": [
-            "minecraft:sheep_baby",
-            "minecraft:sheep_dyeable",
-            "minecraft:rideable_sheared"
-          ]
-        }
+        "trigger": "spawn_baby"
       },
 
       "minecraft:entity_transformed": {

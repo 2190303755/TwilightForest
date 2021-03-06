@@ -1,5 +1,5 @@
 {
-  "format_version": "1.14.0",
+  "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
       "identifier": "minecraft:player",
@@ -37,7 +37,7 @@
           ]
         },
         "minecraft:timer": {
-          "time": [0.0,0.0],
+          "time": [ 0.0, 0.0 ],
           "looping": false,
           "time_down_event": {
             "event": "minecraft:clear_add_bad_omen",
@@ -46,7 +46,8 @@
         }
       },
       "minecraft:clear_bad_omen_spell_effect": {
-        "minecraft:spell_effects": {}
+        "minecraft:spell_effects": {
+        }
       },
       "minecraft:raid_trigger": {
         "minecraft:raid_trigger": {
@@ -66,11 +67,10 @@
         "on_death": "Math.Min(query.player_level * 7, 100)"
       },
       "minecraft:type_family": {
-        "family": [
-          "player"
-        ]
+        "family": [ "player" ]
       },
-      "minecraft:is_hidden_when_invisible": {},
+      "minecraft:is_hidden_when_invisible": {
+      },
       "minecraft:loot": {
         "table": "loot_tables/empty.json"
       },
@@ -78,19 +78,15 @@
         "width": 0.6,
         "height": 1.8
       },
-      "minecraft:can_climb": {},
+      "minecraft:can_climb": {
+      },
       "minecraft:movement": {
         "value": 0.1
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
           {
-            "filters": {
-              "test": "in_lava",
-              "subject": "self",
-              "operator": "==",
-              "value": true
-            },
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
             "cause": "lava",
             "damage_per_tick": 4
           }
@@ -124,9 +120,10 @@
         "always_show": true,
         "allow_name_tag_renaming": false
       },
-      "minecraft:physics": {},
+      "minecraft:physics": {
+      },
       "minecraft:pushable": {
-        "is_pushable": true,
+        "is_pushable": false,
         "is_pushable_by_piston": true
       },
       "minecraft:insomnia": {
@@ -140,26 +137,20 @@
         "pull_in_entities": true,
         "seats": [
           {
-            "position": [
-              0.4,
-              -0.2,
-              -0.1
-            ],
+            "position": [ 0.4, -0.2, -0.1 ],
             "min_rider_count": 0,
             "max_rider_count": 0,
             "lock_rider_rotation": 0
           },
           {
-            "position": [
-              -0.4,
-              -0.2,
-              -0.1
-            ],
+            "position": [ -0.4, -0.2, -0.1 ],
             "min_rider_count": 1,
             "max_rider_count": 2,
             "lock_rider_rotation": 0
           }
         ]
+      },
+      "minecraft:conditional_bandwidth_optimization": {
       },
       "minecraft:scaffolding_climber": {},
       "minecraft:environment_sensor": {
@@ -219,16 +210,12 @@
       },
       "minecraft:trigger_raid": {
         "add": {
-          "component_groups": [
-            "minecraft:raid_trigger"
-          ]
+          "component_groups": [ "minecraft:raid_trigger" ]
         }
       },
       "minecraft:remove_raid_trigger": {
         "remove": {
-          "component_groups": [
-            "minecraft:raid_trigger"
-          ]
+          "component_groups": [ "minecraft:raid_trigger" ]
         }
       }
     }
