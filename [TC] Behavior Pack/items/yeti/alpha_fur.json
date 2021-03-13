@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.alpha_yeti_fur.item"
+        "value": "item.twilightforest.alpha_yeti_fur"
       },
       "minecraft:icon": {
         "texture": "yeti_fur"

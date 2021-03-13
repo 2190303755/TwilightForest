@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.axe"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.minotaur_axe_golden.item"
+        "value": "item.twilightforest.minotaur_axe_golden"
       },
       "minecraft:icon": {
         "texture": "minotaur_axe_golden"

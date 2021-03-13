@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.twilightforest.scepter"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.scepter_twilight.item"
+        "value": "item.twilightforest.scepter_twilight"
       },
       "minecraft:icon": {
         "texture": "scepter_twilight"

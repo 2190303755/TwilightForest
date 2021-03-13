@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.cookedFood"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.meef_steak.item"
+        "value": "item.twilightforest.meef_steak"
       },
       "minecraft:icon": {
         "texture": "meef_steak"

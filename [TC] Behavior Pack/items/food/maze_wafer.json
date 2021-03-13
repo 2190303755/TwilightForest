@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.miscFood"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.maze_wafer.item"
+        "value": "item.twilightforest.maze_wafer"
       },
       "minecraft:icon": {
         "texture": "maze_wafer"

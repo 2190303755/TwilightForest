@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.fiery_blood.item"
+        "value": "item.twilightforest.fiery_blood"
       },
       "minecraft:icon": {
         "texture": "fiery_blood"

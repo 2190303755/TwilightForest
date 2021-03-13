@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.transformation_powder.item"
+        "value": "item.twilightforest.transformation_powder"
       },
       "minecraft:icon": {
         "texture": "transformation_powder"

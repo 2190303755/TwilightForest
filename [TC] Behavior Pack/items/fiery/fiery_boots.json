@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.boots"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.fiery_boots.item"
+        "value": "item.twilightforest.fiery_boots"
       },
       "minecraft:icon": {
         "texture": "fiery_boots"

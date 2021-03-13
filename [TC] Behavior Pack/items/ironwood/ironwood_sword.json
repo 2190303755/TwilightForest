@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.sword"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.ironwood_sword.item"
+        "value": "item.twilightforest.ironwood_sword"
       },
       "minecraft:icon": {
         "texture": "ironwood_sword"

@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.armor_shard.item"
+        "value": "item.twilightforest.armor_shard"
       },
       "minecraft:icon": {
         "texture": "armor_shard"

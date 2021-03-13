@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.sword"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.fiery_sword.item"
+        "value": "item.twilightforest.fiery_sword"
       },
       "minecraft:icon": {
         "texture": "fiery_sword"

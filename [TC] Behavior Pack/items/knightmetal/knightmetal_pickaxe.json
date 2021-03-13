@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.pickaxe"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.knightmetal_pickaxe.item"
+        "value": "item.twilightforest.knightmetal_pickaxe"
       },
       "minecraft:icon": {
         "texture": "knightmetal_pickaxe"

@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.axe"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.knightmetal_axe.item"
+        "value": "item.twilightforest.knightmetal_axe"
       },
       "minecraft:icon": {
         "texture": "knightmetal_axe"

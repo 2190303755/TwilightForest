@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.sword"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.knightmetal_sword.item"
+        "value": "item.twilightforest.knightmetal_sword"
       },
       "minecraft:icon": {
         "texture": "knightmetal_sword"

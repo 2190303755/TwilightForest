@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.leggings"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.fiery_leggings.item"
+        "value": "item.twilightforest.fiery_leggings"
       },
       "minecraft:icon": {
         "texture": "fiery_leggings"

@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.ironwood_ingots.item"
+        "value": "item.twilightforest.ironwood_ingots"
       },
       "minecraft:icon": {
         "texture": "ironwood_ingots"

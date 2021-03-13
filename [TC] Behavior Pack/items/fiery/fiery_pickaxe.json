@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.pickaxe"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.fiery_pickaxe.item"
+        "value": "item.twilightforest.fiery_pickaxe"
       },
       "minecraft:icon": {
         "texture": "fiery_pickaxe"

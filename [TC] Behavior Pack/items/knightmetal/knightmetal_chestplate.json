@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.chestplate"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.knightmetal_chestplate.item"
+        "value": "item.twilightforest.knightmetal_chestplate"
       },
       "minecraft:icon": {
         "texture": "knightmetal_chestplate"

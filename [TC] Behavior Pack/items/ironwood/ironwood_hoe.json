@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.hoe"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.ironwood_hoe.item"
+        "value": "item.twilightforest.ironwood_hoe"
       },
       "minecraft:icon": {
         "texture": "ironwood_hoe"

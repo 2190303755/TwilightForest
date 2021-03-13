@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.boots"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.ironwood_boots.item"
+        "value": "item.twilightforest.ironwood_boots"
       },
       "minecraft:icon": {
         "texture": "ironwood_boots"

@@ -184,11 +184,11 @@
     "twilight_oak_slab_down": {
       "textures":  "textures/blocks/wood/slabs/twilight_oak_slab_down"
     },
-    "liveroot": {
-      "textures": "textures/blocks/nature/liveroot"
+    "liveroots": {
+      "textures": "textures/blocks/nature/liveroots"
     },
-    "root": {
-      "textures": "textures/blocks/nature/root"
+    "roots": {
+      "textures": "textures/blocks/nature/roots"
     },
     "storage_arctic_fur": {
       "textures":  "textures/blocks/storage/arctic_fur"

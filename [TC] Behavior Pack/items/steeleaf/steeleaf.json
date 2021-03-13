@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.steeleaf.item"
+        "value": "item.twilightforest.steeleaf"
       },
       "minecraft:icon": {
         "texture": "steeleaf"

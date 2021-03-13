@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.sword"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.giant_sword.item"
+        "value": "item.twilightforest.giant_sword"
       },
       "minecraft:icon": {
         "texture": "giant_sword"

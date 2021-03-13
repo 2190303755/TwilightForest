@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.borer_essence.item"
+        "value": "item.twilightforest.borer_essence"
       },
       "minecraft:icon": {
         "texture": "borer_essence"

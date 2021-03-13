@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.chestplate"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.steeleaf_chestplate.item"
+        "value": "item.twilightforest.steeleaf_chestplate"
       },
       "minecraft:icon": {
         "texture": "steeleaf_chestplate"

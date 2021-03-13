@@ -1,13 +1,11 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "twilightforest:liveroot",
-      "register_to_creative_menu": true,
-      "is_experimental": false
+      "identifier": "twilightforest:roots"
     },
     "components": {
-      "minecraft:loot": "loot_tables/blocks/liveroot.json",
+      "minecraft:loot": "loot_tables/blocks/roots.json",
       "minecraft:destroy_time": 0.55,
       "minecraft:block_light_absorption": 7,
       "minecraft:block_light_emission": 0,

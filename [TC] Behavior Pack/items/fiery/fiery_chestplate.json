@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.chestplate"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.fiery_chestplate.item"
+        "value": "item.twilightforest.fiery_chestplate"
       },
       "minecraft:icon": {
         "texture": "fiery_chestplate"

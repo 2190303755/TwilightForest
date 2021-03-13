@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.boots"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.steeleaf_boots.item"
+        "value": "item.twilightforest.steeleaf_boots"
       },
       "minecraft:icon": {
         "texture": "steeleaf_boots"

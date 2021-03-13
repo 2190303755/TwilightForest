@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.sword"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.ice_sword.item"
+        "value": "item.twilightforest.ice_sword"
       },
       "minecraft:icon": {
         "texture": "ice_sword"

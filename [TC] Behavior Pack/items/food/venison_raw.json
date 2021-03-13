@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.rawFood"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.venison_raw.item"
+        "value": "item.twilightforest.venison_raw"
       },
       "minecraft:icon": {
         "texture": "venison_raw"

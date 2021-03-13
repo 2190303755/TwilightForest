@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.shovel"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.ironwood_shovel.item"
+        "value": "item.twilightforest.ironwood_shovel"
       },
       "minecraft:icon": {
         "texture": "ironwood_shovel"

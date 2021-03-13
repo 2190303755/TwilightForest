@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.helmet"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.fiery_helmet.item"
+        "value": "item.twilightforest.fiery_helmet"
       },
       "minecraft:icon": {
         "texture": "fiery_helmet"

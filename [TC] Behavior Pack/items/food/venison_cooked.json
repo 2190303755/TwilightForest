@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.cookedFood"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.venison_cooked.item"
+        "value": "item.twilightforest.venison_cooked"
       },
       "minecraft:icon": {
         "texture": "venison_cooked"

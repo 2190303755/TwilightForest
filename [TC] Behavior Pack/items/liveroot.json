@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.liveroot.item"
+        "value": "item.twilightforest.liveroot"
       },
       "minecraft:icon": {
         "texture": "liveroot"

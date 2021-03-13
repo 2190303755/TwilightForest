@@ -276,12 +276,12 @@
     "textures": "twilight_oak_planks",
     "sound": "wood"
   },
-  "twilightforest:liveroot": {
-    "textures": "liveroot",
+  "twilightforest:liveroots": {
+    "textures": "liveroots",
     "sound": "grass"
   },
-  "twilightforest:root": {
-    "textures": "root",
+  "twilightforest:roots": {
+    "textures": "roots",
     "sound": "gravel"
   },
   "twilightforest:terrorcotta_diagonal": {

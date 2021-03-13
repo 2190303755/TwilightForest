@@ -9,6 +9,7 @@
       "minecraft:block_light_emission": 0,
       "minecraft:map_color": "#ffffff",
       "minecraft:explosion_resistance": 6,
+      "minecraft:breathability": "air",
       "minecraft:geometry": "geometry.block.reappearing.twilightforest",
       "minecraft:material_instances" : {
         "*": {

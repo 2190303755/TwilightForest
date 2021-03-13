@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.helmet"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.ironwood_helmet.item"
+        "value": "item.twilightforest.ironwood_helmet"
       },
       "minecraft:icon": {
         "texture": "ironwood_helmet"

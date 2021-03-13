@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.miscFood"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.meef_stroganoff.item"
+        "value": "item.twilightforest.meef_stroganoff"
       },
       "minecraft:icon": {
         "texture": "meef_stroganoff"

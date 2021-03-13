@@ -2,9 +2,9 @@
   "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "minecraft:silverfish",
-      "is_spawnable": true,
-      "is_summonable": true,
+      "identifier": "twilightforest:tower_termite",
+      "is_spawnable": false,
+      "is_summonable": false,
       "is_experimental": false
     },
 

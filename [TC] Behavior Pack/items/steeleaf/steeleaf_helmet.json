@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.helmet"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.steeleaf_helmet.item"
+        "value": "item.twilightforest.steeleaf_helmet"
       },
       "minecraft:icon": {
         "texture": "steeleaf_helmet"

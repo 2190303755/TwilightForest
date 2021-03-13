@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.arctic_fur.item"
+        "value": "item.twilightforest.arctic_fur"
       },
       "minecraft:icon": {
         "texture": "arctic_fur"

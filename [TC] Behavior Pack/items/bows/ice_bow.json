@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.bow"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.ice_bow.item"
+        "value": "item.twilightforest.ice_bow"
       },
       "minecraft:icon": {
         "texture": "ice_bow"

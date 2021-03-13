@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.boots"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.knightmetal_boots.item"
+        "value": "item.twilightforest.knightmetal_boots"
       },
       "minecraft:icon": {
         "texture": "knightmetal_boots"

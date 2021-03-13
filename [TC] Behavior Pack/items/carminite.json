@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.twilightforest.items"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.carminite.item"
+        "value": "item.twilightforest.carminite"
       },
       "minecraft:icon": {
         "texture": "carminite"

@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.axe"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.ironwood_axe.item"
+        "value": "item.twilightforest.ironwood_axe"
       },
       "minecraft:icon": {
         "texture": "ironwood_axe"

@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.rawFood"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.meef_raw.item"
+        "value": "item.twilightforest.meef_raw"
       },
       "minecraft:icon": {
         "texture": "meef_raw"

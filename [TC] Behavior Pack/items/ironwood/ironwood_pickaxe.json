@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.pickaxe"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.ironwood_pickaxe.item"
+        "value": "item.twilightforest.ironwood_pickaxe"
       },
       "minecraft:icon": {
         "texture": "ironwood_pickaxe"

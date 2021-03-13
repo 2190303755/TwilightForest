@@ -10,7 +10,7 @@
         "parent": "itemGroup.name.miscFood"
       },
       "minecraft:display_name": {
-        "value": "twilightforest.hydra_chop.item"
+        "value": "item.twilightforest.hydra_chop"
       },
       "minecraft:icon": {
         "texture": "hydra_chop"
