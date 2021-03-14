@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:lich"
+      "identifier": "twilightforest:trophy_lich"
     },
     "components": {
       "minecraft:hand_equipped": false,

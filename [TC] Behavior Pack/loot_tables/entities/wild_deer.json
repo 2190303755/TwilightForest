@@ -8,27 +8,31 @@
           "name": "twilightforest:venison_raw",
           "functions": [
             {
-              "function": "set_count", "count": { "min": 1, "max": 3 }
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
             },
-                                    {
-                            "function": "furnace_smelt",
-                            "conditions": [
-                                {
-                                    "condition": "entity_properties",
-                                    "entity": "this",
-                                    "properties": {
-                                        "on_fire": true
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "function": "looting_enchant",
-                            "count": {
-                                "min": 0,
-                                "max": 1
-                            }
-                        }
+            {
+              "function": "furnace_smelt",
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "properties": {
+                    "on_fire": true
+                  }
+                }
+              ]
+            },
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
+              }
+            }
           ]
         }
       ]

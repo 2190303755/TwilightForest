@@ -178,7 +178,7 @@
           "target": "self"
           },
         "use_item": true,
-        "interact_text": "action.interact.transform"
+        "interact_text": "action.interact.transformation"
         }
       }
     },

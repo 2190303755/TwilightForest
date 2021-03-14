@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:naga",
+      "identifier": "twilightforest:trophy_naga",
       "category": "Items"
     },
     "components": {

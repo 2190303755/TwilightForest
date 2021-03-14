@@ -5,7 +5,7 @@
             "entries": [
                 {
                     "type": "item",
-                    "name": "twilightforest:hydra",
+                    "name": "twilightforest:trophy_hydra",
                     "weight": 1
                 }
             ]
@@ -29,7 +29,7 @@
                 }
             ]
         },
-      {
+        {
             "rolls": 1,
             "entries": [
                 {

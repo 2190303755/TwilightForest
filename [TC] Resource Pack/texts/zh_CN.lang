@@ -1,6 +1,8 @@
 ########## Twilight Forest For Minecraft Bedrock Edition ##########
 ##### blocks #####
 #miscellaneous
+tile.twilightforest:liveroots.name=活根
+tile.twilightforest:roots.name=根茎
 tile.twilightforest:terrorcotta_circle.name=圈状陶瓦	#
 tile.twilightforest:terrorcotta_diagonal.name=对角陶瓦	#
 tile.twilightforest:uncrafting_table.name=拆解台	#
@@ -48,7 +50,7 @@ tile.twilightforest:ironwood_block.name=铁树块	#
 tile.twilightforest:knightmetal_block.name=骑士金属块	#
 tile.twilightforest:steeleaf_block.name=钢叶块	#
 #towerwoods
-tile.twilightforest:towerwood_alt.name=[§4版本独有§r]-塔树木版	#
+tile.twilightforest:towerwood_alt.name=[§4版本独有§r]-塔树木板	#
 tile.twilightforest:towerwood_cracked.name=破裂塔木	#
 tile.twilightforest:towerwood_encased.name=塔树板箱	#
 tile.twilightforest:towerwood_infested.name=虫蛀塔木	#
@@ -94,21 +96,21 @@ tile.twilightforest:underbrick_cracked.name=碎裂地下砖	#
 tile.twilightforest:underbrick_floor.name=抛光地下砖	#
 tile.twilightforest:underbrick_mossy.name=青苔地下砖	#
 #mazestone
-tile.twilightforest:mazestone.name=遗迹石头	#
+tile.twilightforest:mazestone.name=遗迹石块	#
 tile.twilightforest:mazestone_border.name=遗迹石沿	#
 tile.twilightforest:mazestone_brick.name=遗迹石砖	#
 tile.twilightforest:mazestone_brick_cracked.name=破碎遗迹石砖	#
 tile.twilightforest:mazestone_brick_decorative.name=装饰遗迹石砖	#
 tile.twilightforest:mazestone_brick_mossy.name=遗迹苔石砖	#
-tile.twilightforest:mazestone_chiseled.name=錾制遗迹石	#
+tile.twilightforest:mazestone_chiseled.name=錾制遗迹石块	#
 tile.twilightforest:mazestone_mosaic.name=拼花遗迹石砖	#
 tile.twilightforest:mazestone_brick_large.name=[§4版本独有§r]-遗迹石砖	#
 
 ##### entities #####
 #entities
-entity.twilightforest:wild_deer.name=野鹿
-entity.twilightforest:raven.name=乌鸦
-entity.twilightforest:bunny.name=小兔子
+entity.twilightforest:wild_deer.name=野鹿	#
+entity.twilightforest:raven.name=乌鸦	#
+entity.twilightforest:bunny.name=小兔子	#
 entity.twilightforest:ur_ghast.name=暮色恶魂	#
 entity.twilightforest:penguin.name=冰川企鹅	#
 entity.twilightforest:wild_boar.name=野猪	#
@@ -130,18 +132,18 @@ entity.twilightforest:lich.shield.3=巫妖 - 剩余护盾: 3	#
 entity.twilightforest:lich.shield.4=巫妖 - 剩余护盾: 4	#
 entity.twilightforest:lich.shield.5=巫妖 - 剩余护盾: 5	#
 #spawn eggs
-item.spawn_egg.entity.twilightforest:wild_deer.name=生成 野鹿
-item.spawn_egg.entity.twilightforest:raven.name=生成 乌鸦
-item.spawn_egg.entity.twilightforest:bunny.name=生成 小兔子
-item.spawn_egg.entity.twilightforest:ur_ghast.name=生成 暮色恶魂	#
-item.spawn_egg.entity.twilightforest:penguin.name=生成 冰川企鹅	#
-item.spawn_egg.entity.twilightforest:wild_boar.name=生成 野猪	#
-item.spawn_egg.entity.twilightforest:minoshroom.name=生成 米诺菇	#
-item.spawn_egg.entity.twilightforest:bighorn_sheep.name=生成 大山角羊	#
-item.spawn_egg.entity.twilightforest:quest_ram.name=生成 谜题羊	#
-item.spawn_egg.entity.twilightforest:lich.name=生成 巫妖	#
-item.spawn_egg.entity.twilightforest:hydra.name=生成 九头蛇	#
-item.spawn_egg.entity.twilightforest:maze_slime.name=生成 迷宫史莱姆	#
+item.spawn_egg.entity.twilightforest:wild_deer.name=野鹿刷怪蛋	#
+item.spawn_egg.entity.twilightforest:raven.name=乌鸦刷怪蛋	#
+item.spawn_egg.entity.twilightforest:bunny.name=小兔子刷怪蛋	#
+item.spawn_egg.entity.twilightforest:ur_ghast.name=暮色恶魂刷怪蛋	#
+item.spawn_egg.entity.twilightforest:penguin.name=冰川企鹅刷怪蛋	#
+item.spawn_egg.entity.twilightforest:wild_boar.name=野猪刷怪蛋	#
+item.spawn_egg.entity.twilightforest:minoshroom.name=米诺菇刷怪蛋	#
+item.spawn_egg.entity.twilightforest:bighorn_sheep.name=大山角羊刷怪蛋	#
+item.spawn_egg.entity.twilightforest:quest_ram.name=谜题羊刷怪蛋	#
+item.spawn_egg.entity.twilightforest:lich.name=巫妖刷怪蛋	#
+item.spawn_egg.entity.twilightforest:hydra.name=九头蛇刷怪蛋	#
+item.spawn_egg.entity.twilightforest:maze_slime.name=迷宫史莱姆刷怪蛋	#
 
 ##### items #####
 #old#
@@ -182,11 +184,11 @@ item.twilightforest.glass_sword=玻璃剑	#
 item.twilightforest.liveroot=活根	#
 item.twilightforest.transformation_powder=转换粉	#
 #arctic
-item.twilightforest.arctic_chestplate=极地皮衣#
+item.twilightforest.arctic_chestplate=极地皮衣	#
 item.twilightforest.arctic_boots=极地护靴	#
 item.twilightforest.arctic_helmet=极地风帽	#
 item.twilightforest.arctic_fur=极地皮毛	#
-item.twilightforest.arctic_legging=极地护腿	#
+item.twilightforest.arctic_leggings=极地护腿	#
 #bows
 item.twilightforest.ender_bow=末影弓	#
 item.twilightforest.ice_bow=冰霜弓	#
@@ -271,8 +273,8 @@ item.twilightforest.steeleaf_sword=钢叶剑	#
 item.twilightforest.hydra=九头蛇战利品	#
 item.twilightforest.lich=巫妖战利品	#
 item.twilightforest.naga=娜迦战利品	#
-item.twilightforest.snowqueen=冰雪女王战利品	#
-item.twilightforest.urghast=暮色恶魂战利品	#
+item.twilightforest.snow_queen=冰雪女王战利品	#
+item.twilightforest.ur_ghast=暮色恶魂战利品	#
 item.twilightforest.knight_phantom=幻影骑士战利品	#
 item.twilightforest.minoshroom=米诺陶战利品	#
 item.twilightforest.quest_ram=谜题羊战利品	#
@@ -286,4 +288,4 @@ item.twilightforest.yeti_leggings=雪怪护腿	#
 ##### others #####
 action.hint.exit.pig=潜行以离开猪	#
 action.hint.exit.twilightforest:wild_boar=潜行以离开野猪	#
-action.interact.ransformation=转换	#
+action.interact.transformation=转换	#

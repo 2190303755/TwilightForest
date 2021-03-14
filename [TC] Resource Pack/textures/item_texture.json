@@ -113,10 +113,10 @@
     "trophy_lich": {
       "textures": "textures/items/trophy/trophy_lich"
     },
-    "trophy_snowqueen": {
-      "textures": "textures/items/trophy/trophy_snowqueen"
+    "trophy_snow_queen": {
+      "textures": "textures/items/trophy/trophy_snow_queen"
     },
-    "trophy_urghast": {
+    "trophy_ur_ghast": {
       "textures": "textures/items/trophy/trophy_ur_ghast"
     },
     "trophy_knight_phantom": {

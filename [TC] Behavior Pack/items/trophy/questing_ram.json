@@ -2,7 +2,7 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:quest_ram"
+      "identifier": "twilightforest:trophy_quest_ram"
     },
     "components": {
       "minecraft:hand_equipped": false,
