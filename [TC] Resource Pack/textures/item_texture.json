@@ -71,17 +71,17 @@
     "arctic_chestplate": {
       "textures": "textures/items/arctic/arctic_chestplate"
     },
-    "scepter_lifedrain": {
-      "textures": "textures/items/scepter/scepter_lifedrain"
+    "lifedrain_scepter": {
+      "textures": "textures/items/scepter/lifedrain"
     },
-    "scepter_shield": {
-      "textures": "textures/items/scepter/scepter_shield"
+    "shield_scepter": {
+      "textures": "textures/items/scepter/shield"
     },
-    "scepter_twilight": {
-      "textures": "textures/items/scepter/scepter_twilight"
+    "twilight_scepter": {
+      "textures": "textures/items/scepter/twilight"
     },
-    "scepter_zombie": {
-      "textures": "textures/items/scepter/scepter_zombie"
+    "zombie_scepter": {
+      "textures": "textures/items/scepter/zombie"
     },
     "meef_raw": {
       "textures": "textures/items/food/meef_raw"

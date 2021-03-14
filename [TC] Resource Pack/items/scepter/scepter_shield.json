@@ -2,11 +2,11 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:scepter_shield",
+      "identifier": "twilightforest:shield_scepter",
       "category": "Equipment"
     },
     "components": {
-      "minecraft:icon": "scepter_shield",
+      "minecraft:icon": "shield_scepter",
       "minecraft:hover_text_color": "aqua",
       "minecraft:render_offsets": "tools"
     }

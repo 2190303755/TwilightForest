@@ -15,7 +15,7 @@
         },
         "minecraft:boss": {
           "hud_range": 256,
-          "name": "shield.twilightforest:lich.5"
+          "name": "entity.twilightforest:lich.shield.5"
         },
         "minecraft:spawn_entity": {
           "entities": [
@@ -36,7 +36,7 @@
         },
         "minecraft:boss": {
           "hud_range": 256,
-          "name": "shield.twilightforest:lich.4"
+          "name": "entity.twilightforest:lich.shield.4"
         }
       },
       "twilightforest:shield_3": {
@@ -45,7 +45,7 @@
         },
         "minecraft:boss": {
           "hud_range": 256,
-          "name": "shield.twilightforest:lich.3"
+          "name": "entity.twilightforest:lich.shield.3"
         }
       },
       "twilightforest:shield_2": {
@@ -54,7 +54,7 @@
         },
         "minecraft:boss": {
           "hud_range": 256,
-          "name": "shield.twilightforest:lich.2"
+          "name": "entity.twilightforest:lich.shield.2"
         }
       },
       "twilightforest:shield_1": {
@@ -63,7 +63,7 @@
         },
         "minecraft:boss": {
           "hud_range": 256,
-          "name": "shield.twilightforest:lich.1"
+          "name": "entity.twilightforest:lich.shield.1"
         }
       },
       "twilightforest:duplicates": {
@@ -136,7 +136,7 @@
       "twilightforest:lich_bossbar": {
         "minecraft:boss": {
           "hud_range": 256,
-          "name": "entity.twilightforest:lich.name"
+          "name": "entity.twilightforest:lich.shield.0"
         },
         "minecraft:variant": {
           "value": 2
@@ -326,7 +326,7 @@
           ]
         },
         "run_command": {
-          "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:scepter_twilight"
+          "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
         }
       },
       "twilightforest:duplicates": {
@@ -337,7 +337,7 @@
           ]
         },
         "run_command": {
-          "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:scepter_twilight"
+          "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
         }
       },
       "twilightforest:shield_break": {
@@ -386,7 +386,7 @@
               ]
             },
             "run_command": {
-              "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:scepter_twilight"
+              "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
             }
           },
           {
@@ -404,7 +404,7 @@
               ]
             },
             "run_command": {
-              "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:scepter_twilight"
+              "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
             }
           },
           {
@@ -422,7 +422,7 @@
               ]
             },
             "run_command": {
-              "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:scepter_twilight"
+              "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
             }
           },
           {
@@ -440,7 +440,7 @@
               ]
             },
             "run_command": {
-              "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:scepter_twilight"
+              "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
             }
           },
           {
@@ -458,7 +458,7 @@
               ]
             },
             "run_command": {
-              "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:scepter_zombie"
+              "command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:zombie_scepter"
             }
           }
         ]

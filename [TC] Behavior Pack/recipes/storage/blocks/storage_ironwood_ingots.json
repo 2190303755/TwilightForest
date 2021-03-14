@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "twilightforest:storage_ironwoods"
+    "identifier": "twilightforest:ironwood_blocks"
     },
 
     
@@ -18,7 +18,7 @@
       }
     },
     "result": {
-      "item": "twilightforest:storage_ironwood",
+      "item": "twilightforest:ironwood_block",
       "count": 2
     }
   }

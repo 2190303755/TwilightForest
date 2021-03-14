@@ -2,7 +2,7 @@
   "format_version": "1.12",
   "minecraft:recipe_shaped": {
     "description": {
-    "identifier": "twilightforest:storage_knightmetal"
+    "identifier": "twilightforest:knightmetal_block"
     },
 
     
@@ -18,7 +18,7 @@
       }
     },
     "result": {
-      "item": "twilightforest:storage_knightmetal"
+      "item": "twilightforest:knightmetal_block"
     }
   }
 }

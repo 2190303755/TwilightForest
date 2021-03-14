@@ -5,22 +5,22 @@
       "entries": [
         {
           "type": "item",
-          "name": "twilightforest:scepter_lifedrain",
+          "name": "twilightforest:lifedrain_scepter",
           "weight": 1
         },
         {
           "type": "item",
-          "name": "twilightforest:scepter_shield",
+          "name": "twilightforest:shield_scepter",
           "weight": 1
         },
         {
           "type": "item",
-          "name": "twilightforest:scepter_twilight",
+          "name": "twilightforest:twilight_scepter",
           "weight": 1
         },
         {
           "type": "item",
-          "name": "twilightforest:scepter_zombie",
+          "name": "twilightforest:zombie_scepter",
           "weight": 1
         }
       ]

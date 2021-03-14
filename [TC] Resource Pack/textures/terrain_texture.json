@@ -190,25 +190,25 @@
     "roots": {
       "textures": "textures/blocks/nature/roots"
     },
-    "storage_arctic_fur": {
+    "arctic_fur_block": {
       "textures":  "textures/blocks/storage/arctic_fur"
     },
-    "storage_carminite": {
+    "carminite_block": {
       "textures":  "textures/blocks/storage/carminite"
     },
-    "storage_fierymetal": {
+    "fiery_block": {
       "textures":  "textures/blocks/storage/fierymetal"
     },
-    "storage_ironwood": {
+    "ironwood_block": {
       "textures":  "textures/blocks/storage/ironwood"
     },
-    "storage_knightmetal": {
+    "knightmetal_block": {
       "textures": "textures/blocks/storage/knightmetal"
     },
-    "storage_knightmetal_out": {
+    "knightmetal_block_out": {
       "textures": "textures/blocks/storage/knightmetal_out"
     },
-    "storage_steeleaf": {
+    "steeleaf_block": {
       "textures": "textures/blocks/storage/steeleaf"
     },
     "etched_nagastone_side": {

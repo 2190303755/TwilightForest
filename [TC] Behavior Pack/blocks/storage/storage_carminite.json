@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:block": {
     "description": {
-      "identifier": "twilightforest:storage_carminite",
+      "identifier": "twilightforest:carminite_block",
       "register_to_creative_menu": true,
       "is_experimental": false
     },

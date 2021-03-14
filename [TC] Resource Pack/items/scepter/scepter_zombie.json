@@ -2,18 +2,18 @@
   "format_version": "1.16.0",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:scepter_zombie",
+      "identifier": "twilightforest:zombie_scepter",
       "category": "equipment"
     },
     "components": {
       "minecraft:icon": {
-        "texture": "scepter_zombie"
+        "texture": "zombie_scepter"
       },
       "minecraft:use_animation": "bow",
       "minecraft:hover_text_color": "aqua",
       "minecraft:render_offsets": "tools",
       "minecraft:display_name": {
-        "value": "twilightforest.scepter_zombie.item"
+        "value": "twilightforest.zombie_scepter.item"
       }
     }
   }

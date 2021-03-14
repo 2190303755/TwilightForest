@@ -1,97 +1,9 @@
-twilightforest.mira.version=§b21w04a§r
-[§6TC§r]暮色森林=[§6TC§r]暮色森林 §b21w04a§r
-[§6TC§r]暮色森林拓展=[§6TC§r]暮色森林拓展 §b21w04a§r
-
-#1.16.100
-itemGroup.name.twilightforest.items=Twilight Forest	#
-
-#arctic
-item.twilightforest:arctic_chestplate.name=极地皮衣	#
-item.twilightforest:arctic_boots.name=极地护靴	#
-item.twilightforest:arctic_helmet.name=极地风帽	#
-item.twilightforest:arctic_fur.name=极地皮毛	#
-item.twilightforest:arctic_leggings.name=极地护腿	#
-#bows
-item.twilightforest:ender_bow.name=末影弓	#
-item.twilightforest:ice_bow.name=冰霜弓	#
-item.twilightforest:seeker_bow.name=寻踪弓	#
-item.twilightforest:triple_bow.name=三重弓	#
-#giant
-item.twilightforest:giant_pickaxe.name=巨人镐	#
-item.twilightforest:giant_sword.name=巨人剑	#
-#ice
-item.twilightforest:frost_sword.name=冰霜剑	#
-item.twilightforest:ice_bomb.name=冰晶爆弹	#
-#ironwood
-item.twilightforest:ironwood_axe.name=铁树斧	#
-item.twilightforest:ironwood_boots.name=铁树靴	#
-item.twilightforest:ironwood_chestplate.name=铁树胸甲	#
-item.twilightforest:ironwood_helmet.name=铁树头盔	#
-item.twilightforest:ironwood_hoe.name=铁树锄	#
-item.twilightforest:ironwood_ingot.name=铁树锭	#
-item.twilightforest:ironwood_ingots.name=铁树锭堆	#
-item.twilightforest:ironwood_leggings.name=铁树护腿	#
-item.twilightforest:ironwood_pickaxe.name=铁树镐	#
-item.twilightforest:ironwood_raw.name=生铁树原料	#
-item.twilightforest:ironwood_shovel.name=铁树锹	#
-item.twilightforest:ironwood_sword.name=铁树剑	#
-#knightmetal
-item.twilightforest:armor_shard.name=装甲碎片	#
-item.twilightforest:armor_shard_cluster.name=装甲碎片堆	#
-item.twilightforest:knightmetal_axe.name=骑士斧	#
-item.twilightforest:knightmetal_boots.name=骑士护靴	#
-item.twilightforest:knightmetal_chestplate.name=骑士胸甲	#
-item.twilightforest:knightmetal_helmet.name=骑士头盔	#
-item.twilightforest:knightmetal_ingot.name=骑士金属锭	#
-item.twilightforest:knightmetal_leggings.name=骑士护腿	#
-item.twilightforest:knightmetal_pickaxe.name=骑士镐	#
-item.twilightforest:knightmetal_sword.name=骑士剑	#
-#maze
-item.twilightforest:mazebreaker.name=迷宫破坏者	#
-#naga
-item.twilightforest:naga_chestplate.name=娜迦胸甲	#
-item.twilightforest:naga_leggings.name=娜迦护腿	#
-#phantom
-item.twilightforest:phantom_chestplate.name=幻影胸甲	#
-item.twilightforest:phantom_helmet.name=幻影头盔	#
-#steeleaf
-item.twilightforest:steeleaf.name=钢叶	#
-item.twilightforest:steeleaf_axe.name=钢叶斧	#
-item.twilightforest:steeleaf_boots.name=钢叶靴	#
-item.twilightforest:steeleaf_chestplate.name=钢叶胸甲	#
-item.twilightforest:steeleaf_helmet.name=钢叶头盔	#
-item.twilightforest:steeleaf_hoe.name=钢叶锄	#
-item.twilightforest:steeleaf_leggings.name=钢叶护腿	#
-item.twilightforest:steeleaf_pickaxe.name=钢叶镐	#
-item.twilightforest:steeleaf_shovel.name=钢叶锹	#
-item.twilightforest:steeleaf_sword.name=钢叶剑	#
-#scepter
-item.twilightforest:scepter_lifedrain.name=吸血权杖	#
-item.twilightforest:scepter_shield.name=护盾权杖	#
-item.twilightforest:scepter_twilight.name=黄昏权杖	#
-item.twilightforest:scepter_zombie.name=僵尸权杖	#
-#trophy
-item.twilightforest:hydra.name=九头蛇战利品	#
-item.twilightforest:lich.name=巫妖战利品	#
-item.twilightforest:naga.name=娜迦战利品	#
-item.twilightforest:snowqueen.name=冰雪女王战利品	#
-item.twilightforest:urghast.name=暮色恶魂战利品	#
-item.twilightforest:knight_phantom.name=幻影骑士战利品	#
-item.twilightforest:minoshroom.name=米诺陶战利品	#
-item.twilightforest:quest_ram.name=谜题羊战利品	#
-#yeti
-item.twilightforest:yeti_boots.name=雪怪护靴	#
-item.twilightforest:yeti_chestplate.name=雪怪皮衣	#
-item.twilightforest:yeti_helmet.name=雪怪角盔	#
-item.twilightforest:yeti_leggings.name=雪怪护腿	#
-#food
-item.twilightforest:hydra_chop.name=九头蛇肉排	#
-item.twilightforest:maze_wafer.name=迷宫薄饼	#
-item.twilightforest:meef_raw.name=生牛头人肉	#
-item.twilightforest:meef_steak.name=牛头人肉排	#
-item.twilightforest:meef_stroganoff.name=牛头人沙拉酱肉	#
-item.twilightforest:venison_raw.name=生鹿肉	#
-item.twilightforest:venison_cooked.name=鹿肉排	#
+########## Twilight Forest For Minecraft Bedrock Edition ##########
+##### blocks #####
+#miscellaneous
+tile.twilightforest:terrorcotta_circle.name=圈状陶瓦	#
+tile.twilightforest:terrorcotta_diagonal.name=对角陶瓦	#
+tile.twilightforest:uncrafting_table.name=拆解台	#
 #aurora
 tile.twilightforest:aurora_block.name=极光方块	#
 tile.twilightforest:aurora_pillar.name=极光柱	#
@@ -100,7 +12,6 @@ tile.twilightforest:castle_rune_brick_blue.name=蓝色城堡符文砖块	#
 tile.twilightforest:castle_rune_brick_pink.name=粉色城堡符文砖块	#
 tile.twilightforest:castle_rune_brick_violet.name=紫色城堡符文砖块	#
 tile.twilightforest:castle_rune_brick_yellow.name=黄色城堡符文砖块	#
-
 tile.twilightforest:castle_brick.name=城堡砖块	#
 tile.twilightforest:castle_brick_cracked.name=裂纹城堡砖块	#
 tile.twilightforest:castle_brick_mossy.name=城堡苔砖	#
@@ -129,8 +40,15 @@ tile.twilightforest:twilight_oak_planks.name=暮色橡木板	#
 tile.twilightforest:sorting_planks.name=分类木板	#
 tile.twilightforest:time_planks.name=时光木板	#
 tile.twilightforest:trans_planks.name=变化木板	#
+#storage
+tile.twilightforest:arctic_fur_block.name=极地皮毛块	#
+tile.twilightforest:carminite_block.name=砷铅铁块	#
+tile.twilightforest:fiery_block.name=炽热金属块	#
+tile.twilightforest:ironwood_block.name=铁树块	#
+tile.twilightforest:knightmetal_block.name=骑士金属块	#
+tile.twilightforest:steeleaf_block.name=钢叶块	#
 #towerwoods
-tile.twilightforest:towerwood_alt.name=[§4Java爱§r]-塔树木版	#
+tile.twilightforest:towerwood_alt.name=[§4版本独有§r]-塔树木版	#
 tile.twilightforest:towerwood_cracked.name=破裂塔木	#
 tile.twilightforest:towerwood_encased.name=塔树板箱	#
 tile.twilightforest:towerwood_infested.name=虫蛀塔木	#
@@ -159,13 +77,6 @@ tile.twilightforest:smoker_off.name=烟雾喷射器	#
 tile.twilightforest:smoker_on.name=烟雾喷射器	#
 tile.twilightforest:ghast_trap_off.name=恶魂陷阱	#
 tile.twilightforest:ghast_trap_on.name=恶魂陷阱	#
-#storage
-tile.twilightforest:storage_arctic_fur.name=极地皮毛块	#
-tile.twilightforest:storage_carminite.name=砷铅铁块	#
-tile.twilightforest:storage_fierymetal.name=炽热金属块	#
-tile.twilightforest:storage_ironwood.name=铁树块	#
-tile.twilightforest:storage_knightmetal.name=骑士金属块	#
-tile.twilightforest:storage_steeleaf.name=钢叶块	#
 #nagastone
 tile.twilightforest:nagastone_enched.name=蚀刻娜迦石	#
 tile.twilightforest:nagastone_enched_mossy.name=蚀刻娜迦苔石	#
@@ -193,40 +104,35 @@ tile.twilightforest:mazestone_chiseled.name=錾制遗迹石	#
 tile.twilightforest:mazestone_mosaic.name=拼花遗迹石砖	#
 tile.twilightforest:mazestone_brick_large.name=[§4版本独有§r]-遗迹石砖	#
 
-entity.hermit:carpenter.name=木匠
-item.spawn_egg.entity.hermit:carpenter.name=生成 木匠
+##### entities #####
+#entities
 entity.twilightforest:wild_deer.name=野鹿
-item.spawn_egg.entity.twilightforest:wild_deer.name=生成 野鹿
 entity.twilightforest:raven.name=乌鸦
-item.spawn_egg.entity.twilightforest:raven.name=生成 乌鸦
 entity.twilightforest:bunny.name=小兔子
-item.spawn_egg.entity.twilightforest:bunny.name=生成 小兔子
-############################################
-item.twilightforest:glass_sword.name=玻璃剑	#
-tile.twilightforest:terrorcotta_circle.name=圈状陶瓦	#
-tile.twilightforest:terrorcotta_diagonal.name=对角陶瓦	#
-tile.twilightforest:uncrafting_table.name=拆解台	#
-action.interact.ransformation=转换	#
-action.hint.exit.pig=按下潜行以离开猪	#
-action.hint.exit.twilightforest:wild_boar=按下潜行以离开野猪	#
 entity.twilightforest:ur_ghast.name=暮色恶魂	#
 entity.twilightforest:penguin.name=冰川企鹅	#
 entity.twilightforest:wild_boar.name=野猪	#
 entity.twilightforest:bighorn_sheep.name=大山角羊	#
 entity.twilightforest:maze_slime.name=迷宫史莱姆	#
 entity.twilightforest:minoshroom.name=米诺菇	#
-entity.twilightforest:lich.name=巫妖	#
-shield.twilightforest:lich.5=巫妖 - 剩余护盾: 5	#
-shield.twilightforest:lich.4=巫妖 - 剩余护盾: 4	#
-shield.twilightforest:lich.3=巫妖 - 剩余护盾: 3	#
-shield.twilightforest:lich.2=巫妖 - 剩余护盾: 2	#
-shield.twilightforest:lich.1=巫妖 - 剩余护盾: 1	#
 entity.twilightforest:hydra.name=九头蛇	#
 entity.twilightforest:quest_ram.name=谜题羊	#
 entity.twilightforest:loyal_zombie.name=忠诚的僵尸	#
 entity.twilightforest:lich_minion.name=巫妖仆从	#
 entity.twilightforest:ender_pearl_lich.name=末影珍珠	#
 entity.twilightforest:ender_pearl_player.name=末影珍珠	#
+#lich
+entity.twilightforest:lich.name=巫妖	#
+entity.twilightforest:lich.shield.0=巫妖	#
+entity.twilightforest:lich.shield.1=巫妖 - 剩余护盾: 1	#
+entity.twilightforest:lich.shield.2=巫妖 - 剩余护盾: 2	#
+entity.twilightforest:lich.shield.3=巫妖 - 剩余护盾: 3	#
+entity.twilightforest:lich.shield.4=巫妖 - 剩余护盾: 4	#
+entity.twilightforest:lich.shield.5=巫妖 - 剩余护盾: 5	#
+#spawn eggs
+item.spawn_egg.entity.twilightforest:wild_deer.name=生成 野鹿
+item.spawn_egg.entity.twilightforest:raven.name=生成 乌鸦
+item.spawn_egg.entity.twilightforest:bunny.name=生成 小兔子
 item.spawn_egg.entity.twilightforest:ur_ghast.name=生成 暮色恶魂	#
 item.spawn_egg.entity.twilightforest:penguin.name=生成 冰川企鹅	#
 item.spawn_egg.entity.twilightforest:wild_boar.name=生成 野猪	#
@@ -236,16 +142,45 @@ item.spawn_egg.entity.twilightforest:quest_ram.name=生成 谜题羊	#
 item.spawn_egg.entity.twilightforest:lich.name=生成 巫妖	#
 item.spawn_egg.entity.twilightforest:hydra.name=生成 九头蛇	#
 item.spawn_egg.entity.twilightforest:maze_slime.name=生成 迷宫史莱姆	#
-item.spawn_egg.entity.twilightforest:trophy.lich.name=巫妖战利品	#
 
-item.twilightforest.minotaur_axe_diamond=钻石米诺陶战斧	#
-item.twilightforest.minotaur_axe_golden=金米诺陶战斧	#
-item.twilightforest.transformation_powder=转换粉	#
-item.twilightforest.liveroot=活根	#
+##### items #####
+#old#
+item.twilightforest:arctic_chestplate.name=极地皮衣	#
+item.twilightforest:arctic_boots.name=极地护靴	#
+item.twilightforest:arctic_helmet.name=极地风帽	#
+item.twilightforest:arctic_leggings.name=极地护腿	#
+item.twilightforest:ender_bow.name=末影弓	#
+item.twilightforest:ice_bow.name=冰霜弓	#
+item.twilightforest:seeker_bow.name=寻踪弓	#
+item.twilightforest:triple_bow.name=三重弓	#
+item.twilightforest:giant_pickaxe.name=巨人镐	#
+item.twilightforest:giant_sword.name=巨人剑	#
+item.twilightforest:mazebreaker.name=迷宫破坏者	#
+item.twilightforest:ice_bomb.name=冰晶爆弹	#
+item.twilightforest:naga_chestplate.name=娜迦胸甲	#
+item.twilightforest:naga_leggings.name=娜迦护腿	#
+item.twilightforest:phantom_chestplate.name=幻影胸甲	#
+item.twilightforest:phantom_helmet.name=幻影头盔	#
+item.twilightforest:lifedrain_scepter.name=吸血权杖	#
+item.twilightforest:shield_scepter.name=护盾权杖	#
+item.twilightforest:hydra.name=九头蛇战利品	#
+item.twilightforest:lich.name=巫妖战利品	#
+item.twilightforest:naga.name=娜迦战利品	#
+item.twilightforest:snowqueen.name=冰雪女王战利品	#
+item.twilightforest:urghast.name=暮色恶魂战利品	#
+item.twilightforest:knight_phantom.name=幻影骑士战利品	#
+item.twilightforest:minoshroom.name=米诺陶战利品	#
+item.twilightforest:quest_ram.name=谜题羊战利品	#
+item.twilightforest:yeti_boots.name=雪怪护靴	#
+item.twilightforest:yeti_chestplate.name=雪怪皮衣	#
+item.twilightforest:yeti_helmet.name=雪怪角盔	#
+item.twilightforest:yeti_leggings.name=雪怪护腿	#
+#miscellaneous
 item.twilightforest.borer_essence=木蠹精华	#
 item.twilightforest.carminite=砷铅铁矿石	#
-#swords
 item.twilightforest.glass_sword=玻璃剑	#
+item.twilightforest.liveroot=活根	#
+item.twilightforest.transformation_powder=转换粉	#
 #arctic
 item.twilightforest.arctic_chestplate=极地皮衣#
 item.twilightforest.arctic_boots=极地护靴	#
@@ -267,6 +202,14 @@ item.twilightforest.fiery_leggings=炽铁护腿	#
 item.twilightforest.fiery_pickaxe=炽铁镐	#
 item.twilightforest.fiery_sword=炽铁剑	#
 item.twilightforest.fiery_tears=炽热之泪	#
+#food
+item.twilightforest.hydra_chop=九头蛇肉排	#
+item.twilightforest.maze_wafer=迷宫薄饼	#
+item.twilightforest.meef_raw=生牛头人肉	#
+item.twilightforest.meef_steak=牛头人肉排	#
+item.twilightforest.meef_stroganoff=牛头人沙拉酱肉	#
+item.twilightforest.venison_raw=生鹿肉	#
+item.twilightforest.venison_cooked=鹿肉排	#
 #giant
 item.twilightforest.giant_pickaxe=巨人镐	#
 item.twilightforest.giant_sword=巨人剑	#
@@ -299,12 +242,20 @@ item.twilightforest.knightmetal_pickaxe=骑士镐	#
 item.twilightforest.knightmetal_sword=骑士剑	#
 #maze
 item.twilightforest.mazebreaker=迷宫破坏者	#
+#minotaur
+item.twilightforest.minotaur_axe_diamond=钻石米诺陶战斧	#
+item.twilightforest.minotaur_axe_golden=金米诺陶战斧	#
 #naga
 item.twilightforest.naga_chestplate=娜迦胸甲	#
 item.twilightforest.naga_leggings=娜迦护腿	#
 #phantom
 item.twilightforest.phantom_chestplate=幻影胸甲	#
 item.twilightforest.phantom_helmet=幻影头盔	#
+#scepter
+item.twilightforest.lifedrain_scepter=吸血权杖	#
+item.twilightforest.shield_scepter=护盾权杖	#
+item.twilightforest.twilight_scepter=黄昏权杖	#
+item.twilightforest.zombie_scepter=僵尸权杖	#
 #steeleaf
 item.twilightforest.steeleaf=钢叶	#
 item.twilightforest.steeleaf_axe=钢叶斧	#
@@ -316,11 +267,6 @@ item.twilightforest.steeleaf_leggings=钢叶护腿	#
 item.twilightforest.steeleaf_pickaxe=钢叶镐	#
 item.twilightforest.steeleaf_shovel=钢叶锹	#
 item.twilightforest.steeleaf_sword=钢叶剑	#
-#scepter
-item.twilightforest.scepter_lifedrain=吸血权杖	#
-item.twilightforest.scepter_shield=护盾权杖	#
-item.twilightforest.scepter_twilight=黄昏权杖	#
-item.twilightforest.scepter_zombie=僵尸权杖	#
 #trophy
 item.twilightforest.hydra=九头蛇战利品	#
 item.twilightforest.lich=巫妖战利品	#
@@ -336,16 +282,8 @@ item.twilightforest.yeti_boots=雪怪护靴	#
 item.twilightforest.yeti_chestplate=雪怪皮衣	#
 item.twilightforest.yeti_helmet=雪怪角盔	#
 item.twilightforest.yeti_leggings=雪怪护腿	#
-#food
-item.twilightforest.hydra_chop=九头蛇肉排	#
-item.twilightforest.maze_wafer=迷宫薄饼	#
-item.twilightforest.meef_raw=生牛头人肉	#
-item.twilightforest.meef_steak=牛头人肉排	#
-item.twilightforest.meef_stroganoff=牛头人沙拉酱肉	#
-item.twilightforest.venison_raw=生鹿肉	#
-item.twilightforest.venison_cooked=鹿肉排	#
 
-action.interact.quest_ram.completed=完成挑战	#
-
-tile.twilightforest:liveroots.name=活根	#
-tile.twilightforest:roots.name=根茎	#
+##### others #####
+action.hint.exit.pig=潜行以离开猪	#
+action.hint.exit.twilightforest:wild_boar=潜行以离开野猪	#
+action.interact.ransformation=转换	#

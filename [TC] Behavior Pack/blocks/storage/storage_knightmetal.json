@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "twilightforest:storage_knightmetal"
+      "identifier": "twilightforest:knightmetal_block"
     },
     "components": {
       "minecraft:destroy_time": 6.25,
@@ -13,10 +13,10 @@
         "origin":[-7,1,-7],
         "size":[14,14,14]
       },
-      "minecraft:geometry": "geometry.storage_knightmetal.twilightforest",
+      "minecraft:geometry": "geometry.knightmetal_block.twilightforest",
       "minecraft:material_instances" : {
         "*": {
-          "texture": "storage_knightmetal",
+          "texture": "knightmetal_block",
           "render_method" : "blend"
         }
       }

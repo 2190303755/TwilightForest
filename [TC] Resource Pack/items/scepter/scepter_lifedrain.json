@@ -2,11 +2,11 @@
   "format_version": "1.0",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:scepter_lifedrain",
+      "identifier": "twilightforest:lifedrain_scepter",
       "category": "Equipment"
     },
     "components": {
-      "minecraft:icon": "scepter_lifedrain",
+      "minecraft:icon": "lifedrain_scepter",
       "minecraft:hover_text_color": "aqua",
       "minecraft:render_offsets": "tools"
     }

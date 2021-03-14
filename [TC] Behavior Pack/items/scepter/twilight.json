@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:scepter_twilight",
+      "identifier": "twilightforest:twilight_scepter",
       "category": "equipment"
     },
     "components": {
@@ -10,10 +10,10 @@
         "parent": "itemGroup.name.twilightforest.scepter"
       },
       "minecraft:display_name": {
-        "value": "item.twilightforest.scepter_twilight"
+        "value": "item.twilightforest.twilight_scepter"
       },
       "minecraft:icon": {
-        "texture": "scepter_twilight"
+        "texture": "twilight_scepter"
       },
       "minecraft:max_stack_size": 1,
       "minecraft:hand_equipped": true,

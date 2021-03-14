@@ -232,28 +232,28 @@
     "textures": "mine_planks",
     "sound": "wood"
   },
-  "twilightforest:storage_arctic_fur": {
-    "textures": "storage_arctic_fur",
+  "twilightforest:arctic_fur_block": {
+    "textures": "arctic_fur_block",
     "sound": "metal"
   },
-  "twilightforest:storage_carminite": {
-    "textures": "storage_carminite",
+  "twilightforest:carminite_block": {
+    "textures": "carminite_block",
     "sound": "metal"
   },
-  "twilightforest:storage_fierymetal": {
-    "textures": "storage_fierymetal",
+  "twilightforest:fiery_block": {
+    "textures": "fiery_block",
     "sound": "metal"
   },
-  "twilightforest:storage_ironwood": {
-    "textures": "storage_ironwood",
+  "twilightforest:ironwood_block": {
+    "textures": "ironwood_block",
     "sound": "metal"
   },
-  "twilightforest:storage_knightmetal": {
-    "textures": "storage_knightmetal",
+  "twilightforest:knightmetal_block": {
+    "textures": "knightmetal_block",
     "sound": "metal"
   },
-  "twilightforest:storage_steeleaf": {
-    "textures": "storage_steeleaf",
+  "twilightforest:steeleaf_block": {
+    "textures": "steeleaf_block",
     "sound": "metal"
   },
   "twilightforest:sorting_planks": {
