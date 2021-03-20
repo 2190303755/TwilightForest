@@ -5,7 +5,7 @@
   "num_mip_levels": 4,
   "texture_data": {
     "trophy_quest_ram": {
-      "textures": "textures/blocks/trophy/trophy_quest_ram"
+      "textures": "textures/blocks/trophy/quest_ram"
     },
     "tower_antibuilder": {
       "textures": "textures/blocks/tower/tower_antibuilder"
