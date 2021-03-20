@@ -270,14 +270,14 @@ item.twilightforest.steeleaf_pickaxe=Steeleaf Pickaxe
 item.twilightforest.steeleaf_shovel=Steeleaf Shovel
 item.twilightforest.steeleaf_sword=Steeleaf Sword
 #trophy
-item.twilightforest.hydra=Hydra Trophy
-item.twilightforest.lich=Lich Trophy
-item.twilightforest.naga=Naga Trophy
-item.twilightforest.snowqueen=Snow Queen Trophy
-item.twilightforest.urghast=Ur-Ghast Trophy
-item.twilightforest.knight_phantom=Knight Phantom Trophy
-item.twilightforest.minoshroom=Minoshroom Trophy
-item.twilightforest.quest_ram=Questing Ram Trophy
+item.twilightforest.trophy_hydra=Hydra Trophy
+item.twilightforest.trophy_lich=Twilight Lich Trophy
+item.twilightforest.trophy_naga=Naga Trophy
+item.twilightforest.trophy_snow_queen=Snow Queen Trophy
+item.twilightforest.trophy_ur_ghast=Ur-Ghast Trophy
+item.twilightforest.trophy_knight_phantom=Knight Phantom Trophy
+item.twilightforest.trophy_minoshroom=Minoshroom Trophy
+item.twilightforest.trophy_quest_ram=Questing Ram Trophy
 #yeti
 item.twilightforest.alpha_yeti_fur=Alpha Yeti Fur
 item.twilightforest.yeti_boots=Yeti Boots

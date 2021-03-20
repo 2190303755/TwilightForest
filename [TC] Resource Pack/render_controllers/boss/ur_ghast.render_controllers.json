@@ -4,12 +4,12 @@
     "controller.render.ur_ghast": {
       "arrays": {
         "textures": {
-          "Array.skins": [ "Texture.default", "Texture.charging", "Texture.incited" ]
+          "Array.skins": [ "Texture.default", "Texture.incited", "Texture.charging" ]
         }
       },
       "geometry": "Geometry.default",
       "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Array.skins[query.is_charged ? 1 : ( query.has_target ? 2 : 0) ]" ]
+      "textures": [ "Array.skins[query.has_target ? ( query.is_charged ? 2 : 1 ) : 0]" ]
     }
   }
 }

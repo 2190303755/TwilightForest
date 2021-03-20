@@ -4,44 +4,47 @@
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
-     "tower_antibuilder": {
-      "textures":  "textures/blocks/tower/tower_antibuilder"
+    "trophy_quest_ram": {
+      "textures": "textures/blocks/trophy/trophy_quest_ram"
+    },
+    "tower_antibuilder": {
+      "textures": "textures/blocks/tower/tower_antibuilder"
     },
     "tower_antibuilt": {
-      "textures":  "textures/blocks/tower/tower_antibuilt"
+      "textures": "textures/blocks/tower/tower_antibuilt"
     },
     "tower_builder_off": {
-      "textures":  "textures/blocks/tower/tower_builder_off"
+      "textures": "textures/blocks/tower/tower_builder_off"
     },
     "tower_builder_on": {
-      "textures":  "textures/blocks/tower/tower_builder_on"
+      "textures": "textures/blocks/tower/tower_builder_on"
     },
     "tower_builder_timeout": {
-      "textures":  "textures/blocks/tower/tower_builder_timeout"
+      "textures": "textures/blocks/tower/tower_builder_timeout"
     },
     "tower_carminite_built_off": {
-      "textures":  "textures/blocks/tower/tower_carminite_built_off"
+      "textures": "textures/blocks/tower/tower_carminite_built_off"
     },
     "tower_carminite_built_on": {
-      "textures":  "textures/blocks/tower/tower_carminite_built_on"
+      "textures": "textures/blocks/tower/tower_carminite_built_on"
     },
     "ghast_trap_off": {
-      "textures":  "textures/blocks/tower/ghast_trap_off"
+      "textures": "textures/blocks/tower/ghast_trap_off"
     },
     "ghast_trap_on": {
-      "textures":  "textures/blocks/tower/ghast_trap_on"
+      "textures": "textures/blocks/tower/ghast_trap_on"
     },
    "towerwood_alt": {
-      "textures":  "textures/blocks/wood/planks/towerwood_alt"
+      "textures": "textures/blocks/wood/planks/towerwood_alt"
     },
     "towerwood_cracked": {
-      "textures":  "textures/blocks/wood/planks/towerwood_cracked"
+      "textures": "textures/blocks/wood/planks/towerwood_cracked"
     },
     "towerwood_infested": {
-      "textures":  "textures/blocks/wood/planks/towerwood_infested"
+      "textures": "textures/blocks/wood/planks/towerwood_infested"
     },
     "towerwood_planks": {
-      "textures":  "textures/blocks/wood/planks/towerwood_planks"
+      "textures": "textures/blocks/wood/planks/towerwood_planks"
     },
     "canopy_side": {
       "textures": "textures/blocks/wood/logs/canopy_side"
@@ -50,10 +53,10 @@
       "textures": "textures/blocks/wood/logs/canopy_top"
     },
     "darkwood_side": {
-      "textures":  "textures/blocks/wood/logs/darkwood_side"
+      "textures": "textures/blocks/wood/logs/darkwood_side"
     },
     "darkwood_top": {
-      "textures":  "textures/blocks/wood/logs/darkwood_top"
+      "textures": "textures/blocks/wood/logs/darkwood_top"
     },
     "mangrove_side": {
       "textures": "textures/blocks/wood/logs/mangrove_side"
@@ -62,127 +65,127 @@
       "textures": "textures/blocks/wood/logs/mangrove_top"
     },
     "mine_section": {
-      "textures":  "textures/blocks/wood/logs/mine_section"
+      "textures": "textures/blocks/wood/logs/mine_section"
     },
     "mine_side": {
-      "textures":  "textures/blocks/wood/logs/mine_side"
+      "textures": "textures/blocks/wood/logs/mine_side"
     },
     "oak_side": {
-      "textures":  "textures/blocks/wood/logs/oak_side"
+      "textures": "textures/blocks/wood/logs/oak_side"
     },
     "oak_top": {
-      "textures":  "textures/blocks/wood/logs/oak_top"
+      "textures": "textures/blocks/wood/logs/oak_top"
     },
     "sort_section": {
-      "textures":  "textures/blocks/wood/logs/sort_section"
+      "textures": "textures/blocks/wood/logs/sort_section"
     },
     "sort_side": {
-      "textures":  "textures/blocks/wood/logs/sort_side"
+      "textures": "textures/blocks/wood/logs/sort_side"
     },
     "time_section": {
-      "textures":  "textures/blocks/wood/logs/time_section"
+      "textures": "textures/blocks/wood/logs/time_section"
     },
     "time_side": {
-      "textures":  "textures/blocks/wood/logs/time_side"
+      "textures": "textures/blocks/wood/logs/time_side"
     },
     "trans_section": {
       "textures": "textures/blocks/wood/logs/trans_section"
     },
     "trans_side": {
-      "textures":  "textures/blocks/wood/logs/trans_side"
+      "textures": "textures/blocks/wood/logs/trans_side"
     },
     "tower_firejet_off": {
-      "textures":  "textures/blocks/tower/tower_firejet_off"
+      "textures": "textures/blocks/tower/tower_firejet_off"
     },
     "tower_firejet_on": {
-      "textures":  "textures/blocks/tower/tower_firejet_on"
+      "textures": "textures/blocks/tower/tower_firejet_on"
     },
     "tower_top_off": {
-      "textures":  "textures/blocks/tower/tower_top_off"
+      "textures": "textures/blocks/tower/tower_top_off"
     },
     "tower_top_on": {
-      "textures":  "textures/blocks/tower/tower_top_on"
+      "textures": "textures/blocks/tower/tower_top_on"
     },
     "tower_smoker_off": {
-      "textures":  "textures/blocks/tower/tower_smoker_off"
+      "textures": "textures/blocks/tower/tower_smoker_off"
     },
     "tower_smoker_on": {
-      "textures":  "textures/blocks/tower/tower_smoker_on"
+      "textures": "textures/blocks/tower/tower_smoker_on"
     },
     "towerwood_encased": {
-      "textures":  "textures/blocks/tower/towerwood_encased"
+      "textures": "textures/blocks/tower/towerwood_encased"
     },
     "towerwood_mossy": {
-      "textures":  "textures/blocks/wood/planks/towerwood_mossy"
+      "textures": "textures/blocks/wood/planks/towerwood_mossy"
     },
     "uncrafting_particle": {
-      "textures":  "textures/blocks/uncrafting/uncrafting_particle"
+      "textures": "textures/blocks/uncrafting/uncrafting_particle"
     },
     "uncrafting_side": {
-      "textures":  "textures/blocks/uncrafting/uncrafting_side"
+      "textures": "textures/blocks/uncrafting/uncrafting_side"
     },
     "uncrafting_top": {
-      "textures":  "textures/blocks/uncrafting/uncrafting_top"
+      "textures": "textures/blocks/uncrafting/uncrafting_top"
     },
     "reappearing_block_off": {
-      "textures":  "textures/blocks/tower/reappearing_off"
+      "textures": "textures/blocks/tower/reappearing_off"
     },
     "reappearing_block_on": {
-      "textures":  "textures/blocks/tower/reappearing_on"
+      "textures": "textures/blocks/tower/reappearing_on"
     },
     "reappearing_trace_block_off": {
-      "textures":  "textures/blocks/tower/tower_reappearing_trace_off"
+      "textures": "textures/blocks/tower/tower_reappearing_trace_off"
     },
     "reappearing_trace_block_on": {
-      "textures":  "textures/blocks/tower/tower_reappearing_trace_on"
+      "textures": "textures/blocks/tower/tower_reappearing_trace_on"
     },
     "vanishing_block_locked": {
-      "textures":  "textures/blocks/tower/locked"
+      "textures": "textures/blocks/tower/locked"
     },
     "vanishing_block_unlocked": {
-      "textures":  "textures/blocks/tower/unlocked"
+      "textures": "textures/blocks/tower/unlocked"
     },
     "vanishing_block_off": {
-      "textures":  "textures/blocks/tower/vanish_off"
+      "textures": "textures/blocks/tower/vanish_off"
     },
     "vanishing_block_on": {
-      "textures":  "textures/blocks/tower/vanish_on"
+      "textures": "textures/blocks/tower/vanish_on"
     },
     "reactor_off": {
-      "textures":  "textures/blocks/tower/reactor_off"
+      "textures": "textures/blocks/tower/reactor_off"
     },
     "reactor_on": {
-      "textures":  "textures/blocks/tower/reactor_on"
+      "textures": "textures/blocks/tower/reactor_on"
     },
     "reactor_debris": {
-      "textures":  "textures/blocks/tower/destroy"
+      "textures": "textures/blocks/tower/destroy"
     },
     "canopy_planks": {
-      "textures":  "textures/blocks/wood/planks/canopy"
+      "textures": "textures/blocks/wood/planks/canopy"
     },
     "darkwood_planks": {
-      "textures":  "textures/blocks/wood/planks/darkwood"
+      "textures": "textures/blocks/wood/planks/darkwood"
     },
     "mangrove_planks": {
-      "textures":  "textures/blocks/wood/planks/mangrove"
+      "textures": "textures/blocks/wood/planks/mangrove"
     },
     "mine_planks": {
-      "textures":  "textures/blocks/wood/planks/mine"
+      "textures": "textures/blocks/wood/planks/mine"
     },
     "sorting_planks": {
-      "textures":  "textures/blocks/wood/planks/sort"
+      "textures": "textures/blocks/wood/planks/sort"
     },
     "time_planks": {
-      "textures":  "textures/blocks/wood/planks/time"
+      "textures": "textures/blocks/wood/planks/time"
     },
     "trans_planks": {
-      "textures":  "textures/blocks/wood/planks/trans"
+      "textures": "textures/blocks/wood/planks/trans"
     },
     "twilight_oak_planks": {
-      "textures":  "textures/blocks/wood/planks/twilight_oak"
+      "textures": "textures/blocks/wood/planks/twilight_oak"
     },
     "twilight_oak_slab_down": {
-      "textures":  "textures/blocks/wood/slabs/twilight_oak_slab_down"
+      "textures": "textures/blocks/wood/slabs/twilight_oak_slab_down"
     },
     "liveroots": {
       "textures": "textures/blocks/nature/liveroots"
@@ -191,16 +194,16 @@
       "textures": "textures/blocks/nature/roots"
     },
     "arctic_fur_block": {
-      "textures":  "textures/blocks/storage/arctic_fur"
+      "textures": "textures/blocks/storage/arctic_fur"
     },
     "carminite_block": {
-      "textures":  "textures/blocks/storage/carminite"
+      "textures": "textures/blocks/storage/carminite"
     },
     "fiery_block": {
-      "textures":  "textures/blocks/storage/fierymetal"
+      "textures": "textures/blocks/storage/fierymetal"
     },
     "ironwood_block": {
-      "textures":  "textures/blocks/storage/ironwood"
+      "textures": "textures/blocks/storage/ironwood"
     },
     "knightmetal_block": {
       "textures": "textures/blocks/storage/knightmetal"
