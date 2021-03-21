@@ -59,7 +59,6 @@
           {
             "damage": {
               "amount": 2,
-              "target": "item",
               "type": "none"
             }
           }

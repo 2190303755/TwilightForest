@@ -36,6 +36,7 @@
       "twilightforest:on_use": {
         "sequence": [
           {
+            "condition": "query.remaining_durability != 0",
             "shoot": {
               "launch_power": 1,
               "projectile": "twilightforest:ender_pearl_player"
@@ -46,6 +47,12 @@
               "type": "none"
             },
             "swing": {}
+          },
+          {
+            "condition": "query.remaining_durability == 0",
+            "run_command": {
+              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.error.item.twilightforest.twilight_scepter\"}]}"
+            }
           }
         ]
       },

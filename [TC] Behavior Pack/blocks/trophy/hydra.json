@@ -1,0 +1,23 @@
+{/*
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:trophy_hydra",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:destroy_time": 9.4,
+      "minecraft:block_light_absorption": 0,
+      "minecraft:block_light_emission": 0,
+      "minecraft:map_color": "#000000",
+      "minecraft:explosion_resistance": 6,
+      "minecraft:geometry": "geometry.twilightforest.block.trophy_hydra",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "twilightforest:trophy_hydra",
+          "render_method": "blend"
+        }
+      }
+    }
+  }*/
+}

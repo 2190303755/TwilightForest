@@ -36,6 +36,7 @@
       "twilightforest:on_use_on": {
         "sequence": [
           {
+            "condition": "query.remaining_durability != 0",
             "damage": {
               "amount": 1,
               "target": "item",
@@ -43,6 +44,12 @@
             },
             "run_command": {
               "command": "summon twilightforest:loyal_zombie ~ ~ ~ twilightforest:from_scepter"
+            }
+          },
+          {
+            "condition": "query.remaining_durability == 0",
+            "run_command": {
+              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.error.item.twilightforest.zombie_scepter\"}]}"
             }
           }
         ]

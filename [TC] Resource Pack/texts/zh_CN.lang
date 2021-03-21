@@ -289,3 +289,5 @@ item.twilightforest.yeti_leggings=雪怪护腿	#
 action.hint.exit.pig=潜行以离开猪	#
 action.hint.exit.twilightforest:wild_boar=潜行以离开野猪	#
 action.interact.transformation=转换	#
+action.error.item.twilightforest.twilight_scepter=[§b黄昏权杖§r] §e该权杖剩余使用次数不足§r	#
+action.error.item.twilightforest.zombie_scepter=[§b僵尸权杖§r] §e该权杖剩余使用次数不足§r	#

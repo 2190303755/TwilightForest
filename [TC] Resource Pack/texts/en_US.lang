@@ -289,3 +289,5 @@ item.twilightforest.yeti_leggings=Yeti Leggings
 action.hint.exit.pig=Tap sneak to dismount
 action.hint.exit.twilightforest:wild_boar=Tap sneak to dismount
 action.interact.transformation=Transform
+action.error.item.twilightforest.twilight_scepter=[§b黄昏权杖§r] §e该权杖剩余使用次数不足§r	#
+action.error.item.twilightforest.zombie_scepter=[§b僵尸权杖§r] §e该权杖剩余使用次数不足§r	#
