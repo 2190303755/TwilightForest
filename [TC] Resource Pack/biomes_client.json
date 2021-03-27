@@ -10,7 +10,7 @@
       "water_surface_transparency": 0.65,
       "fog_identifier": "twilightforest:fog_twilight_forest"
     },*/
-    "twilight_forest": {
+    "twilightforest.twilight_forest": {
       "water_surface_color": "#617B64",
       "water_surface_transparency": 0.65,
       "fog_identifier": "twilightforest:fog_twilight_forest"

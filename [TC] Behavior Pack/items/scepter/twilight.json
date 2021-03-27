@@ -51,7 +51,7 @@
           {
             "condition": "query.remaining_durability == 0",
             "run_command": {
-              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.error.item.twilightforest.twilight_scepter\"}]}"
+              "command": "tellraw @p {\"rawtext\":[{\"text\":\"[§b\"},{\"translate\":\"item.twilightforest.twilight_scepter\"},{\"text\":\"§r] \"},{\"translate\":\"action.twilightforest.item.scepter.durability\"}]}"
             }
           }
         ]

@@ -1,15 +1,58 @@
 {
-  "format_version": "1.0",
+  "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:lifedrain_scepter"
+      "identifier": "twilightforest:lifedrain_scepter",
+      "category": "equipment"
     },
     "components": {
-      "minecraft:hand_equipped": true,
-      "minecraft:use_duration": 32,
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilightforest.scepter"
+      },
+      "minecraft:display_name": {
+        "value": "item.twilightforest.lifedrain_scepter"
+      },
+      "minecraft:icon": {
+        "texture": "lifedrain_scepter"
+      },
       "minecraft:max_stack_size": 1,
-      "minecraft:max_damage": 99,
-      "minecraft:stacked_by_data": true
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 99
+      },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "twilightforest:on_use"
+        }
+      },
+      "minecraft:damage": 2,
+      "minecraft:weapon": {
+        "on_hurt_entity": {
+          "event": "twilightforest:on_hurt_entity"
+        }
+      }
+    },
+    "events": {
+      "twilightforest:on_use": {
+        "sequence": [
+          {
+            "run_command": {
+              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.twilightforest.item.scepter.uncompleted\"}]}"
+            }
+          }
+        ]
+      },
+      "twilightforest:on_hurt_entity": {
+        "sequence": [
+          {
+            "damage": {
+              "amount": 0,
+              "target": "item",
+              "type": "none"
+            }
+          }
+        ]
+      }
     }
   }
 }

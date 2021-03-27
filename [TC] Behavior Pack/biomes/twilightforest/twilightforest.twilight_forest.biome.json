@@ -2,7 +2,7 @@
   "format_version": "1.13.0",
   "minecraft:biome": {
     "description": {
-      "identifier": "twilight_forest"
+      "identifier": "twilightforest.twilight_forest"
     },
     "components": {
       "minecraft:climate": {
@@ -12,13 +12,13 @@
       },
       "minecraft:multinoise_generation_rules": {
         "target_temperature": 0.0,
-        "target_humidity": 0.0,
+        "target_humidity": 0.5,
         "target_altitude": 0.0,
         "target_weirdness": 0.0,
-        "weight": 0.4
+        "weight": 1000
       },
       "minecraft:overworld_height": {
-        "noise_type": "lowlands"
+        "noise_type": "default"
       },
       "minecraft:surface_parameters": {
         "sea_floor_depth": 7,
@@ -29,23 +29,18 @@
         "sea_material": "minecraft:water"
       },
       "minecraft:overworld_generation_rules": {
-        "hills_transformation": [
-          [ "forest_hills", 1 ],
-          [ "forest", 2 ]
-        ],
-        "mutate_transformation": "sunflower_plains",
         "generate_for_climates": [
-          [ "medium", 3 ],
-          [ "warm", 1 ],
+          [ "medium", 1 ],
           [ "cold", 1 ]
         ]
       },
 
       "animal": {},
+      "forest": {},
       "monster": {},
       "overworld": {},
-      "plains": {},
-      "bee_habitat": {}
+      "bee_habitat": {},
+      "twilight": {}
     }
   }
 }

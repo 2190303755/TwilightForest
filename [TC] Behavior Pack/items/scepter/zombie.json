@@ -36,7 +36,7 @@
       "twilightforest:on_use_on": {
         "sequence": [
           {
-            "condition": "query.remaining_durability != 0",
+            "condition": "query.block_has_any_tag(query.position(0),query.position(1),query.position(2),'log')",
             "damage": {
               "amount": 1,
               "target": "item",
@@ -49,7 +49,7 @@
           {
             "condition": "query.remaining_durability == 0",
             "run_command": {
-              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.error.item.twilightforest.zombie_scepter\"}]}"
+              "command": "tellraw @p {\"rawtext\":[{\"text\":\"[§b\"},{\"translate\":\"item.twilightforest.zombie_scepter\"},{\"text\":\"§r] \"},{\"translate\":\"action.twilightforest.item.scepter.durability\"}]}"
             }
           }
         ]

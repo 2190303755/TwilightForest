@@ -815,11 +815,6 @@
           "component_groups": [ "skin_0" ]
         }
       },
-      "MadeBy2190303755": {
-        "add": {
-          "component_groups": [ "skin_15" ]
-        }
-      },
       "refresh": {
         "sequence": [
           {
