@@ -1,10 +1,10 @@
 {
   "format_version": 2,
   "header": {
-    "description": "§aMade By:§r\n§eHermitMira§r\n§e2190303755§r\n§eJAVAAI00§r\n§aSupport:§r\n§eMiemieMethod§r\n \n§c© Benimatic§r",
+    "description": "§aMade By:§r\n§eHermitMira§r\n§e2190303755§r\n§eJAVAAI00§r\n§aSupport:§r\n§eMiemieMethod§r\nVersion:\nReAlpha 1.0.1\n\n§c© Benimatic§r",
     "name": "§e[§r§6TC§r§e]§r §bTwilight Forest§r",
     "uuid": "df957371-6d0e-4add-a455-be674d3411be",
-    "version": [1, 0, 1],//21w10a|Alpha 1.0.1
+    "version": [1, 0, 1],//21w12a|ReAlpha 1.0.1
     "min_engine_version": [1, 16, 220]
   },
   "modules": [
@@ -12,7 +12,7 @@
       "description": "https://github.com/2190303755/TwilightForest",
       "type": "resources",
       "uuid": "53644fac-a276-4add-840f-bec6f169a9aa",
-      "version": [21, 3, 13]
+      "version": [21, 3, 27]
     }
   ]
 }

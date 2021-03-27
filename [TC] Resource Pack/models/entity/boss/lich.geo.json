@@ -1,150 +1,146 @@
 {
-	"format_version": "1.10.0",
-	"geometry.lich": {
-		"texturewidth": 64,
-		"textureheight": 64,
-		"visible_bounds_width": 3,
-		"visible_bounds_height": 3.25,
-		"visible_bounds_offset": [0, 1.375, 0],
-		"bones": [
-			{
-				"name": "head",
-				"pivot": [0, 26, -2],
-				"cubes": [
-					{"origin": [-4, 26, -4], "size": [8, 8, 8], "uv": [0, 0]}
-				]
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.twilightforest.lich",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
 			},
-			{
-				"name": "headwear",
-				"parent": "head",
-				"pivot": [0, 26, -2],
-				"cubes": [
-					{"origin": [-4, 30, -4], "size": [8, 8, 8], "uv": [32, 0], "inflate": 0.2}
-				]
-			},
-			{
-				"name": "body",
-				"pivot": [0, 5.9, 1],
-				"cubes": [
-					{"origin": [-4, 1.9, -2], "size": [8, 24, 4], "uv": [8, 16]}
-				]
-			},
-			{
-				"name": "collar",
-				"pivot": [0, 29, 10],
-				"rotation": [124, 0, 0],
-				"cubes": [
-					{"origin": [-6, 29, 13], "size": [12, 12, 1], "uv": [32, 16]}
-				]
-			},
-			{
-				"name": "cloak",
-				"pivot": [0, 10.8, 1.7],
-				"cubes": [
-					{"origin": [-6, 6.8, 2.7], "size": [12, 19, 1], "uv": [0, 44]}
-				]
-			},
-			{
-				"name": "rightArm",
-				"pivot": [0, 23, -10],
-				"rotation": [-90, 0, 0],
-				"cubes": [
-					{"origin": [-6.2, 23, -13], "size": [2, 12, 2], "uv": [0, 16]}
-				]
-			},
-			{
-				"name": "rightItem",
-				"parent": "rightArm",
-				"pivot": [0, 0, 0]
-			},
-			{
-				"name": "leftArm",
-				"pivot": [11.6, 32, 2],
-				"rotation": [0, 0, -150],
-				"cubes": [
-					{"origin": [12.6, 32, -1], "size": [2, 12, 2], "uv": [0, 16]}
-				]
-			},
-			{
-				"name": "rightLeg",
-				"pivot": [-2.5, 12, 2],
-				"cubes": [
-					{"origin": [-3.5, 0, -1], "size": [2, 12, 2], "uv": [0, 16]}
-				]
-			},
-			{
-				"name": "leftLeg",
-				"pivot": [0.4, 12, 2],
-				"cubes": [
-					{"origin": [1.4, 0, -1], "size": [2, 12, 2], "uv": [0, 16]}
-				]
-			},
-			{
-				"name": "shield0",
-				"pivot": [0, 0, 0],
-				"cubes": [
-					{"origin": [-12, 13, -5], "size": [0, 13, 13], "uv": [26, 38]},
-					{"origin": [-13, 13, -5], "size": [0, 13, 13], "uv": [26, 38]}
-				]
-			},
-			{
-				"name": "shield1",
-				"pivot": [0, 0, 0],
-				"cubes": [
-					{"origin": [11, 13, -5], "size": [0, 13, 13], "uv": [26, 38]},
-					{"origin": [12, 13, -5], "size": [0, 13, 13], "uv": [26, 38]}
-				]
-			},
-			{
-				"name": "shield2",
-				"pivot": [0, 0, 0],
-				"cubes": [
-					{"origin": [-6, 13, -11], "size": [13, 13, 0], "uv": [26, 52]},
-					{"origin": [-6, 13, -12], "size": [13, 13, 0], "uv": [26, 52]}
-				]
-			},
-			{
-				"name": "shield3",
-				"pivot": [0, 0, 0],
-				"cubes": [
-					{"origin": [-6, 13, 12], "size": [13, 13, 0], "uv": [26, 52]},
-					{"origin": [-6, 13, 13], "size": [13, 13, 0], "uv": [26, 52]}
-				]
-			}
-		]
-	},
-	"geometry.trophy": {
-		"texturewidth": 64,
-		"textureheight": 64,
-		"bones": [
-			{
-				"name": "body",
-				"pivot": [-3, 0, -2],
-				"cubes": [
-					{"origin": [-4, 0, -4], "size": [8, 8, 8], "uv": [0, 0]}
-				]
-			},
-			{
-				"name": "bodywear",
-				"parent": "body",
-				"pivot": [-3, 4, -2],
-				"cubes": [
-					{"origin": [-4, 4, -4], "size": [8, 8, 8], "uv": [32, 0], "inflate": 0.2}
-				]
-			}
-		]
-	},
-	"geometry.projectile": {
-		"texturewidth": 16,
-		"textureheight": 16,
-		"bones": [
-			{
-				"name": "body",
-				"pivot": [0, 4, 0],
-				"cubes": [
-					{"origin": [-7, 0, 0], "size": [16, 16, 1], "uv": [0, 0]}
-				]
-			}
-		]
-	}
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [8, 24, 4], "uv": [8, 16]}
+					]
+				},
+				{
+					"name": "collar",
+					"parent": "body",
+					"pivot": [0, 27, -1],
+					"rotation": [124, 0, 0],
+					"cubes": [
+						{"origin": [-6, 17, -5], "size": [12, 12, 1], "uv": [32, 16]}
+					]
+				},
+				{
+					"name": "cloak",
+					"parent": "body",
+					"pivot": [0, 28, 2.5],
+					"cubes": [
+						{"origin": [-6, 7, 2.5], "size": [12, 19, 1], "uv": [0, 44]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "crown",
+					"parent": "head",
+					"pivot": [0, 28, 0],
+					"cubes": [
+						{"origin": [-4, 28, -4], "size": [8, 8, 8], "inflate": 0.5, "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "rightArm",
+					"parent": "body",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{"origin": [-6, 12, -1], "size": [2, 12, 2], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm",
+					"pivot": [-6, 15, 1]
+				},
+				{
+					"name": "leftArm",
+					"parent": "body",
+					"pivot": [5, 22, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [4, 12, -1], "size": [2, 12, 2], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "leftItem",
+					"parent": "leftArm",
+					"pivot": [6, 15, 1]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "body",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-3, 0, -1], "size": [2, 12, 2], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "body",
+					"pivot": [2, 12, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [1, 0, -1], "size": [2, 12, 2], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "shields",
+					"parent": "body",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "shield_1",
+					"parent": "shields",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-6, 12, -12], "size": [12, 12, 1], "uv": [26, 51]}
+					]
+				},
+				{
+					"name": "shield_2",
+					"parent": "shields",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-6, 12, -12], "size": [12, 12, 1], "uv": [26, 51]}
+					]
+				},
+				{
+					"name": "shield_3",
+					"parent": "shields",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-6, 12, -12], "size": [12, 12, 1], "uv": [26, 51]}
+					]
+				},
+				{
+					"name": "shield_4",
+					"parent": "shields",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-6, 12, -12], "size": [12, 12, 1], "uv": [26, 51]}
+					]
+				},
+				{
+					"name": "shield_5",
+					"parent": "shields",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-6, 12, -12], "size": [12, 12, 1], "uv": [26, 51]}
+					]
+				}
+			]
+		}
+	]
 }

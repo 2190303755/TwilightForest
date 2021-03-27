@@ -16,18 +16,6 @@
         "minecraft:boss": {
           "hud_range": 256,
           "name": "entity.twilightforest:lich.shield.5"
-        },
-        "minecraft:spawn_entity": {
-          "entities": [
-            {
-              "max_wait_time": 0,
-              "min_wait_time": 0,
-              "num_to_spawn": 2,
-              "single_use": true,
-              "spawn_entity": "twilightforest:lich",
-              "spawn_event": "twilightforest:duplicates"
-            }
-          ]
         }
       },
       "twilightforest:shield_4": {
@@ -66,12 +54,26 @@
           "name": "entity.twilightforest:lich.shield.1"
         }
       },
+      "twilightforest:spawn_duplicates": {
+        "minecraft:spawn_entity": {
+          "entities": [
+            {
+              "max_wait_time": 0,
+              "min_wait_time": 0,
+              "num_to_spawn": 2,
+              "single_use": true,
+              "spawn_entity": "twilightforest:lich",
+              "spawn_event": "twilightforest:duplicates"
+            }
+          ]
+        }
+      },
       "twilightforest:duplicates": {
         "minecraft:variant": {
           "value": 1
         },
         "minecraft:mark_variant": {
-          "value": 5
+          "value": 0
         },
         "minecraft:skin_id": {
           "value": 1
@@ -318,6 +320,14 @@
 
     "events": {
       "minecraft:entity_spawned": {
+        "trigger": "entity_spawned.lich",
+        "add": {
+          "component_groups": [
+            "twilightforest:spawn_duplicates"
+          ]
+        }
+      },
+      "entity_spawned.lich": {
         "add": {
           "component_groups": [
             "twilightforest:shield",

@@ -1,36 +1,45 @@
 {
-"format_version": "1.8.0",
-"minecraft:client_entity": {
-"description": {
-"identifier": "twilightforest:lich",
-"materials": {
-"default": "lich"
-},
-"geometry": {
-"default": "geometry.lich"
-},
-"textures": {
-"default": "textures/entity/boss/twilight_lich"
-},
-"render_controllers": [ "controller.render.lich" ],
-"spawn_egg": {
-"texture": "spawn_lich"
-},
-"scripts": {
-"pre_animation": [
-"variable.general0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
-"variable.general1 = -variable.general0;"
-]
-},
-"animations": {
-"general": "animation.lich.general",
-"shield": "animation.lich.shield"
-},
-"animation_controllers": [
-{ "general": "controller.animation.lich.general" },
-{ "shield": "controller.animation.lich.shield" }
-]
-}
-//——销毁
-}
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "twilightforest:lich",
+      "materials": {
+        "default": "lich"
+      },
+      "textures": {
+        "default": "textures/entity/boss/twilight_lich"
+      },
+      "geometry": {
+        "default": "geometry.twilightforest.lich"
+      },
+      "spawn_egg": {
+        "texture": "spawn_lich"
+      },
+      "scripts": {
+        "animate": [
+          "look_at_target",
+          "move",
+          "holding",
+          { "shields": "query.variant && query.mark_variant >= 1"},
+          { "brandish_spear": "variable.is_brandishing_spear" },
+          { "attack": "variable.attack_time >= 0.0" },
+          { "damage_nearby_mobs": "variable.damage_nearby_mobs" }
+        ],
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+      "animations": {
+        "shields": "animation.lich.shields",
+        "look_at_target": "animation.humanoid.look_at_target.default",
+        "move": "animation.humanoid.move",
+        "holding": "animation.humanoid.holding",
+        "brandish_spear": "animation.humanoid.brandish_spear",
+        "attack": "animation.humanoid.attack.rotations",
+        "damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs"
+      },
+      "render_controllers": [ "controller.render.lich" ],
+      "enable_attachables": true
+    }
+  }
 }

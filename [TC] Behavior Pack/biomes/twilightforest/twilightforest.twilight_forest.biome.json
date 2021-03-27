@@ -15,7 +15,7 @@
         "target_humidity": 0.5,
         "target_altitude": 0.0,
         "target_weirdness": 0.0,
-        "weight": 1000
+        "weight": 0.4
       },
       "minecraft:overworld_height": {
         "noise_type": "default"
