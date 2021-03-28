@@ -14,7 +14,7 @@
       "minecraft:material_instances" : {
         "*": {
           "texture": "reappearing_trace_block_off",
-          "render_method" : "blend"
+          "render_method" : "alpha_test"
         }
       },
       "minecraft:on_interact":{

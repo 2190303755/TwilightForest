@@ -2,11 +2,11 @@
   "format_version": "1.12",
   "minecraft:recipe_furnace": {
     "description": {
-    "identifier": "twilightforest:ironwood_ingots"
+      "identifier": "twilightforest:ironwood_ingots"
     },
 
-  "tags": [ "furnace", "blast_furnace" ],
-  "input": "twilightforest:ironwood_raw",
-  "output": "twilightforest:ironwood_ingots"
+    "tags": [ "furnace", "blast_furnace" ],
+    "input": "twilightforest:ironwood_raw",
+    "output": "twilightforest:ironwood_ingots"
   }
 }

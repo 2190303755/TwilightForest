@@ -7,6 +7,12 @@
     "trophy_quest_ram": {
       "textures": "textures/blocks/trophy/quest_ram"
     },
+    "trophy_lich": {
+      "textures": "textures/entity/boss/twilight_lich"
+    },
+    "twilight_oak_sapling": {
+      "textures": "textures/items/sapling/twilight_oak_sapling"
+    },
     "tower_antibuilder": {
       "textures": "textures/blocks/tower/tower_antibuilder"
     },

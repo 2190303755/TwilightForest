@@ -5,10 +5,7 @@
 			"description": {
 				"identifier": "geometry.twilightforest.block.trophy_quest_ram",
 				"texture_width": 102,
-				"texture_height": 34,
-				"visible_bounds_width": 5,
-				"visible_bounds_height": 4,
-				"visible_bounds_offset": [0, 2, 0]
+				"texture_height": 34
 			},
 			"bones": [
 				{
@@ -53,6 +50,40 @@
 						{"origin": [11, 2.5, 2.5], "size": [3, 3, 6], "uv": [58, 25]},
 						{"origin": [12, 3.5, 0.5], "size": [3, 6, 3], "uv": [76, 25]},
 						{"origin": [13, 8.5, 2.5], "size": [3, 3, 4], "uv": [88, 27]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.twilightforest.block.trophy_lich",
+				"texture_width": 64,
+				"texture_height": 64
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 0, -4], "size": [8, 8, 8], "uv": [0, 0]},
+						{"origin": [-4, 4, -4], "size": [8, 8, 8], "inflate": 0.5, "uv": [32, 0]}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.twilightforest.block.trophy_lich.wall",
+				"texture_width": 64,
+				"texture_height": 64
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 4, 0], "size": [8, 8, 8], "uv": [0, 0]},
+						{"origin": [-4, 8, 0], "size": [8, 8, 8], "inflate": 0.5, "uv": [32, 0]}
 					]
 				}
 			]

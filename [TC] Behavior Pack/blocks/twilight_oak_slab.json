@@ -21,11 +21,11 @@
       },
       "minecraft:geometry": "geometry.block.slab.twilightforest",
       "minecraft:material_instances" : {
-    "*": {
-      "texture": "twilight_oak_slab_down",
-      "render_method" : "blend"
-    }
-  }
+        "*": {
+          "texture": "twilight_oak_slab_down",
+          "render_method" : "alpha_test"
+        }
+      }
     }
   }
 }

@@ -105,6 +105,15 @@ tile.twilightforest:mazestone_brick_mossy.name=Mossy Mazestone Brick
 tile.twilightforest:mazestone_chiseled.name=Chiseled Mazestone
 tile.twilightforest:mazestone_mosaic.name=Mazestone Mosaic
 tile.twilightforest:mazestone_brick_large.name=[§4Version Exclusive§r]-Mazestone Brick
+#trophy
+tile.twilightforest:trophy_hydra.name=Hydra Trophy
+tile.twilightforest:trophy_lich.name=Twilight Lich Trophy
+tile.twilightforest:trophy_naga.name=Naga Trophy
+tile.twilightforest:trophy_snow_queen.name=Snow Queen Trophy
+tile.twilightforest:trophy_ur_ghast.name=Ur-Ghast Trophy
+tile.twilightforest:trophy_knight_phantom.name=Knight Phantom Trophy
+tile.twilightforest:trophy_minoshroom.name=Minoshroom Trophy
+tile.twilightforest:trophy_quest_ram.name=Questing Ram Trophy
 
 ##### entities #####
 #entities

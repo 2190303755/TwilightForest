@@ -105,6 +105,15 @@ tile.twilightforest:mazestone_brick_mossy.name=遗迹苔石砖	#
 tile.twilightforest:mazestone_chiseled.name=錾制遗迹石块	#
 tile.twilightforest:mazestone_mosaic.name=拼花遗迹石砖	#
 tile.twilightforest:mazestone_brick_large.name=[§4版本独有§r]-遗迹石砖	#
+#trophy
+tile.twilightforest:trophy_hydra.name=九头蛇战利品	#
+tile.twilightforest:trophy_lich.name=巫妖战利品	#
+tile.twilightforest:trophy_naga.name=娜迦战利品	#
+tile.twilightforest:trophy_snow_queen.name=冰雪女王战利品	#
+tile.twilightforest:trophy_ur_ghast.name=暮色恶魂战利品	#
+tile.twilightforest:trophy_knight_phantom.name=幻影骑士战利品	#
+tile.twilightforest:trophy_minoshroom.name=米诺陶战利品	#
+tile.twilightforest:trophy_quest_ram.name=谜题羊战利品	#
 
 ##### entities #####
 #entities

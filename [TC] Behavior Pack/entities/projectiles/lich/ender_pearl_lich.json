@@ -31,7 +31,7 @@
         "height": 0.32
       },
       "minecraft:scale": {
-        "value": 0.75
+        "value": 0.5
       },
       "minecraft:projectile": {
         "on_hit": {

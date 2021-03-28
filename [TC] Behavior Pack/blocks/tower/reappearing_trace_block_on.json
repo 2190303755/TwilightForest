@@ -15,7 +15,7 @@
       "minecraft:material_instances" : {
         "*": {
           "texture": "reappearing_trace_block_on",
-          "render_method" : "blend"
+          "render_method" : "alpha_test"
         }
       },
       "minecraft:pick_collision":{

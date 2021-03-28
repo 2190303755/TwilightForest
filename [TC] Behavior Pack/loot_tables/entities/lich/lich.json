@@ -30,7 +30,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "twilightforest:trophy_lich",
+          "name": "twilightforest:item.trophy_lich",
           "weight": 1
         }
       ]

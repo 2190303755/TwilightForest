@@ -31,7 +31,7 @@
         "height": 0.32
       },
       "minecraft:scale": {
-        "value": 0.75
+        "value": 0.5
       },
       "minecraft:projectile": {
         "on_hit": {
@@ -46,6 +46,12 @@
               "event": "remove_on_hit",
               "target": "self"
             }
+          },
+          "particle_on_hit": {
+            "particle_type": "snowballpoof",
+            "num_particles": 6,
+            "on_entity_hit": true,
+            "on_other_hit": true
           }
         },
         "power": 1.5,

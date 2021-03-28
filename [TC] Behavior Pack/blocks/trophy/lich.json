@@ -1,0 +1,75 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:trophy_lich",
+      "category": "equipment",
+      "properties": {
+        "minecraft:direction": {}
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('minecraft:direction') == 0",
+        "components": {
+          "minecraft:rotation": [ 0.0, 180, 0.0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('minecraft:direction') == 1",
+        "components": {
+          "minecraft:rotation": [ 0.0, 0, 0.0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('minecraft:direction') == 2",
+        "components": {
+          "minecraft:rotation": [ 0.0, 270, 0.0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('minecraft:direction') == 3",
+        "components": {
+          "minecraft:rotation": [ 0.0, 90, 0.0 ]
+        }
+      }
+    ],
+    "components": {
+      "minecraft:breathability": "air",
+      "minecraft:breakonpush": true,
+      "minecraft:destroy_time": 1.5,
+      "minecraft:block_light_absorption": 0,
+      "minecraft:map_color": "#000000",
+      "minecraft:explosion_resistance": 1,
+      "minecraft:geometry": "geometry.twilightforest.block.trophy_lich",
+      "minecraft:entity_collision":{
+        "origin": [ -4, 0, -4 ],
+        "size": [ 8, 8, 8 ]
+      },
+      "minecraft:pick_collision":{
+        "origin": [ -4, 0, -4 ],
+        "size": [ 8, 8, 8 ]
+      },
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "trophy_lich",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:on_player_placing": {
+        "event": "minecraft:on_player_placing"
+      }
+    },
+    "events": {
+      "minecraft:on_player_placing": {
+        "sequence": [
+          {
+            "set_block_property": {
+              "minecraft:direction": "query.cardinal_facing_2d - 2"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

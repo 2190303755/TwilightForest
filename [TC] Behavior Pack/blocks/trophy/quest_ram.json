@@ -6,16 +6,25 @@
       "category": "equipment"
     },
     "components": {
-      "minecraft:destroy_time": 9.4,
+      "minecraft:breathability": "air",
+      "minecraft:breakonpush": true,
+      "minecraft:destroy_time": 1.5,
       "minecraft:block_light_absorption": 0,
-      "minecraft:block_light_emission": 0,
       "minecraft:map_color": "#000000",
-      "minecraft:explosion_resistance": 6,
+      "minecraft:explosion_resistance": 1,
       "minecraft:geometry": "geometry.twilightforest.block.trophy_quest_ram",
+      "minecraft:entity_collision":{
+        "origin": [ -4, 0, -4 ],
+        "size": [ 8, 8, 8 ]
+      },
+      "minecraft:pick_collision":{
+        "origin": [ -4, 0, -4 ],
+        "size": [ 8, 8, 8 ]
+      },
       "minecraft:material_instances": {
         "*": {
-          "texture": "twilightforest:trophy_quest_ram",
-          "render_method": "blend"
+          "texture": "trophy_quest_ram",
+          "render_method": "alpha_test"
         }
       }
     }

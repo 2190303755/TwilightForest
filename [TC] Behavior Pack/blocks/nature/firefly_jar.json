@@ -20,11 +20,11 @@
       },
       "minecraft:geometry": "geometry.block.firefly_jar.twilightforest",
       "minecraft:material_instances" : {
-    "*": {
-      "texture": "firefly_jar",
-      "render_method" : "blend"
-    }
-  }
+        "*": {
+          "texture": "firefly_jar",
+          "render_method" : "alpha_test"
+        }
+      }
     }
   }
 }
