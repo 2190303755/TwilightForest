@@ -1,5 +1,5 @@
 {
-	"format_version" : "1.12.0",
+	"format_version" : "1.16.0",
 	"minecraft:geometry" : [
 		{
 			"description" : {
@@ -9,7 +9,7 @@
 			},
 			"bones" : [
 				{
-					"name" : "rightItem",
+					"name": "rightItem",
 					"texture_meshes" : [
 						{
 							"local_pivot" : [ 6.0, 0.0, 6.0 ],
@@ -25,29 +25,28 @@
 		},
 		{
 			"description" : {
-				"identifier" : "geometry.giant_sword",
+				"identifier" : "geometry.twilightforest.giant_sword",
 				"texture_width" : 16.0,
 				"texture_height" : 16.0
 			},
 			"bones" : [
-				{
-					"name" : "rightItem",
+        {
+          "name": "rightArm"
+        },
+        {
+          "name": "rightItem",
+          "pivot": [ -6, 15, 1 ],
+          "locators": {
+            "lead_hold": [ -6, 15, 1 ]
+          },
+          "parent": "rightArm",
 					"texture_meshes" : [
 						{
-							"local_pivot" : [ 6.0, 0.0, 6.0 ],
-							"position" : [ 2.0, 1.0, -2.0 ],
-							"rotation" : [ 0.0, -135.0, 90.0 ],
 							"scale" : [ 5.0, 5.0, 5.0 ],
-							"texture" : "giant_sword"
+							"texture" : "default"
 						}
-					],
-					"cubes": [
-						{"origin": [-4, 9, -12], "size": [8, 7, 6], "uv": [0, 0]},
-					{"origin": [-3, 9, -13.8], "size": [6, 4, 3], "uv": [28, 0]},
-					{"origin": [-4, 10, -13.8], "size": [1, 2, 1], "uv": [17, 17]},
-					{"origin": [3, 10, -13.8], "size": [1, 2, 1], "uv": [17, 17]}
 					]
-				}
+        }
 			]
 		}
 	]
