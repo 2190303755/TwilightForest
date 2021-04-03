@@ -166,10 +166,8 @@ item.twilightforest:seeker_bow.name=寻踪弓	#
 item.twilightforest:triple_bow.name=三重弓	#
 item.twilightforest:giant_pickaxe.name=巨人镐	#
 item.twilightforest:giant_sword.name=巨人剑	#
-item.twilightforest:ice_bomb.name=冰晶爆弹	#
+item.twilightforest:ice_bomb.name=冰霜炸弹	#
 item.twilightforest:mazebreaker.name=迷宫破坏者	#
-item.twilightforest:naga_chestplate.name=娜迦胸甲	#
-item.twilightforest:naga_leggings.name=娜迦护腿	#
 item.twilightforest:phantom_chestplate.name=幻影胸甲	#
 item.twilightforest:phantom_helmet.name=幻影头盔	#
 item.twilightforest:trophy_hydra.name=九头蛇战利品	#
@@ -224,7 +222,7 @@ item.twilightforest.giant_pickaxe=巨人镐	#
 item.twilightforest.giant_sword=巨人剑	#
 #ice
 item.twilightforest.ice_sword=冰霜剑	#
-item.twilightforest.ice_bomb=冰晶爆弹	#
+item.twilightforest.ice_bomb=冰霜炸弹	#
 #ironwood
 item.twilightforest.ironwood_axe=铁树斧	#
 item.twilightforest.ironwood_boots=铁树靴	#
@@ -257,6 +255,7 @@ item.twilightforest.minotaur_axe_golden=金米诺陶战斧	#
 #naga
 item.twilightforest.naga_chestplate=娜迦胸甲	#
 item.twilightforest.naga_leggings=娜迦护腿	#
+item.twilightforest.naga_scale=娜迦鳞片	#
 #phantom
 item.twilightforest.phantom_chestplate=幻影胸甲	#
 item.twilightforest.phantom_helmet=幻影头盔	#
@@ -296,5 +295,5 @@ item.twilightforest.yeti_leggings=雪怪护腿	#
 action.hint.exit.pig=潜行以离开猪	#
 action.hint.exit.twilightforest:wild_boar=潜行以离开野猪	#
 action.interact.transformation=转换	#
-action.twilightforest.item.scepter.durability=§e该权杖剩余使用次数不足§r	#
+action.twilightforest.item.scepter.durability=该权杖剩余使用次数不足	#
 action.twilightforest.item.scepter.uncompleted=该权杖未完成	#

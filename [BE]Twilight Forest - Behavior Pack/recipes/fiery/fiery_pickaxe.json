@@ -4,20 +4,18 @@
     "description": {
     "identifier": "twilightforest:fiery_pickaxe"
     },
-
-    
     "tags": [ "crafting_table" ],
     "pattern": [
       "III",
-      " S ",
-      " S "
+      " B ",
+      " B "
     ],
     "key": {
       "I": {
         "item": "twilightforest:fiery_ingot"
       },
-      "S": {
-        "item":"minecraft:stick" 
+      "B": {
+        "item":"minecraft:blaze_rod"
       }
     },
     "result": {

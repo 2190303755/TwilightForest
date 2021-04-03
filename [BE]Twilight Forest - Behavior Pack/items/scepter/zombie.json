@@ -49,7 +49,7 @@
           {
             "condition": "query.remaining_durability == 0",
             "run_command": {
-              "command": "tellraw @p {\"rawtext\":[{\"text\":\"[§b\"},{\"translate\":\"item.twilightforest.zombie_scepter\"},{\"text\":\"§r] \"},{\"translate\":\"action.twilightforest.item.scepter.durability\"}]}"
+              "command": "tellraw @p {\"rawtext\":[{\"text\":\"[§b\"},{\"translate\":\"item.twilightforest.zombie_scepter\"},{\"text\":\"§r] §e\"},{\"translate\":\"action.twilightforest.item.scepter.durability\"}]}"
             }
           }
         ]

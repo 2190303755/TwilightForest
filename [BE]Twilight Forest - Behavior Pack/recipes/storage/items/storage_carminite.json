@@ -8,10 +8,10 @@
     
     "tags": [ "crafting_table" ],
     "pattern": [
-      "S"
+      "C"
     ],
     "key": {
-      "S": {
+      "C": {
         "item": "twilightforest:carminite_block"
       }
     },

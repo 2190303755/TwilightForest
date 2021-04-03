@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "twilightforest:carminite"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BRB",
+      "RGR",
+      "BRB"
+    ],
+    "key": {
+      "R": {
+        "item": "minecraft:redstone"
+      },
+      "G": {
+        "item": "minecraft:ghast_tear"
+      },
+      "B": {
+        "item": "twilightforest:borer_essence"
+      }
+    },
+    "result": {
+      "item": "twilightforest:carminite"
+    }
+  }
+}

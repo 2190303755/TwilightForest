@@ -1,15 +1,55 @@
 {
-    "format_version": "1.0",
-    "minecraft:item": {
-      "description": {
-        "identifier": "twilightforest:naga_chestplate" 
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "twilightforest:naga_chestplate",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.chestplate"
       },
-      "components": {
-        "minecraft:hand_equipped": false,
-        "minecraft:max_stack_size": 1,
-        "minecraft:max_damage": 336,
-        "minecraft:foil": true,
-        "minecraft:stacked_by_data": false
+      "minecraft:display_name": {
+        "value": "item.twilightforest.naga_chestplate"
+      },
+      "minecraft:icon": {
+        "texture": "naga_chestplate"
+      },
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "armor_torso"
+      },
+      "minecraft:durability": {
+        "max_durability": 336,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "twilightforest:naga_scale"
+            ],
+            "repair_amount": "84"
+          },
+          {
+            "items": [
+              "twilightforest:naga_chestplate"
+            ],
+              "repair_amount": "context.other->query.remaining_durability + 17"
+          }
+        ]
+      },
+      "minecraft:foil": true,
+      "minecraft:armor": {
+        "protection": 7
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest"
       }
     }
+  }
 }

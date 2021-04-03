@@ -1,15 +1,55 @@
 {
-    "format_version": "1.0",
-    "minecraft:item": {
-      "description": {
-        "identifier": "twilightforest:naga_leggings" 
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "twilightforest:naga_leggings",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.leggings"
       },
-      "components": {
-        "minecraft:hand_equipped": false,
-        "minecraft:max_stack_size": 1,
-        "minecraft:max_damage": 315,
-        "minecraft:foil": true,
-        "minecraft:stacked_by_data": false
+      "minecraft:display_name": {
+        "value": "item.twilightforest.naga_leggings"
+      },
+      "minecraft:icon": {
+        "texture": "naga_leggings"
+      },
+      "minecraft:enchantable" : {
+        "value": 10,
+        "slot": "armor_legs"
+      },
+      "minecraft:durability": {
+        "max_durability": 375,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "twilightforest:naga_scale"
+            ],
+            "repair_amount": "79"
+          },
+          {
+            "items": [
+              "twilightforest:naga_leggings"
+            ],
+              "repair_amount": "context.other->query.remaining_durability + 16"
+          }
+        ]
+      },
+      "minecraft:foil": true,
+      "minecraft:armor": {
+        "protection": 6
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:wearable": {
+        "slot": "slot.armor.legs"
       }
     }
+  }
 }

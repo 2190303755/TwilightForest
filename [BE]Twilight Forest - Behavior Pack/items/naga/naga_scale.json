@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "twilightforest:naga_scale",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilightforest.items"
+      },
+      "minecraft:display_name": {
+        "value": "item.twilightforest.naga_scale"
+      },
+      "minecraft:icon": {
+        "texture": "naga_scale"
+      }
+    }
+  }
+}

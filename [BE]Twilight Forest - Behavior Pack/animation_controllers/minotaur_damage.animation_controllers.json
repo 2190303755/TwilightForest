@@ -6,26 +6,18 @@
         "default": {
           "transitions": [
             {
-              "minotaur_diamond_common": "query.get_equipped_item_name == 'minotaur_axe_diamond'"
+              "minotaur_sprinting": "(query.get_equipped_item_name == 'minotaur_axe_diamond' || query.get_equipped_item_name == 'minotaur_axe_golden') && query.is_sprinting"
             }
           ],
           "on_entry": [
             "@s twilightforest:common_attack"
           ]
         },
-        "minotaur_diamond_common": {
+        "minotaur_sprinting": {
           "transitions": [
-            {"default": "query.get_equipped_item_name != 'minotaur_axe_diamond'"},
-            {"minotaur_diamond_sprinting": " query.is_sprinting == 1 "}
-          ],
-          "on_entry": [
-            "@s twilightforest:common_attack"
-          ]
-        },
-        "minotaur_diamond_sprinting": {
-          "transitions": [
-            {"default": "query.get_equipped_item_name != 'minotaur_axe_diamond'"},
-            {"minotaur_diamond_common": " query.is_sprinting == 0 "}
+            {
+              "default": "!(query.get_equipped_item_name == 'minotaur_axe_diamond' || query.get_equipped_item_name == 'minotaur_axe_golden') || !query.is_sprinting"
+            }
           ],
           "on_entry": [
             "@s twilightforest:minotaur_sprinting"

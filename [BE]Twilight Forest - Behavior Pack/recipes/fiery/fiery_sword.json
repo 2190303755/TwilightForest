@@ -4,20 +4,18 @@
     "description": {
     "identifier": "twilightforest:fiery_sword"
     },
-
-    
     "tags": [ "crafting_table" ],
     "pattern": [
       "I",
       "I",
-      "S"
+      "B"
     ],
     "key": {
       "I": {
         "item": "twilightforest:fiery_ingot"
       },
-      "S": {
-        "item":"minecraft:blaze_rod"  
+      "B": {
+        "item":"minecraft:blaze_rod"
       }
     },
     "result": {
