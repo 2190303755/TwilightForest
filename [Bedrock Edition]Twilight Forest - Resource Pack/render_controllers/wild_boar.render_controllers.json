@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.wild_boar.base": {
+      "geometry": "Geometry.default",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [ "Texture.base" ]
+    },
+    "controller.render.wild_boar.saddle": {
+      "geometry": "Geometry.default",
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [ "Texture.saddled" ],
+      "rebuild_animation_matrices": true,
+      "part_visibility": [ { "*": "query.is_saddled" } ]
+    }
+  }
+}

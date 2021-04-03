@@ -1,0 +1,282 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "twilightforest:lich_fireball",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false,
+      "runtime_identifier": "minecraft:fireball"
+    },
+    "component_groups": {
+      "minecraft:exploding": {
+        "minecraft:explode": {
+          "fuse_length": 0,
+          "fuse_lit": true,
+          "power": 1,
+          "causes_fire": true,
+          "fire_affected_by_griefing": true,
+          "destroy_affected_by_griefing": true
+        }
+      },
+      "minecraft:peaceful_projectile": {
+        "minecraft:projectile": {
+          "on_hit": {
+            "impact_damage": {
+              "damage": [
+                6,
+                7
+              ],
+              "semi_random_diff_damage": false,
+              "destroy_on_hit": true
+            },
+            "definition_event": {
+              "affect_projectile": true,
+              "event_trigger": {
+                "event": "minecraft:explode",
+                "target": "self"
+              }
+            }
+          },
+          "power": 1,
+          "gravity": 0.00,
+          "inertia": 1,
+          "liquid_inertia": 1,
+          "uncertainty_base": 0,
+          "uncertainty_multiplier": 0,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ],
+          "reflect_on_hurt": true,
+          "catch_fire": true,
+          "anchor": 1
+        }
+      },
+      "minecraft:easy_projectile": {
+        "minecraft:projectile": {
+          "on_hit": {
+            "impact_damage": {
+              "damage": [
+                9,
+                13
+              ],
+              "semi_random_diff_damage": false,
+              "destroy_on_hit": true
+            },
+            "definition_event": {
+              "affect_projectile": true,
+              "event_trigger": {
+                "event": "minecraft:explode",
+                "target": "self"
+              }
+            }
+          },
+          "power": 1,
+          "gravity": 0.00,
+          "inertia": 1,
+          "liquid_inertia": 1,
+          "uncertainty_base": 0,
+          "uncertainty_multiplier": 0,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ],
+          "reflect_on_hurt": true,
+          "catch_fire": true,
+          "anchor": 1
+        }
+      },
+      "minecraft:normal_projectile": {
+        "minecraft:projectile": {
+          "on_hit": {
+            "impact_damage": {
+              "damage": [
+                15,
+                20
+              ],
+              "semi_random_diff_damage": false,
+              "destroy_on_hit": true
+            },
+            "definition_event": {
+              "affect_projectile": true,
+              "event_trigger": {
+                "event": "minecraft:explode",
+                "target": "self"
+              }
+            }
+          },
+          "power": 1,
+          "gravity": 0.00,
+          "inertia": 1,
+          "liquid_inertia": 1,
+          "uncertainty_base": 0,
+          "uncertainty_multiplier": 0,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ],
+          "reflect_on_hurt": true,
+          "catch_fire": true,
+          "anchor": 1
+        }
+      },
+      "minecraft:hard_projectile": {
+        "minecraft:projectile": {
+          "on_hit": {
+            "impact_damage": {
+              "damage": [
+                22,
+                30
+              ],
+              "semi_random_diff_damage": false,
+              "destroy_on_hit": true
+            },
+            "definition_event": {
+              "affect_projectile": true,
+              "event_trigger": {
+                "event": "minecraft:explode",
+                "target": "self"
+              }
+            }
+          },
+          "power": 1,
+          "gravity": 0.00,
+          "inertia": 1,
+          "liquid_inertia": 1,
+          "uncertainty_base": 0,
+          "uncertainty_multiplier": 0,
+          "offset": [
+            0,
+            -0.1,
+            0
+          ],
+          "reflect_on_hurt": true,
+          "catch_fire": true,
+          "anchor": 1
+        }
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "CouldHurtLich"
+        ]
+      },
+      "minecraft:collision_box": {
+        "width": 0.32,
+        "height": 0.32
+      },
+      "minecraft:scale": {
+        "value": 0.5
+      },
+      "minecraft:projectile": {
+        "on_hit": {
+          "impact_damage": {
+            "damage": [
+              6,
+              7
+            ],
+            "semi_random_diff_damage": false,
+            "destroy_on_hit": true,
+            "catch_fire": true
+          },
+          "definition_event": {
+            "affect_projectile": true,
+            "event_trigger": {
+              "event": "minecraft:explode",
+              "target": "self"
+            }
+          }
+        },
+        "power": 1,
+        "gravity": 0.00,
+        "inertia": 1,
+        "liquid_inertia": 1,
+        "uncertainty_base": 0,
+        "uncertainty_multiplier": 0,
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
+        "reflect_on_hurt": true,
+        "catch_fire": true,
+        "destroy_on_hurt": true,
+        "anchor": 1
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:conditional_bandwidth_optimization": {
+        "default_values": {
+          "max_optimized_distance": 80.0,
+          "max_dropped_ticks": 10,
+          "use_motion_prediction_hints": true
+        }
+      }
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "sequence": [
+          {
+            "filters": {
+              "test": "is_difficulty",
+              "value": "peaceful"
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:peaceful_projectile"
+              ]
+            }
+          },
+          {
+            "filters": {
+              "test": "is_difficulty",
+              "value": "easy"
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:easy_projectile"
+              ]
+            }
+          },
+          {
+            "filters": {
+              "test": "is_difficulty",
+              "value": "normal"
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:normal_projectile"
+              ]
+            }
+          },
+          {
+            "filters": {
+              "test": "is_difficulty",
+              "value": "hard"
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:hard_projectile"
+              ]
+            }
+          }
+        ]
+      },
+      "minecraft:explode": {
+        "add": {
+          "component_groups": [
+            "minecraft:exploding"
+          ]
+        }
+      }
+    }
+  }
+}

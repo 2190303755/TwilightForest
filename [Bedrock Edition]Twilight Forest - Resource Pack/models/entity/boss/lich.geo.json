@@ -1,0 +1,173 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.twilightforest.lich",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 0, -2], "size": [8, 24, 4], "uv": [8, 16]}
+					]
+				},
+				{
+					"name": "collar",
+					"parent": "body",
+					"pivot": [0, 27, -1],
+					"rotation": [124, 0, 0],
+					"cubes": [
+						{"origin": [-6, 17, -5], "size": [12, 12, 1], "uv": [32, 16]}
+					]
+				},
+				{
+					"name": "cloak",
+					"parent": "body",
+					"pivot": [0, 28, 2.5],
+					"cubes": [
+						{"origin": [-6, 7, 2.5], "size": [12, 19, 1], "uv": [0, 44]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "crown",
+					"parent": "head",
+					"pivot": [0, 28, 0],
+					"cubes": [
+						{"origin": [-4, 28, -4], "size": [8, 8, 8], "inflate": 0.5, "uv": [32, 0]}
+					]
+				},
+				{
+					"name": "rightArm",
+					"parent": "body",
+					"pivot": [-5, 22, 0],
+					"cubes": [
+						{"origin": [-6, 12, -1], "size": [2, 12, 2], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm",
+					"pivot": [-5, 15, 0]
+				},
+				{
+					"name": "leftArm",
+					"parent": "body",
+					"pivot": [5, 22, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [4, 12, -1], "size": [2, 12, 2], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "leftItem",
+					"parent": "leftArm",
+					"pivot": [5, 15, 0]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "body",
+					"pivot": [-2, 12, 0],
+					"cubes": [
+						{"origin": [-3, 0, -1], "size": [2, 12, 2], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "leftLeg",
+					"parent": "body",
+					"pivot": [2, 12, 0],
+					"mirror": true,
+					"cubes": [
+						{"origin": [1, 0, -1], "size": [2, 12, 2], "uv": [0, 16]}
+					]
+				},
+				{
+					"name": "shields",
+					"parent": "body",
+					"pivot": [0, 12, 0]
+				},
+				{
+					"name": "shield_1",
+					"parent": "shields",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-6, 12, -12], "size": [12, 12, 1], "uv": [26, 51]}
+					]
+				},
+				{
+					"name": "shield_2",
+					"parent": "shields",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-6, 12, -12], "size": [12, 12, 1], "uv": [26, 51]}
+					]
+				},
+				{
+					"name": "shield_3",
+					"parent": "shields",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-6, 12, -12], "size": [12, 12, 1], "uv": [26, 51]}
+					]
+				},
+				{
+					"name": "shield_4",
+					"parent": "shields",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-6, 12, -12], "size": [12, 12, 1], "uv": [26, 51]}
+					]
+				},
+				{
+					"name": "shield_5",
+					"parent": "shields",
+					"pivot": [0, 12, 0],
+					"cubes": [
+						{"origin": [-6, 12, -12], "size": [12, 12, 1], "uv": [26, 51]}
+					]
+				}
+			]
+		},
+		{
+			"description" : {
+				"identifier" : "geometry.twilightforest.lich.shields",
+				"texture_width" : 16.0,
+				"texture_height" : 16.0
+			},
+			"bones" : [
+				{
+					"name": "shields",
+					"parent": "body"
+				},
+        {
+          "name": "shield_6",
+          "pivot": [ -6, 15, 1 ],
+          "locators": {
+            "lead_hold": [ -6, 15, 1 ]
+          },
+          "parent": "shields",
+					"texture_meshes" : [
+						{
+							"scale" : [ 5.0, 5.0, 5.0 ],
+							"texture" : "default"
+						}
+					]
+        }
+			]
+		}
+	]
+}
