@@ -19,10 +19,15 @@
       "minecraft:use_duration": 3600,
       "minecraft:hand_equipped": true,
       "minecraft:durability": {
-        "max_durability": 0
+        "max_durability": 32767
       },
       "minecraft:mining_speed": 1.5,
-      "minecraft:weapon": {},
+      "minecraft:weapon": {
+        "on_hurt_entity": {
+          "event": "twilightforest:on_hurt_entity",
+          "target": "self"
+        }
+      },
       "minecraft:damage": 40,
       "minecraft:enchantable": {
         "value": 10,
@@ -41,6 +46,11 @@
             "speed": 10
           }
         ]
+      }
+    },
+    "events": {
+      "twilightforest:on_hurt_entity": {
+        "decrement_stack":{}
       }
     }
   }

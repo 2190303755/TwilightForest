@@ -2,8 +2,8 @@
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.items",
   "texture_data": {
-    "lich_shield": {
-      "textures": "textures/items/fiery/fiery_ingot"
+    "torchberries": {
+      "textures": "textures/items/torchberries"
     },
     "knightmetal_block": {
       "textures": "textures/items/knightmetal/knightmetal_block"

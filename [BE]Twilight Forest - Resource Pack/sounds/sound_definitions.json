@@ -4,25 +4,25 @@
     "mob.twilightforest.deer.death": {
       "category": "neutral",
       "sounds": [
-        "sounds/twilightforest/mob/deer/death"
+        "sounds/mob/deer/death"
       ]
     },
     "mob.twilightforest.deer.hurt": {
       "category": "neutral",
       "sounds": [
-        "sounds/twilightforest/mob/deer/hurt1",
-        "sounds/twilightforest/mob/deer/hurt2"
+        "sounds/mob/deer/hurt1",
+        "sounds/mob/deer/hurt2"
       ]
     },
     "mob.twilightforest.deer.idle": {
       "category": "neutral",
       "sounds": [
         {
-          "name": "sounds/twilightforest/mob/deer/idle1",
+          "name": "sounds/mob/deer/idle1",
           "load_on_low_memory": true
         },
-        "sounds/twilightforest/mob/deer/idle2",
-        "sounds/twilightforest/mob/deer/idle3"
+        "sounds/mob/deer/idle2",
+        "sounds/mob/deer/idle3"
       ]
     }
   }

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "twilightforest:torch_from_torchberries"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "T",
+      "S"
+    ],
+    "key": {
+      "T": {
+        "item": "twilightforest:torchberries"
+      },
+      "S": {
+        "item":"minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "minecraft:torch",
+      "count": 5
+    }
+  }
+}
