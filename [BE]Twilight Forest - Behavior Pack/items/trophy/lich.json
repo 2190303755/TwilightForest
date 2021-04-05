@@ -18,7 +18,9 @@
       "minecraft:block_placer": {
         "block": "twilightforest:trophy_lich"
       },
-      "minecraft:armor": {},
+      "minecraft:armor": {
+        "protection": 0
+      },
       "minecraft:wearable": {
         "slot": "slot.armor.head"
       }

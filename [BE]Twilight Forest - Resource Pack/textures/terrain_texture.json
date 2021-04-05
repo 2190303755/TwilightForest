@@ -11,7 +11,10 @@
       "textures": "textures/entity/boss/twilight_lich"
     },
     "twilight_oak_sapling": {
-      "textures": "textures/items/sapling/twilight_oak_sapling"
+      "textures": "textures/blocks/sapling/twilight_oak_sapling"
+    },
+    "darkwood_sapling": {
+      "textures": "textures/blocks/sapling/darkwood_sapling"
     },
     "tower_antibuilder": {
       "textures": "textures/blocks/tower/tower_antibuilder"

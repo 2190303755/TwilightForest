@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "twilightforest:twilight_oak_sapling",
+      "identifier": "twilightforest:darkwood_sapling",
       "category": "equipment"
     },
     "components": {
@@ -13,22 +13,22 @@
       "minecraft:map_color": "#000000",
       "minecraft:entity_collision": false,
       "minecraft:geometry": "geometry.plants",
-      "minecraft:material_instances" : {
+      "minecraft:material_instances": {
         "*": {
-          "texture": "twilight_oak_sapling",
+          "texture": "darkwood_sapling",
           "render_method": "alpha_test",
           "ambient_occlusion": false
         }
       },
-      "minecraft:pick_collision":{
-        "origin":[-6,0,-6],
-        "size":[12,12,12]
+      "minecraft:pick_collision": {
+        "origin": [ -6, 0, -6 ],
+        "size": [ 12, 12, 12 ]
       },
       "minecraft:placement_filter": {
         "conditions": [
           {
-            "allowed_faces": ["up"],
-            "block_filter": ["dirt","grass","podzol","farmland","dirt_with_roots","moss_block"]
+            "allowed_faces": [ "up" ],
+            "block_filter": [ "dirt", "grass", "podzol", "farmland", "dirt_with_roots", "moss_block" ]
           }
         ]
       },

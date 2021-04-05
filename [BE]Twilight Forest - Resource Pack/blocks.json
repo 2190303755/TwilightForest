@@ -8,10 +8,6 @@
     "textures": "trophy_lich",
     "sound": "stone"
   },
-  "twilightforest:twilight_oak_sapling": {
-    "textures": "twilight_oak_sapling",
-    "sound": "grass"
-  },
   "twilightforest:device_anti_builder": {
     "textures": "tower_antibuilder",
     "sound": "stone"
