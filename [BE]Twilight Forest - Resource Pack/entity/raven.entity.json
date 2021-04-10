@@ -6,30 +6,28 @@
       "materials": {
         "default": "raven"
       },
-      "geometry": {
-        "default": "geometry.raven"
-      },
       "textures": {
         "default": "textures/entity/raven"
       },
-      "spawn_egg": {
-        "texture": "egg_raven"
-      },
-      "scripts": {
-        "pre_animation": [
-          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;", 
-          "variable.tcos1 = -variable.tcos0;"
-        ],
-        "animate": [
-          "general",
-          "move"
-        ]
+      "geometry": {
+        "default": "geometry.twilightforest.raven"
       },
       "animations": {
+        "move": "animation.raven.move",
         "general": "animation.raven.general",
-        "move": "animation.raven.move"
+        "look_at_target": "animation.common.look_at_target"
       },
-      "render_controllers": [ "controller.render.raven" ]
+      "scripts": {
+        "animate": [
+          "general",
+          { "move": "query.modified_move_speed" },
+          "look_at_target"
+        ]
+      },
+      "render_controllers": [ "controller.render.raven" ],
+      "spawn_egg": {
+        "texture": "egg_raven"
+      }
     }
   }
 }

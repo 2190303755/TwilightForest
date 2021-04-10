@@ -9,15 +9,19 @@
       "minecraft:block_light_emission": 0,
       "minecraft:map_color": "#000000",
       "minecraft:explosion_resistance": 6,
-      "minecraft:entity_collision":{
-        "origin":[-7,1,-7],
-        "size":[14,14,14]
+      "minecraft:pick_collision": {
+        "origin": [ -7, 1, -7 ],
+        "size": [ 14, 14, 14 ]
+      },
+      "minecraft:entity_collision": {
+        "origin": [ -7, 1, -7 ],
+        "size": [ 14, 14, 14 ]
       },
       "minecraft:geometry": "geometry.knightmetal_block.twilightforest",
-      "minecraft:material_instances" : {
+      "minecraft:material_instances": {
         "*": {
           "texture": "knightmetal_block",
-          "render_method" : "alpha_test"
+          "render_method": "alpha_test"
         }
       }
     }

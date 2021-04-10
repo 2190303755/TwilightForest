@@ -118,7 +118,7 @@ tile.twilightforest:trophy_quest_ram.name=谜题羊战利品	#
 ##### entities #####
 #entities
 entity.twilightforest:wild_deer.name=野鹿	#
-entity.twilightforest:raven.name=乌鸦	#
+entity.twilightforest:raven.name=渡鸦	#
 entity.twilightforest:bunny.name=小兔子	#
 entity.twilightforest:ur_ghast.name=暮色恶魂	#
 entity.twilightforest:penguin.name=冰川企鹅	#
@@ -142,7 +142,7 @@ entity.twilightforest:lich.shield.4=巫妖 - 剩余护盾: 4	#
 entity.twilightforest:lich.shield.5=巫妖 - 剩余护盾: 5	#
 #spawn eggs
 item.spawn_egg.entity.twilightforest:wild_deer.name=野鹿刷怪蛋	#
-item.spawn_egg.entity.twilightforest:raven.name=乌鸦刷怪蛋	#
+item.spawn_egg.entity.twilightforest:raven.name=渡鸦刷怪蛋	#
 item.spawn_egg.entity.twilightforest:bunny.name=小兔子刷怪蛋	#
 item.spawn_egg.entity.twilightforest:ur_ghast.name=暮色恶魂刷怪蛋	#
 item.spawn_egg.entity.twilightforest:penguin.name=冰川企鹅刷怪蛋	#
