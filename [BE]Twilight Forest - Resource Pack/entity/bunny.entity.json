@@ -18,18 +18,12 @@
         "texture": "egg_bunny"
       },
       "scripts": {
-        "pre_animation": [
-          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;", 
-          "variable.tcos1 = -variable.tcos0;"
-        ],
         "animate": [
-          "general",
-          "move"
+          "general"
         ]
       },
       "animations": {
-        "general": "animation.bunny.general",
-        "move": "animation.bunny.move"
+        "general": "animation.bunny.general"
       },
       "render_controllers": [ "controller.render.bunny" ]
     }

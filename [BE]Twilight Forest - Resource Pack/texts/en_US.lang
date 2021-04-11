@@ -168,8 +168,6 @@ item.twilightforest:giant_pickaxe.name=Giant's Pickaxe
 item.twilightforest:giant_sword.name=Giant's Sword
 item.twilightforest:ice_bomb.name=Ice Bomb
 item.twilightforest:mazebreaker.name=Mazebreaker
-item.twilightforest:phantom_chestplate.name=Phantom Chestplate
-item.twilightforest:phantom_helmet.name=Phantom Helmet
 item.twilightforest:trophy_hydra.name=Hydra Trophy
 item.twilightforest:trophy_lich.name=Twilight Lich Trophy
 item.twilightforest:trophy_naga.name=Naga Trophy
@@ -187,6 +185,8 @@ item.twilightforest.borer_essence=Borer Essence
 item.twilightforest.carminite=Carminite
 item.twilightforest.glass_sword=Glass Sword
 item.twilightforest.liveroot=Liveroot
+item.twilightforest.magic_map_focus=Magic Map Focus
+item.twilightforest.raven_feather=Raven Feather
 item.twilightforest.torchberries=Torchberries
 item.twilightforest.transformation_powder=Transformation Powder
 #arctic

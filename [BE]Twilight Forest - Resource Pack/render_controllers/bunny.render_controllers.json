@@ -6,8 +6,8 @@
         "textures": {
           "Array.skins": [
             "Texture.brown",
-            "Texture.dutch",
-            "Texture.white"
+            "Texture.white",
+            "Texture.dutch"
           ]
         }
       },

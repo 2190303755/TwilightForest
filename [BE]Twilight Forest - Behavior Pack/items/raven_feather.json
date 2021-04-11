@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "twilightforest:raven_feather",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilightforest.items"
+      },
+      "minecraft:display_name": {
+        "value": "item.twilightforest.raven_feather"
+      },
+      "minecraft:icon": {
+        "texture": "raven_feather"
+      }
+    }
+  }
+}

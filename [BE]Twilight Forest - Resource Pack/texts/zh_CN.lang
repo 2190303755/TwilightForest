@@ -168,8 +168,6 @@ item.twilightforest:giant_pickaxe.name=巨人镐	#
 item.twilightforest:giant_sword.name=巨人剑	#
 item.twilightforest:ice_bomb.name=冰霜炸弹	#
 item.twilightforest:mazebreaker.name=迷宫破坏者	#
-item.twilightforest:phantom_chestplate.name=幻影胸甲	#
-item.twilightforest:phantom_helmet.name=幻影头盔	#
 item.twilightforest:trophy_hydra.name=九头蛇战利品	#
 item.twilightforest:trophy_lich.name=巫妖战利品	#
 item.twilightforest:trophy_naga.name=娜迦战利品	#
@@ -187,6 +185,8 @@ item.twilightforest.borer_essence=木蠹精华	#
 item.twilightforest.carminite=砷铅铁矿石	#
 item.twilightforest.glass_sword=玻璃剑	#
 item.twilightforest.liveroot=活根	#
+item.twilightforest.magic_map_focus=魔法地图核心	#
+item.twilightforest.raven_feather=渡鸦之羽	#
 item.twilightforest.torchberries=火炬浆果	#
 item.twilightforest.transformation_powder=转换粉	#
 #arctic

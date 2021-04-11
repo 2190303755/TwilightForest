@@ -30,24 +30,29 @@
       "entries": [
         {
           "type": "item",
-          "name": "twilightforest:item.trophy_lich",
-          "weight": 1
+          "name": "twilightforest:item.trophy_lich"
         }
       ]
     },
     {
       "rolls": 1,
-       "entries": [
+      "entries": [
         {
           "type": "item",
           "name": "minecraft:ender_pearl",
-          "weight": 1,
           "functions": [
             {
               "function": "set_count",
               "count": {
-              "min": 1,
-              "max": 4
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
               }
             }
           ]
@@ -60,13 +65,19 @@
         {
           "type": "item",
           "name": "minecraft:bone",
-          "weight": 1,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 6,
-                "max": 10
+                "min": 5,
+                "max": 9
+              }
+            },
+            {
+              "function": "looting_enchant",
+              "count": {
+                "min": 0,
+                "max": 1
               }
             }
           ]
@@ -74,7 +85,10 @@
       ]
     },
     {
-      "rolls":  { "min": 3, "max": 4 },
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
       "entries": [
         {
           "type": "item",
@@ -83,19 +97,10 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 30,
-              "treasure": true
-            }
-          ]
-        },
-        {
-          "type": "item",
-          "name": "minecraft:golden_axe",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "enchant_with_levels",
-              "levels": 30,
+              "levels": {
+                "min": 10,
+                "max": 40
+              },
               "treasure": true
             }
           ]
@@ -107,7 +112,10 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 30,
+              "levels": {
+                "min": 10,
+                "max": 40
+              },
               "treasure": true
             }
           ]
@@ -119,7 +127,10 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 30,
+              "levels": {
+                "min": 10,
+                "max": 40
+              },
               "treasure": true
             }
           ]
@@ -131,7 +142,10 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 30,
+              "levels": {
+                "min": 10,
+                "max": 40
+              },
               "treasure": true
             }
           ]
@@ -143,7 +157,10 @@
           "functions": [
             {
               "function": "enchant_with_levels",
-              "levels": 30,
+              "levels": {
+                "min": 10,
+                "max": 40
+              },
               "treasure": true
             }
           ]

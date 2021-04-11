@@ -160,7 +160,7 @@
           }
         },
         "minecraft:loot": {
-          "table": "loot_tables/entities/lich/lich.json"
+          "table": "loot_tables/entities/lich.json"
         },
         "minecraft:experience_reward": {
           "on_death": "217"

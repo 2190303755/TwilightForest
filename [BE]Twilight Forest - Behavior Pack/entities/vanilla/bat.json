@@ -10,7 +10,7 @@
     "component_groups": {
       "twilightforest:transformation": {
         "minecraft:transformation": {
-          "into": "minecraft:bat"
+          "into": "twilightforest:raven"
         }
       }
     },

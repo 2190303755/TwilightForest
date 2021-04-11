@@ -1,7 +1,13 @@
 {
-  "resource_pack_name": "vanilla",
+  "resource_pack_name": "twilightforest",
   "texture_name": "atlas.items",
   "texture_data": {
+    "raven_feather": {
+      "textures": "textures/items/raven_feather"
+    },
+    "magic_map_focus": {
+      "textures": "textures/items/magic_map_focus"
+    },
     "torchberries": {
       "textures": "textures/items/torchberries"
     },

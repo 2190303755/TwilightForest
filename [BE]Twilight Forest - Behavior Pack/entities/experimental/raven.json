@@ -79,7 +79,7 @@
           {
             "cause": "fall",
             "deals_damage": false
-          } /*,
+          }/*,
           {
             "cause": "all",
             "on_damage": {

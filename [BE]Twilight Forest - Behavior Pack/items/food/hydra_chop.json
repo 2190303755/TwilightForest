@@ -7,7 +7,7 @@
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.miscFood"
+        "parent": "itemGroup.name.cookedFood"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.hydra_chop"
@@ -33,7 +33,7 @@
             "add_mob_effect": {
               "effect": "regeneration",
               "duration": 5,
-              "amplifier": 2,
+              "amplifier": 0,
               "target": "holder"
             }
           }

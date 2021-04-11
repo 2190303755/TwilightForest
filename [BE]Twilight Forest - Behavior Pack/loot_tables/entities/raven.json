@@ -5,8 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:feather",
-          "weight": 1,
+          "name": "twilightforest:raven_feather",
           "functions": [
             {
               "function": "set_count",
@@ -16,7 +15,7 @@
               }
             },
             {
-              "function": "looting_enchant",
+              "function": "minecraft:looting_enchant",
               "count": {
                 "min": 0,
                 "max": 1
