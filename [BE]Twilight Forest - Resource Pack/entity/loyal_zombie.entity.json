@@ -12,10 +12,6 @@
       "geometry": {
         "default": "geometry.zombie.v1.8"
       },
-      "spawn_egg": {
-        "texture": "spawn_egg",
-        "texture_index": 12
-      },
       "scripts": {
         "pre_animation": [
           "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"

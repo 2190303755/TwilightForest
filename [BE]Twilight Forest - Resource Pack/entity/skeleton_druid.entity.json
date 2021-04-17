@@ -2,15 +2,18 @@
   "format_version": "1.8.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "twilightforest:lich_minion",
+      "identifier": "twilightforest:skeleton_druid",
       "materials": {
-        "default": "zombie"
+        "default": "skeleton"
       },
       "textures": {
-        "default": "textures/entity/zombie/zombie"
+        "default": "textures/entity/skeleton_druid"
       },
       "geometry": {
-        "default": "geometry.zombie.v1.8"
+        "default": "geometry.twilightforest.skeleton_druid"
+      },
+      "spawn_egg": {
+        "texture": "spawn_skeleton_druid"
       },
       "scripts": {
         "pre_animation": [
@@ -18,7 +21,6 @@
         ]
       },
       "animations": {
-        "humanoid_big_head": "animation.humanoid.big_head",
         "look_at_target_default": "animation.humanoid.look_at_target.default",
         "look_at_target_gliding": "animation.humanoid.look_at_target.gliding",
         "look_at_target_swimming": "animation.humanoid.look_at_target.swimming",
@@ -33,12 +35,11 @@
         "bob": "animation.humanoid.bob",
         "damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs",
         "bow_and_arrow": "animation.humanoid.bow_and_arrow",
+        "swimming": "animation.zombie.swimming",
         "use_item_progress": "animation.humanoid.use_item_progress",
-        "zombie_attack_bare_hand": "animation.zombie.attack_bare_hand",
-        "swimming": "animation.zombie.swimming"
+        "skeleton_attack": "animation.skeleton.attack"
       },
       "animation_controllers": [
-        { "humanoid_baby_big_head": "controller.animation.humanoid.baby_big_head" },
         { "look_at_target": "controller.animation.humanoid.look_at_target" },
         { "move": "controller.animation.humanoid.move" },
         { "riding": "controller.animation.humanoid.riding" },
@@ -50,11 +51,11 @@
         { "bob": "controller.animation.humanoid.bob" },
         { "damage_nearby_mobs": "controller.animation.humanoid.damage_nearby_mobs" },
         { "bow_and_arrow": "controller.animation.humanoid.bow_and_arrow" },
+        { "swimming": "controller.animation.zombie.swimming" },
         { "use_item_progress": "controller.animation.humanoid.use_item_progress" },
-        { "zombie_attack_bare_hand": "controller.animation.zombie.attack_bare_hand" },
-        { "swimming": "controller.animation.zombie.swimming" }
+        { "skeleton_attack": "controller.animation.skeleton.attack" }
       ],
-      "render_controllers": [ "controller.render.loyal_zombie" ],
+      "render_controllers": [ "controller.render.skeleton" ],
       "enable_attachables": true
     }
   }

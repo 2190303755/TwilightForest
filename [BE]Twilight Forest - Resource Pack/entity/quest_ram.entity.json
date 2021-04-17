@@ -24,7 +24,7 @@
       },
       "render_controllers": [ "controller.render.quest_ram" ],
       "spawn_egg": {
-        "texture": "egg_quest_ram"
+        "texture": "spawn_quest_ram"
       }
     }
   }

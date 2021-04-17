@@ -22,7 +22,7 @@
         "controller.render.slime_armor"
       ],
       "spawn_egg": {
-        "texture": "egg_maze_slime"
+        "texture": "spawn_maze_slime"
       }
     }
   }

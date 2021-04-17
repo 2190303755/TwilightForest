@@ -13,7 +13,7 @@
         "default": "textures/entity/wild_deer"
       },
       "spawn_egg": {
-        "texture": "egg_wild_deer"
+        "texture": "spawn_wild_deer"
       },
       "animations": {
         "setup": "animation.cow.setup.v1.0",

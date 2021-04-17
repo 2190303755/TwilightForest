@@ -176,9 +176,6 @@
     "glass_sword": {
       "textures": "textures/items/glass_sword"
     },
-    "egg_villager": {
-      "textures": "textures/items/items/egg_villager"
-    },
     "fiery_boots": {
       "textures": "textures/items/fiery/fiery_boots"
     },
@@ -248,23 +245,26 @@
     "spawn_minoshroom": {
       "textures": "textures/items/spawn_egg/egg_minoshroom"
     },
-    "egg_raven": {
+    "spawn_raven": {
       "textures": "textures/items/spawn_egg/egg_raven"
     }, 
-    "egg_bunny": {
+    "spawn_bunny": {
       "textures": "textures/items/spawn_egg/egg_bunny"
     },
-    "egg_wild_deer": {
+    "spawn_wild_deer": {
       "textures": "textures/items/spawn_egg/egg_wild_deer"
     },
-    "egg_maze_slime": {
+    "spawn_maze_slime": {
       "textures": "textures/items/spawn_egg/egg_maze_slime"
     },
     "spawn_ur_ghast": {
       "textures": "textures/items/spawn_egg/egg_ur_ghast"
     },
-    "egg_quest_ram": {
+    "spawn_quest_ram": {
       "textures": "textures/items/spawn_egg/egg_quest_ram"
+    },
+    "spawn_skeleton_druid": {
+      "textures": "textures/items/spawn_egg/egg_skeleton_druid"
     },
     "giant_pickaxe": {
       "textures": "textures/items/stone_pickaxe"

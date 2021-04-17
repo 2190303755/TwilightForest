@@ -5,8 +5,8 @@
       "identifier": "twilightforest:knightmetal_block"
     },
     "components": {
-      "minecraft:destroy_time": 6.25,
-      "minecraft:block_light_emission": 0,
+      "minecraft:destroy_time": 12.5,
+      "minecraft:block_light_absorption": 0,
       "minecraft:map_color": "#000000",
       "minecraft:explosion_resistance": 6,
       "minecraft:pick_collision": {
@@ -17,13 +17,15 @@
         "origin": [ -7, 1, -7 ],
         "size": [ 14, 14, 14 ]
       },
-      "minecraft:geometry": "geometry.knightmetal_block.twilightforest",
+      "minecraft:geometry": "geometry.twilightforest.knightmetal_block",
       "minecraft:material_instances": {
         "*": {
           "texture": "knightmetal_block",
           "render_method": "alpha_test"
         }
-      }
+      },
+      "tag:diamond_pick_diggable": {},
+      "tag:iron_pick_diggable": {}
     }
   }
 }

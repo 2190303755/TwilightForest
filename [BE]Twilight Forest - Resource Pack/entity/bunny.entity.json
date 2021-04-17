@@ -15,7 +15,7 @@
         "white": "textures/entity/bunny/bunny_white"
       },
       "spawn_egg": {
-        "texture": "egg_bunny"
+        "texture": "spawn_bunny"
       },
       "scripts": {
         "animate": [
