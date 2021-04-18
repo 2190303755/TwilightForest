@@ -1,5 +1,5 @@
-/*{
-  "format_version": "1.13.0",
+{
+  "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
       "identifier": "twilightforest:nature_bolt",
@@ -8,62 +8,44 @@
       "is_summonable": true,
       "is_experimental": false
     },
-    "component_groups": {
-    },
-
     "components": {
       "minecraft:collision_box": {
         "width": 0.25,
         "height": 0.25
       },
-      "minecraft:hurt_on_condition": {
-        "damage_conditions": [
-          {
-            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
-            "cause": "lava",
-            "damage_per_tick": 4
-          }
-        ]
-      },
       "minecraft:projectile": {
         "on_hit": {
           "impact_damage": {
-            "damage": [ 1, 4 ],
-            "knockback": true,
-            "semi_random_diff_damage": false
+            "damage": 2
           },
           "mob_effect": {
             "effect": "poison",
-            "durationeasy": 0,
-            "durationnormal": 200,
-            "durationhard": 800,
+            "durationeasy": 125,
+            "durationnormal": 125,
+            "durationhard": 125,
             "amplifier": 0
-          }
+          },
+          "remove_on_hit": {}
         },
-        "power": 1.6,
-        "gravity": 0.05,
-        "uncertainty_base": 16,
-        "uncertainty_multiplier": 4,
         "anchor": 1,
-        "should_bounce": true,
+        "power": 1.5,
+        "gravity": 0.03,
+        "angle_offset": 0.0,
         "offset": [ 0, -0.1, 0 ]
       },
-      "minecraft:physics": {
+	    "minecraft:physics": {
       },
       "minecraft:pushable": {
-        "is_pushable": false,
+        "is_pushable": true,
         "is_pushable_by_piston": true
       },
       "minecraft:conditional_bandwidth_optimization": {
         "default_values": {
-          "max_optimized_distance": 80.0,
-          "max_dropped_ticks": 10,
+          "max_optimized_distance": 100.0,
+          "max_dropped_ticks": 5,
           "use_motion_prediction_hints": true
         }
       }
-    },
-
-    "events": {
     }
   }
-}*/
+}

@@ -29,15 +29,6 @@
                 "value": true
               },
               "event": "minecraft:melee_mode"
-            },
-            {
-              "filters": {
-                "test": "has_ranged_weapon",
-                "subject": "self",
-                "operator": "==",
-                "value": false
-              },
-              "event": "minecraft:melee_mode"
             }
           ]
         }
@@ -61,12 +52,6 @@
                     "subject": "self",
                     "operator": "==",
                     "value": false
-                  },
-                  {
-                    "test": "has_ranged_weapon",
-                    "subject": "self",
-                    "operator": "==",
-                    "value": true
                   }
                 ]
               },
@@ -145,15 +130,6 @@
               "subject": "self",
               "operator": "==",
               "value": true
-            },
-            "event": "minecraft:melee_mode"
-          },
-          {
-            "filters": {
-              "test": "has_ranged_weapon",
-              "subject": "self",
-              "operator": "==",
-              "value": false
             },
             "event": "minecraft:melee_mode"
           }

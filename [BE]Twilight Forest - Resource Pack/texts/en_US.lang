@@ -132,6 +132,7 @@ entity.twilightforest:loyal_zombie.name=Loyal Zombie
 entity.twilightforest:lich_minion.name=Lich Minion
 entity.twilightforest:ender_pearl_lich.name=Ender Pearl
 entity.twilightforest:ender_pearl_player.name=Ender Pearl
+entity.twilightforest:skeleton_druid.name=Skeleton Druid Spawn Egg
 #lich
 entity.twilightforest:lich.name=Twilight Lich
 entity.twilightforest:lich.shield.0=Twilight Lich
@@ -153,6 +154,7 @@ item.spawn_egg.entity.twilightforest:quest_ram.name=Questing Ram Spawn Egg
 item.spawn_egg.entity.twilightforest:lich.name=Lich Spawn Egg
 item.spawn_egg.entity.twilightforest:hydra.name=Hydra Spawn Egg
 item.spawn_egg.entity.twilightforest:maze_slime.name=Maze Slime Spawn Egg
+item.spawn_egg.entity.twilightforest:skeleton_druid.name=Skeleton Druid Spawn Egg
 
 ##### items #####
 #old#

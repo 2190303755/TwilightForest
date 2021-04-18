@@ -130,8 +130,9 @@ entity.twilightforest:hydra.name=九头蛇	#
 entity.twilightforest:quest_ram.name=谜题羊	#
 entity.twilightforest:loyal_zombie.name=忠诚的僵尸	#
 entity.twilightforest:lich_minion.name=巫妖仆从	#
-entity.twilightforest:ender_pearl_lich.name=末影珍珠	#
-entity.twilightforest:ender_pearl_player.name=末影珍珠	#
+entity.twilightforest:ender_pearl_lich.name=掷出的末影珍珠	#
+entity.twilightforest:ender_pearl_player.name=掷出的末影珍珠	#
+entity.twilightforest:skeleton_druid.name=骷髅德鲁伊	#
 #lich
 entity.twilightforest:lich.name=巫妖	#
 entity.twilightforest:lich.shield.0=巫妖	#
@@ -153,6 +154,7 @@ item.spawn_egg.entity.twilightforest:quest_ram.name=谜题羊刷怪蛋	#
 item.spawn_egg.entity.twilightforest:lich.name=巫妖刷怪蛋	#
 item.spawn_egg.entity.twilightforest:hydra.name=九头蛇刷怪蛋	#
 item.spawn_egg.entity.twilightforest:maze_slime.name=迷宫史莱姆刷怪蛋	#
+item.spawn_egg.entity.twilightforest:skeleton_druid.name=骷髅德鲁伊刷怪蛋	#
 
 ##### items #####
 #old#
