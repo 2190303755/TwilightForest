@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "twilightforest:item.trophy_lich",
+      "identifier": "twilightforest:trophy.lich",
       "materials": {
         "default": "armor",
         "enchanted": "armor_enchanted"

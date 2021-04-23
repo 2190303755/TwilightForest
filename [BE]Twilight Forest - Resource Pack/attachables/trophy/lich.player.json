@@ -2,9 +2,9 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "twilightforest:item.trophy_lich.player",
+      "identifier": "twilightforest:trophy.lich.player",
       "item": {
-        "twilightforest:item.trophy_lich": "query.owner_identifier == 'minecraft:player'"
+        "twilightforest:trophy.lich": "query.owner_identifier == 'minecraft:player'"
       },
       "materials": {
         "default": "armor",

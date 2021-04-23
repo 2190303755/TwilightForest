@@ -32,13 +32,13 @@
             "items": [
               "twilightforest:fiery_ingot"
             ],
-            "repair_amount": "81"
+            "repair_amount": "math.floor(query.max_durability * 0.25)"
           },
           {
             "items": [
               "twilightforest:fiery_boots"
             ],
-              "repair_amount": "context.other->query.remaining_durability + 16"
+              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
           }
         ]
       },

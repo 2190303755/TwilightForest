@@ -1,12 +1,29 @@
 {
-  "format_version": "1.0",
+  "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:trophy_knight_phantom"
+      "identifier": "twilightforest:trophy.knight_phantom",
+      "category": "equipment"
     },
     "components": {
-      "minecraft:hand_equipped": false,
-      "minecraft:stacked_by_data": false
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilightforest.trophy"
+      },
+      "minecraft:display_name": {
+        "value": "item.twilightforest.trophy_knight_phantom"
+      },
+      "minecraft:icon": {
+        "texture": "trophy_knight_phantom"
+      },
+      /*"minecraft:block_placer": {
+        "block": "twilightforest:trophy_knight_phantom"
+      },*/
+      "minecraft:armor": {
+        "protection": 0
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.head"
+      }
     }
   }
 }

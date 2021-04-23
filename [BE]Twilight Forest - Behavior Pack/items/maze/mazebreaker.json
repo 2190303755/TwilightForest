@@ -1,15 +1,97 @@
 {
-  "format_version": "1.0",
+  "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:mazebreaker" 
+      "identifier": "twilightforest:mazebreaker",
+      "category": "equipment"
     },
     "components": {
-      "minecraft:hand_equipped": true,
-      "minecraft:max_stack_size": 1,
-      "minecraft:max_damage": 1561,
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.pickaxe"
+      },
+      "minecraft:display_name": {
+        "value": "item.twilightforest.mazebreaker"
+      },
+      "minecraft:icon": {
+        "texture": "mazebreaker"
+      },
       "minecraft:foil": true,
-      "minecraft:stacked_by_data": false
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 1561
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:diamond"
+            ],
+            "repair_amount": "math.floor(query.max_durability * 0.25)"
+          },
+          {
+            "items": [
+              "twilightforest:fiery_pickaxe"
+            ],
+              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+          }
+        ]
+      },
+      "minecraft:mining_speed": 1,
+      "minecraft:weapon": {
+        "on_hurt_entity": {
+          "event": "twilightforest:on_hurt_entity",
+          "target": "self"
+        }
+      },
+      "minecraft:damage": 5,
+      "minecraft:enchantable": {
+        "value": 10,
+        "slot": "pickaxe"
+      },
+      "minecraft:digger": {
+        "use_efficiency": true,
+        "on_dig": {
+          "event": "twilightforest:on_dig",
+          "target": "self"
+        },
+        "destroy_speeds": [
+          {
+            "block": {
+              "tags": "query.any_tag('stone', 'metal', 'diamond_pick_diggable')"
+            },
+            "on_dig": {
+              "event": "twilightforest:on_dig",
+              "target": "self"
+            },
+            "speed": 8
+          },
+          {
+            "block": "minecraft:ice",
+            "speed": 8
+          },
+          {
+            "block": "minecraft:sandstone",
+            "speed": 8
+          }
+        ]
+      },
+      "tag:minecraft:is_pickaxe": {}
+    },
+
+    "events": {
+      "twilightforest:on_hurt_entity": {
+        "damage": {
+          "type": "none",
+          "amount": 2
+        }
+      },
+      "twilightforest:on_dig": {
+        "damage": {
+          "type": "none",
+          "amount": 1
+        }
+      }
     }
   }
 }

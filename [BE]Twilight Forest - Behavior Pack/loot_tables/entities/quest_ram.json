@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "twilightforest:item.trophy_quest_ram",
+          "name": "twilightforest:trophy.quest_ram",
           "weight": 1
         }
       ]

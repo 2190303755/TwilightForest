@@ -1,13 +1,27 @@
 {
-  "format_version": "1.0",
+  "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:ice_bomb" 
+      "identifier": "twilightforest:ice_bomb",
+      "category": "equipment"
     },
     "components": {
-      "minecraft:hand_equipped": false,
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.tools"
+      },
+      "minecraft:display_name": {
+        "value": "item.twilightforest.ice_bomb"
+      },
+      "minecraft:icon": {
+        "texture": "ice_bomb"
+      },
       "minecraft:max_stack_size": 16,
-      "minecraft:stacked_by_data": false
+      "minecraft:throwable": {
+        "do_swing_animation": true
+      },
+      "minecraft:projectile": {
+        "projectile_entity": "minecraft:snowball"
+      }
     }
   }
 }

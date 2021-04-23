@@ -7,7 +7,7 @@
     },
     "components": {
       "minecraft:icon": "trophy_naga",
-      "minecraft:hover_text_color": "light_purple",
+      "minecraft:hover_text_color": "dark_green",
       "minecraft:render_offsets": "miscellaneous"
     }
   }

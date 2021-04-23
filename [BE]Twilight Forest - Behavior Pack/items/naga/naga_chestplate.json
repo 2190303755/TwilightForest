@@ -32,13 +32,13 @@
             "items": [
               "twilightforest:naga_scale"
             ],
-            "repair_amount": "84"
+            "repair_amount": "math.floor(query.max_durability * 0.25)"
           },
           {
             "items": [
               "twilightforest:naga_chestplate"
             ],
-              "repair_amount": "context.other->query.remaining_durability + 17"
+              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
           }
         ]
       },

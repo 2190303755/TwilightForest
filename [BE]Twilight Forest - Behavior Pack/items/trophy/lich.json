@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:item.trophy_lich",
+      "identifier": "twilightforest:trophy.lich",
       "category": "equipment"
     },
     "components": {

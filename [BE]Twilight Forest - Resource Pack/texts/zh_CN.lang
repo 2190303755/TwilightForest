@@ -1,4 +1,7 @@
 ########## Twilight Forest For Minecraft Bedrock Edition ##########
+#Pack
+pack.name=§e[§r§6BE§r§e]§r §b暮色森林§r
+pack.version=Re-Alpha 1.0.1
 ##### blocks #####
 #miscellaneous
 tile.twilightforest:liveroots.name=活根

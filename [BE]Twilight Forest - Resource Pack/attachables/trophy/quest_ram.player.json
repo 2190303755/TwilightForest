@@ -2,9 +2,9 @@
   "format_version": "1.10.0",
   "minecraft:attachable": {
     "description": {
-      "identifier": "twilightforest:item.trophy_quest_ram.player",
+      "identifier": "twilightforest:trophy.quest_ram.player",
       "item": {
-        "twilightforest:item.trophy_quest_ram": "query.owner_identifier == 'minecraft:player'"
+        "twilightforest:trophy.quest_ram": "query.owner_identifier == 'minecraft:player'"
       },
       "materials": {
         "default": "armor",
