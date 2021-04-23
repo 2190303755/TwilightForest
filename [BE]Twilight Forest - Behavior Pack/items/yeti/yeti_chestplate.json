@@ -1,15 +1,55 @@
 {
-    "format_version": "1.0",
-    "minecraft:item": {
-      "description": {
-        "identifier": "twilightforest:yeti_chestplate" 
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "twilightforest:yeti_chestplate",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.chestplate"
       },
-      "components": {
-        "minecraft:hand_equipped": false,
-        "minecraft:max_stack_size": 1,
-        "minecraft:max_damage": 320,
-        "minecraft:foil": true,
-        "minecraft:stacked_by_data": false
+      "minecraft:display_name": {
+        "value": "item.twilightforest.yeti_chestplate"
+      },
+      "minecraft:icon": {
+        "texture": "yeti_chestplate"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 9,
+        "slot": "armor_torso"
+      },
+      "minecraft:durability": {
+        "max_durability": 320,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "twilightforest:alpha_yeti_fur"
+            ],
+            "repair_amount": "math.floor(query.max_durability * 0.25)"
+          },
+          {
+            "items": [
+              "twilightforest:yeti_chestplate"
+            ],
+              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+          }
+        ]
+      },
+      "minecraft:armor": {
+        "protection": 7
+      },
+      "minecraft:foil": true,
+      "minecraft:wearable": {
+        "slot": "slot.armor.chest"
       }
     }
+  }
 }

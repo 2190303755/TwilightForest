@@ -1,15 +1,55 @@
 {
-    "format_version": "1.0",
-    "minecraft:item": {
-      "description": {
-        "identifier": "twilightforest:yeti_boots" 
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "twilightforest:yeti_boots",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.boots"
       },
-      "components": {
-        "minecraft:hand_equipped": false,
-        "minecraft:max_stack_size": 1,
-        "minecraft:max_damage": 260,
-        "minecraft:foil": true,
-        "minecraft:stacked_by_data": false
+      "minecraft:display_name": {
+        "value": "item.twilightforest.yeti_boots"
+      },
+      "minecraft:icon": {
+        "texture": "yeti_boots"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 9,
+        "slot": "armor_feet"
+      },
+      "minecraft:durability": {
+        "max_durability": 260,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "twilightforest:alpha_yeti_fur"
+            ],
+            "repair_amount": "math.floor(query.max_durability * 0.25)"
+          },
+          {
+            "items": [
+              "twilightforest:yeti_boots"
+            ],
+              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+          }
+        ]
+      },
+      "minecraft:armor": {
+        "protection": 3
+      },
+      "minecraft:foil": true,
+      "minecraft:wearable": {
+        "slot": "slot.armor.feet"
       }
     }
+  }
 }

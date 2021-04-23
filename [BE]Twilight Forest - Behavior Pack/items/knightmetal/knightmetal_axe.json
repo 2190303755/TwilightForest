@@ -20,6 +20,22 @@
       "minecraft:durability": {
         "max_durability": 512
       },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "twilightforest:knightmetal_ingot"
+            ],
+            "repair_amount": "math.floor(query.max_durability * 0.25)"
+          },
+          {
+            "items": [
+              "twilightforest:knightmetal_axe"
+            ],
+              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+          }
+        ]
+      },
       "minecraft:mining_speed": 1,
       "minecraft:weapon": {},
       "minecraft:damage": 8,

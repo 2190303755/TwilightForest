@@ -30,6 +30,12 @@
         "repair_items": [
           {
             "items": [
+              "twilightforest:knightmetal_ingot"
+            ],
+            "repair_amount": "math.floor(query.max_durability * 0.25)"
+          },
+          {
+            "items": [
               "twilightforest:phantom_helmet"
             ],
               "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"

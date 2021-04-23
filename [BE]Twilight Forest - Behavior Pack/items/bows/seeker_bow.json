@@ -1,14 +1,61 @@
 {
-  "format_version": "1.0",
+  "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:seeker_bow" 
+      "identifier": "twilightforest:seeker_bow",
+      "category": "equipment"
     },
     "components": {
-      "minecraft:hand_equipped": true,
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.bow"
+      },
+      "minecraft:display_name": {
+        "value": "item.twilightforest.seeker_bow"
+      },
+      "minecraft:icon": {
+        "texture": "seeker_bow"
+      },
       "minecraft:max_stack_size": 1,
-      "minecraft:max_damage": 384,
-      "minecraft:stacked_by_data": false
+      "minecraft:use_duration": 5,
+      "minecraft:animates_in_toolbar": false,
+      "minecraft:enchantable": {
+        "slot": "bow",
+        "value": 1
+      },
+      "minecraft:hand_equipped": true,
+      "minecraft:fuel": {
+        "duration": 10.0
+      },
+      "minecraft:use_animation": "bow",
+      "minecraft:shooter": {
+        "ammunition": [
+          {
+            "item": "minecraft:arrow",
+            "use_offhand": true,
+            "search_inventory": true,
+            "use_in_creative": true
+          }
+        ],
+        "scale_power_by_draw_duration": true,
+        "charge_on_draw": true,
+        "launch_power_scale": 1,
+        "max_draw_duration": 1.0
+      },
+      "minecraft:durability": {
+        "max_durability": 384
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "twilightforest:seeker_bow"
+            ],
+            "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+          }
+        ]
+      }
+    },
+    "events": {
     }
   }
 }

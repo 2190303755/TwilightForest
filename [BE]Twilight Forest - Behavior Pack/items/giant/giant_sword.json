@@ -13,7 +13,8 @@
         "value": "item.twilightforest.giant_sword"
       },
       "minecraft:icon": {
-        "texture": "giant_sword"
+        "texture": "sword",
+        "frame": 1
       },
       "minecraft:max_stack_size": 1,
       "minecraft:use_duration": 3600,
@@ -37,7 +38,7 @@
         "repair_items": [
           {
             "items": [
-              "minecraft:stone"
+              "twilightforest:knightmetal_ingot"
             ],
             "repair_amount": "math.floor(query.max_durability * 0.25)"
           },

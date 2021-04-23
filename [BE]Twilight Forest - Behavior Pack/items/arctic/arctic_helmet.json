@@ -1,14 +1,54 @@
 {
-  "format_version": "1.0",
+  "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:arctic_helmet"
+      "identifier": "twilightforest:arctic_helmet",
+      "category": "equipment"
     },
     "components": {
-      "minecraft:hand_equipped": false,
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.helmet"
+      },
+      "minecraft:display_name": {
+        "value": "item.twilightforest.arctic_helmet"
+      },
+      "minecraft:icon": {
+        "texture": "arctic_helmet"
+      },
       "minecraft:max_stack_size": 1,
-      "minecraft:max_damage": 110,
-      "minecraft:stacked_by_data": false
+      "minecraft:enchantable": {
+        "value": 9,
+        "slot": "armor_head"
+      },
+      "minecraft:durability": {
+        "max_durability": 110,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "twilightforest:arctic_fur"
+            ],
+            "repair_amount": "math.floor(query.max_durability * 0.25)"
+          },
+          {
+            "items": [
+              "twilightforest:arctic_helmet"
+            ],
+              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+          }
+        ]
+      },
+      "minecraft:armor": {
+        "protection": 2
+      },
+      "minecraft:wearable": {
+        "slot": "slot.armor.head"
+      }
     }
   }
 }

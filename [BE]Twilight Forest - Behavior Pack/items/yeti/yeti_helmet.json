@@ -1,15 +1,55 @@
 {
-    "format_version": "1.0",
-    "minecraft:item": {
-      "description": {
-        "identifier": "twilightforest:yeti_helmet" 
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "twilightforest:yeti_helmet",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.helmet"
       },
-      "components": {
-        "minecraft:hand_equipped": false,
-        "minecraft:max_stack_size": 1,
-        "minecraft:max_damage": 220,
-        "minecraft:foil": true,
-        "minecraft:stacked_by_data": false
+      "minecraft:display_name": {
+        "value": "item.twilightforest.yeti_helmet"
+      },
+      "minecraft:icon": {
+        "texture": "yeti_helmet"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:enchantable": {
+        "value": 9,
+        "slot": "armor_head"
+      },
+      "minecraft:durability": {
+        "max_durability": 220,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
+      },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "twilightforest:alpha_yeti_fur"
+            ],
+            "repair_amount": "math.floor(query.max_durability * 0.25)"
+          },
+          {
+            "items": [
+              "twilightforest:yeti_helmet"
+            ],
+              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+          }
+        ]
+      },
+      "minecraft:armor": {
+        "protection": 4
+      },
+      "minecraft:foil": true,
+      "minecraft:wearable": {
+        "slot": "slot.armor.head"
       }
     }
+  }
 }

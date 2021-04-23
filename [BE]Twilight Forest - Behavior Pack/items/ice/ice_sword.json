@@ -21,6 +21,22 @@
       "minecraft:durability": {
         "max_durability": 32
       },
+      "minecraft:repairable": {
+        "repair_items": [
+          {
+            "items": [
+              "minecraft:packed_ice"
+            ],
+            "repair_amount": "math.floor(query.max_durability * 0.25)"
+          },
+          {
+            "items": [
+              "twilightforest:ice_sword"
+            ],
+              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+          }
+        ]
+      },
       "minecraft:mining_speed": 1.5,
       "minecraft:weapon": {
         "on_hurt_entity": {

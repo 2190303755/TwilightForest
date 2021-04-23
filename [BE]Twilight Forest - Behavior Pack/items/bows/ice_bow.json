@@ -53,8 +53,7 @@
             "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
           }
         ]
-      },
-      "tag:minecraft:is_bow": {}
+      }
     },
     "events": {
     }
