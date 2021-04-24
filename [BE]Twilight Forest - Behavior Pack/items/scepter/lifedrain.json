@@ -37,7 +37,7 @@
         "sequence": [
           {
             "run_command": {
-              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.twilightforest.item.scepter.uncompleted\"}]}"
+              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.twilightforest.item.uncompleted\"}]}"
             }
           }
         ]

@@ -62,7 +62,7 @@
 },
 "minecraft:boss": {
 "should_darken_sky": false,
-"name": "九头蛇",
+"name": "entity.twilightforest:hydra.name",
 "hud_range": 50
 },
 "minecraft:breathable": {

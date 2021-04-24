@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:golden_axe",
+          "pools": [
+            {
+              "conditions": [
+                {
+                  "condition": "random_difficulty_chance",
+                  "peaceful": 0.1,
+                  "easy": 0.2,
+                  "normal": 0.3,
+                  "hard": 0.4
+                }
+              ],
+              "rolls": 1,
+              "entries": [
+                {
+                  "type": "item",
+                  "name": "twilightforest:minotaur_axe_golden"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

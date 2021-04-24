@@ -266,6 +266,9 @@
     "spawn_skeleton_druid": {
       "textures": "textures/items/spawn_egg/egg_skeleton_druid"
     },
+    "spawn_minotaur": {
+      "textures": "textures/items/spawn_egg/egg_minotaur"
+    },
     "giant_pickaxe": {
       "textures": "textures/items/stone_pickaxe"
     },

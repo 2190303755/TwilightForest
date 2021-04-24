@@ -135,7 +135,8 @@ entity.twilightforest:loyal_zombie.name=Loyal Zombie
 entity.twilightforest:lich_minion.name=Lich Minion
 entity.twilightforest:ender_pearl_lich.name=Ender Pearl
 entity.twilightforest:ender_pearl_player.name=Ender Pearl
-entity.twilightforest:skeleton_druid.name=Skeleton Druid Spawn Egg
+entity.twilightforest:skeleton_druid.name=Skeleton Druid
+entity.twilightforest:minotaur.name=Minotaur
 #lich
 entity.twilightforest:lich.name=Twilight Lich
 entity.twilightforest:lich.shield.0=Twilight Lich
@@ -158,33 +159,9 @@ item.spawn_egg.entity.twilightforest:lich.name=Lich Spawn Egg
 item.spawn_egg.entity.twilightforest:hydra.name=Hydra Spawn Egg
 item.spawn_egg.entity.twilightforest:maze_slime.name=Maze Slime Spawn Egg
 item.spawn_egg.entity.twilightforest:skeleton_druid.name=Skeleton Druid Spawn Egg
+item.spawn_egg.entity.twilightforest:minotaur.name=Minotaur Spawn Egg
 
 ##### items #####
-#old#
-item.twilightforest:arctic_chestplate.name=Arctic Jacket
-item.twilightforest:arctic_boots.name=Arctic Boots
-item.twilightforest:arctic_helmet.name=Arctic Hood
-item.twilightforest:arctic_leggings.name=Arctic Leggings
-item.twilightforest:ender_bow.name=Ender Bow
-item.twilightforest:ice_bow.name=Ice Bow
-item.twilightforest:seeker_bow.name=Seeker Bow
-item.twilightforest:triple_bow.name=Tri-bow
-item.twilightforest:giant_pickaxe.name=Giant's Pickaxe
-item.twilightforest:giant_sword.name=Giant's Sword
-item.twilightforest:ice_bomb.name=Ice Bomb
-item.twilightforest:mazebreaker.name=Mazebreaker
-item.twilightforest:trophy_hydra.name=Hydra Trophy
-item.twilightforest:trophy_lich.name=Twilight Lich Trophy
-item.twilightforest:trophy_naga.name=Naga Trophy
-item.twilightforest:trophy_snow_queen.name=Snow Queen Trophy
-item.twilightforest:trophy_ur_ghast.name=Ur-Ghast Trophy
-item.twilightforest:trophy_knight_phantom.name=Knight Phantom Trophy
-item.twilightforest:trophy_minoshroom.name=Minoshroom Trophy
-item.twilightforest:trophy_quest_ram.name=Questing Ram Trophy
-item.twilightforest:yeti_boots.name=Yeti Boots
-item.twilightforest:yeti_chestplate.name=Yeti Jacket
-item.twilightforest:yeti_helmet.name=Yeti Horned Helmet
-item.twilightforest:yeti_leggings.name=Yeti Leggings
 #miscellaneous
 item.twilightforest.borer_essence=Borer Essence
 item.twilightforest.carminite=Carminite
@@ -302,4 +279,4 @@ action.hint.exit.pig=Tap sneak to dismount
 action.hint.exit.twilightforest:wild_boar=Tap sneak to dismount
 action.interact.transformation=Transform
 action.twilightforest.item.scepter.durability=This scepter doesn't have enough durability
-action.twilightforest.item.scepter.uncompleted=This scepter hasn't been completed yet
+action.twilightforest.item.uncompleted=This item hasn't been completed yet

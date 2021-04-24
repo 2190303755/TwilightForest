@@ -338,9 +338,6 @@
       "minecraft:attack": {
         "damage": 7
       },
-      "minecraft:loot": {
-        "table": "loot_tables/entities/zombie.json"
-      },
       "minecraft:behavior.melee_attack": {
         "priority": 3,
         "speed_multiplier": 1,

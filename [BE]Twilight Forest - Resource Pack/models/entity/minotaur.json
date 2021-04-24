@@ -1,0 +1,99 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.twilightforest.minotaur",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 3,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "body",
+					"pivot": [0, 24, -0.5],
+					"cubes": [
+						{"origin": [-5.5, 12, -2.5], "size": [10, 14, 5], "uv": [34, 0]}
+					]
+				},
+				{
+					"name": "head",
+					"parent": "body",
+					"pivot": [0, 24, -0.5],
+					"cubes": [
+						{"origin": [-4.5, 24, -4], "size": [8, 8, 8], "uv": [0, 0]},
+						{"origin": [-3.5, 24, -5], "size": [6, 3, 1], "uv": [25, 1]}
+					]
+				},
+				{
+					"name": "leftHorn",
+					"parent": "head",
+					"pivot": [1, 27, -1],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-8, 29, -1], "size": [4, 2, 2], "uv": [12, 16]},
+						{"origin": [-8, 31, -1], "size": [2, 2, 2], "uv": [12, 20]}
+					]
+				},
+				{
+					"name": "rightHorn",
+					"parent": "head",
+					"pivot": [0, 24, -0.5],
+					"cubes": [
+						{"origin": [3.5, 29, -1], "size": [4, 2, 2], "uv": [12, 16]},
+						{"origin": [5.5, 31, -1], "size": [2, 2, 2], "uv": [12, 20]}
+					]
+				},
+				{
+					"name": "leftArm",
+					"parent": "body",
+					"pivot": [5, 24, -0.5],
+					"mirror": true,
+					"cubes": [
+						{"origin": [4, 12, -2.5], "size": [4, 14, 5], "uv": [20, 26]}
+					]
+				},
+				{
+					"name": "leftItem",
+					"parent": "leftArm",
+					"pivot": [6, 15, 0.5]
+				},
+				{
+					"name": "rightArm",
+					"parent": "body",
+					"pivot": [-5, 24, -0.5],
+					"cubes": [
+						{"origin": [-9, 12, -2.5], "size": [4, 14, 5], "uv": [20, 26]}
+					]
+				},
+				{
+					"name": "rightItem",
+					"parent": "rightArm",
+					"pivot": [-6, 15, 0.5],
+					"locators": {
+						"lead_hold": [-6, 15, 0.5]
+					}
+				},
+				{
+					"name": "leftLeg",
+					"parent": "body",
+					"pivot": [1.9, 12, -0.5],
+					"mirror": true,
+					"cubes": [
+						{"origin": [-1.1, 0, -2.5], "size": [5, 12, 5], "uv": [0, 26]}
+					]
+				},
+				{
+					"name": "rightLeg",
+					"parent": "body",
+					"pivot": [-1.9, 12, -0.5],
+					"cubes": [
+						{"origin": [-4.9, 0, -2.5], "size": [5, 12, 5], "uv": [0, 26]}
+					]
+				}
+			]
+		}
+	]
+}

@@ -44,6 +44,11 @@
       "minecraft:durability": {
         "max_durability": 384
       },
+      "minecraft:on_use": {
+        "on_use": {
+          "event": "twilightforest:on_use"
+        }
+      },
       "minecraft:repairable": {
         "repair_items": [
           {
@@ -56,6 +61,15 @@
       }
     },
     "events": {
+      "twilightforest:on_use": {
+        "sequence": [
+          {
+            "run_command": {
+              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.twilightforest.item.uncompleted\"}]}"
+            }
+          }
+        ]
+      }
     }
   }
 }

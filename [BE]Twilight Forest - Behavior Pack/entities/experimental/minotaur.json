@@ -1,0 +1,169 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "twilightforest:minotaur",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "twilightforest:transformation.zombified_piglin": {
+        "minecraft:transformation": {
+          "into": "minecraft:zombie_pigman",
+          "preserve_equipment": true
+        }
+      },
+      "twilightforest:transformation.piglin_brute": {
+        "minecraft:transformation": {
+          "into": "minecraft:piglin_brute",
+          "preserve_equipment": true
+        }
+      }
+    },
+    "components": {
+      "minecraft:collision_box": {
+        "width": 0.6,
+        "height": 1.9
+      },
+      "minecraft:type_family": {
+        "family": [
+          "minotaur",
+          "monster",
+          "mob"
+        ]
+      },
+      "minecraft:experience_reward": {
+        "on_death": "query.last_hit_by_player ? 20 : 0"
+      },
+      "minecraft:on_target_acquired": {
+        "event": "become_angry_event",
+        "target": "self"
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:health": {
+        "value": 30,
+        "max": 30
+      },
+      "minecraft:interact": {
+        "interactions": [
+          {
+            "on_interact": {
+              "filters": {
+                "all_of": [
+                  {
+                    "test": "has_equipment",
+                    "domain": "hand",
+                    "subject": "other",
+                    "value": "twilightforest:transformation_powder"
+                  }
+                ]
+              },
+              "event": "twilightforest:transformation",
+              "target": "self"
+            },
+            "use_item": true,
+            "interact_text": "action.interact.transformation"
+          }
+        ]
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": {
+              "test": "in_lava",
+              "subject": "self",
+              "operator": "==",
+              "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/minotaur.json"
+      },
+      "minecraft:equipment": {
+        "table": "loot_tables/entities/minotaur_gear.json"
+      },
+      "minecraft:movement": {
+        "value": 0.25
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "can_open_doors": true
+      },
+      "minecraft:annotation.open_door": {},
+      "minecraft:movement.basic": {},
+      "minecraft:jump.static": {},
+      "minecraft:nameable": {},
+      "minecraft:behavior.hurt_by_target": {
+        "priority": 1
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 4,
+        "speed_multiplier": 1,
+        "track_target": true
+      },
+      "minecraft:attack": {
+        "damage": 7
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 7,
+        "speed_multiplier": 0.6
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 8,
+        "look_distance": 8
+      },
+      "minecraft:behavior.random_look_around": {
+        "priority": 9
+      },
+      "minecraft:physics": {},
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:follow_range": {
+        "value": 64
+      },
+      "minecraft:conditional_bandwidth_optimization": {}
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+      },
+      "twilightforest:transformation": {
+        "sequence": [
+          {
+            "filters": {
+              "test": "in_nether",
+              "subject": "self",
+              "value": false
+            },
+            "add": {
+              "component_groups": [
+                "twilightforest:transformation.zombified_piglin"
+              ]
+            }
+          },
+          {
+            "filters": {
+              "test": "in_nether",
+              "subject": "self",
+              "value": true
+            },
+            "add": {
+              "component_groups": [
+                "twilightforest:transformation.piglin_brute"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

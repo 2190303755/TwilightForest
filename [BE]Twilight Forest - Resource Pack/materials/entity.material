@@ -19,6 +19,7 @@
     "wild_boar:entity_alphatest": {
       "depthFunc": "LessEqual"
     },
-"bighorn_sheep:entity_change_color": {}
+"bighorn_sheep:entity_change_color": {},
+"minotaur:entity": {}
 }
 }
