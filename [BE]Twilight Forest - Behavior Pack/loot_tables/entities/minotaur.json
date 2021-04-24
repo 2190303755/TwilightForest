@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "twilightforest:raw_meef",
+          "name": "twilightforest:meef",
           "functions": [
             {
               "function": "set_count",

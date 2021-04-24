@@ -1,0 +1,17 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "description": {
+      "identifier": "twilightforest:skeleton_druid",
+      "population_control": "animal"
+    },
+    "conditions": [
+      {
+        "minecraft:difficulty_filter": {
+          "min": "easy",
+          "max": "hard"
+        }
+      }
+    ]
+  }
+}

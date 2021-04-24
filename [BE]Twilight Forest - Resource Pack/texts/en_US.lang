@@ -168,6 +168,7 @@ item.twilightforest.carminite=Carminite
 item.twilightforest.glass_sword=Glass Sword
 item.twilightforest.liveroot=Liveroot
 item.twilightforest.magic_map_focus=Magic Map Focus
+item.twilightforest.maze_map_focus=Maze Map Focus
 item.twilightforest.raven_feather=Raven Feather
 item.twilightforest.torchberries=Torchberries
 item.twilightforest.transformation_powder=Transformation Powder
@@ -195,11 +196,11 @@ item.twilightforest.fiery_tears=Fiery Tears
 #food
 item.twilightforest.hydra_chop=Hydra Chop
 item.twilightforest.maze_wafer=Maze Wafer
-item.twilightforest.meef_raw=Raw Meef
-item.twilightforest.meef_steak=Meef Steak
+item.twilightforest.meef=Raw Meef
+item.twilightforest.cooked_meef=Meef Steak
 item.twilightforest.meef_stroganoff=Meef Stroganoff
-item.twilightforest.venison_raw=Raw Venison
-item.twilightforest.venison_cooked=Venison Steak
+item.twilightforest.venison=Raw Venison
+item.twilightforest.cooked_venison=Venison Steak
 #giant
 item.twilightforest.giant_pickaxe=Giant's Pickaxe
 item.twilightforest.giant_sword=Giant's Sword

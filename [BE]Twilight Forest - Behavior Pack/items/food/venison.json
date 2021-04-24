@@ -2,26 +2,26 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:meef_steak",
-      "category": "equipment"
+      "identifier": "twilightforest:venison",
+      "category": "nature"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.cookedFood"
+        "parent": "itemGroup.name.rawFood"
       },
       "minecraft:display_name": {
-        "value": "item.twilightforest.meef_steak"
+        "value": "item.twilightforest.venison"
       },
       "minecraft:icon": {
-        "texture": "meef_steak"
+        "texture": "venison"
       },
       "minecraft:hand_equipped": false,
       "minecraft:stacked_by_data": true,
       "minecraft:use_duration": 1.6,
       "minecraft:use_animation": "eat",
       "minecraft:food": {
-        "nutrition": 6,
-        "saturation_modifier": "good"
+        "nutrition": 3,
+        "saturation_modifier": "low"
       }
     }
   }

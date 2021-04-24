@@ -1,0 +1,20 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "twilightforest:maze_map_focus",
+      "category": "items"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilightforest.items"
+      },
+      "minecraft:display_name": {
+        "value": "item.twilightforest.maze_map_focus"
+      },
+      "minecraft:icon": {
+        "texture": "maze_map_focus"
+      }
+    }
+  }
+}

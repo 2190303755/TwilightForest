@@ -7,8 +7,8 @@
 
     
     "tags": ["furnace", "smoker", "campfire"],
-    "input": "twilightforest:venison_raw",
-    "output": "twilightforest:venison_cooked"
+    "input": "twilightforest:venison",
+    "output": "twilightforest:cooked_venison"
   }
   
 }

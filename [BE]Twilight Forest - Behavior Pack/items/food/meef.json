@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:venison_raw",
+      "identifier": "twilightforest:meef",
       "category": "nature"
     },
     "components": {
@@ -10,18 +10,18 @@
         "parent": "itemGroup.name.rawFood"
       },
       "minecraft:display_name": {
-        "value": "item.twilightforest.venison_raw"
+        "value": "item.twilightforest.meef"
       },
       "minecraft:icon": {
-        "texture": "venison_raw"
+        "texture": "meef"
       },
       "minecraft:hand_equipped": false,
       "minecraft:stacked_by_data": true,
       "minecraft:use_duration": 1.6,
       "minecraft:use_animation": "eat",
       "minecraft:food": {
-        "nutrition": 3,
-        "saturation_modifier": "low"
+        "nutrition": 2,
+        "saturation_modifier": "normal"
       }
     }
   }

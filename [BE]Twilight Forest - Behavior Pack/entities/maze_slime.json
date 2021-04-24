@@ -33,7 +33,7 @@
           },
           "damage_per_tick": 11,
           "damage_range": 0,
-          "cause": "attack"
+          "cause": "entity_attack"
         }
       },
       "minecraft:slime_medium": {

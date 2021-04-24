@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "twilightforest:venison_raw",
+          "name": "twilightforest:venison",
           "functions": [
             {
               "function": "set_count",

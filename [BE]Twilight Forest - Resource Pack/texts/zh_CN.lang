@@ -168,6 +168,7 @@ item.twilightforest.carminite=砷铅铁矿石	#
 item.twilightforest.glass_sword=玻璃剑	#
 item.twilightforest.liveroot=活根	#
 item.twilightforest.magic_map_focus=魔法地图核心	#
+item.twilightforest.maze_map_focus=迷宫地图核心	#
 item.twilightforest.raven_feather=渡鸦之羽	#
 item.twilightforest.torchberries=火炬浆果	#
 item.twilightforest.transformation_powder=转换粉	#
@@ -195,11 +196,11 @@ item.twilightforest.fiery_tears=炽热之泪	#
 #food
 item.twilightforest.hydra_chop=九头蛇肉排	#
 item.twilightforest.maze_wafer=迷宫薄饼	#
-item.twilightforest.meef_raw=生牛头人肉	#
-item.twilightforest.meef_steak=牛头人肉排	#
+item.twilightforest.meef=生牛头人肉	#
+item.twilightforest.cooked_meef=牛头人肉排	#
 item.twilightforest.meef_stroganoff=牛头人沙拉酱肉	#
-item.twilightforest.venison_raw=生鹿肉	#
-item.twilightforest.venison_cooked=鹿肉排	#
+item.twilightforest.venison=生鹿肉	#
+item.twilightforest.cooked_venison=鹿肉排	#
 #giant
 item.twilightforest.giant_pickaxe=巨人镐	#
 item.twilightforest.giant_sword=巨人剑	#

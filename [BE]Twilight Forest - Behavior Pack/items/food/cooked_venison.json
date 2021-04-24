@@ -2,26 +2,26 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:meef_raw",
-      "category": "nature"
+      "identifier": "twilightforest:cooked_venison",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.rawFood"
+        "parent": "itemGroup.name.cookedFood"
       },
       "minecraft:display_name": {
-        "value": "item.twilightforest.meef_raw"
+        "value": "item.twilightforest.cooked_venison"
       },
       "minecraft:icon": {
-        "texture": "meef_raw"
+        "texture": "cooked_venison"
       },
       "minecraft:hand_equipped": false,
       "minecraft:stacked_by_data": true,
       "minecraft:use_duration": 1.6,
       "minecraft:use_animation": "eat",
       "minecraft:food": {
-        "nutrition": 2,
-        "saturation_modifier": "normal"
+        "nutrition": 8,
+        "saturation_modifier": "good"
       }
     }
   }

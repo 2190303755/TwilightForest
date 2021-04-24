@@ -7,8 +7,8 @@
 
     
     "tags": ["furnace", "smoker", "campfire"],
-    "input": "twilightforest:meef_raw",
-    "output": "twilightforest:meef_steak"
+    "input": "twilightforest:meef",
+    "output": "twilightforest:cooked_meef"
   }
   
 }

@@ -2,7 +2,7 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:venison_cooked",
+      "identifier": "twilightforest:cooked_meef",
       "category": "equipment"
     },
     "components": {
@@ -10,17 +10,17 @@
         "parent": "itemGroup.name.cookedFood"
       },
       "minecraft:display_name": {
-        "value": "item.twilightforest.venison_cooked"
+        "value": "item.twilightforest.cooked_meef"
       },
       "minecraft:icon": {
-        "texture": "venison_cooked"
+        "texture": "cooked_meef"
       },
       "minecraft:hand_equipped": false,
       "minecraft:stacked_by_data": true,
       "minecraft:use_duration": 1.6,
       "minecraft:use_animation": "eat",
       "minecraft:food": {
-        "nutrition": 8,
+        "nutrition": 6,
         "saturation_modifier": "good"
       }
     }

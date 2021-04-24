@@ -8,6 +8,9 @@
     "magic_map_focus": {
       "textures": "textures/items/magic_map_focus"
     },
+    "maze_map_focus": {
+      "textures": "textures/items/maze_map_focus"
+    },
     "torchberries": {
       "textures": "textures/items/torchberries"
     },
@@ -92,20 +95,20 @@
     "zombie_scepter": {
       "textures": "textures/items/scepter/zombie"
     },
-    "meef_raw": {
-      "textures": "textures/items/food/meef_raw"
+    "meef": {
+      "textures": "textures/items/food/meef"
     },
-    "meef_steak": {
-      "textures": "textures/items/food/meef_steak"
+    "cooked_meef": {
+      "textures": "textures/items/food/cooked_meef"
     },
     "meef_stroganoff": {
       "textures": "textures/items/food/meef_stroganoff"
     },
-    "venison_cooked": {
-      "textures": "textures/items/food/venison_cooked"
+    "cooked_venison": {
+      "textures": "textures/items/food/cooked_venison"
     },
-    "venison_raw": {
-      "textures": "textures/items/food/venison_raw"
+    "venison": {
+      "textures": "textures/items/food/venison"
     },
     "hydra_chop": {
       "textures": "textures/items/food/hydra_chop"

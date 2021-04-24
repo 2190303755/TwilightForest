@@ -2,7 +2,7 @@
   "format_version": "1.8.0",
   "minecraft:spawn_rules": {
     "description": {
-      "identifier": "twilightforest:bighorn_sheep",
+      "identifier": "twilightforest:wild_boar",
       "population_control": "animal"
     },
     "conditions": [
@@ -15,10 +15,10 @@
           "adjust_for_weather": false
         },
         "minecraft:weight": {
-          "default": 12
+          "default": 10
         },
         "minecraft:herd": {
-          "min_size":2,
+          "min_size":1,
           "max_size":3
         },
     
