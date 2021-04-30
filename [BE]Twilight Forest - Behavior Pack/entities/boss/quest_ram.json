@@ -9,90 +9,90 @@
     },
     
     "component_groups": {
-      "skin_1": {
-        "minecraft:skin_id": {
+      "mark_variant_1": {
+        "minecraft:mark_variant": {
           "value": 1
         }
       },
-      "skin_2": {
-        "minecraft:skin_id": {
+      "mark_variant_2": {
+        "minecraft:mark_variant": {
           "value": 2
         }
       },
-      "skin_3": {
-        "minecraft:skin_id": {
+      "mark_variant_3": {
+        "minecraft:mark_variant": {
           "value": 3
         }
       },
-      "skin_4": {
-        "minecraft:skin_id": {
+      "mark_variant_4": {
+        "minecraft:mark_variant": {
           "value": 4
         }
       },
-      "skin_5": {
-        "minecraft:skin_id": {
+      "mark_variant_5": {
+        "minecraft:mark_variant": {
           "value": 5
         }
       },
-      "skin_6": {
-        "minecraft:skin_id": {
+      "mark_variant_6": {
+        "minecraft:mark_variant": {
           "value": 6
         }
       },
-      "skin_7": {
-        "minecraft:skin_id": {
+      "mark_variant_7": {
+        "minecraft:mark_variant": {
           "value": 7
         }
       },
-      "skin_8": {
-        "minecraft:skin_id": {
+      "mark_variant_8": {
+        "minecraft:mark_variant": {
           "value": 8
         }
       },
-      "skin_9": {
-        "minecraft:skin_id": {
+      "mark_variant_9": {
+        "minecraft:mark_variant": {
           "value": 9
         }
       },
-      "skin_10": {
-        "minecraft:skin_id": {
+      "mark_variant_10": {
+        "minecraft:mark_variant": {
           "value": 10
         }
       },
-      "skin_11": {
-        "minecraft:skin_id": {
+      "mark_variant_11": {
+        "minecraft:mark_variant": {
           "value": 11
         }
       },
-      "skin_12": {
-        "minecraft:skin_id": {
+      "mark_variant_12": {
+        "minecraft:mark_variant": {
           "value": 12
         }
       },
-      "skin_13": {
-        "minecraft:skin_id": {
+      "mark_variant_13": {
+        "minecraft:mark_variant": {
           "value": 13
         }
       },
-      "skin_14": {
-        "minecraft:skin_id": {
+      "mark_variant_14": {
+        "minecraft:mark_variant": {
           "value": 14
         }
       },
-      "skin_15": {
-        "minecraft:skin_id": {
+      "mark_variant_15": {
+        "minecraft:mark_variant": {
           "value": 15
         }
       },
-      "skin_16": {
-        "minecraft:skin_id": {
+      "mark_variant_16": {
+        "minecraft:mark_variant": {
           "value": 16
         }
       }
     },
 
     "components": {
-      "minecraft:skin_id": {
+      "minecraft:mark_variant": {
         "value": 0
       },
       "minecraft:type_family": {
@@ -185,295 +185,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_white" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:0" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_white",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_orange" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:1" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_orange",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_magenta" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:2" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_magenta",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_light_blue" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:3" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_light_blue",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_yellow" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:4" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_yellow",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_lime" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:5" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_lime",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_pink" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:6" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_pink",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_gray" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:7" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_gray",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_silver" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:8" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_silver",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_cyan" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:9" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_cyan",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_purple" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:10" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_purple",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_blue" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:11" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_blue",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_brown" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:12" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_brown",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_green" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:13" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_green",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_red" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:14" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_red",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "operator": "!=", "value": 15 },
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_black" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:15" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_black",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_white" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:0" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -494,7 +205,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_orange" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:1" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -515,7 +225,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_magenta" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:2" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -536,7 +245,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_light_blue" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:3" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -557,7 +265,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_yellow" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:4" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -578,7 +285,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_lime" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:5" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -599,7 +305,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_pink" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:6" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -620,7 +325,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_gray" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:7" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -641,7 +345,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_silver" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:8" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -662,7 +365,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_cyan" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:9" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -683,7 +385,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_purple" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:10" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -704,7 +405,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_blue" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:11" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -725,7 +425,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_brown" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:12" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -746,7 +445,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_green" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:13" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -767,7 +465,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_red" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:14" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -788,7 +485,6 @@
             "on_interact": {
               "filters": {
                 "all_of": [
-                  { "test": "is_skin_id", "subject": "self", "value": 15 },
                   { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_black" },
                   { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:15" },
                   { "test": "is_family","subject": "other","value": "player" }
@@ -812,89 +508,89 @@
     "events": {
       "minecraft:entity_spawned": {
         "add": {
-          "component_groups": [ "skin_0" ]
+          "component_groups": [ "mark_variant_0" ]
         }
       },
       "refresh": {
         "sequence": [
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 15 },
-            "add": { "component_groups": [ "skin_16" ] },
-            "remove": { "component_groups": [ "skin_15" ] }
+            "filters": { "test": "is_mark_variant", "value": 15 },
+            "add": { "component_groups": [ "mark_variant_16" ] },
+            "remove": { "component_groups": [ "mark_variant_15" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 14 },
-            "add": { "component_groups": [ "skin_15" ] },
-            "remove": { "component_groups": [ "skin_14" ] }
+            "filters": { "test": "is_mark_variant", "value": 14 },
+            "add": { "component_groups": [ "mark_variant_15" ] },
+            "remove": { "component_groups": [ "mark_variant_14" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 13 },
-            "add": { "component_groups": [ "skin_14" ] },
-            "remove": { "component_groups": [ "skin_13" ] }
+            "filters": { "test": "is_mark_variant", "value": 13 },
+            "add": { "component_groups": [ "mark_variant_14" ] },
+            "remove": { "component_groups": [ "mark_variant_13" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 12 },
-            "add": { "component_groups": [ "skin_13" ] },
-            "remove": { "component_groups": [ "skin_12" ] }
+            "filters": { "test": "is_mark_variant", "value": 12 },
+            "add": { "component_groups": [ "mark_variant_13" ] },
+            "remove": { "component_groups": [ "mark_variant_12" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 11 },
-            "add": { "component_groups": [ "skin_12" ] },
-            "remove": { "component_groups": [ "skin_11" ] }
+            "filters": { "test": "is_mark_variant", "value": 11 },
+            "add": { "component_groups": [ "mark_variant_12" ] },
+            "remove": { "component_groups": [ "mark_variant_11" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 10 },
-            "add": { "component_groups": [ "skin_11" ] },
-            "remove": { "component_groups": [ "skin_10" ] }
+            "filters": { "test": "is_mark_variant", "value": 10 },
+            "add": { "component_groups": [ "mark_variant_11" ] },
+            "remove": { "component_groups": [ "mark_variant_10" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 9 },
-            "add": { "component_groups": [ "skin_10" ] },
-            "remove": { "component_groups": [ "skin_9" ] }
+            "filters": { "test": "is_mark_variant", "value": 9 },
+            "add": { "component_groups": [ "mark_variant_10" ] },
+            "remove": { "component_groups": [ "mark_variant_9" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 8 },
-            "add": { "component_groups": [ "skin_9" ] },
-            "remove": { "component_groups": [ "skin_8" ] }
+            "filters": { "test": "is_mark_variant", "value": 8 },
+            "add": { "component_groups": [ "mark_variant_9" ] },
+            "remove": { "component_groups": [ "mark_variant_8" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 7 },
-            "add": { "component_groups": [ "skin_8" ] },
-            "remove": { "component_groups": [ "skin_7" ] }
+            "filters": { "test": "is_mark_variant", "value": 7 },
+            "add": { "component_groups": [ "mark_variant_8" ] },
+            "remove": { "component_groups": [ "mark_variant_7" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 6 },
-            "add": { "component_groups": [ "skin_7" ] },
-            "remove": { "component_groups": [ "skin_6" ] }
+            "filters": { "test": "is_mark_variant", "value": 6 },
+            "add": { "component_groups": [ "mark_variant_7" ] },
+            "remove": { "component_groups": [ "mark_variant_6" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 5 },
-            "add": { "component_groups": [ "skin_6" ] },
-            "remove": { "component_groups": [ "skin_5" ] }
+            "filters": { "test": "is_mark_variant", "value": 5 },
+            "add": { "component_groups": [ "mark_variant_6" ] },
+            "remove": { "component_groups": [ "mark_variant_5" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 4 },
-            "add": { "component_groups": [ "skin_5" ] },
-            "remove": { "component_groups": [ "skin_4" ] }
+            "filters": { "test": "is_mark_variant", "value": 4 },
+            "add": { "component_groups": [ "mark_variant_5" ] },
+            "remove": { "component_groups": [ "mark_variant_4" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 3 },
-            "add": { "component_groups": [ "skin_4" ] },
-            "remove": { "component_groups": [ "skin_3" ] }
+            "filters": { "test": "is_mark_variant", "value": 3 },
+            "add": { "component_groups": [ "mark_variant_4" ] },
+            "remove": { "component_groups": [ "mark_variant_3" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 2 },
-            "add": { "component_groups": [ "skin_3" ] },
-            "remove": { "component_groups": [ "skin_2" ] }
+            "filters": { "test": "is_mark_variant", "value": 2 },
+            "add": { "component_groups": [ "mark_variant_3" ] },
+            "remove": { "component_groups": [ "mark_variant_2" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 1 },
-            "add": { "component_groups": [ "skin_2" ] },
-            "remove": { "component_groups": [ "skin_1" ] }
+            "filters": { "test": "is_mark_variant", "value": 1 },
+            "add": { "component_groups": [ "mark_variant_2" ] },
+            "remove": { "component_groups": [ "mark_variant_1" ] }
           },
           {
-            "filters": { "test": "is_skin_id", "subject": "self", "operator": "equals","value": 0 },
-            "add": { "component_groups": [ "skin_1" ] }
+            "filters": { "test": "is_mark_variant", "value": 0 },
+            "add": { "component_groups": [ "mark_variant_1" ] }
           }
         ]
       },

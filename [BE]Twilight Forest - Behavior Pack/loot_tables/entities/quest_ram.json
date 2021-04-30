@@ -1,62 +1,92 @@
 {
   "pools": [
     {
+      "conditions": [
+        {
+          "condition": "has_mark_variant",
+          "value": 15
+        }
+      ],
       "rolls": 1,
       "entries": [
         {
           "type": "item",
-          "name": "twilightforest:trophy.quest_ram",
-          "weight": 1
+          "name": "twilightforest:trophy.quest_ram"
         }
       ]
     },
     {
+      "conditions": [
+        {
+          "condition": "has_mark_variant",
+          "value": 15
+        }
+      ],
       "rolls": 1,
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:goat_horn",
-          "weight": 1
+          "name": "minecraft:goat_horn"
         }
       ]
     },
     {
+      "conditions": [
+        {
+          "condition": "has_mark_variant",
+          "value": 15
+        }
+      ],
       "rolls": 1,
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:iron_block",
-          "weight": 1
+          "name": "minecraft:iron_block"
         }
       ]
     },
     {
+      "conditions": [
+        {
+          "condition": "has_mark_variant",
+          "value": 15
+        }
+      ],
       "rolls": 1,
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:gold_block",
-          "weight": 1
+          "name": "minecraft:gold_block"
         }
       ]
     },
     {
+      "conditions": [
+        {
+          "condition": "has_mark_variant",
+          "value": 15
+        }
+      ],
       "rolls": 1,
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:emerald_block",
-          "weight": 1
+          "name": "minecraft:emerald_block"
         }
       ]
     },
     {
+      "conditions": [
+        {
+          "condition": "has_mark_variant",
+          "value": 15
+        }
+      ],
       "rolls": 1,
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:lapis_block",
-          "weight": 1
+          "name": "minecraft:lapis_block"
         }
       ]
     }
