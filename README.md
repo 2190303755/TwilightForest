@@ -1,7 +1,8 @@
-[![Twilight Forest For Minecraft Bedrock Edition](https://raw.githubusercontent.com/wiki/2190303755/TwilightForest/images/title.png)](https://github.com/2190303755/TwilightForest/archive/main.zip)
+[![Twilight Forest For Minecraft Bedrock Edition](https://raw.githubusercontent.com/wiki/2190303755/TwilightForest/images/title.png)](https://github.com/2190303755/TwilightForest/releases/download/1.0.1-build1/TwilightForest.zip)
 # Minecraft基岩版暮色森林Add-on <br> Twilight Forest For Minecraft Bedrock Edition
 
-更新日志？[这里](https://github.com/2190303755/TwilightForest/wiki/UpdateLog)！
+更新日志?[这里](https://github.com/2190303755/TwilightForest/wiki/UpdateLog)!<br>
+Click [here](https://github.com/2190303755/TwilightForest/wiki/UpdateLog) for the update log.
 
 ***
 #### Add-on作者 <br> Made By
