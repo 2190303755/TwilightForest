@@ -225,6 +225,13 @@
       "minecraft:entity_spawned": {
         "sequence": [
           {
+            "run_command": {
+              "command": [
+                "event entity @e[type=twilightforest:lich,c=1] twilightforest:on_shot"
+              ]
+            }
+          },
+          {
             "filters": {
               "test": "is_difficulty",
               "value": "peaceful"

@@ -75,6 +75,11 @@
       }
     },
     "events": {
+      "minecraft:entity_spawned": {
+        "run_command": {
+          "command": "event entity @e[type=twilightforest:lich,c=1] twilightforest:on_shot"
+        }
+      },
       "remove_on_hit": {
         "add": {
           "component_groups": [

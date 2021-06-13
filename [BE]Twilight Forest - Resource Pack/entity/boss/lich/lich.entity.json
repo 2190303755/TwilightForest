@@ -20,7 +20,7 @@
           "look_at_target",
           "move",
           "holding",
-          { "shields": "query.variant && query.mark_variant >= 1"},
+          { "shields": "query.variant > 2 && query.variant < 8"},
           { "brandish_spear": "variable.is_brandishing_spear" },
           { "attack": "variable.attack_time >= 0.0" },
           { "damage_nearby_mobs": "variable.damage_nearby_mobs" }

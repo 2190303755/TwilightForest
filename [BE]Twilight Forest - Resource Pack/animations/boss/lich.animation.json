@@ -5,10 +5,10 @@
       "loop": true,
       "bones": {
         "shield_1": { "rotation" : [ 0, "(query.life_time * 225)", 0 ] },
-        "shield_2": { "rotation" : [ 0, "(query.life_time * 225) - (360 / query.mark_variant * 1)", 0 ] },
-        "shield_3": { "rotation" : [ 0, "(query.life_time * 225) - (360 / query.mark_variant * 2)", 0 ] },
-        "shield_4": { "rotation" : [ 0, "(query.life_time * 225) - (360 / query.mark_variant * 3)", 0 ] },
-        "shield_5": { "rotation" : [ 0, "(query.life_time * 225) - (360 / query.mark_variant * 4)", 0 ] }
+        "shield_2": { "rotation" : [ 0, "(query.life_time * 225) - (360 / (query.variant-2) * 1)", 0 ] },
+        "shield_3": { "rotation" : [ 0, "(query.life_time * 225) - (360 / (query.variant-2) * 2)", 0 ] },
+        "shield_4": { "rotation" : [ 0, "(query.life_time * 225) - (360 / (query.variant-2) * 3)", 0 ] },
+        "shield_5": { "rotation" : [ 0, "(query.life_time * 225) - (360 / (query.variant-2) * 4)", 0 ] }
       }
     }
   }

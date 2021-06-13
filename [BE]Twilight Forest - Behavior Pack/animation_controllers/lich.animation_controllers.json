@@ -1,25 +1,26 @@
 {
   "format_version": "1.10.0",
   "animation_controllers": {
-    "controller.animation.twilightforest.ur_ghast.health": {
+    "controller.animation.twilightforest.lich.attack": {
       "states": {
         "default": {
           "transitions": [
             {
-              "rain": "query.health <= 232"
+              "getAttackType": "query.has_target"
             }
           ],
           "on_entry": [
-            "@s twilightforest:remove_projectile_resistance"
+            "@s twilightforest:on_target_lost"
           ]
         },
-        "rain": {
+        "getAttackType": {
           "transitions": [
-            {"default": "query.health > 232"}
+            {
+              "default": "!query.has_target"
+            }
           ],
           "on_entry": [
-            "/weather thunder",
-            "@s twilightforest:add_projectile_resistance"
+            "@s twilightforest:getAttackType"
           ]
         }
       }

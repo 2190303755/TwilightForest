@@ -7,7 +7,7 @@
       "is_summonable": true,
       "is_experimental": false,
       "animations": {
-        "health": "controller.animation.health"
+        "health": "controller.animation.twilightforest.ur_ghast.health"
       },
       "scripts": {
         "animate": [

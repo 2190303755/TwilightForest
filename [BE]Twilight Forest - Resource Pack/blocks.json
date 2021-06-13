@@ -124,6 +124,14 @@
     },
     "sound": "wood"
 },
+"twilightforest:test": {
+  "textures": {
+    "up": "oak_top",
+    "down": "oak_top",
+    "side": "oak_side"
+  },
+  "sound": "wood"
+},
   "twilightforest:mangrove_log": {
    "textures": {
       "up": "mangrove_top",

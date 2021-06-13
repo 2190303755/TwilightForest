@@ -6,15 +6,15 @@
       "materials": [ { "*": "Material.default" } ],
       "textures": [ "Texture.default" ],
       "part_visibility": [
-        { "shields": "query.variant == 1" },
-        { "shield_1": "query.mark_variant >= 1" },
-        { "shield_2": "query.mark_variant >= 2" },
-        { "shield_3": "query.mark_variant >= 3" },
-        { "shield_4": "query.mark_variant >= 4" },
-        { "shield_5": "query.mark_variant >= 5" }
+        { "shields": "query.variant > 2 && query.variant < 8" },
+        { "shield_1": "query.variant >= 3 && query.variant < 8" },
+        { "shield_2": "query.variant >= 4 && query.variant < 8" },
+        { "shield_3": "query.variant >= 5 && query.variant < 8" },
+        { "shield_4": "query.variant >= 6 && query.variant < 8" },
+        { "shield_5": "query.variant == 7 && query.variant < 8" }
       ],
-      "overlay_color": {"r": 0,"g": 0,"b": 0,"a": "query.skin_id == 1 ? 0.75 : 0"},
-      "is_hurt_color" : {"r": 1,"g": 0,"b": 0,"a": "query.variant == 1 ? 0 : 0.5"}
+      "overlay_color": {"r": 0,"g": 0,"b": 0,"a": "query.skin_id ? 0.75 : 0"},
+      "is_hurt_color" : {"r": 1,"g": 0,"b": 0,"a": "query.variant > 2 ? 0 : 0.5"}
     }
   }
 }

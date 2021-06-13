@@ -20,6 +20,10 @@
       "minecraft:durability": {
         "max_durability": 9
       },
+      "minecraft:cooldown": {
+        "category": "twilightforest:shield_scepter",
+        "duration": 60
+      },
       "minecraft:on_use": {
         "on_use": {
           "event": "twilightforest:on_use"

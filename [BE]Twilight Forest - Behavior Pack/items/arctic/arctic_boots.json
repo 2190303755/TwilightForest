@@ -48,7 +48,8 @@
       },
       "minecraft:wearable": {
         "slot": "slot.armor.feet"
-      }
+      },
+      "tag:minecraft:leather_tier": {}
     }
   }
 }
