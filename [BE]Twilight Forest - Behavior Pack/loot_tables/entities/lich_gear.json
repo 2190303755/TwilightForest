@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:golden_sword",
+          "functions": [
+            {
+              "function": "enchant_with_levels",
+              "levels": {
+                "min": 10,
+                "max": 40
+              },
+              "treasure": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
