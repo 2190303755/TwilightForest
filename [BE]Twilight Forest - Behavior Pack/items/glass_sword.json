@@ -50,7 +50,6 @@
     },
     "events": {
       "twilightforest:on_hurt_entity": {
-        "decrement_stack":{}
       }
     }
   }

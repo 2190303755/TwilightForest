@@ -1,5 +1,10 @@
 {
   "format_version": [1,1,0],
+  "twilightforest:twilight_oak_sapling": {
+    //"blockshape" : "cross_texture",
+    "textures": "twilight_oak_sapling",
+    "sound": "plant"
+  },
   "twilightforest:trophy_quest_ram": {
     "textures": "trophy_quest_ram",
     "sound": "stone"
@@ -183,7 +188,7 @@
   "twilightforest:uncrafting_table": {
     "textures": {
       "up": "uncrafting_particle",
-      "down": "planks_jungle",
+      "down": "jungle_planks",
       "side": "uncrafting_side"
     },
     "sound": "wood"

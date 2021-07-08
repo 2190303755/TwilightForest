@@ -50,6 +50,30 @@
       "minecraft:wearable": {
         "slot": "slot.armor.feet"
       }
+    },
+    "events": {
+      "twilightforest:on_hurt_entity": {
+        "sequence": [
+          {
+            "damage": {
+              "amount": 2,
+              "type": "none"
+            }
+          }
+        ]
+      },
+      "on_tool_used": {
+        "sequence": [
+          {
+            "damage": {
+              "amount": 1,
+              "target": "self",
+              "type": "none"
+            },
+            "swing": {}
+          }
+        ]
+      }
     }
   }
 }

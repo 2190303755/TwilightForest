@@ -101,7 +101,7 @@
                 "min": 10,
                 "max": 40
               },
-              "treasure": true
+              "treasure": false
             }
           ]
         },
@@ -116,7 +116,7 @@
                 "min": 10,
                 "max": 40
               },
-              "treasure": true
+              "treasure": false
             }
           ]
         },
@@ -131,7 +131,7 @@
                 "min": 10,
                 "max": 40
               },
-              "treasure": true
+              "treasure": false
             }
           ]
         },
@@ -146,7 +146,7 @@
                 "min": 10,
                 "max": 40
               },
-              "treasure": true
+              "treasure": false
             }
           ]
         },
@@ -161,7 +161,7 @@
                 "min": 10,
                 "max": 40
               },
-              "treasure": true
+              "treasure": false
             }
           ]
         }

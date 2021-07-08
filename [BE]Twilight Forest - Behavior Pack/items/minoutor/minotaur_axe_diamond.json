@@ -79,6 +79,18 @@
             }
           }
         ]
+      },
+      "on_tool_used": {
+        "sequence": [
+          {
+            "damage": {
+              "amount": 1,
+              "target": "self",
+              "type": "none"
+            },
+            "swing": {}
+          }
+        ]
       }
     }
   }

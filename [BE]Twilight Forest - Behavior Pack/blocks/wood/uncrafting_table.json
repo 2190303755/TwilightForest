@@ -7,6 +7,11 @@
       "is_experimental": false
     },
     "components": {
+      "minecraft:crafting_table": {
+        "custom_description": "tile.twilightforest:uncrafting_table.name",
+        "grid_size": 3,
+        "crafting_tags": ["uncrafting_table"]
+      },
       "minecraft:destroy_time": 3,
       "minecraft:block_light_absorption": 15,
       "minecraft:block_light_emission": 0,

@@ -279,5 +279,5 @@ item.twilightforest.yeti_leggings=Yeti Leggings
 action.hint.exit.pig=Tap sneak to dismount
 action.hint.exit.twilightforest:wild_boar=Tap sneak to dismount
 action.interact.transformation=Transform
-action.twilightforest.item.scepter.durability=This scepter doesn't have enough durability
-action.twilightforest.item.uncompleted=This item hasn't been completed yet
+action.twilightforest.item.scepter.durability=§b%1$s§r doesn't have enough durability
+action.twilightforest.item.uncompleted=§b%1$s§r hasn't been completed yet

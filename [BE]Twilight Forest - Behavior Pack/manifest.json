@@ -4,15 +4,15 @@
     "description": "§aMade By:§r\n§eHermitMira§r\n§e2190303755§r\n§eJAVAAI00§r\n§aSupport:§r\n§eMiemieMethod§r\nVersion:\nReAlpha 1.0.1\n\n§c© Benimatic§r",
     "name": "pack.name",
     "uuid": "2c975b3c-c803-4add-9d9d-bec0c932ce01",
-    "version": [1, 0, 1],//21w24a|Re-Alpha 1.0.1
-    "min_engine_version": [1, 17, 0]
+    "version": [1, 0, 1],//21w27a|Re-Alpha 1.0.1
+    "min_engine_version": [1, 17, 10]
   },
   "modules": [
     {
       "description": "https://github.com/2190303755/TwilightForest",
       "type": "data",
       "uuid": "25461ad2-b490-4add-a3f7-beada51f0001",
-      "version": [21, 6, 14]
+      "version": [21, 7, 8]
     }
   ]
 }
