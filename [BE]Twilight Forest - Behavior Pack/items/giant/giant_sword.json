@@ -53,41 +53,55 @@
       "minecraft:can_destroy_in_creative": false,
       "minecraft:digger": {
         "use_efficiency": true,
-        "on_dig": {
-          "event": "twilightforest:on_dig",
-          "target": "self"
-        },
         "destroy_speeds": [
           {
             "block": "minecraft:web",
-            "speed": 15
+            "speed": 15,
+            "on_dig": {
+              "event": "twilightforest:on_dig",
+              "target": "self"
+            }
           },
           {
             "block": "minecraft:bamboo",
-            "speed": 10
+            "speed": 10,
+            "on_dig": {
+              "event": "twilightforest:on_dig",
+              "target": "self"
+            }
           },
           {
             "block": {
               "tags": "q.any_tag('plant')"
-            },
-            "speed": 1
+            }
           }
-        ]
+        ],
+        "on_dig": {
+          "event": "twilightforest:on_dig",
+          "target": "self"
+        }
       }
     },
-
     "events": {
       "twilightforest:on_hurt_entity": {
-        "damage": {
-          "type": "none",
-          "amount": 2
-        }
+        "sequence": [
+          {
+            "damage": {
+              "amount": 1,
+              "type": "durability"
+            }
+          }
+        ]
       },
       "twilightforest:on_dig": {
-        "damage": {
-          "type": "none",
-          "amount": 1
-        }
+        "sequence": [
+          {
+            "damage": {
+              "amount": 2,
+              "type": "durability"
+            }
+          }
+        ]
       }
     }
   }

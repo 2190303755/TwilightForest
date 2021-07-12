@@ -4,6 +4,102 @@
   "padding": 8,
   "num_mip_levels": 4,
   "texture_data": {
+    "canopy_log_side": {
+      "textures": "textures/blocks/wood/logs/side/canopy"
+    },
+    "canopy_log_top": {
+      "textures": "textures/blocks/wood/logs/top/canopy"
+    },
+    "stripped_canopy_log_side": {
+      "textures": "textures/blocks/wood/logs/side/stripped_canopy"
+    },
+    "stripped_canopy_log_top": {
+      "textures": "textures/blocks/wood/logs/top/stripped_canopy"
+    },
+    "dark_log_side": {
+      "textures": "textures/blocks/wood/logs/side/dark"
+    },
+    "dark_log_top": {
+      "textures": "textures/blocks/wood/logs/top/dark"
+    },
+    "stripped_dark_log_side": {
+      "textures": "textures/blocks/wood/logs/side/stripped_dark"
+    },
+    "stripped_dark_log_top": {
+      "textures": "textures/blocks/wood/logs/top/stripped_dark"
+    },
+    "mangrove_log_side": {
+      "textures": "textures/blocks/wood/logs/side/mangrove"
+    },
+    "mangrove_log_top": {
+      "textures": "textures/blocks/wood/logs/top/mangrove"
+    },
+    "stripped_mangrove_log_side": {
+      "textures": "textures/blocks/wood/logs/side/stripped_mangrove"
+    },
+    "stripped_mangrove_log_top": {
+      "textures": "textures/blocks/wood/logs/top/stripped_mangrove"
+    },
+    "mining_log_side": {
+      "textures": "textures/blocks/wood/logs/side/mining"
+    },
+    "mining_log_top": {
+      "textures": "textures/blocks/wood/logs/top/mining"
+    },
+    "stripped_mining_log_side": {
+      "textures": "textures/blocks/wood/logs/side/stripped_mining"
+    },
+    "stripped_mining_log_top": {
+      "textures": "textures/blocks/wood/logs/top/stripped_mining"
+    },
+    "sorting_log_side": {
+      "textures": "textures/blocks/wood/logs/side/sorting"
+    },
+    "sorting_log_top": {
+      "textures": "textures/blocks/wood/logs/top/sorting"
+    },
+    "stripped_sorting_log_side": {
+      "textures": "textures/blocks/wood/logs/side/stripped_sorting"
+    },
+    "stripped_sorting_log_top": {
+      "textures": "textures/blocks/wood/logs/top/stripped_sorting"
+    },
+    "time_log_side": {
+      "textures": "textures/blocks/wood/logs/side/time"
+    },
+    "time_log_top": {
+      "textures": "textures/blocks/wood/logs/top/time"
+    },
+    "stripped_time_log_side": {
+      "textures": "textures/blocks/wood/logs/side/stripped_time"
+    },
+    "stripped_time_log_top": {
+      "textures": "textures/blocks/wood/logs/top/stripped_time"
+    },
+    "transformation_log_side": {
+      "textures": "textures/blocks/wood/logs/side/transformation"
+    },
+    "transformation_log_top": {
+      "textures": "textures/blocks/wood/logs/top/transformation"
+    },
+    "stripped_transformation_log_side": {
+      "textures": "textures/blocks/wood/logs/side/stripped_transformation"
+    },
+    "stripped_transformation_log_top": {
+      "textures": "textures/blocks/wood/logs/top/stripped_transformation"
+    },
+    "twilight_oak_log_side": {
+      "textures": "textures/blocks/wood/logs/side/twilight_oak"
+    },
+    "twilight_oak_log_top": {
+      "textures": "textures/blocks/wood/logs/top/twilight_oak"
+    },
+    "stripped_twilight_oak_log_side": {
+      "textures": "textures/blocks/wood/logs/side/stripped_twilight_oak"
+    },
+    "stripped_twilight_oak_log_top": {
+      "textures": "textures/blocks/wood/logs/top/stripped_twilight_oak"
+    },
     "trophy_quest_ram": {
       "textures": "textures/blocks/trophy/quest_ram"
     },

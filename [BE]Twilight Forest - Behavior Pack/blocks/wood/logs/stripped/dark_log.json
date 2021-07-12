@@ -1,0 +1,67 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:stripped_dark_log",
+      "properties": {
+        "minecraft:direction": {}
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('minecraft:direction') == 0",
+        "components": {
+          "minecraft:rotation": [ 0, 0, 0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('minecraft:direction') == 1",
+        "components": {
+          "minecraft:rotation": [ 90, 0, 0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('minecraft:direction') == 2",
+        "components": {
+          "minecraft:rotation": [ 0, 0, 90 ]
+        }
+      }
+    ],
+    "components": {
+      "minecraft:destroy_time": 3,
+      "minecraft:block_light_absorption": 15,
+      "minecraft:block_light_emission": 0,
+      "minecraft:friction": 0.6,
+      "minecraft:explosion_resistance": 2,
+      "minecraft:map_color": "#6e5c3c",
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "stripped_dark_log_side",
+          "render_method": "opaque"
+        },
+        "up": {
+          "texture": "stripped_dark_log_top",
+          "render_method": "opaque"
+        },
+        "down": {
+          "texture": "stripped_dark_log_top",
+          "render_method": "opaque"
+        }
+      },
+      "minecraft:on_player_placing": {
+        "event": "minecraft:on_player_placing",
+        "target": "self"
+      },
+      "tag:log": {},
+      "tag:wood": {}
+    },
+    "events": {
+      "minecraft:on_player_placing": {
+        "set_block_property": {
+          "minecraft:direction": "math.floor(query.block_face / 2)"
+        }
+      }
+    }
+  }
+}

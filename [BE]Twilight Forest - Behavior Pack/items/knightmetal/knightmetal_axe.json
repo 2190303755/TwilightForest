@@ -55,17 +55,33 @@
             "block": {
               "tags": "q.any_tag('wood', 'pumpkin', 'plant')"
             },
-            "speed": 12
+            "speed": 12,
+            "on_dig": {
+              "event": "twilightforest:on_dig",
+              "target": "self"
+            }
           },
           {
             "block": "minecraft:chest",
-            "speed": 12
+            "speed": 12,
+            "on_dig": {
+              "event": "twilightforest:on_dig",
+              "target": "self"
+            }
           },
           {
             "block": "minecraft:melon_block",
-            "speed": 12
+            "speed": 12,
+            "on_dig": {
+              "event": "twilightforest:on_dig",
+              "target": "self"
+            }
           }
-        ]
+        ],
+        "on_dig": {
+          "event": "twilightforest:on_dig",
+          "target": "self"
+        }
       },
       "tag:minecraft:is_axe": {}
     },
@@ -75,7 +91,17 @@
           {
             "damage": {
               "amount": 2,
-              "type": "none"
+              "type": "durability"
+            }
+          }
+        ]
+      },
+      "twilightforest:on_dig": {
+        "sequence": [
+          {
+            "damage": {
+              "amount": 2,
+              "type": "durability"
             }
           }
         ]
@@ -86,7 +112,7 @@
             "damage": {
               "amount": 1,
               "target": "self",
-              "type": "none"
+              "type": "durability"
             },
             "swing": {}
           }

@@ -155,9 +155,9 @@
 },
   "twilightforest:twilight_oak_log": {
     "textures": {
-      "up": "oak_top",
-      "down": "oak_top",
-      "side": "oak_side"
+      "up": "twilight_oak_log_top",
+      "down": "twilight_oak_log_top",
+      "side": "twilight_oak_log_side"
     },
     "sound": "wood"
 },

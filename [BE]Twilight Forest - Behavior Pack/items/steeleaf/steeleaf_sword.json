@@ -16,7 +16,6 @@
         "texture": "steeleaf_sword"
       },
       "minecraft:max_stack_size": 1,
-      "minecraft:use_duration": 3600,
       "minecraft:hand_equipped": true,
       "minecraft:durability": {
         "max_durability": 131
@@ -56,13 +55,25 @@
         "destroy_speeds": [
           {
             "block": "minecraft:web",
-            "speed": 15
+            "speed": 15,
+            "on_dig": {
+              "event": "twilightforest:on_dig",
+              "target": "self"
+            }
           },
           {
             "block": "minecraft:bamboo",
-            "speed": 10
+            "speed": 10,
+            "on_dig": {
+              "event": "twilightforest:on_dig",
+              "target": "self"
+            }
           }
-        ]
+        ],
+        "on_dig": {
+          "event": "twilightforest:on_dig",
+          "target": "self"
+        }
       }
     },
     "events": {
@@ -71,7 +82,17 @@
           {
             "damage": {
               "amount": 1,
-              "type": "none"
+              "type": "durability"
+            }
+          }
+        ]
+      },
+      "twilightforest:on_dig": {
+        "sequence": [
+          {
+            "damage": {
+              "amount": 2,
+              "type": "durability"
             }
           }
         ]

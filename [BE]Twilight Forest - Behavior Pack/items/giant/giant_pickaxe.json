@@ -51,10 +51,6 @@
       },
       "minecraft:digger": {
         "use_efficiency": true,
-        "on_dig": {
-          "event": "twilightforest:on_dig",
-          "target": "self"
-        },
         "destroy_speeds": [
           {
             "block": {
@@ -68,29 +64,48 @@
           },
           {
             "block": "minecraft:ice",
-            "speed": 8
+            "speed": 8,
+            "on_dig": {
+              "event": "twilightforest:on_dig",
+              "target": "self"
+            }
           },
           {
             "block": "minecraft:sandstone",
-            "speed": 8
+            "speed": 8,
+            "on_dig": {
+              "event": "twilightforest:on_dig",
+              "target": "self"
+            }
           }
-        ]
+        ],
+        "on_dig": {
+          "event": "twilightforest:on_dig",
+          "target": "self"
+        }
       },
       "tag:minecraft:is_pickaxe": {}
     },
-
     "events": {
       "twilightforest:on_hurt_entity": {
-        "damage": {
-          "type": "none",
-          "amount": 2
-        }
+        "sequence": [
+          {
+            "damage": {
+              "amount": 2,
+              "type": "durability"
+            }
+          }
+        ]
       },
       "twilightforest:on_dig": {
-        "damage": {
-          "type": "none",
-          "amount": 1
-        }
+        "sequence": [
+          {
+            "damage": {
+              "amount": 1,
+              "type": "durability"
+            }
+          }
+        ]
       }
     }
   }
