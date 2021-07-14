@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "twilightforest:canopy_planks_from_stripped_canopy_log"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "twilightforest:stripped_canopy_log"
+      }
+    },
+    "result": {
+      "item": "twilightforest:canopy_planks",
+      "count": 4
+    }
+  }
+}

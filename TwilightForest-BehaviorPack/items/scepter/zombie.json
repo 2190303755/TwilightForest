@@ -1,0 +1,92 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:item": {
+    "description": {
+      "identifier": "twilightforest:zombie_scepter",
+      "category": "equipment"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "parent": "itemGroup.name.twilightforest.scepter"
+      },
+      "minecraft:display_name": {
+        "value": "item.twilightforest.zombie_scepter"
+      },
+      "minecraft:icon": {
+        "texture": "zombie_scepter"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:hand_equipped": true,
+      "minecraft:durability": {
+        "max_durability": 9
+      },
+      "minecraft:on_use_on": {
+        "on_use_on": {
+          "event": "twilightforest:on_use_on"
+        }
+      },
+      "minecraft:damage": 2,
+      "minecraft:weapon": {}
+    },
+    "events": {
+      "twilightforest:on_use_on": {
+        "sequence": [
+          {
+            "condition": "query.remaining_durability != 0",
+            "sequence": [
+              {
+                "damage": {
+                  "amount": 1,
+                  "target": "item",
+                  "type": "durability"
+                }
+              },
+              {
+                "condition": "query.block_face == 0",
+                "run_command": {
+                  "command": "summon twilightforest:loyal_zombie ~ ~-2.5 ~ twilightforest:from_scepter"
+                }
+              },
+              {
+                "condition": "query.block_face == 1 || query.block_face == 6",
+                "run_command": {
+                  "command": "summon twilightforest:loyal_zombie ~ ~0.5 ~ twilightforest:from_scepter"
+                }
+              },
+              {
+                "condition": "query.block_face == 2",
+                "run_command": {
+                  "command": "summon twilightforest:loyal_zombie ~ ~-0.5 ~-1 twilightforest:from_scepter"
+                }
+              },
+              {
+                "condition": "query.block_face == 3",
+                "run_command": {
+                  "command": "summon twilightforest:loyal_zombie ~ ~-0.5 ~1 twilightforest:from_scepter"
+                }
+              },
+              {
+                "condition": "query.block_face == 4",
+                "run_command": {
+                  "command": "summon twilightforest:loyal_zombie ~-1 ~-0.5 ~ twilightforest:from_scepter"
+                }
+              },
+              {
+                "condition": "query.block_face == 5",
+                "run_command": {
+                  "command": "summon twilightforest:loyal_zombie ~1 ~-0.5 ~ twilightforest:from_scepter"
+                }
+              }
+            ]
+          },
+          {
+            "condition": "query.remaining_durability == 0",
+            "run_command": {
+              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.twilightforest.item.durability\",\"with\":{\"rawtext\":[{\"translate\":\"item.twilightforest.zombie_scepter\"}]}}]}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "twilightforest:sorting_planks_from_sorting_log"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "twilightforest:sorting_log"
+      }
+    },
+    "result": {
+      "item": "twilightforest:sorting_planks",
+      "count": 4
+    }
+  }
+}

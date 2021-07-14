@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "twilightforest:mangrove_planks_from_mangrove_wood"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "twilightforest:mangrove_wood"
+      }
+    },
+    "result": {
+      "item": "twilightforest:mangrove_planks",
+      "count": 4
+    }
+  }
+}

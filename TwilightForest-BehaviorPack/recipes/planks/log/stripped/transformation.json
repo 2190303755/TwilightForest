@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "twilightforest:transformation_planks_from_stripped_transformation_log"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "twilightforest:stripped_transformation_log"
+      }
+    },
+    "result": {
+      "item": "twilightforest:transformation_planks",
+      "count": 4
+    }
+  }
+}

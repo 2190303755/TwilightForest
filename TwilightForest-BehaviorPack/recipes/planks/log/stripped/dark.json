@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "twilightforest:dark_planks_from_stripped_dark_log"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "L"
+    ],
+    "key": {
+      "L": {
+        "item": "twilightforest:stripped_dark_log"
+      }
+    },
+    "result": {
+      "item": "twilightforest:dark_planks",
+      "count": 4
+    }
+  }
+}
