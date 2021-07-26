@@ -5,12 +5,22 @@
       "identifier": "twilightforest:liveroots"
     },
     "components": {
+      "minecraft:creative_category": {
+        "category": "nature",
+        "group": "itemGroup.name.twilightforest.blocks"
+      },
       "minecraft:loot": "loot_tables/blocks/liveroots.json",
       "minecraft:destroy_time": 0.55,
       "minecraft:block_light_absorption": 7,
       "minecraft:block_light_emission": 0,
-      "minecraft:map_color": "#ffffff",
-      "minecraft:explosion_resistance": 2.5
+      "minecraft:explosion_resistance": 2.5,
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "liveroots",
+          "render_method": "opaque"
+        }
+      }
     }
   }
 }

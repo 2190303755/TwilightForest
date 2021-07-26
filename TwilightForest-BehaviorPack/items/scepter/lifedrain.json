@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:lifedrain_scepter",
-      "category": "equipment"
+      "identifier": "twilightforest:lifedrain_scepter"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilightforest.scepter"
+        "category": "equipment",
+        "group": "itemGroup.name.twilightforest.scepter"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.lifedrain_scepter"
@@ -37,7 +37,7 @@
         "sequence": [
           {
             "run_command": {
-              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.twilightforest.item.uncompleted\"}]}"
+              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.twilightforest.uncompleted\",\"with\":{\"rawtext\":[{\"translate\":\"item.twilightforest.lifedrain_scepter\"}]}}]}"
             }
           }
         ]

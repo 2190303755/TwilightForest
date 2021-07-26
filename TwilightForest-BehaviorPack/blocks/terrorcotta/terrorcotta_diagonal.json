@@ -1,16 +1,44 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "twilightforest:terrorcotta_diagonal",
-      "register_to_creative_menu": false,
-      "is_experimental": false
+      "identifier": "twilightforest:terrorcotta_diagonal"
     },
     "components": {
+      "minecraft:creative_category": {
+        "category": "construction",
+        "group": "itemGroup.name.glazedTerracotta"
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "terrorcotta_1",
+          "render_method": "blend"
+        },
+        "down": {
+          "texture": "terrorcotta_1",
+          "render_method": "blend"
+        },
+        "north": {
+          "texture": "terrorcotta_2",
+          "render_method": "blend"
+        },
+        "south": {
+          "texture": "terrorcotta_2",
+          "render_method": "blend"
+        },
+        "west": {
+          "texture": "terrorcotta_1",
+          "render_method": "blend"
+        },
+        "east": {
+          "texture": "terrorcotta_1",
+          "render_method": "blend"
+        }
+      },
       "minecraft:destroy_time": 6.25,
       "minecraft:block_light_absorption": 15,
       "minecraft:block_light_emission": 0,
-      "minecraft:map_color": "#ffff99",
       "minecraft:explosion_resistance": 4.2
     }
   }

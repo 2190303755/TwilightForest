@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:anti_builder"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "items",
+        "group": "itemGroup.name.twilightforest.blocks"
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "anti_builder",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:destroy_time": 3,
+      "minecraft:map_color": "#d0c589",
+      "minecraft:explosion_resistance": 6
+    }
+  }
+}

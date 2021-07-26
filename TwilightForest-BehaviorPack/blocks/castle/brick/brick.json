@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:castle_brick"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "construction",
+        "group": "itemGroup.name.stoneBrick"
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "castle_brick",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:destroy_time": 7.5,
+      "minecraft:block_light_absorption": 15,
+      "minecraft:block_light_emission": 0,
+      "minecraft:explosion_resistance": 6
+    }
+  }
+}

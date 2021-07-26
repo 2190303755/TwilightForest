@@ -1,16 +1,24 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "twilightforest:underbrick",
-      "register_to_creative_menu": true,
-      "is_experimental": false
+      "identifier": "twilightforest:underbrick"
     },
     "components": {
-      "minecraft:destroy_time": 5,
+      "minecraft:creative_category": {
+        "category": "construction",
+        "group": "itemGroup.name.stoneBrick"
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "underbrick",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:destroy_time": 7.5,
       "minecraft:block_light_absorption": 15,
       "minecraft:block_light_emission": 0,
-      "minecraft:map_color": "#000000",
       "minecraft:explosion_resistance": 6
     }
   }

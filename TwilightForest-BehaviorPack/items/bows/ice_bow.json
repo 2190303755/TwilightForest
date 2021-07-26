@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:ice_bow",
-      "category": "equipment"
+      "identifier": "twilightforest:ice_bow"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.bow"
+        "category": "equipment",
+        "group": "itemGroup.name.bow"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.ice_bow"
@@ -37,7 +37,6 @@
           }
         ],
         "scale_power_by_draw_duration": true,
-        "charge_on_draw": true,
         "launch_power_scale": 1,
         "max_draw_duration": 1.0
       },
@@ -65,11 +64,16 @@
         "sequence": [
           {
             "run_command": {
-              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.twilightforest.item.uncompleted\"}]}"
+              "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.twilightforest.item.uncompleted\",\"with\":{\"rawtext\":[{\"translate\":\"item.twilightforest.ice_bow\"}]}}]}"
             }
           }
         ]
+      },
+      "on_tool_used": {
+        "run_command": {
+          "command": "say hello"
+        }
       }
     }
   }
-}
+}//on_fertilized on_drop_attempt on_start on_kill on_use_range on_use_action

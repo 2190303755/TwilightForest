@@ -1,0 +1,35 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:knightmetal_block"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "construction",
+        "group": "itemGroup.name.twilightforest.block.storage"
+      },
+      "minecraft:geometry": "geometry.block.twilightforest.knightmetal_block",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "knightmetal_block",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:destroy_time": 12.5,
+      "minecraft:block_light_absorption": 15,
+      "minecraft:block_light_emission": 0,
+      "minecraft:explosion_resistance": 6,
+      "minecraft:pick_collision": {
+        "origin": [ -7, 1, -7 ],
+        "size": [ 14, 14, 14 ]
+      },
+      "minecraft:entity_collision": {
+        "origin": [ -7, 1, -7 ],
+        "size": [ 14, 14, 14 ]
+      },
+      "tag:diamond_pick_diggable": {},
+      "tag:iron_pick_diggable": {}
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:anti_build_block"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "commands"
+      },
+      "minecraft:display_name": "unknown",
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "anti_build_block",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:destroy_time": 1,
+      "minecraft:block_light_absorption": 0,
+      "minecraft:explosion_resistance": 6
+    }
+  }
+}

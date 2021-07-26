@@ -2,21 +2,23 @@
   "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "twilightforest:darkwood_sapling",
-      "category": "equipment"
+      "identifier": "twilightforest:darkwood_sapling"
     },
     "components": {
+      "minecraft:creative_category": {
+        "category": "nature",
+        "group": "itemGroup.name.sapling"
+      },
       "minecraft:breathability": "air",
       "minecraft:breakonpush": true,
       "minecraft:destroy_time": 0,
       "minecraft:block_light_absorption": 0,
-      "minecraft:map_color": "#000000",
       "minecraft:entity_collision": false,
       "minecraft:geometry": "geometry.plants",
       "minecraft:material_instances": {
         "*": {
           "texture": "darkwood_sapling",
-          "render_method": "alpha_test",
+          "render_method": "blend",
           "ambient_occlusion": false
         }
       },
@@ -31,15 +33,10 @@
             "block_filter": [ "dirt", "grass", "podzol", "farmland", "dirt_with_roots", "moss_block" ]
           }
         ]
-      },
-      "minecraft:on_interact": {
-        "condition": "query.get_equipped_item_name(0,0) == 'bone_meal'",
-        "event": "minecraft:on_interact",
-        "target": "self"
       }
     },
     "events": {
-      "minecraft:on_interact": {
+      "fertilize_block": {
         "run_command": {
           "command": "particle minecraft:crop_growth_emitter ~ ~ ~"
         }

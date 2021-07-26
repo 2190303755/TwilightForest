@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:armor_shard",
-      "category": "items"
+      "identifier": "twilightforest:armor_shard"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilightforest.items"
+        "category": "items",
+        "group": "itemGroup.name.twilightforest.items"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.armor_shard"

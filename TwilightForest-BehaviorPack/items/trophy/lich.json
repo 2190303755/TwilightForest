@@ -2,21 +2,18 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:trophy.lich",
-      "category": "equipment"
+      "identifier": "twilightforest:trophy.lich"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilightforest.trophy"
+        "category": "equipment",
+        "group": "itemGroup.name.twilightforest.trophy"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.trophy_lich"
       },
       "minecraft:icon": {
         "texture": "trophy_lich"
-      },
-      "minecraft:block_placer": {
-        "block": "twilightforest:trophy_lich"
       },
       "minecraft:armor": {
         "protection": 0

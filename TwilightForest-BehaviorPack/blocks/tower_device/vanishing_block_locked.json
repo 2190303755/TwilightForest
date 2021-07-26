@@ -1,0 +1,91 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:locked_vanishing_block",
+      "properties": {
+        "twilightforest:active": [ false, true ],
+        "twilightforest:locked": [ true, false ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('twilightforest:active')",
+        "components": {
+          "minecraft:ticking": {
+            "range": [0.25,0.25],
+            "on_tick": {
+              "event": "twilightforest:vanish",
+              "target": "self"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('twilightforest:locked')",
+        "components": {
+          "minecraft:unit_cube": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "locked_vanishing_block",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:on_interact": {
+            "event": "minecraft:on_interact"
+          }
+        }
+      },
+      {
+        "condition": "!query.block_property('twilightforest:locked')",
+        "components": {
+          "minecraft:unit_cube": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "unlocked_vanishing_block",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:on_interact": {
+            "event": "minecraft:on_interact"
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:creative_category": {
+        "category": "items",
+        "group": "itemGroup.name.twilightforest.blocks"
+      },
+      "minecraft:destroy_time": 3,
+      "minecraft:map_color": "#d0c589",
+      "minecraft:explosion_resistance": 6
+    },
+    "events": {
+      "minecraft:on_interact": {
+        "sequence": [
+          {
+            "condition": "query.block_property('twilightforest:locked') && query.equipped_item_any_tag('slot.weapon.mainhand','twilightforest:tower_key')",
+            "swing": {},
+            "decrement_stack": {},
+            "set_block_property": {
+              "twilightforest:locked": false
+            }
+          },
+          {
+            "condition": "!query.block_property('twilightforest:locked')",
+            "swing": {},
+            "set_block_property": {
+              "twilightforest:active": true
+            }
+          }
+        ]
+      },
+      "twilightforest:vanish": {
+        "set_block": {
+          "block_type": "minecraft:air"
+        }
+      }
+    }
+  }
+}

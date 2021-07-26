@@ -106,74 +106,95 @@
     "trophy_lich": {
       "textures": "textures/entity/boss/twilight_lich"
     },
+    "canopy_sapling": {
+      "textures": "textures/blocks/sapling/canopy_sapling"
+    },
+    "mangrove_sapling": {
+      "textures": "textures/blocks/sapling/mangrove_sapling"
+    },
+    "hollow_oak_sapling": {
+      "textures": "textures/blocks/sapling/hollow_oak_sapling"
+    },
+    "time_sapling": {
+      "textures": "textures/blocks/sapling/time_sapling"
+    },
+    "transformation_sapling": {
+      "textures": "textures/blocks/sapling/transformation_sapling"
+    },
+    "mining_sapling": {
+      "textures": "textures/blocks/sapling/mining_sapling"
+    },
+    "sorting_sapling": {
+      "textures": "textures/blocks/sapling/sorting_sapling"
+    },
+    "rainboak_sapling": {
+      "textures": "textures/blocks/sapling/rainboak_sapling"
+    },
     "twilight_oak_sapling": {
       "textures": "textures/blocks/sapling/twilight_oak_sapling"
     },
     "darkwood_sapling": {
       "textures": "textures/blocks/sapling/darkwood_sapling"
     },
-    "tower_antibuilder": {
-      "textures": "textures/blocks/tower/tower_antibuilder"
+    "anti_builder": {
+      "textures": "textures/blocks/tower_device/anti_builder"
     },
-    "tower_antibuilt": {
-      "textures": "textures/blocks/tower/tower_antibuilt"
+    "anti_build_block": {
+      "textures": "textures/blocks/tower_device/anti_build_block"
     },
-    "tower_builder_off": {
-      "textures": "textures/blocks/tower/tower_builder_off"
+    "carminite_builder_inactive": {
+      "textures": "textures/blocks/tower_device/carminite_builder/inactive"
     },
-    "tower_builder_on": {
-      "textures": "textures/blocks/tower/tower_builder_on"
+    "carminite_builder_active": {
+      "textures": "textures/blocks/tower_device/carminite_builder/active"
     },
-    "tower_builder_timeout": {
-      "textures": "textures/blocks/tower/tower_builder_timeout"
+    "carminite_builder_timeout": {
+      "textures": "textures/blocks/tower_device/carminite_builder/timeout"
     },
-    "tower_carminite_built_off": {
-      "textures": "textures/blocks/tower/tower_carminite_built_off"
+    "built_block": {
+      "textures": "textures/blocks/tower_device/built_block/inactive"
     },
-    "tower_carminite_built_on": {
-      "textures": "textures/blocks/tower/tower_carminite_built_on"
+    "built_block_active": {
+      "textures": "textures/blocks/tower_device/built_block/active"
     },
-    "ghast_trap_off": {
-      "textures": "textures/blocks/tower/ghast_trap_off"
+    "ghast_trap": {
+      "textures": "textures/blocks/tower_device/ghast_trap/inactive"
     },
-    "ghast_trap_on": {
-      "textures": "textures/blocks/tower/ghast_trap_on"
+    "ghast_trap_active": {
+      "textures": "textures/blocks/tower_device/ghast_trap/active"
     },
-   "towerwood_alt": {
-      "textures": "textures/blocks/planks/towerwood_alt"
+    "tower_wood_cracked": {
+      "textures": "textures/blocks/planks/tower_wood/cracked"
     },
-    "towerwood_cracked": {
-      "textures": "textures/blocks/planks/towerwood_cracked"
+    "tower_wood_infested": {
+      "textures": "textures/blocks/planks/tower_wood/infested"
     },
-    "towerwood_infested": {
-      "textures": "textures/blocks/planks/towerwood_infested"
+    "tower_wood": {
+      "textures": "textures/blocks/planks/tower_wood/planks"
     },
-    "towerwood_planks": {
-      "textures": "textures/blocks/planks/towerwood_planks"
+    "tower_wood_encased": {
+      "textures": "textures/blocks/planks/tower_wood/encased"
     },
-    "tower_firejet_off": {
-      "textures": "textures/blocks/tower/tower_firejet_off"
+    "tower_wood_mossy": {
+      "textures": "textures/blocks/planks/tower_wood/mossy"
     },
-    "tower_firejet_on": {
-      "textures": "textures/blocks/tower/tower_firejet_on"
+    "encased_fire_jet": {
+      "textures": "textures/blocks/tower_device/encased_fire_jet/inactive"
     },
-    "tower_top_off": {
-      "textures": "textures/blocks/tower/tower_top_off"
+    "encased_fire_jet_active": {
+      "textures": "textures/blocks/tower_device/encased_fire_jet/active"
     },
-    "tower_top_on": {
-      "textures": "textures/blocks/tower/tower_top_on"
+    "tower_device_top_active": {
+      "textures": "textures/blocks/tower_device/public/top_active"
     },
-    "tower_smoker_off": {
-      "textures": "textures/blocks/tower/tower_smoker_off"
+    "tower_device_top": {
+      "textures": "textures/blocks/tower_device/public/top_inactive"
     },
-    "tower_smoker_on": {
-      "textures": "textures/blocks/tower/tower_smoker_on"
+    "encased_smoker": {
+      "textures": "textures/blocks/tower_device/encased_smoker/inactive"
     },
-    "towerwood_encased": {
-      "textures": "textures/blocks/tower/towerwood_encased"
-    },
-    "towerwood_mossy": {
-      "textures": "textures/blocks/planks/towerwood_mossy"
+    "encased_smoker_active": {
+      "textures": "textures/blocks/tower_device/encased_smoker/active"
     },
     "uncrafting_particle": {
       "textures": "textures/blocks/uncrafting/uncrafting_particle"
@@ -184,38 +205,38 @@
     "uncrafting_top": {
       "textures": "textures/blocks/uncrafting/uncrafting_top"
     },
-    "reappearing_block_off": {
-      "textures": "textures/blocks/tower/reappearing_off"
+    "reappearing_block": {
+      "textures": "textures/blocks/tower_device/reappearing_block/inactive"
     },
-    "reappearing_block_on": {
-      "textures": "textures/blocks/tower/reappearing_on"
+    "reappearing_block_active": {
+      "textures": "textures/blocks/tower_device/reappearing_block/active"
     },
-    "reappearing_trace_block_off": {
-      "textures": "textures/blocks/tower/tower_reappearing_trace_off"
+    "reappearing_block_vanished": {
+      "textures": "textures/blocks/tower_device/reappearing_block/inactive_vanished"
     },
-    "reappearing_trace_block_on": {
-      "textures": "textures/blocks/tower/tower_reappearing_trace_on"
+    "reappearing_block_active_vanished": {
+      "textures": "textures/blocks/tower_device/reappearing_block/active_vanished"
     },
-    "vanishing_block_locked": {
-      "textures": "textures/blocks/tower/locked"
+    "locked_vanishing_block": {
+      "textures": "textures/blocks/tower_device/vanishing_block/locked"
     },
-    "vanishing_block_unlocked": {
-      "textures": "textures/blocks/tower/unlocked"
+    "unlocked_vanishing_block": {
+      "textures": "textures/blocks/tower_device/vanishing_block/unlocked"
     },
-    "vanishing_block_off": {
-      "textures": "textures/blocks/tower/vanish_off"
+    "vanishing_block": {
+      "textures": "textures/blocks/tower_device/vanishing_block/inactive"
     },
-    "vanishing_block_on": {
-      "textures": "textures/blocks/tower/vanish_on"
+    "vanishing_block_active": {
+      "textures": "textures/blocks/tower_device/vanishing_block/active"
     },
-    "reactor_off": {
-      "textures": "textures/blocks/tower/reactor_off"
+    "carminite_reactor": {
+      "textures": "textures/blocks/tower_device/carminite_reactor/inactive"
     },
-    "reactor_on": {
-      "textures": "textures/blocks/tower/reactor_on"
+    "carminite_reactor_active": {
+      "textures": "textures/blocks/tower_device/carminite_reactor/active"
     },
     "reactor_debris": {
-      "textures": "textures/blocks/tower/destroy"
+      "textures": "textures/environment/destroy_stage_9"
     },
     "canopy_planks": {
       "textures": "textures/blocks/planks/canopy"
@@ -226,17 +247,17 @@
     "mangrove_planks": {
       "textures": "textures/blocks/planks/mangrove"
     },
-    "mine_planks": {
-      "textures": "textures/blocks/planks/mine"
+    "mining_planks": {
+      "textures": "textures/blocks/planks/mining"
     },
     "sorting_planks": {
-      "textures": "textures/blocks/planks/sort"
+      "textures": "textures/blocks/planks/sorting"
     },
     "time_planks": {
       "textures": "textures/blocks/planks/time"
     },
-    "trans_planks": {
-      "textures": "textures/blocks/planks/trans"
+    "transformation_planks": {
+      "textures": "textures/blocks/planks/transformation"
     },
     "twilight_oak_planks": {
       "textures": "textures/blocks/planks/twilight_oak"
@@ -271,23 +292,23 @@
     "steeleaf_block": {
       "textures": "textures/blocks/storage/steeleaf"
     },
-    "etched_nagastone_side": {
-      "textures": "textures/blocks/nagastone/etched_nagastone_side"
+    "nagastone_etched_side": {
+      "textures": "textures/blocks/nagastone/etched/side"
     },
-    "etched_nagastone_mossy_side": {
-      "textures": "textures/blocks/nagastone/etched_nagastone_mossy_side"
+    "nagastone_etched_mossy_side": {
+      "textures": "textures/blocks/nagastone/etched_mossy/side"
     },
-    "etched_nagastone_weathered_side": {
-      "textures": "textures/blocks/nagastone/etched_nagastone_weathered_side"
+    "nagastone_etched_weathered_side": {
+      "textures": "textures/blocks/nagastone/etched_weathered/side"
     },
-    "stone_tiles": {
-      "textures": "textures/blocks/nagastone/stone_tiles"
+    "nagastone_etched_top": {
+      "textures": "textures/blocks/nagastone/etched/top"
     },
-    "stone_tiles_mossy": {
-      "textures": "textures/blocks/nagastone/stone_tiles_mossy"
+    "nagastone_etched_mossy_top": {
+      "textures": "textures/blocks/nagastone/etched_mossy/top"
     },
-    "stone_tiles_weathered": {
-      "textures": "textures/blocks/nagastone/stone_tiles_weathered"
+    "nagastone_etched_weathered_top": {
+      "textures": "textures/blocks/nagastone/etched_weathered/top"
     },
     "nagastone_pillar_side": {
       "textures": "textures/blocks/nagastone/nagastone_pillar_side"
@@ -395,40 +416,46 @@
       "textures": "textures/blocks/castle/castle_rune_brick_yellow"
     },
     "castle_brick": {
-      "textures": "textures/blocks/castle/castle_brick"
+      "textures": "textures/blocks/castle/brick/brick"
     },
     "castle_brick_cracked": {
-      "textures": "textures/blocks/castle/castle_brick_cracked"
-    },
-    "castle_brick_encased": {
-      "textures": "textures/blocks/castle/castle_brick_encased"
+      "textures": "textures/blocks/castle/brick/cracked"
     },
     "castle_brick_mossy": {
-      "textures": "textures/blocks/castle/castle_brick_mossy"
+      "textures": "textures/blocks/castle/brick/mossy"
     },
-    "castle_brick_pillar_bold_side": {
-      "textures": "textures/blocks/castle/castle_brick_pillar_bold_side"
+    "castle_brick_frame": {
+      "textures": "textures/blocks/castle/brick/frame"
     },
-    "castle_brick_pillar_bold_top": {
-      "textures": "textures/blocks/castle/castle_brick_pillar_bold_top"
-    },
-    "castle_brick_pillar_encased_side": {
-      "textures": "textures/blocks/castle/castle_brick_pillar_encased_side"
-    },
-    "castle_brick_polished": {
-      "textures": "textures/blocks/castle/castle_brick_polished"
-    },
-    "castle_brick_tile_bold": {
-      "textures": "textures/blocks/castle/castle_brick_tile_bold"
-    },
-    "castle_brick_tile_roof": {
-      "textures": "textures/blocks/castle/castle_brick_tile_roof"
+    "castle_brick_roof": {
+      "textures": "textures/blocks/castle/brick/roof"
     },
     "castle_brick_worn": {
-      "textures": "textures/blocks/castle/castle_brick_worn"
+      "textures": "textures/blocks/castle/brick/worn"
     },
-    "firefly_jar": {
-      "textures": "textures/blocks/nature/firefly_jar"
+    "castle_pillar_bold_side": {
+      "textures": "textures/blocks/castle/pillar/side/bold"
+    },
+    "castle_pillar_bold_top": {
+      "textures": "textures/blocks/castle/pillar/top/bold"
+    },
+    "castle_pillar_encased_side": {
+      "textures": "textures/blocks/castle/pillar/side/encased"
+    },
+    "castle_pillar_encased_tile": {
+      "textures": "textures/blocks/castle/tile/encased"
+    },
+    "castle_pillar_bold_tile": {
+      "textures": "textures/blocks/castle/tile/bold"
+    },
+    "firefly_jar_cork": {
+      "textures": "textures/blocks/nature/firefly_jar_cork"
+    },
+    "firefly_jar_side": {
+      "textures": "textures/blocks/nature/firefly_jar_side"
+    },
+    "firefly_jar_top": {
+      "textures": "textures/blocks/nature/firefly_jar_top"
     }
   }
 }

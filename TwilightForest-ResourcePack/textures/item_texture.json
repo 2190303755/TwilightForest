@@ -2,6 +2,9 @@
   "resource_pack_name": "twilightforest",
   "texture_name": "atlas.items",
   "texture_data": {
+    "tower_key": {
+      "textures": "textures/items/tower_key"
+    },
     "raven_feather": {
       "textures": "textures/items/raven_feather"
     },

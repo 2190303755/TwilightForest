@@ -1,0 +1,29 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:tower_wood_infested"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "construction",
+        "group": "itemGroup.name.planks"
+      },
+      "minecraft:destroy_time": 3,
+      "minecraft:block_light_absorption": 15,
+      "minecraft:block_light_emission": 0,
+      "minecraft:map_color": "#b76b2b",
+      "minecraft:explosion_resistance": 3,
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "tower_wood_infested",
+          "render_method": "opaque"
+        }
+      },
+      "tag:planks": {},
+      "tag:wood": {},
+      "tag:twilightforest:tower_wood": {}
+    }
+  }
+}

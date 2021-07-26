@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:triple_bow",
-      "category": "equipment"
+      "identifier": "twilightforest:triple_bow"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.bow"
+        "category": "equipment",
+        "group": "itemGroup.name.bow"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.triple_bow"

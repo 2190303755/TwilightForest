@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:ice_bomb",
-      "category": "equipment"
+      "identifier": "twilightforest:ice_bomb"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.tools"
+        "category": "equipment",
+        "group": "itemGroup.name.tools"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.ice_bomb"

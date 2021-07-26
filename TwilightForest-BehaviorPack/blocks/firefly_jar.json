@@ -1,0 +1,41 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:firefly_jar"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "items",
+        "group": "itemGroup.name.twilightforest.blocks"
+      },
+      "minecraft:destroy_time": 9.4,
+      "minecraft:block_light_absorption": 0,
+      "minecraft:block_light_emission": 1,
+      "minecraft:explosion_resistance": 6,
+      "minecraft:entity_collision": {
+        "origin": [ -5, 0, -5 ],
+        "size": [ 10, 16, 10 ]
+      },
+      "minecraft:pick_collision": {
+        "origin": [ -5, 0, -5 ],
+        "size": [ 10, 14, 10 ]
+      },
+      "minecraft:geometry": "geometry.block.twilightforest.firefly_jar",
+      "minecraft:material_instances": {
+        "cork": {
+          "texture": "firefly_jar_cork",
+          "render_method": "alpha_test"
+        },
+        "top": {
+          "texture": "firefly_jar_top",
+          "render_method": "alpha_test"
+        },
+        "*": {
+          "texture": "firefly_jar_side",
+          "render_method": "alpha_test"
+        }
+      }
+    }
+  }
+}

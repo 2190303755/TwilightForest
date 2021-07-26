@@ -1,0 +1,25 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:ironwood_block"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "construction",
+        "group": "itemGroup.name.twilightforest.block.storage"
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "ironwood_block",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:destroy_time": 12.5,
+      "minecraft:block_light_absorption": 15,
+      "minecraft:block_light_emission": 0,
+      "minecraft:explosion_resistance": 6
+    }
+  }
+}

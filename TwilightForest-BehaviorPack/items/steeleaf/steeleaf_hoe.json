@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:steeleaf_hoe",
-      "category": "equipment"
+      "identifier": "twilightforest:steeleaf_hoe"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.hoe"
+        "category": "equipment",
+        "group": "itemGroup.name.hoe"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.steeleaf_hoe"

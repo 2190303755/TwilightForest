@@ -1,0 +1,81 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:built_block",
+      "properties": {
+        "twilightforest:active": [ false, true ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('twilightforest:active')",
+        "components": {
+          "minecraft:unit_cube": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "built_block_active",
+              "render_method": "blend"
+            }
+          },
+          "minecraft:ticking": {
+            "range": [
+              0.25,
+              0.25
+            ],
+            "on_tick": {
+              "event": "minecraft:on_tick",
+              "target": "self"
+            }
+          }
+        }
+      },
+      {
+        "condition": "!query.block_property('twilightforest:active')",
+        "components": {
+          "minecraft:unit_cube": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "built_block",
+              "render_method": "blend"
+            }
+          },
+          "minecraft:ticking": {
+            "range": [ 2, 2 ],
+            "on_tick": {
+              "event": "minecraft:on_tick",
+              "target": "self"
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:creative_category": {
+        "category": "commands"
+      },
+      "minecraft:display_name": "unknown",
+      "minecraft:destroy_time": 3,
+      "minecraft:block_light_absorption": 0,
+      "minecraft:explosion_resistance": 6
+    },
+    "events": {
+      "minecraft:on_tick": {
+        "sequence": [
+          {
+            "condition": "query.block_property('twilightforest:active')",
+            "set_block": {
+              "block_type": "minecraft:air"
+            }
+          },
+          {
+            "condition": "!query.block_property('twilightforest:active')",
+            "set_block_property": {
+              "twilightforest:active": true
+            }
+          }
+        ]
+      }
+    }
+  }
+}

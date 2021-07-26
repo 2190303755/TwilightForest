@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:meef_stroganoff",
-      "category": "equipment"
+      "identifier": "twilightforest:meef_stroganoff"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.miscFood"
+        "category": "equipment",
+        "group": "itemGroup.name.miscFood"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.meef_stroganoff"

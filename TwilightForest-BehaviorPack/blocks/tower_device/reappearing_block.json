@@ -1,0 +1,143 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:reappearing_block",
+      "properties": {
+        "twilightforest:active": [false,true],
+        "twilightforest:vanished": [false,true]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "!query.block_property('twilightforest:active') && !query.block_property('twilightforest:vanished')",
+        "components": {
+          "minecraft:block_light_absorption": 15,
+          "minecraft:geometry": "geometry.twilightforest.reappearing_block",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "reappearing_block",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:on_interact": {
+            "event": "minecraft:on_interact"
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('twilightforest:active') && !query.block_property('twilightforest:vanished')",
+        "components": {
+          "minecraft:block_light_absorption": 15,
+          "minecraft:geometry": "geometry.twilightforest.reappearing_block",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "reappearing_block_active",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:ticking": {
+            "range": [0.25,0.25],
+            "on_tick": {
+              "event": "minecraft:on_ticking",
+              "target": "self"
+            }
+          }
+        }
+      },
+      {
+        "condition": "!query.block_property('twilightforest:active') && query.block_property('twilightforest:vanished')",
+        "components": {
+          "minecraft:block_light_absorption": 0,
+          "minecraft:geometry": "geometry.twilightforest.reappearing_block.vanished",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "reappearing_block_vanished",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:entity_collision": false,
+          "minecraft:breathability": "air",
+          "minecraft:pick_collision":{
+            "origin":[-2,6,-2],
+            "size":[4,4,4]
+          },
+          "minecraft:ticking": {
+            "range": [2.5,2.5],
+            "on_tick": {
+              "event": "minecraft:on_ticking",
+              "target": "self"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('twilightforest:active') && query.block_property('twilightforest:vanished')",
+        "components": {
+          "minecraft:block_light_absorption": 0,
+          "minecraft:geometry": "geometry.twilightforest.reappearing_block.vanished",
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "reappearing_block_active_vanished",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:entity_collision": false,
+          "minecraft:breathability": "air",
+          "minecraft:pick_collision":{
+            "origin":[-2,6,-2],
+            "size":[4,4,4]
+          },
+          "minecraft:ticking": {
+            "range": [0.25,0.25],
+            "on_tick": {
+              "event": "minecraft:on_ticking",
+              "target": "self"
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:creative_category": {
+        "category": "items",
+        "group": "itemGroup.name.twilightforest.blocks"
+      },
+      "minecraft:destroy_time": 3,
+      "minecraft:block_light_emission": 0.267,
+      "minecraft:map_color": "#d0c589",
+      "minecraft:explosion_resistance": 6
+    },
+    "events": {
+      "minecraft:on_interact": {
+        "set_block_property": {
+          "twilightforest:active": true
+        }
+      },
+      "minecraft:on_ticking": {
+        "sequence": [
+          {
+            "condition": "query.block_property('twilightforest:active') && query.block_property('twilightforest:vanished')",
+            "set_block_property": {
+              "twilightforest:active": false,
+              "twilightforest:vanished": false
+            }
+          },
+          {
+            "condition": "!query.block_property('twilightforest:active') &&query.block_property('twilightforest:vanished')",
+            "set_block_property": {
+              "twilightforest:active": true
+            }
+          },
+          {
+            "condition": "query.block_property('twilightforest:active') && !query.block_property('twilightforest:vanished')",
+            "set_block_property": {
+              "twilightforest:active": false,
+              "twilightforest:vanished": true
+            }
+          }
+        ]
+      }
+    }
+  }
+}

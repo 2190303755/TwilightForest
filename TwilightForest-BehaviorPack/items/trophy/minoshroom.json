@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:trophy.minoshroom",
-      "category": "equipment"
+      "identifier": "twilightforest:trophy.minoshroom"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilightforest.trophy"
+        "category": "equipment",
+        "group": "itemGroup.name.twilightforest.trophy"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.trophy_minoshroom"

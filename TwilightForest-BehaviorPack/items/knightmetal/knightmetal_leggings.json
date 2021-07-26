@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:knightmetal_leggings",
-      "category": "equipment"
+      "identifier": "twilightforest:knightmetal_leggings"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.leggings"
+        "category": "equipment",
+        "group": "itemGroup.name.leggings"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.knightmetal_leggings"

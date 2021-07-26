@@ -1,24 +1,59 @@
 {
-  "format_version": "1.12.0",
-  "minecraft:geometry": [
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
     {
-      "description": {
-        "identifier": "geometry.block.reappearing.twilightforest",
-        "texture_width": 16,
-        "texture_height": 8,
-        "visible_bounds_width": 2,
-        "visible_bounds_height": 2.5,
-        "visible_bounds_offset": [0, 0.75, 0]
-      },
-      "bones": [
-        {
-          "name": "block",
-          "pivot": [0, 0, 0],
-          "cubes": [
-            {"origin": [-2, 6, -2], "size": [4, 4, 4], "uv": [0, 0]}
-          ]
-        }
-      ]
-    }
-  ]
+			"description": {
+				"identifier": "geometry.twilightforest.reappearing_block",
+				"texture_width": 16,
+				"texture_height": 16
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-8, 0, -8],
+							"size": [16, 16, 16],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "north"},
+								"east": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "east"},
+								"south": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "south"},
+								"west": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "west"},
+								"up": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "up"},
+								"down": {"uv": [0, 0], "uv_size": [16, 16], "material_instance": "down"}
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": {
+				"identifier": "geometry.twilightforest.reappearing_block.vanished",
+				"texture_width": 4,
+				"texture_height": 4
+			},
+			"bones": [
+				{
+					"name": "block",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-2, 6, -2],
+							"size": [4, 4, 4],
+							"uv": {
+								"north": {"uv": [0, 0], "uv_size": [4, 4], "material_instance": "north"},
+								"east": {"uv": [0, 0], "uv_size": [4, 4], "material_instance": "east"},
+								"south": {"uv": [0, 0], "uv_size": [4, 4], "material_instance": "south"},
+								"west": {"uv": [0, 0], "uv_size": [4, 4], "material_instance": "west"},
+								"up": {"uv": [0, 0], "uv_size": [4, 4], "material_instance": "up"},
+								"down": {"uv": [0, 0], "uv_size": [4, 4], "material_instance": "down"}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
 }

@@ -1,17 +1,85 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
       "identifier": "twilightforest:nagastone_pillar_mossy",
-      "register_to_creative_menu": true,
-      "is_experimental": false
+      "properties": {
+        "twilightforest:direction": [0,1,2,3,4,5,6]
+      }
     },
+    "permutations": [
+      {
+        "condition": "query.block_property('twilightforest:direction') == 0",
+        "components": {
+          "minecraft:rotation": [ 180, 180, 0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('twilightforest:direction') == 1",
+        "components": {
+          "minecraft:rotation": [ 0, 0, 0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('twilightforest:direction') == 2",
+        "components": {
+          "minecraft:rotation": [ -90, 0, 0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('twilightforest:direction') == 3",
+        "components": {
+          "minecraft:rotation": [ 90, 0, 0 ]
+        }
+      },
+      {
+        "condition": "query.block_property('twilightforest:direction') == 4",
+        "components": {
+          "minecraft:rotation": [ 0, 0, 90 ]
+        }
+      },
+      {
+        "condition": "query.block_property('twilightforest:direction') == 5",
+        "components": {
+          "minecraft:rotation": [ 0, 0, -90 ]
+        }
+      }
+    ],
     "components": {
-      "minecraft:destroy_time": 1.15,
+      "minecraft:creative_category": {
+        "category": "construction",
+        "group": "itemGroup.name.stoneBrick"
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "nagastone_pillar_end_mossy",
+          "render_method": "alpha_test"
+        },
+        "down": {
+          "texture": "nagastone_pillar_end_mossy",
+          "render_method": "alpha_test"
+        },
+        "*": {
+          "texture": "nagastone_pillar_side_mossy",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:destroy_time": 7.5,
       "minecraft:block_light_absorption": 15,
       "minecraft:block_light_emission": 0,
-      "minecraft:map_color": "#ffffff",
-      "minecraft:explosion_resistance": 6
+      "minecraft:explosion_resistance": 6,
+      "minecraft:on_player_placing": {
+        "event": "minecraft:on_player_placing",
+        "target": "self"
+      }
+    },
+    "events": {
+      "minecraft:on_player_placing": {
+        "set_block_property": {
+          "twilightforest:direction": "query.block_face"
+        }
+      }
     }
   }
 }

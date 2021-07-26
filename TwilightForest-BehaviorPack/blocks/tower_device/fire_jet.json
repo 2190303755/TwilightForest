@@ -1,0 +1,88 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:encased_fire_jet",
+      "properties": {
+        "twilightforest:active": [ false, true ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('twilightforest:active')",
+        "components": {
+          "minecraft:unit_cube": {},
+          "minecraft:material_instances": {
+            "up": {
+              "texture": "tower_device_top_active",
+              "render_method": "alpha_test"
+            },
+            "down": {
+              "texture": "tower_wood_encased",
+              "render_method": "alpha_test"
+            },
+            "*": {
+              "texture": "encased_fire_jet_active",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:ticking": {
+            "range": [ 2, 2 ],
+            "on_tick": {
+              "event": "twilightforest:done",
+              "target": "self"
+            }
+          }
+        }
+      },
+      {
+        "condition": "!query.block_property('twilightforest:active')",
+        "components": {
+          "minecraft:unit_cube": {},
+          "minecraft:material_instances": {
+            "up": {
+              "texture": "tower_device_top",
+              "render_method": "alpha_test"
+            },
+            "down": {
+              "texture": "tower_wood_encased",
+              "render_method": "alpha_test"
+            },
+            "*": {
+              "texture": "encased_fire_jet",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:on_interact": {
+            "event": "minecraft:on_interact"
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:creative_category": {
+        "category": "items",
+        "group": "itemGroup.name.twilightforest.blocks"
+      },
+      "minecraft:destroy_time": 3,
+      "minecraft:map_color": "#d0c589",
+      "minecraft:explosion_resistance": 6
+    },
+    "events": {
+      "minecraft:on_interact": {
+        "swing": {},
+        "set_block_property": {
+          "twilightforest:active": true
+        },
+        "run_command": {
+          "command": "tellraw @p {\"rawtext\":[{\"translate\":\"action.twilightforest.uncompleted\",\"with\":{\"rawtext\":[{\"translate\":\"tile.twilightforest:encased_fire_jet.name\"}]}}]}"
+        }
+      },
+      "twilightforest:done": {
+        "set_block_property": {
+          "twilightforest:active": false
+        }
+      }
+    }
+  }
+}

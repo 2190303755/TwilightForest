@@ -25,12 +25,16 @@
       {
         "condition": "query.block_property('minecraft:direction') == 2",
         "components": {
-          "minecraft:rotation": [ 0, 0, 90 ],
+          "minecraft:rotation": [ 0, 0, -90 ],
           "minecraft:map_color": "#644228"
         }
       }
     ],
     "components": {
+      "minecraft:creative_category": {
+        "category": "nature",
+        "group": "itemGroup.name.log"
+      },
       "minecraft:destroy_time": 3,
       "minecraft:block_light_absorption": 15,
       "minecraft:block_light_emission": 0,
@@ -77,7 +81,11 @@
               "target": "item",
               "type": "durability"
             },
-            "swing": {}
+            "swing": {},
+            "play_sound": {
+              "sound": "explode",
+              "target": "player"
+            }
           },
           {
             "condition": "query.block_property('minecraft:direction')==0",

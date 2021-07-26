@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:ice_sword",
-      "category": "equipment"
+      "identifier": "twilightforest:ice_sword"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.sword"
+        "category": "equipment",
+        "group": "itemGroup.name.sword"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.ice_sword"
@@ -82,7 +82,7 @@
           {
             "add_mob_effect": {
               "effect": "slowness",
-              "target": "other",
+              "target": "target",
               "amplifier": 2,
               "duration": 10
             },

@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:fiery_pickaxe",
-      "category": "equipment"
+      "identifier": "twilightforest:fiery_pickaxe"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.pickaxe"
+        "category": "equipment",
+        "group": "itemGroup.name.pickaxe"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.fiery_pickaxe"
@@ -32,7 +32,7 @@
             "items": [
               "twilightforest:fiery_pickaxe"
             ],
-              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+            "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
           }
         ]
       },

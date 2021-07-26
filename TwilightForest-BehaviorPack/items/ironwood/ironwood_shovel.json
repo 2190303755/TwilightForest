@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:ironwood_shovel",
-      "category": "equipment"
+      "identifier": "twilightforest:ironwood_shovel"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.shovel"
+        "category": "equipment",
+        "group": "itemGroup.name.shovel"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.ironwood_shovel"

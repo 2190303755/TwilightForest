@@ -1,16 +1,33 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "twilightforest:uncrafting_table",
-      "register_to_creative_menu": true,
-      "is_experimental": false
+      "identifier": "twilightforest:uncrafting_table"
     },
     "components": {
+      "minecraft:creative_category": {
+        "category": "items",
+        "group": "itemGroup.name.twilightforest.blocks"
+      },
       "minecraft:crafting_table": {
         "custom_description": "tile.twilightforest:uncrafting_table.name",
         "grid_size": 3,
         "crafting_tags": ["uncrafting_table"]
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "uncrafting_particle",
+          "render_method": "blend"
+        },
+        "down": {
+          "texture": "jungle_planks",
+          "render_method": "blend"
+        },
+        "*": {
+          "texture": "uncrafting_side",
+          "render_method": "blend"
+        }
       },
       "minecraft:destroy_time": 3,
       "minecraft:block_light_absorption": 15,

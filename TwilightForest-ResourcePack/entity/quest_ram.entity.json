@@ -3,7 +3,7 @@
   "minecraft:client_entity": {
     "description": {
       "identifier": "twilightforest:quest_ram",
-      "materials": { "default": "magma_cube" },
+      "materials": { "default": "drowned" },
       "textures": {
         "default": "textures/entity/boss/quest_ram"
       },

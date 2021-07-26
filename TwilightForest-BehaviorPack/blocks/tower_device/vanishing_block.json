@@ -1,0 +1,72 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:vanishing_block",
+      "properties": {
+        "twilightforest:active": [ false, true ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('twilightforest:active')",
+        "components": {
+          "minecraft:unit_cube": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "vanishing_block_active",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:ticking": {
+            "range": [
+              0.25,
+              0.25
+            ],
+            "on_tick": {
+              "event": "twilightforest:vanish",
+              "target": "self"
+            }
+          }
+        }
+      },
+      {
+        "condition": "!query.block_property('twilightforest:active')",
+        "components": {
+          "minecraft:unit_cube": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "vanishing_block",
+              "render_method": "alpha_test"
+            }
+          },
+          "minecraft:on_interact": {
+            "event": "minecraft:on_interact"
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:creative_category": {
+        "category": "items",
+        "group": "itemGroup.name.twilightforest.blocks"
+      },
+      "minecraft:destroy_time": 3,
+      "minecraft:map_color": "#d0c589",
+      "minecraft:explosion_resistance": 6
+    },
+    "events": {
+      "minecraft:on_interact": {
+        "swing": {},
+        "set_block_property": {
+          "twilightforest:active": true
+        }
+      },
+      "twilightforest:vanish": {
+        "set_block": {
+          "block_type": "minecraft:air"
+        }
+      }
+    }
+  }
+}

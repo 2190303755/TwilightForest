@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:fiery_helmet",
-      "category": "equipment"
+      "identifier": "twilightforest:fiery_helmet"
     },
     "components": {
       "minecraft:creative_category": {
-        "parent": "itemGroup.name.helmet"
+        "category": "equipment",
+        "group": "itemGroup.name.helmet"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.fiery_helmet"

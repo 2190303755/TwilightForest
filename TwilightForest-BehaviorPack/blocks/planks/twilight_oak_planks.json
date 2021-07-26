@@ -1,17 +1,28 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "twilightforest:twilight_oak_planks",
-      "register_to_creative_menu": true,
-      "is_experimental": false
+      "identifier": "twilightforest:twilight_oak_planks"
     },
     "components": {
+      "minecraft:creative_category": {
+        "category": "construction",
+        "group": "itemGroup.name.planks"
+      },
       "minecraft:destroy_time": 3,
       "minecraft:block_light_absorption": 15,
       "minecraft:block_light_emission": 0,
-      "minecraft:map_color": "#ffff99",
-      "minecraft:explosion_resistance": 3
+      "minecraft:map_color": "#6e5c3c",
+      "minecraft:explosion_resistance": 3,
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "twilight_oak_planks",
+          "render_method": "opaque"
+        }
+      },
+      "tag:planks": {},
+      "tag:wood": {}
     }
   }
 }

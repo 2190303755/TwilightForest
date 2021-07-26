@@ -1,0 +1,58 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:carminite_builder",
+      "properties": {
+        "twilightforest:state": [ "builder_inactive", "builder_active", "builder_timeout" ]
+      }
+    },
+    "permutations": [
+      {
+        "condition": "query.block_property('twilightforest:state') == 'builder_inactive'",
+        "components": {
+          "minecraft:unit_cube": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "carminite_builder_inactive",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('twilightforest:state') == 'builder_active'",
+        "components": {
+          "minecraft:unit_cube": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "carminite_builder_active",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      },
+      {
+        "condition": "query.block_property('twilightforest:state') == 'builder_timeout'",
+        "components": {
+          "minecraft:unit_cube": {},
+          "minecraft:material_instances": {
+            "*": {
+              "texture": "carminite_builder_timeout",
+              "render_method": "alpha_test"
+            }
+          }
+        }
+      }
+    ],
+    "components": {
+      "minecraft:creative_category": {
+        "category": "items",
+        "group": "itemGroup.name.twilightforest.blocks"
+      },
+      "minecraft:destroy_time": 3,
+      "minecraft:map_color": "#d0c589",
+      "minecraft:explosion_resistance": 6
+    }
+  }
+}

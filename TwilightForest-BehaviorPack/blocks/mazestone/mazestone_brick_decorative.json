@@ -1,16 +1,32 @@
 {
-  "format_version": "1.10.0",
+  "format_version": "1.16.100",
   "minecraft:block": {
     "description": {
-      "identifier": "twilightforest:mazestone_brick_decorative",
-      "register_to_creative_menu": true,
-      "is_experimental": false
+      "identifier": "twilightforest:mazestone_brick_decorative"
     },
     "components": {
-      "minecraft:destroy_time": 18.8,
+      "minecraft:creative_category": {
+        "category": "construction",
+        "group": "itemGroup.name.stoneBrick"
+      },
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "up": {
+          "texture": "mazestone",
+          "render_method": "alpha_test"
+        },
+        "down": {
+          "texture": "mazestone",
+          "render_method": "alpha_test"
+        },
+        "*": {
+          "texture": "mazestone_brick_decorative",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:destroy_time": 7.5,
       "minecraft:block_light_absorption": 15,
       "minecraft:block_light_emission": 0,
-      "minecraft:map_color": "#ffffff",
       "minecraft:explosion_resistance": 6
     }
   }
