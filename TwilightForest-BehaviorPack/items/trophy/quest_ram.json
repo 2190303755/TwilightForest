@@ -2,21 +2,18 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:trophy.quest_ram"
+      "identifier": "twilightforest:trophy.quest_ram",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.twilightforest.trophy"
+        "parent": "itemGroup.name.twilightforest.trophy"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.trophy_quest_ram"
       },
       "minecraft:icon": {
         "texture": "trophy_quest_ram"
-      },
-      "minecraft:block_placer": {
-        "block": "twilightforest:trophy_quest_ram"
       },
       "minecraft:armor": {
         "protection": 0

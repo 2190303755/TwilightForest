@@ -6,9 +6,10 @@
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "commands"
+        "category": "commands",
+        "group": "itemGroup.name.twilightforest.blocks"
       },
-      
+      "minecraft:display_name": "unknown",
       "minecraft:unit_cube": {},
       "minecraft:material_instances": {
         "*": {
@@ -16,7 +17,6 @@
           "render_method": "alpha_test"
         }
       },
-      "minecraft:display_name": "unknown",
       "minecraft:destroy_time": 1,
       "minecraft:block_light_absorption": 0,
       "minecraft:explosion_resistance": 0

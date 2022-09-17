@@ -1,695 +1,802 @@
 {
-  "format_version": "1.16.0",
-  "minecraft:entity": {
-    "description": {
-      "identifier": "twilightforest:quest_ram",
-      "is_spawnable": true,
-      "is_summonable": true,
-      "is_experimental": false
-    },
-    
-    "component_groups": {
-      "mark_variant_1": {
-        "minecraft:mark_variant": {
-          "value": 1
-        }
-      },
-      "mark_variant_2": {
-        "minecraft:mark_variant": {
-          "value": 2
-        }
-      },
-      "mark_variant_3": {
-        "minecraft:mark_variant": {
-          "value": 3
-        }
-      },
-      "mark_variant_4": {
-        "minecraft:mark_variant": {
-          "value": 4
-        }
-      },
-      "mark_variant_5": {
-        "minecraft:mark_variant": {
-          "value": 5
-        }
-      },
-      "mark_variant_6": {
-        "minecraft:mark_variant": {
-          "value": 6
-        }
-      },
-      "mark_variant_7": {
-        "minecraft:mark_variant": {
-          "value": 7
-        }
-      },
-      "mark_variant_8": {
-        "minecraft:mark_variant": {
-          "value": 8
-        }
-      },
-      "mark_variant_9": {
-        "minecraft:mark_variant": {
-          "value": 9
-        }
-      },
-      "mark_variant_10": {
-        "minecraft:mark_variant": {
-          "value": 10
-        }
-      },
-      "mark_variant_11": {
-        "minecraft:mark_variant": {
-          "value": 11
-        }
-      },
-      "mark_variant_12": {
-        "minecraft:mark_variant": {
-          "value": 12
-        }
-      },
-      "mark_variant_13": {
-        "minecraft:mark_variant": {
-          "value": 13
-        }
-      },
-      "mark_variant_14": {
-        "minecraft:mark_variant": {
-          "value": 14
-        }
-      },
-      "mark_variant_15": {
-        "minecraft:mark_variant": {
-          "value": 15
-        }
-      },
-      "mark_variant_16": {
-        "minecraft:mark_variant": {
-          "value": 16
-        }
-      }
-    },
+	"format_version": "1.19.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "twilightforest:quest_ram",
+			"properties": {
+				"twilightforest:color_white": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_orange": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_magenta": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_light_blue": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_yellow": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_lime": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_pink": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_gray": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_silver": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_cyan": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_purple": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_blue": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_brown": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_green": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_red": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				},
+				"twilightforest:color_black": {
+					"type": "bool",
+					"client_sync": true,
+					"default": false
+				}
+			},
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
 
-    "components": {
-      "minecraft:mark_variant": {
-        "value": 0
-      },
-      "minecraft:type_family": {
-        "family": ["quest_ram"]
-      },
-      "minecraft:breathable": {
-        "total_supply": 15,
-        "suffocate_time": 0
-      },
-      "minecraft:health": {
-        "value": 70,
-        "max": 70
-      },
-      "minecraft:hurt_on_condition": {
-        "damage_conditions": [
-          {
-            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
-            "cause": "lava",
-            "damage_per_tick": 4
-          }
-        ]
-      },
-      "minecraft:behavior.tempt": {
-        "priority": 4,
-        "speed_multiplier": 1.1,
-        "items": [
-          "wool"
-        ]
-      },
-      "minecraft:movement": {
-        "value": 0.2
-      },
-      "minecraft:navigation.walk": {
-        "can_path_over_water": true,
-        "avoid_water": true,
-        "avoid_damage_blocks": true
-      },
-      "minecraft:movement.basic": {
+		"permutations": [
+			{
+				"condition": "q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red')+q.property('twilightforest:color_orange')+q.property('twilightforest:color_yellow')+q.property('twilightforest:color_lime')+q.property('twilightforest:color_green')+q.property('twilightforest:color_light_blue')+q.property('twilightforest:color_cyan')+q.property('twilightforest:color_blue')+q.property('twilightforest:color_purple')+q.property('twilightforest:color_magenta')+q.property('twilightforest:color_pink')+q.property('twilightforest:color_brown') >= 15",
+				"components": {
+					"minecraft:mark_variant": {
+						"value": 1
+					}
+				}
+			}
+		],
 
-      },
-      "minecraft:jump.static": {
-      },
-      "minecraft:can_climb": {
-      },
-      "minecraft:collision_box": {
-        "width": 0.8,
-        "height": 2.1
-      },
-      "minecraft:leashable": {
-        "soft_distance": 4.0,
-        "hard_distance": 6.0,
-        "max_distance": 10.0
-      },
-      "minecraft:balloonable": {
-        "mass": 0.75
-      },
-      "minecraft:behavior.mount_pathing": {
-        "priority": 1,
-        "speed_multiplier": 1.25,
-        "target_dist": 0.0,
-        "track_target": true
-      },
-      "minecraft:behavior.float": {
-        "priority": 2
-      },
-      "minecraft:behavior.panic": {
-        "priority": 3,
-        "speed_multiplier": 1.25
-      },
-      "minecraft:behavior.random_stroll": {
-        "priority": 7,
-        "speed_multiplier": 1.0
-      },
-      "minecraft:behavior.look_at_player": {
-        "priority": 8,
-        "look_distance": 6.0,
-        "probability": 0.02
-      },
-      "minecraft:behavior.random_look_around": {
-        "priority": 9
-      },
-      "minecraft:physics": {
-      },
-      "minecraft:color": {
-        "value": 5
-      },
-      "minecraft:interact": {
-        "interactions": [
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_white" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:0" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_white",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_orange" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:1" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_orange",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_magenta" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:2" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_magenta",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_light_blue" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:3" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_light_blue",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_yellow" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:4" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_yellow",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_lime" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:5" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_lime",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_pink" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:6" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_pink",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_gray" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:7" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_gray",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_silver" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:8" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_silver",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_cyan" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:9" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_cyan",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_purple" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:10" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_purple",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_blue" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:11" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_blue",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_brown" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:12" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_brown",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_green" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:13" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_green",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_red" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:14" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_red",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          },
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  { "test": "has_tag", "subject": "self", "operator": "!=", "value": "twilightforest:quest_ram_black" },
-                  { "test": "has_equipment","subject": "other","domain": "hand","value": "minecraft:wool:15" },
-                  { "test": "is_family","subject": "other","value": "player" }
-                ]
-              },
-              "event": "twilightforest:quest_ram_black",
-              "target": "self"
-            },
-            "swing": true,
-            "use_item": true,
-            "spawn_items": {
-              "table": "loot_tables/entities/quest_ram.json"
-            },
-            "play_sounds": "eat",
-            "interact_text": "action.interact.feed"
-          }
-        ]
-      }
-    },
+		"components": {
+			"minecraft:mark_variant": {
+				"value": 0
+			},
+			"minecraft:is_hidden_when_invisible": {},
+			"minecraft:type_family": {
+				"family": ["quest_ram", "sheep", "mob"]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0
+			},
+			"minecraft:collision_box": {
+				"width": 0.8,
+				"height": 2.1
+			},
+			"minecraft:nameable": {},
+			"minecraft:health": {
+				"value": 70,
+				"max": 70
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:movement": {
+				"value": 0.25
+			},
+			"minecraft:navigation.walk": {
+				"can_path_over_water": true,
+				"avoid_water": true
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:behavior.float": {
+				"priority": 0
+			},
+			"minecraft:behavior.panic": {
+				"priority": 1,
+				"speed_multiplier": 1.25
+			},
+			"minecraft:behavior.mount_pathing": {
+				"priority": 2,
+				"speed_multiplier": 1.5,
+				"target_dist": 0.0,
+				"track_target": true
+			},
+			"minecraft:behavior.tempt": {
+				"priority": 4,
+				"speed_multiplier": 1.1,
+				"items": ["wool"]
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 7,
+				"speed_multiplier": 0.8
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 8,
+				"look_distance": 6.0,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 9
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			},
+			"minecraft:conditional_bandwidth_optimization": {},
+			"minecraft:interact": {
+				"interactions": [
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_white"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:0"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_white",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_orange"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:1"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_orange",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_magenta"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:2"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_magenta",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_light_blue"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:3"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_light_blue",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_yellow"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:4"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_yellow",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_lime"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:5"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_lime",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_pink"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:6"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_pink",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_gray"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:7"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_gray",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_silver"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:8"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_silver",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_cyan"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:9"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_cyan",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_purple"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:10"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_purple",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_blue"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:11"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_blue",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_brown"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:12"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_brown",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_green"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:13"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_green",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_red"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:14"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_red",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					},
+					{
+						"on_interact": {
+							"filters": {
+								"all_of": [
+									{
+										"test": "has_tag",
+										"subject": "self",
+										"operator": "!=",
+										"value": "twilightforest:color_black"
+									},
+									{
+										"test": "has_equipment",
+										"subject": "other",
+										"domain": "hand",
+										"value": "minecraft:wool:15"
+									},
+									{ "test": "is_family", "subject": "other", "value": "player" }
+								]
+							},
+							"event": "twilightforest:color_black",
+							"target": "self"
+						},
+						"swing": true,
+						"use_item": true,
+						"spawn_items": {
+							"table": "loot_tables/entities/quest_ram.json"
+						},
+						"play_sounds": "eat",
+						"interact_text": "action.interact.feed"
+					}
+				]
+			}
+		},
 
-    "events": {
-      "minecraft:entity_spawned": {
-        "add": {
-          "component_groups": [ "mark_variant_0" ]
-        }
-      },
-      "refresh": {
-        "sequence": [
-          {
-            "filters": { "test": "is_mark_variant", "value": 15 },
-            "add": { "component_groups": [ "mark_variant_16" ] },
-            "remove": { "component_groups": [ "mark_variant_15" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 14 },
-            "add": { "component_groups": [ "mark_variant_15" ] },
-            "remove": { "component_groups": [ "mark_variant_14" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 13 },
-            "add": { "component_groups": [ "mark_variant_14" ] },
-            "remove": { "component_groups": [ "mark_variant_13" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 12 },
-            "add": { "component_groups": [ "mark_variant_13" ] },
-            "remove": { "component_groups": [ "mark_variant_12" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 11 },
-            "add": { "component_groups": [ "mark_variant_12" ] },
-            "remove": { "component_groups": [ "mark_variant_11" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 10 },
-            "add": { "component_groups": [ "mark_variant_11" ] },
-            "remove": { "component_groups": [ "mark_variant_10" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 9 },
-            "add": { "component_groups": [ "mark_variant_10" ] },
-            "remove": { "component_groups": [ "mark_variant_9" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 8 },
-            "add": { "component_groups": [ "mark_variant_9" ] },
-            "remove": { "component_groups": [ "mark_variant_8" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 7 },
-            "add": { "component_groups": [ "mark_variant_8" ] },
-            "remove": { "component_groups": [ "mark_variant_7" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 6 },
-            "add": { "component_groups": [ "mark_variant_7" ] },
-            "remove": { "component_groups": [ "mark_variant_6" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 5 },
-            "add": { "component_groups": [ "mark_variant_6" ] },
-            "remove": { "component_groups": [ "mark_variant_5" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 4 },
-            "add": { "component_groups": [ "mark_variant_5" ] },
-            "remove": { "component_groups": [ "mark_variant_4" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 3 },
-            "add": { "component_groups": [ "mark_variant_4" ] },
-            "remove": { "component_groups": [ "mark_variant_3" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 2 },
-            "add": { "component_groups": [ "mark_variant_3" ] },
-            "remove": { "component_groups": [ "mark_variant_2" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 1 },
-            "add": { "component_groups": [ "mark_variant_2" ] },
-            "remove": { "component_groups": [ "mark_variant_1" ] }
-          },
-          {
-            "filters": { "test": "is_mark_variant", "value": 0 },
-            "add": { "component_groups": [ "mark_variant_1" ] }
-          }
-        ]
-      },
-      "twilightforest:quest_ram_white": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_white"
-        }
-      },
-      "twilightforest:quest_ram_orange": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_orange"
-        }
-      },
-      "twilightforest:quest_ram_magenta": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_magenta"
-        }
-      },
-      "twilightforest:quest_ram_light_blue": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_light_blue"
-        }
-      },
-      "twilightforest:quest_ram_yellow": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_yellow"
-        }
-      },
-      "twilightforest:quest_ram_lime": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_lime"
-        }
-      },
-      "twilightforest:quest_ram_pink": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_pink"
-        }
-      },
-      "twilightforest:quest_ram_gray": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_gray"
-        }
-      },
-      "twilightforest:quest_ram_silver": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_silver"
-        }
-      },
-      "twilightforest:quest_ram_cyan": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_cyan"
-        }
-      },
-      "twilightforest:quest_ram_purple": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_purple"
-        }
-      },
-      "twilightforest:quest_ram_blue": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_blue"
-        }
-      },
-      "twilightforest:quest_ram_brown": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_brown"
-        }
-      },
-      "twilightforest:quest_ram_green": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_green"
-        }
-      },
-      "twilightforest:quest_ram_red": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_red"
-        }
-      },
-      "twilightforest:quest_ram_black": {
-        "trigger": "refresh",
-        "run_command": {
-          "command": "tag @s add twilightforest:quest_ram_black"
-        }
-      }
-    }
-  }
+		"events": {
+			"twilightforest:color_white": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_white"
+				},
+				"set_property": {
+					"twilightforest:color_white": true
+				}
+			},
+			"twilightforest:color_orange": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_orange"
+				},
+				"set_property": {
+					"twilightforest:color_orange": true
+				}
+			},
+			"twilightforest:color_magenta": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_magenta"
+				},
+				"set_property": {
+					"twilightforest:color_magenta": true
+				}
+			},
+			"twilightforest:color_light_blue": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_light_blue"
+				},
+				"set_property": {
+					"twilightforest:color_light_blue": true
+				}
+			},
+			"twilightforest:color_yellow": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_yellow"
+				},
+				"set_property": {
+					"twilightforest:color_yellow": true
+				}
+			},
+			"twilightforest:color_lime": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_lime"
+				},
+				"set_property": {
+					"twilightforest:color_lime": true
+				}
+			},
+			"twilightforest:color_pink": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_pink"
+				},
+				"set_property": {
+					"twilightforest:color_pink": true
+				}
+			},
+			"twilightforest:color_gray": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_gray"
+				},
+				"set_property": {
+					"twilightforest:color_gray": true
+				}
+			},
+			"twilightforest:color_silver": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_silver"
+				},
+				"set_property": {
+					"twilightforest:color_silver": true
+				}
+			},
+			"twilightforest:color_cyan": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_cyan"
+				},
+				"set_property": {
+					"twilightforest:color_cyan": true
+				}
+			},
+			"twilightforest:color_purple": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_purple"
+				},
+				"set_property": {
+					"twilightforest:color_purple": true
+				}
+			},
+			"twilightforest:color_blue": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_blue"
+				},
+				"set_property": {
+					"twilightforest:color_blue": true
+				}
+			},
+			"twilightforest:color_brown": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_brown"
+				},
+				"set_property": {
+					"twilightforest:color_brown": true
+				}
+			},
+			"twilightforest:color_green": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_green"
+				},
+				"set_property": {
+					"twilightforest:color_green": true
+				}
+			},
+			"twilightforest:color_red": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_red"
+				},
+				"set_property": {
+					"twilightforest:color_red": true
+				}
+			},
+			"twilightforest:color_black": {
+				"run_command": {
+					"command": "tag @s add twilightforest:color_black"
+				},
+				"set_property": {
+					"twilightforest:color_black": true
+				}
+			}
+		}
+	}
 }

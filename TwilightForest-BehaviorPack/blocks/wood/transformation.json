@@ -1,113 +1,99 @@
 {
-  "format_version": "1.16.100",
-  "minecraft:block": {
-    "description": {
-      "identifier": "twilightforest:transformation_wood",
-      "properties": {
-        "minecraft:direction": {}
-      }
-    },
-    "permutations": [
-      {
-        "condition": "query.block_property('minecraft:direction') == 0",
-        "components": {
-          "minecraft:rotation": [ 0, 0, 0 ]
-        }
-      },
-      {
-        "condition": "query.block_property('minecraft:direction') == 1",
-        "components": {
-          "minecraft:rotation": [ 90, 0, 0 ]
-        }
-      },
-      {
-        "condition": "query.block_property('minecraft:direction') == 2",
-        "components": {
-          "minecraft:rotation": [ 0, 0, -90 ]
-        }
-      }
-    ],
-    "components": {
-      "minecraft:creative_category": {
-        "category": "nature",
-        "group": "itemGroup.name.wood"
-      },
-      "minecraft:destroy_time": 3,
-      "minecraft:block_light_absorption": 15,
-      "minecraft:block_light_emission": 0,
-      "minecraft:friction": 0.6,
-      "minecraft:explosion_resistance": 2,
-      "minecraft:map_color": "#644228",
-      "minecraft:unit_cube": {},
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "transformation_log_side",
-          "render_method": "opaque"
-        }
-      },
-      "minecraft:on_player_placing": {
-        "event": "minecraft:on_player_placing",
-        "target": "self"
-      },
-      "minecraft:on_interact": {
-        "condition": "query.equipped_item_any_tag('slot.weapon.mainhand','minecraft:is_axe')",
-        "event": "minecraft:on_interact",
-        "target": "self"
-      },
-      "tag:log": {},
-      "tag:wood": {}
-    },
-    "events": {
-      "minecraft:on_player_placing": {
-        "set_block_property": {
-          "minecraft:direction": "math.floor(query.block_face / 2)"
-        }
-      },
-      "minecraft:on_interact": {
-        "sequence": [
-          {
-            "damage": {
-              "amount": 1,
-              "target": "item",
-              "type": "durability"
-            },
-            "swing": {}
-          },
-          {
-            "condition": "query.block_property('minecraft:direction')==0",
-            "set_block": {
-              "block_type": {
-                "name": "twilightforest:stripped_transformation_wood",
-                "states": {
-                  "direction": 0
-                }
-              }
-            }
-          },
-          {
-            "condition": "query.block_property('minecraft:direction')==1",
-            "set_block": {
-              "block_type": {
-                "name": "twilightforest:stripped_transformation_wood",
-                "states": {
-                  "direction": 1
-                }
-              }
-            }
-          },
-          {
-            "condition": "query.block_property('minecraft:direction')==2",
-            "set_block": {
-              "block_type": {
-                "name": "twilightforest:stripped_transformation_wood",
-                "states": {
-                  "direction": 2
-                }
-              }
-            }
-          }
-        ]
-      }
-    }
-  }
+	"format_version": "1.19.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "twilightforest:transformation_wood",
+			"properties": {
+				"twilightforest:pillar_axis": [0, 1, 2]
+			},
+			"menu_category": {
+				"category": "nature",
+				"group": "itemGroup.name.wood"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('twilightforest:pillar_axis') == 0",
+				"components": {
+					"minecraft:rotation": [0, 0, 0]
+				}
+			},
+			{
+				"condition": "query.block_property('twilightforest:pillar_axis') == 1",
+				"components": {
+					"minecraft:rotation": [90, 0, 0]
+				}
+			},
+			{
+				"condition": "query.block_property('twilightforest:pillar_axis') == 2",
+				"components": {
+					"minecraft:rotation": [0, 0, -90]
+				}
+			}
+		],
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 2
+			},
+			"minecraft:map_color": "#644228",
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "transformation_log_side",
+					"render_method": "opaque"
+				}
+			},
+			"minecraft:on_player_placing": {
+				"event": "minecraft:on_player_placing",
+				"target": "self"
+			},
+			"minecraft:on_interact": {
+				"condition": "query.equipped_item_any_tag('slot.weapon.mainhand','minecraft:is_axe')",
+				"event": "minecraft:on_interact",
+				"target": "self"
+			},
+			"tag:log": {},
+			"tag:wood": {}
+		},
+		"events": {
+			"minecraft:on_player_placing": {
+				"set_block_property": {
+					"twilightforest:pillar_axis": "query.block_face == 6 ? 0 : math.floor(query.block_face / 2)"
+				}
+			},
+			"minecraft:on_interact": {
+				"sequence": [
+					{
+						"damage": {
+							"amount": 1,
+							"target": "item",
+							"type": "durability"
+						},
+						"swing": {}
+					},
+					{
+						"condition": "query.block_property('twilightforest:pillar_axis') == 0",
+						"run_command": {
+							"command": "setblock ~ ~ ~ twilightforest:stripped_transformation_wood [\"twilightforest:pillar_axis\":0] replace"
+						}
+					},
+					{
+						"condition": "query.block_property('twilightforest:pillar_axis') == 1",
+						"run_command": {
+							"command": "setblock ~ ~ ~ twilightforest:stripped_transformation_wood [\"twilightforest:pillar_axis\":1] replace"
+						}
+					},
+					{
+						"condition": "query.block_property('twilightforest:pillar_axis') == 2",
+						"run_command": {
+							"command": "setblock ~ ~ ~ twilightforest:stripped_transformation_wood [\"twilightforest:pillar_axis\":2] replace"
+						}
+					}
+				]
+			}
+		}
+	}
 }

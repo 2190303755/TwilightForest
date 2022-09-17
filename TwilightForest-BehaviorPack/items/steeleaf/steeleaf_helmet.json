@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:steeleaf_helmet"
+      "identifier": "twilightforest:steeleaf_helmet",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.helmet"
+        "parent": "itemGroup.name.helmet"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.steeleaf_helmet"
@@ -39,7 +39,7 @@
             "items": [
               "twilightforest:steeleaf_helmet"
             ],
-              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+            "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
           }
         ]
       },

@@ -1,85 +1,87 @@
 {
-  "format_version": "1.16.100",
-  "minecraft:block": {
-    "description": {
-      "identifier": "twilightforest:nagastone_etched_weathered",
-      "properties": {
-        "twilightforest:direction": [0,1,2,3,4,5,6]
-      }
-    },
-    "permutations": [
-      {
-        "condition": "query.block_property('twilightforest:direction') == 0",
-        "components": {
-          "minecraft:rotation": [ 180, 180, 0 ]
-        }
-      },
-      {
-        "condition": "query.block_property('twilightforest:direction') == 1",
-        "components": {
-          "minecraft:rotation": [ 0, 0, 0 ]
-        }
-      },
-      {
-        "condition": "query.block_property('twilightforest:direction') == 2",
-        "components": {
-          "minecraft:rotation": [ -90, 0, 0 ]
-        }
-      },
-      {
-        "condition": "query.block_property('twilightforest:direction') == 3",
-        "components": {
-          "minecraft:rotation": [ 90, 0, 0 ]
-        }
-      },
-      {
-        "condition": "query.block_property('twilightforest:direction') == 4",
-        "components": {
-          "minecraft:rotation": [ 0, 0, 90 ]
-        }
-      },
-      {
-        "condition": "query.block_property('twilightforest:direction') == 5",
-        "components": {
-          "minecraft:rotation": [ 0, 0, -90 ]
-        }
-      }
-    ],
-    "components": {
-      "minecraft:creative_category": {
-        "category": "construction",
-        "group": "itemGroup.name.stoneBrick"
-      },
-      "minecraft:unit_cube": {},
-      "minecraft:material_instances": {
-        "up": {
-          "texture": "nagastone_etched_weathered_top",
-          "render_method": "alpha_test"
-        },
-        "down": {
-          "texture": "nagastone_etched_weathered_top",
-          "render_method": "alpha_test"
-        },
-        "*": {
-          "texture": "nagastone_etched_weathered_side",
-          "render_method": "alpha_test"
-        }
-      },
-      "minecraft:destroy_time": 7.5,
-      "minecraft:block_light_absorption": 15,
-      "minecraft:block_light_emission": 0,
-      "minecraft:explosion_resistance": 6,
-      "minecraft:on_player_placing": {
-        "event": "minecraft:on_player_placing",
-        "target": "self"
-      }
-    },
-    "events": {
-      "minecraft:on_player_placing": {
-        "set_block_property": {
-          "twilightforest:direction": "query.cardinal_facing"
-        }
-      }
-    }
-  }
+	"format_version": "1.16.100",
+	"minecraft:block": {
+		"description": {
+			"identifier": "twilightforest:nagastone_etched_weathered",
+			"properties": {
+				"twilightforest:direction": [0, 1, 2, 3, 4, 5, 6]
+			},
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stoneBrick"
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('twilightforest:direction') == 0",
+				"components": {
+					"minecraft:rotation": [180, 180, 0]
+				}
+			},
+			{
+				"condition": "query.block_property('twilightforest:direction') == 1",
+				"components": {
+					"minecraft:rotation": [0, 0, 0]
+				}
+			},
+			{
+				"condition": "query.block_property('twilightforest:direction') == 2",
+				"components": {
+					"minecraft:rotation": [-90, 0, 0]
+				}
+			},
+			{
+				"condition": "query.block_property('twilightforest:direction') == 3",
+				"components": {
+					"minecraft:rotation": [90, 0, 0]
+				}
+			},
+			{
+				"condition": "query.block_property('twilightforest:direction') == 4",
+				"components": {
+					"minecraft:rotation": [0, 0, 90]
+				}
+			},
+			{
+				"condition": "query.block_property('twilightforest:direction') == 5",
+				"components": {
+					"minecraft:rotation": [0, 0, -90]
+				}
+			}
+		],
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.5
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"up": {
+					"texture": "nagastone_etched_weathered_top",
+					"render_method": "alpha_test"
+				},
+				"down": {
+					"texture": "nagastone_etched_weathered_top",
+					"render_method": "alpha_test"
+				},
+				"*": {
+					"texture": "nagastone_etched_weathered_side",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:on_player_placing": {
+				"event": "minecraft:on_player_placing",
+				"target": "self"
+			}
+		},
+		"events": {
+			"minecraft:on_player_placing": {
+				"set_block_property": {
+					"twilightforest:direction": "query.cardinal_facing"
+				}
+			}
+		}
+	}
 }

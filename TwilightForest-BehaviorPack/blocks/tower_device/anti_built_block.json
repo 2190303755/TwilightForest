@@ -6,7 +6,8 @@
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "commands"
+        "category": "commands",
+        "group": "itemGroup.name.twilightforest.blocks"
       },
       "minecraft:display_name": "unknown",
       "minecraft:unit_cube": {},

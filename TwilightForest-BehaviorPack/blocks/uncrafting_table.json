@@ -29,7 +29,7 @@
           "render_method": "blend"
         }
       },
-      "minecraft:destroy_time": 3,
+      "minecraft:destroy_time": 2,
       "minecraft:block_light_absorption": 15,
       "minecraft:block_light_emission": 0,
       "minecraft:map_color": "#ffffff",

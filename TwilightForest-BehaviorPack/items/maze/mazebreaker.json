@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:mazebreaker"
+      "identifier": "twilightforest:mazebreaker",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.pickaxe"
+        "parent": "itemGroup.name.pickaxe"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.mazebreaker"
@@ -33,7 +33,7 @@
             "items": [
               "twilightforest:mazebreaker"
             ],
-              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+            "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
           }
         ]
       },
@@ -82,11 +82,7 @@
               "target": "self"
             }
           }
-        ],
-        "on_dig": {
-          "event": "twilightforest:on_dig",
-          "target": "self"
-        }
+        ]
       },
       "tag:minecraft:is_pickaxe": {}
     },

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "twilightforest:roots"
+    },
+    "components": {
+      "minecraft:creative_category": {
+        "category": "nature",
+        "group": "aa"
+      },
+      "minecraft:loot": "loot_tables/blocks/roots.json",
+      "minecraft:destroy_time": 0.55,
+      "minecraft:block_light_absorption": 7,
+      "minecraft:block_light_emission": 0,
+      "minecraft:explosion_resistance": 2.5,
+      "minecraft:unit_cube": {},
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "roots",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}

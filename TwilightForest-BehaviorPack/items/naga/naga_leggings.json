@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:naga_leggings"
+      "identifier": "twilightforest:naga_leggings",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.leggings"
+        "parent": "itemGroup.name.leggings"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.naga_leggings"
@@ -15,7 +15,7 @@
       "minecraft:icon": {
         "texture": "naga_leggings"
       },
-      "minecraft:enchantable" : {
+      "minecraft:enchantable": {
         "value": 10,
         "slot": "armor_legs"
       },
@@ -38,7 +38,7 @@
             "items": [
               "twilightforest:naga_leggings"
             ],
-              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+            "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
           }
         ]
       },

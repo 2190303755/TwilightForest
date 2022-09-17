@@ -16,7 +16,7 @@
           "render_method": "alpha_test"
         }
       },
-      "minecraft:destroy_time": 3,
+      "minecraft:destroy_time": 2,
       "minecraft:map_color": "#d0c589",
       "minecraft:explosion_resistance": 6
     }

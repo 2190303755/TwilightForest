@@ -1,19 +1,104 @@
 {
   "entity_sounds": {
     "entities": {
-      "twilightforest:deer": {
+      "twilightforest:wild_deer": {
         "volume": 1.0,
-        "pitch": [ 0.8, 1.2 ],
+        "pitch": [
+          0.8,
+          1.2
+        ],
         "events": {
           "death": "mob.twilightforest.deer.death",
           "hurt": "mob.twilightforest.deer.hurt",
           "ambient": "mob.twilightforest.deer.idle"
+        }
+      },
+      "twilightforest:wild_boar": {
+        "volume": 1.0,
+        "pitch": [
+          0.8,
+          1.2
+        ],
+        "events": {
+          "ambient": "mob.pig.say",
+          "hurt": "mob.pig.say",
+          "death": "mob.pig.death",
+          "step": {
+            "sound": "mob.pig.step",
+            "volume": 0.2,
+            "pitch": 1.0
+          },
+          "boost": {
+            "sound": "mob.pig.boost",
+            "volume": 1.0,
+            "pitch": 1.0
+          },
+          "death.to.zombie": {
+            "sound": "mob.pig.death",
+            "volume": 2.0
+          }
+        }
+      },
+      "twilightforest:bunny": {
+        "volume": 0.8,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.rabbit.idle",
+          "hurt": "mob.rabbit.hurt",
+          "death": "mob.rabbit.death"
+        }
+      },
+      "twilightforest:bighorn_sheep": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.sheep.say",
+          "hurt": "mob.sheep.say",
+          "death": "mob.sheep.say",
+          "step": {
+            "sound": "mob.sheep.step",
+            "volume": 0.4,
+            "pitch": 1.0
+          }
+        }
+      },
+      "twilightforest:lich": {
+        "volume": 1.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.blaze.breathe",
+          "hurt": "mob.blaze.hit",
+          "death": "mob.blaze.death",
+          //"entity.twilightforest.lich.pop_mob": { "subtitle": "subtitles.twilightforest.entity.lich.pop_mob", "sounds": ["mob/chicken/plop"] },
+          //"entity.twilightforest.lich.teleport": { "subtitle": "subtitles.twilightforest.entity.lich.teleport", "sounds": [ "mob/endermen/portal", "mob/endermen/portal2" ] },
+          "shoot": {
+            "sound": "mob.ghast.fireball",
+            "volume": 0.7
+          }
         }
       }
     }
   }
 }
 /*{
+"entity.twilightforest.lich.ambient": { "subtitle": "subtitles.twilightforest.entity.lich.ambient", "sounds": [ "mob/blaze/breathe1", "mob/blaze/breathe2", "mob/blaze/breathe3", "mob/blaze/breathe4" ] },
+  "entity.twilightforest.lich.death": { "subtitle": "subtitles.twilightforest.entity.lich.death", "sounds": [ "mob/blaze/death" ] },
+  "entity.twilightforest.lich.hurt": { "subtitle": "subtitles.twilightforest.entity.lich.hurt", "sounds": [  "mob/blaze/hit1", "mob/blaze/hit2", "mob/blaze/hit3", "mob/blaze/hit4" ] },
+  "entity.twilightforest.lich.shoot": { "subtitle": "subtitles.twilightforest.entity.lich.shoot", "sounds": [ "mob/ghast/fireball4" ] },
+
+   "entity.twilightforest.bighorn.ambient": { "subtitle": "subtitles.twilightforest.entity.bighorn.ambient", "sounds": [ "mob/sheep/say1", "mob/sheep/say2", "mob/sheep/say3" ] },
+  "entity.twilightforest.bighorn.death": { "subtitle": "subtitles.twilightforest.entity.bighorn.death", "sounds": [ "mob/sheep/say1", "mob/sheep/say2",  "mob/sheep/say3" ] },
+  "entity.twilightforest.bighorn.hurt": { "subtitle": "subtitles.twilightforest.entity.bighorn.hurt", "sounds": [ "mob/sheep/say1", "mob/sheep/say2", "mob/sheep/say3" ] },
+  "entity.twilightforest.bighorn.step": { "subtitle": "subtitles.block.generic.footsteps", "sounds": [ "mob/sheep/step1", "mob/sheep/step2", "mob/sheep/step3", "mob/sheep/step4", "mob/sheep/step5" ] },
+  
+
+  "entity.twilightforest.boar.ambient": { "subtitle": "subtitles.twilightforest.entity.boar.ambient", "sounds": [ "mob/pig/say1", "mob/pig/say2", "mob/pig/say3" ] },
+  "entity.twilightforest.boar.death": { "subtitle": "subtitles.twilightforest.entity.boar.death", "sounds": [ "mob/pig/death" ] },
+  "entity.twilightforest.boar.hurt": { "subtitle": "subtitles.twilightforest.entity.boar.hurt", "sounds": [ "mob/pig/say1", "mob/pig/say2", "mob/pig/say3" ] },
+  "entity.twilightforest.boar.step": { "subtitle": "subtitles.block.generic.footsteps", "sounds": [ "mob/pig/step1", "mob/pig/step2", "mob/pig/step3", "mob/pig/step4",  "mob/pig/step5" ] },
+  
+
+
   "mob.kobold.die": { "sounds": [ "twilightforest:mob/kobold/die0", "twilightforest:mob/kobold/die1", "twilightforest:mob/kobold/die2" ] },
   "mob.kobold.kobold": { "sounds": [ "twilightforest:mob/kobold/kobold0", "twilightforest:mob/kobold/kobold1", "twilightforest:mob/kobold/kobold2", "twilightforest:mob/kobold/kobold3", "twilightforest:mob/kobold/kobold4", "twilightforest:mob/kobold/kobold5" ] },
   "mob.kobold.hurt": { "sounds": [ "twilightforest:mob/kobold/hurt0", "twilightforest:mob/kobold/hurt1", "twilightforest:mob/kobold/hurt2" ] },

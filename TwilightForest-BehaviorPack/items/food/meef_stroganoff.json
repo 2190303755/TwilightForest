@@ -1,13 +1,13 @@
 {
-  "format_version": "1.16.100",
+  "format_version": "1.18.0",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:meef_stroganoff"
+      "identifier": "twilightforest:meef_stroganoff",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.miscFood"
+        "parent": "itemGroup.name.miscFood"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.meef_stroganoff"
@@ -22,7 +22,7 @@
       "minecraft:max_stack_size": 1,
       "minecraft:food": {
         "nutrition": 8,
-        "saturation_modifier": "good",
+        "saturation_modifier": 0.8,
         "using_converts_to": "bowl"
       }
     }

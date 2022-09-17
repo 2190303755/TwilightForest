@@ -1,25 +1,27 @@
 {
-  "format_version": "1.16.100",
-  "minecraft:block": {
-    "description": {
-      "identifier": "twilightforest:aurora_block"
-    },
-    "components": {
-      "minecraft:creative_category": {
-        "category": "construction",
-        "group": "itemGroup.name.stoneBrick"
-      },
-      "minecraft:unit_cube": {},
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "aurora_block",
-          "render_method": "alpha_test"
-        }
-      },
-      "minecraft:destroy_time": 7.5,
-      "minecraft:block_light_absorption": 15,
-      "minecraft:block_light_emission": 0,
-      "minecraft:explosion_resistance": 6
-    }
-  }
+	"format_version": "1.19.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "twilightforest:aurora_block",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.stoneBrick"
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 1.5
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 6
+			},
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "aurora_block",
+					"render_method": "opaque"
+				}
+			}
+		}
+	}
 }

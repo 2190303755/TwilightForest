@@ -170,7 +170,7 @@
       },
       "twilightforest:transformation": {
         "minecraft:transformation": {
-          "into": "twilightforest:bighorn_sheep"
+          "into": "minecraft:sheep"
         }
       }
     },

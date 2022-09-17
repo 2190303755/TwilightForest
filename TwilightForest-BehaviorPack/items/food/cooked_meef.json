@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:cooked_meef"
+      "identifier": "twilightforest:cooked_meef",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.cookedFood"
+        "parent": "itemGroup.name.cookedFood"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.cooked_meef"
@@ -21,7 +21,7 @@
       "minecraft:use_animation": "eat",
       "minecraft:food": {
         "nutrition": 6,
-        "saturation_modifier": "good"
+        "saturation_modifier": "poor"
       }
     }
   }

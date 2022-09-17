@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:yeti_chestplate"
+      "identifier": "twilightforest:yeti_chestplate",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.chestplate"
+        "parent": "itemGroup.name.chestplate"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.yeti_chestplate"
@@ -39,7 +39,7 @@
             "items": [
               "twilightforest:yeti_chestplate"
             ],
-              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+            "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
           }
         ]
       },

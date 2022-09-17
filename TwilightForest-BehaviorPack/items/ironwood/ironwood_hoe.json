@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:ironwood_hoe"
+      "identifier": "twilightforest:ironwood_hoe",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.hoe"
+        "parent": "itemGroup.name.hoe"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.ironwood_hoe"
@@ -32,7 +32,7 @@
             "items": [
               "twilightforest:ironwood_hoe"
             ],
-              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+            "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
           }
         ]
       },

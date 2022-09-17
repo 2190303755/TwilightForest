@@ -103,7 +103,7 @@
         "category": "items",
         "group": "itemGroup.name.twilightforest.blocks"
       },
-      "minecraft:destroy_time": 3,
+      "minecraft:destroy_time": 2,
       "minecraft:block_light_emission": 0.267,
       "minecraft:map_color": "#d0c589",
       "minecraft:explosion_resistance": 6

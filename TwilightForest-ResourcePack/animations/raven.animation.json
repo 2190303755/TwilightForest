@@ -1,28 +1,90 @@
 {
-  "format_version" : "1.8.0",
-  "animations": {
-    "animation.raven.general": {
-      "loop": true,
-      "bones": {
-        "wing0": {
-          "rotation": [ 0.0, 0.0, "variable.wing_flap - this" ]
-        },
-        "wing1": {
-          "rotation": [ 0.0, 0.0, "-variable.wing_flap - this" ]
-        }
-      }
-    },
-    "animation.raven.move": {
-      "anim_time_update": "query.modified_distance_moved",
-      "loop": true,
-      "bones": {
-        "leg0": {
-          "rotation": [ "math.cos(query.anim_time * 38.17) *  80.0", 0.0, 0.0 ]
-        },
-        "leg1": {
-          "rotation": [ "math.cos(query.anim_time * 38.17) * -80.0", 0.0, 0.0 ]
-        }
-      }
-    }
-  }
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.raven.base": {
+			"loop": true,
+			"bones": {
+				"leg0": {
+					"rotation": [
+						"-16.713-this",
+						0.0,
+						"-this"
+					]
+				},
+				"leg1": {
+					"rotation": [
+						"-16.713-this",
+						0.0,
+						"-this"
+					]
+				},
+				"wing0": {
+					"rotation": [
+						"-40.0-this",
+						"-180.0-this",
+						0.0
+					]
+				},
+				"wing1": {
+					"rotation": [
+						"-40.0-this",
+						"-180.0-this",
+						0.0
+					]
+				}
+			}
+		},
+		"animation.raven.flying": {
+			"loop": true,
+			"bones": {
+				"leg0": {
+					"rotation": [
+						"math.cos(query.anim_time * 38.17) * 80.0 * query.modified_move_speed",
+						0.0,
+						0.0
+					]
+				},
+				"leg1": {
+					"rotation": [
+						"math.cos(query.anim_time * 38.17) * -80.0 * query.modified_move_speed",
+						0.0,
+						0.0
+					]
+				}
+			}
+		},
+		"animation.raven.moving": {
+			"loop": true,
+			"bones": {
+				"body": {
+					"position": [
+						0.0,
+						"variable.wing_flap * 0.3",
+						0.0
+					]
+				},
+				"tail": {
+					"rotation": [
+						"60.0 + math.cos(query.anim_time * 38.17) * 17.0 - this",
+						0.0,
+						0.0
+					]
+				},
+				"wing0": {
+					"rotation": [
+						0.0,
+						0.0,
+						"-5.0 - variable.wing_flap * 57.3"
+					]
+				},
+				"wing1": {
+					"rotation": [
+						0.0,
+						0.0,
+						"5.0 + variable.wing_flap * 57.3"
+					]
+				}
+			}
+		}
+	}
 }

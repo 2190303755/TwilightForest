@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:ice_bow"
+      "identifier": "twilightforest:ice_bow",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.bow"
+        "parent": "itemGroup.name.bow"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.ice_bow"
@@ -76,4 +76,4 @@
       }
     }
   }
-}//on_fertilized on_drop_attempt on_start on_kill on_use_range on_use_action
+}

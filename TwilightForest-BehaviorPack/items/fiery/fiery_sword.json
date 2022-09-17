@@ -1,13 +1,13 @@
 {
-  "format_version": "1.16.100",
+  "format_version": "1.18.0",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:fiery_sword"
+      "identifier": "twilightforest:fiery_sword",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.sword"
+        "parent": "itemGroup.name.sword"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.fiery_sword"
@@ -49,7 +49,7 @@
             "items": [
               "twilightforest:fiery_sword"
             ],
-              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+            "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
           }
         ]
       },
@@ -61,7 +61,7 @@
             "block": "minecraft:web",
             "speed": 15,
             "on_dig": {
-              "event": "twilightforest:on_dig",
+              "event": "minecraft:on_dig",
               "target": "self"
             }
           },
@@ -69,25 +69,23 @@
             "block": "minecraft:bamboo",
             "speed": 10,
             "on_dig": {
-              "event": "twilightforest:on_dig",
+              "event": "minecraft:on_dig",
               "target": "self"
             }
           },
           {
-            "block": {
-              "tags": "q.any_tag('plant')"
-            },
+            "block": "tag:plant",
             "speed": 1
           }
         ],
         "on_dig": {
-          "event": "twilightforest:on_dig",
+          "event": "minecraft:on_dig",
           "target": "self"
         }
       }
     },
     "events": {
-      "twilightforest:on_hurt_entity": {
+      "minecraft:on_hurt_entity": {
         "sequence": [
           {
             "damage": {
@@ -97,7 +95,7 @@
           }
         ]
       },
-      "twilightforest:on_dig": {
+      "minecraft:on_dig": {
         "sequence": [
           {
             "damage": {

@@ -61,7 +61,11 @@
         "uncertainty_base": 0,
         "is_dangerous": true,
         "uncertainty_multiplier": 0,
-        "offset": [ 0, -0.1, 0 ],
+        "offset": [
+          0,
+          -0.1,
+          0
+        ],
         "reflect_on_hurt": true,
         "anchor": 1,
         "on_fire_time": 0,
@@ -81,6 +85,13 @@
       }
     },
     "events": {
+      "minecraft:entity_spawned": {
+        "run_command": {
+          "command": [
+            "tag @s add twilightforest:could_hurt_lich"
+          ]
+        }
+      },
       "remove_on_hit": {
         "add": {
           "component_groups": [

@@ -227,7 +227,8 @@
           {
             "run_command": {
               "command": [
-                "event entity @e[type=twilightforest:lich,c=1] twilightforest:on_shot"
+                "event entity @e[type=twilightforest:lich,c=1] twilightforest:on_shot",
+                "tag @s add twilightforest:could_hurt_lich"
               ]
             }
           },

@@ -13,15 +13,20 @@
         "default": "geometry.twilightforest.raven"
       },
       "animations": {
-        "move": "animation.raven.move",
-        "general": "animation.raven.general",
+        "moving": "animation.raven.moving",
+        "base": "animation.raven.base",
+        "flying": "animation.raven.flying",
         "look_at_target": "animation.common.look_at_target"
       },
       "scripts": {
+        "pre_animation": [
+          "variable.wing_flap = ((math.sin(query.wing_flap_position * 57.3) + 1) * query.wing_flap_speed);"
+        ],
         "animate": [
-          "general",
-          { "move": "query.modified_move_speed" },
-          "look_at_target"
+          "look_at_target",
+          //"base",
+          "moving",
+          { "flying": "!query.is_on_ground" }
         ]
       },
       "render_controllers": [ "controller.render.raven" ],

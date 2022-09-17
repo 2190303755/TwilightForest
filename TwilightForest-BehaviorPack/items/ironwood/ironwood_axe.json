@@ -1,13 +1,13 @@
 {
-  "format_version": "1.16.100",
+  "format_version": "1.19.0",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:ironwood_axe"
+      "identifier": "twilightforest:ironwood_axe",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.axe"
+        "parent": "itemGroup.name.axe"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.ironwood_axe"
@@ -32,7 +32,7 @@
             "items": [
               "twilightforest:ironwood_axe"
             ],
-              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+            "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
           }
         ]
       },

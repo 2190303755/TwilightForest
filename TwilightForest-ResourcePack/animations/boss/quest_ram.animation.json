@@ -1,21 +1,66 @@
 {
-	"format_version" : "1.8.0",
-	"animations" : {
-		"animation.quest_ram.wool" : {
-			"loop" : true,
-			"bones" : {
-        "behind": {
-          "position": [0, 0, /*"query.skin_id * 2"*/ 0]
-        }
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.quest_ram.wool": {
+			"loop": true,
+			"bones": {
+				"behind": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red')+q.property('twilightforest:color_orange')+q.property('twilightforest:color_yellow')+q.property('twilightforest:color_lime')+q.property('twilightforest:color_green')+q.property('twilightforest:color_light_blue')+q.property('twilightforest:color_cyan')+q.property('twilightforest:color_blue')+q.property('twilightforest:color_purple')+q.property('twilightforest:color_magenta')+q.property('twilightforest:color_pink')+q.property('twilightforest:color_brown'))"]
+				},
+				"silver": {
+					"position": [0, 0, "2*q.property('twilightforest:color_white')"]
+				},
+				"gray": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver'))"]
+				},
+				"black": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray'))"]
+				},
+				"red": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black'))"]
+				},
+				"orange": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red'))"]
+				},
+				"yellow": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red')+q.property('twilightforest:color_orange'))"]
+				},
+				"lime": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red')+q.property('twilightforest:color_orange')+q.property('twilightforest:color_yellow'))"]
+				},
+				"green": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red')+q.property('twilightforest:color_orange')+q.property('twilightforest:color_yellow')+q.property('twilightforest:color_lime'))"]
+				},
+				"light_blue": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red')+q.property('twilightforest:color_orange')+q.property('twilightforest:color_yellow')+q.property('twilightforest:color_lime')+q.property('twilightforest:color_green'))"]
+				},
+				"cyan": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red')+q.property('twilightforest:color_orange')+q.property('twilightforest:color_yellow')+q.property('twilightforest:color_lime')+q.property('twilightforest:color_green')+q.property('twilightforest:color_light_blue'))"]
+				},
+				"blue": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red')+q.property('twilightforest:color_orange')+q.property('twilightforest:color_yellow')+q.property('twilightforest:color_lime')+q.property('twilightforest:color_green')+q.property('twilightforest:color_light_blue')+q.property('twilightforest:color_cyan'))"]
+				},
+				"purple": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red')+q.property('twilightforest:color_orange')+q.property('twilightforest:color_yellow')+q.property('twilightforest:color_lime')+q.property('twilightforest:color_green')+q.property('twilightforest:color_light_blue')+q.property('twilightforest:color_cyan')+q.property('twilightforest:color_blue'))"]
+				},
+				"magenta": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red')+q.property('twilightforest:color_orange')+q.property('twilightforest:color_yellow')+q.property('twilightforest:color_lime')+q.property('twilightforest:color_green')+q.property('twilightforest:color_light_blue')+q.property('twilightforest:color_cyan')+q.property('twilightforest:color_blue')+q.property('twilightforest:color_purple'))"]
+				},
+				"pink": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red')+q.property('twilightforest:color_orange')+q.property('twilightforest:color_yellow')+q.property('twilightforest:color_lime')+q.property('twilightforest:color_green')+q.property('twilightforest:color_light_blue')+q.property('twilightforest:color_cyan')+q.property('twilightforest:color_blue')+q.property('twilightforest:color_purple')+q.property('twilightforest:color_magenta'))"]
+				},
+				"brown": {
+					"position": [0, 0, "2*(q.property('twilightforest:color_white')+q.property('twilightforest:color_silver')+q.property('twilightforest:color_gray')+q.property('twilightforest:color_black')+q.property('twilightforest:color_red')+q.property('twilightforest:color_orange')+q.property('twilightforest:color_yellow')+q.property('twilightforest:color_lime')+q.property('twilightforest:color_green')+q.property('twilightforest:color_light_blue')+q.property('twilightforest:color_cyan')+q.property('twilightforest:color_blue')+q.property('twilightforest:color_purple')+q.property('twilightforest:color_magenta')+q.property('twilightforest:color_pink'))"]
+				}
 			}
-    },
-    "animation.quest_ram.move" : {
-			"loop" : true,
-			"bones" : {
-        "leg1": { "rotation": [ "variable.general0 * 1.325", 0.0, 0.0 ] },
-        "leg2": { "rotation": [ "variable.general1 * 1.325", 0.0, 0.0 ] },
-        "leg3": { "rotation": [ "variable.general1 * 1.325", 0.0, 0.0 ] },
-        "leg4": { "rotation": [ "variable.general0 * 1.325", 0.0, 0.0 ] }
+		},
+		"animation.quest_ram.move": {
+			"loop": true,
+			"bones": {
+				"leg1": { "rotation": ["v.general0 * 1.325", 0.0, 0.0] },
+				"leg2": { "rotation": ["v.general1 * 1.325", 0.0, 0.0] },
+				"leg3": { "rotation": ["v.general1 * 1.325", 0.0, 0.0] },
+				"leg4": { "rotation": ["v.general0 * 1.325", 0.0, 0.0] }
 			}
 		}
 	}

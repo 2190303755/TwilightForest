@@ -1,53 +1,44 @@
 {
-  "format_version": "1.16.0",
+  "format_version": "1.19.0",
   "minecraft:entity": {
     "description": {
       "identifier": "twilightforest:raven",
       "is_spawnable": true,
       "is_summonable": true,
       "is_experimental": false,
-      "runtime_identifier": "minecraft:chicken"
+      "runtime_identifier": "minecraft:parrot"
     },
     "component_groups": {
       "twilightforest:transformation": {
         "minecraft:transformation": {
           "into": "minecraft:bat"
         }
-      },
-      "minecraft:on_hurt": {//Crash
-        /*"minecraft:behavior.panic": {
-          "priority": 3,
-          "speed_multiplier": 1.25
-        },
-        "minecraft:navigation.fly": {
-          "can_path_over_water": true,
-          "avoid_damage_blocks": true,
-          "avoid_portals": true,
-          "avoid_water": true
-        },
-        "minecraft:can_fly": {}*/
-      },
-      "twilightforest:walk": {
-        "minecraft:navigation.generic": {
-          "avoid_damage_blocks": true,
-          "avoid_portals": true,
-          "avoid_water": true
-        },
-        "minecraft:movement.basic": {}
       }
     },
     "components": {
       "minecraft:experience_reward": {
-        "on_death": "query.last_hit_by_player ? Math.Random(1,2) : 0"
+        "on_death": "query.last_hit_by_player ? Math.Random(1,3) : 0"
       },
       "minecraft:loot": {
         "table": "loot_tables/entities/raven.json"
       },
       "minecraft:type_family": {
-        "family": [ "raven", "mob" ]
+        "family": [
+          "raven",
+          "mob"
+        ]
+      },
+      "minecraft:behavior.random_fly": {
+        "priority": 2,
+        "xz_dist": 15,
+        "y_dist": 1,
+        "y_offset": 0,
+        "speed_multiplier": 1.0,
+        "can_land_on_trees": true,
+        "avoid_damage_blocks": true
       },
       "minecraft:behavior.move_to_block": {
-        "priority": 1,
+        "priority": 2,
         "tick_interval": 1,
         "start_chance": 0.5,
         "search_range": 16,
@@ -58,36 +49,19 @@
           "minecraft:obsidian"
         ]
       },
-      "minecraft:behavior.panic": {
-        "priority": 0,
-        "speed_multiplier": 1.25
-      },
+      "minecraft:is_hidden_when_invisible": {},
       "minecraft:breathable": {
         "total_supply": 15,
         "suffocate_time": 0
       },
-      "minecraft:health": {
-        "value": 10,
-        "max": 10
-      },
       "minecraft:collision_box": {
-        "width": 0.55,
-        "height": 0.55
+        "width": 0.5,
+        "height": 1
       },
-      "minecraft:damage_sensor": {
-        "triggers": [
-          {
-            "cause": "fall",
-            "deals_damage": false
-          }/*,
-          {
-            "cause": "all",
-            "on_damage": {
-              "event": "minecraft:on_hurt",
-              "target": "self"
-            }
-          }*/
-        ]
+      "minecraft:nameable": {},
+      "minecraft:health": {
+        "value": 6,
+        "max": 6
       },
       "minecraft:hurt_on_condition": {
         "damage_conditions": [
@@ -104,37 +78,46 @@
         ]
       },
       "minecraft:movement": {
-        "value": 0.2
+        "value": 0.4
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "fall",
+          "deals_damage": false
+        }
       },
       "minecraft:jump.static": {},
+      "minecraft:can_fly": {},
+      "minecraft:navigation.fly": {
+        "can_path_over_water": true,
+        "can_path_from_air": true
+      },
+      "minecraft:movement.fly": {},
       "minecraft:physics": {},
       "minecraft:pushable": {
         "is_pushable": true,
         "is_pushable_by_piston": true
       },
-      "minecraft:interact": {
-        "interactions": [
-          {
-            "on_interact": {
-              "filters": {
-                "all_of": [
-                  {
-                    "test": "has_equipment",
-                    "domain": "hand",
-                    "subject": "other",
-                    "value": "twilightforest:transformation_powder"
-                  }
-                ]
-              },
-              "event": "twilightforest:transformation",
-              "target": "self"
-            },
-            "use_item": true,
-            "interact_text": "action.interact.transformation"
-          }
-        ]
+      "minecraft:despawn": {
+        "despawn_from_distance": {}
       },
-      "minecraft:conditional_bandwidth_optimization": {}
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.panic": {
+        "priority": 0,
+        "speed_multiplier": 1.25
+      },
+      "minecraft:conditional_bandwidth_optimization": {},
+      "minecraft:game_event_movement_tracking": {
+        "emit_flap": true
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance": 10.0
+      },
+      "minecraft:balloonable": {}
     },
     "events": {
       "twilightforest:transformation": {
@@ -143,33 +126,7 @@
             "twilightforest:transformation"
           ]
         }
-      },
-      "minecraft:entity_spawned": {
-        "add": {
-          "component_groups": [
-            "twilightforest:walk"
-          ]
-        }
-      },
-      "twilightforest:walk": {
-        "add": {
-          "component_groups": [
-            "twilightforest:walk"
-          ]
-        }
-      }/*,
-      "minecraft:on_hurt": {
-        "remove": {
-          "component_groups": [
-            "twilightforest:walk"
-          ]
-        },
-        "add": {
-          "component_groups": [
-            "minecraft:on_hurt"
-          ]
-        }
-      }*/
+      }
     }
   }
 }

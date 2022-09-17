@@ -2,12 +2,12 @@
   "format_version": "1.16.100",
   "minecraft:item": {
     "description": {
-      "identifier": "twilightforest:knightmetal_axe"
+      "identifier": "twilightforest:knightmetal_axe",
+      "category": "equipment"
     },
     "components": {
       "minecraft:creative_category": {
-        "category": "equipment",
-        "group": "itemGroup.name.axe"
+        "parent": "itemGroup.name.axe"
       },
       "minecraft:display_name": {
         "value": "item.twilightforest.knightmetal_axe"
@@ -32,7 +32,7 @@
             "items": [
               "twilightforest:knightmetal_axe"
             ],
-              "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
+            "repair_amount": "context.other->query.remaining_durability + math.floor(query.max_durability * 0.05)"
           }
         ]
       },

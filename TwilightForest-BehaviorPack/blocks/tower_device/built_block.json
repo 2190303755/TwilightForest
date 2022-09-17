@@ -55,7 +55,7 @@
         "category": "commands"
       },
       "minecraft:display_name": "unknown",
-      "minecraft:destroy_time": 3,
+      "minecraft:destroy_time": 2,
       "minecraft:block_light_absorption": 0,
       "minecraft:explosion_resistance": 6
     },

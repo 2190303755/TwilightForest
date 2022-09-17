@@ -1,12 +1,12 @@
 {
   "format_version": "1.8.0",
   "render_controllers": {
-    "controller.render.wild_boar.base": {
+    "controller.render.wild_boar.default": {
       "geometry": "Geometry.default",
       "materials": [
         { "*": "Material.default" }
       ],
-      "textures": [ "Texture.base" ]
+      "textures": [ "Texture.default" ]
     },
     "controller.render.wild_boar.saddle": {
       "geometry": "Geometry.default",

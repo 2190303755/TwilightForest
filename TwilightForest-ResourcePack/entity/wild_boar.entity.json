@@ -1,5 +1,5 @@
 {
-  "format_version": "1.8.0",
+  "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
       "identifier": "twilightforest:wild_boar",
@@ -7,30 +7,26 @@
         "default": "wild_boar"
       },
       "textures": {
-        "base": "textures/entity/wild_boar",
+        "default": "textures/entity/wild_boar",
         "saddled": "textures/entity/saddle"
       },
       "geometry": {
         "default": "geometry.wild_boar"
       },
+      "animations": {
+        "walk": "animation.quadruped.walk",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.wild_boar.baby_transform"
+      },
       "scripts": {
-        "pre_animation": [
-          "variable.general0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
-          "variable.general1 = -variable.general0;"
+        "animate": [
+          { "walk": "query.modified_move_speed" },
+          "look_at_target",
+          { "baby_transform": "query.is_baby" }
         ]
       },
-      "animations": {
-        "general": "animation.wild_boar.general",
-        "move": "animation.wild_boar.move",
-        "baby": "animation.wild_boar.baby"
-      },
-      "animation_controllers": [
-        { "general": "controller.animation.wild_boar.general" },
-        { "move": "controller.animation.wild_boar.move" },
-        { "baby": "controller.animation.wild_boar.baby" }
-      ],
       "render_controllers": [
-        "controller.render.wild_boar.base",
+        "controller.render.wild_boar.default",
         "controller.render.wild_boar.saddle"
       ],
       "spawn_egg": {
