@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "twilightforest:ender_pearl_lich",
+      "identifier": "twilightforest:lich_bolt",
       "is_spawnable": false,
       "is_summonable": false,
       "is_experimental": false,

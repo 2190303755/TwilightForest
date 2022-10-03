@@ -5,16 +5,22 @@
       "geometry": "Geometry.default",
       "materials": [ { "*": "Material.default" } ],
       "textures": [ "Texture.default" ],
+      "overlay_color": {"r": 0,"g": 0,"b": 0,"a": "q.property('twilightforest:is_shadow') ? 0.75 : 0"},
+      "is_hurt_color" : {"r": 1,"g": 0,"b": 0,"a": "q.skin_id ? 0 : 0.5"}
+    },
+    "controller.render.lich.shields": {
+      "geometry": "Geometry.shields",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.shield" ],
       "part_visibility": [
-        { "shields": "query.skin_id" },
-        { "shield_1": "query.skin_id >= 1" },
-        { "shield_2": "query.skin_id >= 2" },
-        { "shield_3": "query.skin_id >= 3" },
-        { "shield_4": "query.skin_id >= 4" },
-        { "shield_5": "query.skin_id >= 5" }
+        { "shield_1": "q.skin_id >= 1" },
+        { "shield_2": "q.skin_id >= 2" },
+        { "shield_3": "q.skin_id >= 3" },
+        { "shield_4": "q.skin_id >= 4" },
+        { "shield_5": "q.skin_id >= 5" },
+        { "shield_6": "q.skin_id >= 6" }
       ],
-      "overlay_color": {"r": 0,"g": 0,"b": 0,"a": "query.variant == -1 ? 0.75 : 0"},
-      "is_hurt_color" : {"r": 1,"g": 0,"b": 0,"a": "query.variant > 2 ? 0 : 0.5"}
+      "is_hurt_color" : {"r": 1,"g": 0,"b": 0,"a": 0}
     }
   }
 }

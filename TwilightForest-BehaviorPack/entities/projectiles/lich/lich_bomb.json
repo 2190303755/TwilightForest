@@ -2,7 +2,7 @@
   "format_version": "1.16.0",
   "minecraft:entity": {
     "description": {
-      "identifier": "twilightforest:lich_fireball",
+      "identifier": "twilightforest:lich_bomb",
       "is_spawnable": false,
       "is_summonable": false,
       "is_experimental": false,

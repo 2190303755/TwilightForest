@@ -1,15 +1,64 @@
 {
-  "format_version": "1.8.0",
-  "animations": {
-    "animation.lich.shields": {
-      "loop": true,
-      "bones": {
-        "shield_1": { "rotation" : [ 0, "(query.life_time * 225)", 0 ] },
-        "shield_2": { "rotation" : [ 0, "(query.life_time * 225) - (360 / (query.variant-2) * 1)", 0 ] },
-        "shield_3": { "rotation" : [ 0, "(query.life_time * 225) - (360 / (query.variant-2) * 2)", 0 ] },
-        "shield_4": { "rotation" : [ 0, "(query.life_time * 225) - (360 / (query.variant-2) * 3)", 0 ] },
-        "shield_5": { "rotation" : [ 0, "(query.life_time * 225) - (360 / (query.variant-2) * 4)", 0 ] }
-      }
-    }
-  }
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.lich.waving": {
+			"loop": true,
+			"bones": {
+				"leftarm": {
+					"rotation": [
+						"math.sin(query.life_time * 600) * 15 - this",
+						"-this",
+						"math.cos(query.life_time * 600) * 15 -180 - this"
+					]
+				}
+			}
+		},
+		"animation.lich.shields": {
+			"loop": true,
+			"bones": {
+				"shield_1": {
+					"rotation": [
+						0,
+						"(q.life_time - 2 / q.skin_id) * 180 - q.body_y_rotation",
+						0
+					]
+				},
+				"shield_2": {
+					"rotation": [
+						0,
+						"(q.life_time - 4 / q.skin_id) * 180 - q.body_y_rotation",
+						0
+					]
+				},
+				"shield_3": {
+					"rotation": [
+						0,
+						"(q.life_time - 6 / q.skin_id) * 180 - q.body_y_rotation",
+						0
+					]
+				},
+				"shield_4": {
+					"rotation": [
+						0,
+						"(q.life_time - 8 / q.skin_id) * 180 - q.body_y_rotation",
+						0
+					]
+				},
+				"shield_5": {
+					"rotation": [
+						0,
+						"(q.life_time - 10 / q.skin_id) * 180 - q.body_y_rotation",
+						0
+					]
+				},
+				"shield_6": {
+					"rotation": [
+						0,
+						"(q.life_time - 12 / q.skin_id) * 180 - q.body_y_rotation",
+						0
+					]
+				}
+			}
+		}
+	}
 }

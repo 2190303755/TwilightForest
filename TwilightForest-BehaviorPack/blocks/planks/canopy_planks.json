@@ -1,28 +1,30 @@
 {
-  "format_version": "1.16.100",
-  "minecraft:block": {
-    "description": {
-      "identifier": "twilightforest:canopy_planks"
-    },
-    "components": {
-      "minecraft:creative_category": {
-        "category": "construction",
-        "group": "itemGroup.name.planks"
-      },
-      "minecraft:destroy_time": 2,
-      "minecraft:block_light_absorption": 15,
-      "minecraft:block_light_emission": 0,
-      "minecraft:map_color": "#6e5c3c",
-      "minecraft:explosion_resistance": 3,
-      "minecraft:unit_cube": {},
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "canopy_planks",
-          "render_method": "opaque"
-        }
-      },
-      "tag:planks": {},
-      "tag:wood": {}
-    }
-  }
+	"format_version": "1.19.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "twilightforest:canopy_planks",
+			"menu_category": {
+				"category": "construction",
+				"group": "itemGroup.name.planks"
+			}
+		},
+		"components": {
+			"minecraft:destructible_by_mining": {
+				"seconds_to_destroy": 2
+			},
+			"minecraft:destructible_by_explosion": {
+				"explosion_resistance": 3
+			},
+			"minecraft:map_color": "#6e5c3c",
+			"minecraft:unit_cube": {},
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "canopy_planks",
+					"render_method": "opaque"
+				}
+			},
+			"tag:planks": {},
+			"tag:wood": {}
+		}
+	}
 }

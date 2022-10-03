@@ -44,7 +44,7 @@
             "damage": {
               "amount": 1,
               "target": "self",
-              "type": "none"
+              "type": "durability"
             },
             "swing": {}
           },

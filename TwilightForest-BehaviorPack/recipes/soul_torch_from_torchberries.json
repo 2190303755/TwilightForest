@@ -1,0 +1,25 @@
+{
+	"format_version": "1.19",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "twilightforest:soul_torch_from_torchberries"
+		},
+		"tags": ["crafting_table"],
+		"pattern": [".", "|", "#"],
+		"key": {
+			".": {
+				"item": "twilightforest:torchberries"
+			},
+			"|": {
+				"item": "minecraft:stick"
+			},
+			"#": {
+				"tag": "minecraft:soul_fire_base_blocks"
+			}
+		},
+		"result": {
+			"item": "minecraft:soul_torch",
+			"count": 5
+		}
+	}
+}

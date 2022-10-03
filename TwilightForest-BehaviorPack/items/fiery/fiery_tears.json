@@ -1,20 +1,21 @@
 {
-  "format_version": "1.16.100",
-  "minecraft:item": {
-    "description": {
-      "identifier": "twilightforest:fiery_tears",
-      "category": "items"
-    },
-    "components": {
-      "minecraft:creative_category": {
-        "parent": "itemGroup.name.twilightforest.items"
-      },
-      "minecraft:display_name": {
-        "value": "item.twilightforest.fiery_tears"
-      },
-      "minecraft:icon": {
-        "texture": "fiery_tears"
-      }
-    }
-  }
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "twilightforest:fiery_tears",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.twilightforest.items"
+			},
+			"minecraft:display_name": {
+				"value": "item.twilightforest.fiery_tears"
+			},
+			"minecraft:icon": {
+				"texture": "fiery_tears"
+			},
+			"tag:twilightforest:fiery_vial": {}
+		}
+	}
 }

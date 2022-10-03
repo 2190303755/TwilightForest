@@ -1,0 +1,46 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.lich.effect": {
+			"initial_state": "none",
+			"states": {
+				"none": {
+					"transitions": [
+						{
+							"bomb": "q.property('twilightforest:attack_type')"
+						},
+						{
+							"bolt": "!q.property('twilightforest:attack_type')"
+						}
+					]
+				},
+				"bolt": {
+					"particle_effects": [
+						{
+							"effect": "effect_lich_bolt",
+							"locator" : "left_hand"
+						}
+					],
+					"transitions": [
+						{
+							"none": "1"
+						}
+					]
+				},
+				"bomb": {
+					"particle_effects": [
+						{
+							"effect": "effect_lich_bomb",
+							"locator" : "left_hand"
+						}
+					],
+					"transitions": [
+						{
+							"none": "1"
+						}
+					]
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.minotaur_damage": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "minotaur_sprinting": "(query.get_equipped_item_name == 'minotaur_axe_diamond' || query.get_equipped_item_name == 'minotaur_axe_golden') && query.is_sprinting"
+            }
+          ],
+          "on_entry": [
+            "@s twilightforest:common_attack"
+          ]
+        },
+        "minotaur_sprinting": {
+          "transitions": [
+            {
+              "default": "!(query.get_equipped_item_name == 'minotaur_axe_diamond' || query.get_equipped_item_name == 'minotaur_axe_golden') || !query.is_sprinting"
+            }
+          ],
+          "on_entry": [
+            "@s twilightforest:minotaur_sprinting"
+          ]
+        }
+      }
+    }
+  }
+}

@@ -7,10 +7,12 @@
         "default": "lich"
       },
       "textures": {
-        "default": "textures/entity/boss/twilight_lich"
+        "default": "textures/entity/boss/twilight_lich",
+        "shield": "textures/items/lich_shield"
       },
       "geometry": {
-        "default": "geometry.twilightforest.lich"
+        "default": "geometry.twilightforest.lich",
+        "shields": "geometry.twilightforest.lich.shields"
       },
       "spawn_egg": {
         "texture": "spawn_lich"
@@ -20,7 +22,9 @@
           "look_at_target",
           "move",
           "holding",
-          { "shields": "query.variant > 2 && query.variant < 8"},
+          { "effect": "q.property('twilightforest:minions_left') + q.skin_id != 0"},
+          { "waving": "q.property('twilightforest:minions_left') + q.skin_id != 0"},
+          { "shields": "q.skin_id != 0"},
           { "brandish_spear": "variable.is_brandishing_spear" },
           { "attack": "variable.attack_time >= 0.0" },
           { "damage_nearby_mobs": "variable.damage_nearby_mobs" }
@@ -29,8 +33,14 @@
           "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
         ]
       },
+      "particle_effects": {
+        "effect_lich_bolt": "twilightforest:effect_lich_bolt",
+        "effect_lich_bomb": "twilightforest:effect_lich_bomb"
+      },
       "animations": {
         "shields": "animation.lich.shields",
+        "effect": "controller.animation.lich.effect",
+        "waving": "animation.lich.waving",
         "look_at_target": "animation.humanoid.look_at_target.default",
         "move": "animation.humanoid.move",
         "holding": "animation.humanoid.holding",
@@ -38,7 +48,10 @@
         "attack": "animation.humanoid.attack.rotations",
         "damage_nearby_mobs": "animation.humanoid.damage_nearby_mobs"
       },
-      "render_controllers": [ "controller.render.lich" ],
+      "render_controllers": [
+        "controller.render.lich",
+        "controller.render.lich.shields"
+      ],
       "enable_attachables": true
     }
   }

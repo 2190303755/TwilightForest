@@ -1,0 +1,20 @@
+{
+	"format_version": "1.19",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "twilightforest:fiery_ingot"
+		},
+		"tags": ["crafting_table"],
+		"ingredients": [
+			{
+				"item": "minecraft:iron_ingot"
+			},
+			{
+				"tag": "twilightforest:fiery_vial"
+			}
+		],
+		"result": {
+			"item": "twilightforest:fiery_ingot"
+		}
+	}
+}
