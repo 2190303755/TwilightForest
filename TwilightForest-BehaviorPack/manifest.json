@@ -10,9 +10,20 @@
 	"modules": [
 		{
 			"description": "https://github.com/2190303755/TwilightForest",
-			"type": "data",
+			"type": "script",
 			"uuid": "25461ad2-b490-4add-a3f7-beada51f0001",
-			"version": [22, 9, 11]
+			"version": [22, 10, 5],
+			"entry": "scripts/main.js"
+		}
+	],
+	"dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.0.0-beta"
+		},
+		{
+			"module_name": "@minecraft/server-ui",
+			"version": "1.0.0-beta"
 		}
 	]
 }

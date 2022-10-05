@@ -2,7 +2,7 @@
   "format_version": "1.10.0",
   "minecraft:client_entity": {
     "description": {
-      "identifier": "twilightforest:ender_pearl_player",
+      "identifier": "twilightforest:lich_bolt.player",
       "materials": {
         "default": "ender_pearl"
       },

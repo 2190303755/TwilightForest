@@ -15,7 +15,6 @@
 				},
 				"twilightforest:minions_left": {
 					"type": "int",
-					"client_sync": true,
 					"range": [0, 9],
 					"default": 9
 				},
@@ -28,67 +27,10 @@
 			}
 		},
 		"component_groups": {
-			"twilightforest:shield_strength_6": {
+			"twilightforest:boss": {
 				"minecraft:boss": {
-					"hud_range": 256,
-					"name": "entity.twilightforest.lich.shield_strength:6"
-				},
-				"minecraft:skin_id": {
-					"value": 6
-				}
-			},
-			"twilightforest:shield_strength_5": {
-				"minecraft:boss": {
-					"hud_range": 256,
-					"name": "entity.twilightforest.lich.shield_strength:5"
-				},
-				"minecraft:skin_id": {
-					"value": 5
-				}
-			},
-			"twilightforest:shield_strength_4": {
-				"minecraft:boss": {
-					"hud_range": 256,
-					"name": "entity.twilightforest.lich.shield_strength:4"
-				},
-				"minecraft:skin_id": {
-					"value": 4
-				}
-			},
-			"twilightforest:shield_strength_3": {
-				"minecraft:boss": {
-					"hud_range": 256,
-					"name": "entity.twilightforest.lich.shield_strength:3"
-				},
-				"minecraft:skin_id": {
-					"value": 3
-				}
-			},
-			"twilightforest:shield_strength_2": {
-				"minecraft:boss": {
-					"hud_range": 256,
-					"name": "entity.twilightforest.lich.shield_strength:2"
-				},
-				"minecraft:skin_id": {
-					"value": 2
-				}
-			},
-			"twilightforest:shield_strength_1": {
-				"minecraft:boss": {
-					"hud_range": 256,
-					"name": "entity.twilightforest.lich.shield_strength:1"
-				},
-				"minecraft:skin_id": {
-					"value": 1
-				}
-			},
-			"twilightforest:shield_strength_0": {
-				"minecraft:boss": {
-					"hud_range": 256,
-					"name": "entity.twilightforest.lich.shield_strength:0"
-				},
-				"minecraft:skin_id": {
-					"value": 0
+					"name": "entity.twilightforest:lich.name",
+					"hud_range": 256
 				},
 				"minecraft:type_family": {
 					"family": ["lich", "skeleton", "undead", "monster", "mob", "boss"]
@@ -100,67 +42,54 @@
 					"on_death": "217"
 				}
 			},
-			"twilightforest:has_shield": {
-				"minecraft:damage_sensor": {
+			"twilightforest:check_minions": {
+				"minecraft:environment_sensor": {
 					"triggers": [
 						{
-							"on_damage": {
-								"filters": {
-									"any_of": [
-										{
-											"test": "has_damage",
-											"subject": "self",
-											"value": "magic"
-										},
-										{
-											"test": "has_damage",
-											"subject": "self",
-											"value": "void"
-										},
-										{
-											"test": "has_tag",
-											"subject": "damager",
-											"value": "twilightforest:could_hurt_lich"
-										}
-									]
-								},
-								"event": "twilightforest:on_shield_broken"
+							"filters": {
+								"all_of": [
+									{
+										"test": "int_property",
+										"domain": "twilightforest:minions_left",
+										"operator": "not",
+										"value": 0
+									},
+									{
+										"test": "is_skin_id",
+										"value": 0
+									}
+								]
 							},
-							"damage_multiplier": 0
+							"event": "twilightforest:need_minions"
 						},
 						{
-							"cause": "all",
-							"deals_damage": false
+							"filters": {
+								"any_of": [
+									{
+										"test": "int_property",
+										"domain": "twilightforest:minions_left",
+										"value": 0
+									},
+									{
+										"test": "is_skin_id",
+										"operator": "not",
+										"value": 0
+									}
+								]
+							},
+							"event": "twilightforest:stop_summoning_minions"
 						}
 					]
 				}
 			},
-			"twilightforest:on_shield_broken": {
-				"minecraft:transformation": {
-					"into": "twilightforest:lich"
+			"twilightforest:stop_summoning_minions": {
+				"minecraft:mark_variant": {
+					"value": 0
 				}
 			},
-			"twilightforest:clone": {
-				"minecraft:spawn_entity": {
-					"entities": {
-						"min_wait_time": 0,
-						"max_wait_time": 0,
-						"spawn_entity": "twilightforest:lich",
-						"spawn_event": "twilightforest:is_shadow",
-						"single_use": true,
-						"num_to_spawn": 1
-					}
-				}
-			},
-			"twilightforest:spawn_minion": {
-				"minecraft:spawn_entity": {
-					"entities": {
-						"min_wait_time": 0,
-						"max_wait_time": 0,
-						"spawn_entity": "twilightforest:lich_minion",
-						"single_use": true,
-						"num_to_spawn": 1
-					}
+			"twilightforest:need_minions": {
+				"minecraft:mark_variant": {
+					"value": 1
 				}
 			},
 			"twilightforest:is_shadow": {
@@ -169,12 +98,6 @@
 				},
 				"minecraft:type_family": {
 					"family": ["lich", "mob", "inanimate"]
-				},
-				"minecraft:damage_sensor": {
-					"triggers": {
-						"cause": "all",
-						"deals_damage": false
-					}
 				},
 				"minecraft:entity_sensor": {
 					"event_filters": {
@@ -246,7 +169,7 @@
 				"damage": 3
 			},
 			"minecraft:skin_id": {
-				"value": 0
+				"value": 6
 			},
 			"minecraft:fire_immune": true,
 			"minecraft:navigation.walk": {
@@ -261,6 +184,68 @@
 				"total_supply": 15,
 				"suffocate_time": 0,
 				"breathes_water": true
+			},
+			"minecraft:damage_sensor": {
+				"triggers": [
+					{
+						"on_damage": {
+							"filters": {
+								"all_of": [
+									{
+										"any_of": [
+											{
+												"test": "has_damage",
+												"subject": "self",
+												"value": "magic"
+											},
+											{
+												"test": "has_damage",
+												"subject": "self",
+												"value": "void"
+											},
+											{
+												"test": "has_tag",
+												"subject": "damager",
+												"value": "twilightforest:could_hurt_lich"
+											}
+										]
+									},
+									{
+										"test": "bool_property",
+										"domain": "twilightforest:is_shadow",
+										"value": false
+									},
+									{
+										"test": "is_skin_id",
+										"operator": "not",
+										"value": 0
+									}
+								]
+							},
+							"event": "twilightforest:on_shield_broken"
+						},
+						"deals_damage": false
+					},
+					{
+						"on_damage": {
+							"filters": {
+								"any_of": [
+									{
+										"test": "is_skin_id",
+										"operator": "not",
+										"value": 0
+									},
+									{
+										"test": "bool_property",
+										"domain": "twilightforest:is_shadow"
+									}
+								]
+							}
+						},
+						"cause": "all",
+						"deals_damage": false
+					}
+				]
 			},
 			"minecraft:target_nearby_sensor": {
 				"inside_range": 1.5,
@@ -279,8 +264,25 @@
 					"target": "self"
 				}
 			},
+			"minecraft:on_target_acquired": {
+				"filters": {
+					"test": "bool_property",
+					"domain": "twilightforest:is_shadow",
+					"value": false
+				},
+				"event": "twilightforest:on_target_acquired"
+			},
 			"minecraft:behavior.hurt_by_target": {
-				"priority": 1
+				"priority": 1,
+				"entity_types": {
+					"filters": {
+						"test": "is_family",
+						"subject": "other",
+						"operator": "not",
+						"value": "lich"
+					},
+					"max_dist": 64
+				}
 			},
 			"minecraft:behavior.look_at_player": {
 				"priority": 7,
@@ -296,7 +298,7 @@
 						"filters": {
 							"test": "is_family",
 							"subject": "other",
-							"value": "player"
+							"value": "villager"
 						},
 						"max_dist": 64
 					}
@@ -312,148 +314,30 @@
 		},
 		"events": {
 			"minecraft:entity_spawned": {
-				"sequence": [
-					{
-						"add": {
-							"component_groups": ["twilightforest:attack_ranged"]
-						},
-						"run_command": {
-							"command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
-						},
-						"trigger": "twilightforest:set_attack_type"
-					},
-					{
-						"trigger": "twilightforest:on_shield_strength_initialize"
-					}
-				]
-			},
-			"minecraft:entity_transformed": {
-				"sequence": [
-					{
-						"add": {
-							"component_groups": ["twilightforest:attack_ranged"]
-						},
-						"trigger": "twilightforest:set_attack_type"
-					},
-					{
-						"trigger": "twilightforest:on_shield_strength_initialize"
-					}
-				]
-			},
-			"twilightforest:on_shield_strength_initialize": {
-				"sequence": [
-					{
-						"add": {
-							"component_groups": [
-								"twilightforest:shield_strength_6",
-								"twilightforest:has_shield"
-							]
-						}
-					},
-					{
-						"filters": {
-							"test": "is_skin_id",
-							"subject": "other",
-							"value": 1
-						},
-						"add": {
-							"component_groups": ["twilightforest:shield_strength_0"]
-						},
-						"remove": {
-							"component_groups": ["twilightforest:has_shield"]
-						},
-						"run_command": {
-							"command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:zombie_scepter"
-						}
-					},
-					{
-						"filters": {
-							"test": "is_skin_id",
-							"subject": "other",
-							"value": 2
-						},
-						"add": {
-							"component_groups": ["twilightforest:shield_strength_1"]
-						},
-						"remove": {
-							"component_groups": ["twilightforest:shield_strength_6"]
-						},
-						"run_command": {
-							"command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
-						}
-					},
-					{
-						"filters": {
-							"test": "is_skin_id",
-							"subject": "other",
-							"value": 3
-						},
-						"add": {
-							"component_groups": ["twilightforest:shield_strength_2"]
-						},
-						"remove": {
-							"component_groups": ["twilightforest:shield_strength_6"]
-						},
-						"run_command": {
-							"command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
-						}
-					},
-					{
-						"filters": {
-							"test": "is_skin_id",
-							"subject": "other",
-							"value": 4
-						},
-						"add": {
-							"component_groups": ["twilightforest:shield_strength_3"]
-						},
-						"remove": {
-							"component_groups": ["twilightforest:shield_strength_6"]
-						},
-						"run_command": {
-							"command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
-						}
-					},
-					{
-						"filters": {
-							"test": "is_skin_id",
-							"subject": "other",
-							"value": 5
-						},
-						"add": {
-							"component_groups": ["twilightforest:shield_strength_4"]
-						},
-						"remove": {
-							"component_groups": ["twilightforest:shield_strength_6"]
-						},
-						"run_command": {
-							"command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
-						}
-					},
-					{
-						"filters": {
-							"test": "is_skin_id",
-							"subject": "other",
-							"value": 6
-						},
-						"add": {
-							"component_groups": ["twilightforest:shield_strength_5"]
-						},
-						"remove": {
-							"component_groups": ["twilightforest:shield_strength_6"]
-						},
-						"run_command": {
-							"command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
-						}
-					}
-				]
-			},
-			"twilightforest:is_shadow": {
 				"add": {
-					"component_groups": ["twilightforest:is_shadow"]
+					"component_groups": [
+						"twilightforest:boss",
+						"twilightforest:attack_ranged",
+						"twilightforest:stop_summoning_minions"
+					]
 				},
 				"run_command": {
 					"command": "replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter"
+				},
+				"trigger": "twilightforest:set_attack_type"
+			},
+			"twilightforest:is_shadow": {
+				"add": {
+					"component_groups": [
+						"twilightforest:is_shadow",
+						"twilightforest:stop_summoning_minions"
+					]
+				},
+				"run_command": {
+					"command": [
+						"replaceitem entity @s slot.weapon.mainhand 0 twilightforest:twilight_scepter",
+						"tag @s add ShadowClone"
+					]
 				},
 				"set_property": {
 					"twilightforest:is_shadow": true,
@@ -501,31 +385,6 @@
 					"component_groups": ["twilightforest:attack_ranged"]
 				}
 			},
-			"twilightforest:clone": {
-				"filters": {
-					"test": "bool_property",
-					"domain": "twilightforest:is_shadow",
-					"value": false
-				},
-				"add": {
-					"component_groups": ["twilightforest:clone"]
-				}
-			},
-			"twilightforest:spawn_minions": {
-				"filters": {
-					"test": "bool_property",
-					"domain": "twilightforest:is_shadow",
-					"value": false
-				},
-				"add": {
-					"component_groups": ["twilightforest:clone"]
-				}
-			},
-			"twilightforest:on_shield_broken": {
-				"add": {
-					"component_groups": ["twilightforest:on_shield_broken"]
-				}
-			},
 			"twilightforest:set_attack_type": {
 				"randomize": [
 					{
@@ -551,7 +410,69 @@
 				"add": {
 					"component_groups": ["twilightforest:despawn"]
 				}
-			}
+			},
+			"twilightforest:check_minions": {
+				"add": {
+					"component_groups": ["twilightforest:check_minions"]
+				}
+			},
+			"twilightforest:need_minions": {
+				"add": {
+					"component_groups": ["twilightforest:need_minions"]
+				},
+				"remove": {
+					"component_groups": ["twilightforest:stop_summoning_minions"]
+				}
+			},
+			"twilightforest:stop_summoning_minions": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "int_property",
+							"domain": "twilightforest:minions_left",
+							"value": 0
+						},
+						"add": {
+							"component_groups": ["twilightforest:attack_melee"]
+						},
+						"remove": {
+							"component_groups": [
+								"twilightforest:check_minions",
+								"twilightforest:attack_ranged"
+							]
+						}
+					},
+					{
+						"add": {
+							"component_groups": ["twilightforest:stop_summoning_minions"]
+						},
+						"remove": {
+							"component_groups": ["twilightforest:need_minions"]
+						}
+					}
+				]
+			},
+			"twilightforest:on_summon_minion": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "int_property",
+							"domain": "twilightforest:minions_left",
+							"value": 1
+						},
+						"add": {
+							"component_groups": ["twilightforest:equip_sword"]
+						}
+					},
+					{
+						"set_property": {
+							"twilightforest:minions_left": "q.property('twilightforest:minions_left') - 1"
+						}
+					}
+				]
+			},
+			"twilightforest:on_shield_broken": {},
+			"twilightforest:on_target_acquired": {}
 		}
 	}
 }

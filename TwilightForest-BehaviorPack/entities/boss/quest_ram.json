@@ -189,10 +189,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_white"
+										"test": "bool_property",
+										"domain": "twilightforest:color_white",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -219,10 +218,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_orange"
+										"test": "bool_property",
+										"domain": "twilightforest:color_orange",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -249,10 +247,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_magenta"
+										"test": "bool_property",
+										"domain": "twilightforest:color_magenta",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -279,10 +276,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_light_blue"
+										"test": "bool_property",
+										"domain": "twilightforest:color_light_blue",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -309,10 +305,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_yellow"
+										"test": "bool_property",
+										"domain": "twilightforest:color_yellow",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -339,10 +334,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_lime"
+										"test": "bool_property",
+										"domain": "twilightforest:color_lime",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -369,10 +363,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_pink"
+										"test": "bool_property",
+										"domain": "twilightforest:color_pink",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -399,10 +392,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_gray"
+										"test": "bool_property",
+										"domain": "twilightforest:color_gray",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -429,10 +421,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_silver"
+										"test": "bool_property",
+										"domain": "twilightforest:color_silver",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -459,10 +450,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_cyan"
+										"test": "bool_property",
+										"domain": "twilightforest:color_cyan",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -489,10 +479,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_purple"
+										"test": "bool_property",
+										"domain": "twilightforest:color_purple",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -519,10 +508,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_blue"
+										"test": "bool_property",
+										"domain": "twilightforest:color_blue",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -549,10 +537,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_brown"
+										"test": "bool_property",
+										"domain": "twilightforest:color_brown",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -579,10 +566,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_green"
+										"test": "bool_property",
+										"domain": "twilightforest:color_green",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -609,10 +595,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_red"
+										"test": "bool_property",
+										"domain": "twilightforest:color_red",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -639,10 +624,9 @@
 							"filters": {
 								"all_of": [
 									{
-										"test": "has_tag",
-										"subject": "self",
-										"operator": "!=",
-										"value": "twilightforest:color_black"
+										"test": "bool_property",
+										"domain": "twilightforest:color_black",
+										"value": false
 									},
 									{
 										"test": "has_equipment",
@@ -670,129 +654,81 @@
 
 		"events": {
 			"twilightforest:color_white": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_white"
-				},
 				"set_property": {
 					"twilightforest:color_white": true
 				}
 			},
 			"twilightforest:color_orange": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_orange"
-				},
 				"set_property": {
 					"twilightforest:color_orange": true
 				}
 			},
 			"twilightforest:color_magenta": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_magenta"
-				},
 				"set_property": {
 					"twilightforest:color_magenta": true
 				}
 			},
 			"twilightforest:color_light_blue": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_light_blue"
-				},
 				"set_property": {
 					"twilightforest:color_light_blue": true
 				}
 			},
 			"twilightforest:color_yellow": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_yellow"
-				},
 				"set_property": {
 					"twilightforest:color_yellow": true
 				}
 			},
 			"twilightforest:color_lime": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_lime"
-				},
 				"set_property": {
 					"twilightforest:color_lime": true
 				}
 			},
 			"twilightforest:color_pink": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_pink"
-				},
 				"set_property": {
 					"twilightforest:color_pink": true
 				}
 			},
 			"twilightforest:color_gray": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_gray"
-				},
 				"set_property": {
 					"twilightforest:color_gray": true
 				}
 			},
 			"twilightforest:color_silver": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_silver"
-				},
 				"set_property": {
 					"twilightforest:color_silver": true
 				}
 			},
 			"twilightforest:color_cyan": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_cyan"
-				},
 				"set_property": {
 					"twilightforest:color_cyan": true
 				}
 			},
 			"twilightforest:color_purple": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_purple"
-				},
 				"set_property": {
 					"twilightforest:color_purple": true
 				}
 			},
 			"twilightforest:color_blue": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_blue"
-				},
 				"set_property": {
 					"twilightforest:color_blue": true
 				}
 			},
 			"twilightforest:color_brown": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_brown"
-				},
 				"set_property": {
 					"twilightforest:color_brown": true
 				}
 			},
 			"twilightforest:color_green": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_green"
-				},
 				"set_property": {
 					"twilightforest:color_green": true
 				}
 			},
 			"twilightforest:color_red": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_red"
-				},
 				"set_property": {
 					"twilightforest:color_red": true
 				}
 			},
 			"twilightforest:color_black": {
-				"run_command": {
-					"command": "tag @s add twilightforest:color_black"
-				},
 				"set_property": {
 					"twilightforest:color_black": true
 				}

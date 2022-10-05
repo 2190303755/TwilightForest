@@ -1,432 +1,404 @@
 {
-  "format_version": "1.16.0",
-  "minecraft:entity": {
-    "description": {
-      "identifier": "twilightforest:loyal_zombie",
-      "is_spawnable": false,
-      "is_summonable": true,
-      "is_experimental": false,
-      "runtime_identifier": "minecraft:zombie"
-    },
-    "component_groups": {
-      "get_strength":{
-        "minecraft:spell_effects": {
-          "add_effects": [
-            {
-              "effect": "strength",
-              "duration": 60,
-              "amplifier": 0
-            }
-          ]
-        },
-        "minecraft:environment_sensor": {
-        "triggers": [
-          {
-            "filters": {
-              "all_of": [
-                {
-                  "test": "has_mob_effect",
-                  "subject": "self",
-                  "operator": "!=",
-                  "value": "strength"
-                },
-                {
-                  "test": "has_tag",
-                  "subject": "self",
-                  "operator": "!=",
-                  "value": "By2190303755"
-                }
-              ]
-            },
-            "event": "sunbathing"
-          },
-          {
-            "filters": {
-              "any_of": [
-                {
-                  "test": "has_mob_effect",
-                  "subject": "self",
-                  "operator": "==",
-                  "value": "strength"
-                },
-                {
-                  "test": "has_tag",
-                  "subject": "self",
-                  "operator": "==",
-                  "value": "By2190303755"
-                }
-              ]
-            },
-            "event": "warming"
-          }
-        ]
-      }
-      },
-      "sunbathing": {
-        "minecraft:burns_in_daylight": {
-        }
-      },
-      "transform": {
-        "minecraft:transformation": {
-          "into": "minecraft:zombie<minecraft:as_adult>"
-        }
-      },
-      "minecraft:zombie_adult": {
-        "minecraft:movement": {
-          "value": 0.3
-        },
-        "minecraft:behavior.mount_pathing": {
-          "priority": 2,
-          "speed_multiplier": 1.25,
-          "target_dist": 0.0,
-          "track_target": true
-        }
-      }
-    },
+	"format_version": "1.16.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "twilightforest:loyal_zombie",
+			"is_spawnable": false,
+			"is_summonable": true,
+			"is_experimental": false,
+			"runtime_identifier": "minecraft:zombie"
+		},
+		"component_groups": {
+			"get_strength": {
+				"minecraft:spell_effects": {
+					"add_effects": [
+						{
+							"effect": "strength",
+							"duration": 60,
+							"amplifier": 0
+						}
+					]
+				},
+				"minecraft:environment_sensor": {
+					"triggers": [
+						{
+							"filters": {
+								"test": "has_mob_effect",
+								"subject": "self",
+								"operator": "!=",
+								"value": "strength"
+							},
+							"event": "sunbathing"
+						},
+						{
+							"filters": {
+								"test": "has_mob_effect",
+								"subject": "self",
+								"operator": "==",
+								"value": "strength"
+							},
+							"event": "warming"
+						}
+					]
+				}
+			},
+			"sunbathing": {
+				"minecraft:burns_in_daylight": {}
+			},
+			"transform": {
+				"minecraft:transformation": {
+					"into": "minecraft:zombie<minecraft:as_adult>"
+				}
+			},
+			"minecraft:zombie_adult": {
+				"minecraft:movement": {
+					"value": 0.3
+				},
+				"minecraft:behavior.mount_pathing": {
+					"priority": 2,
+					"speed_multiplier": 1.25,
+					"target_dist": 0.0,
+					"track_target": true
+				}
+			}
+		},
 
-    "components": {
-      "minecraft:nameable": {
-      },
-      "minecraft:type_family": {
-        "family": [ "zombie", "undead", "mob" ]
-      },
-      "minecraft:collision_box": {
-        "width": 0.6,
-        "height": 1.9
-      },
-      "minecraft:shareables": {
-        "items": [
-          {
-            "item": "minecraft:netherite_sword",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 0
-          },
-          {
-            "item": "minecraft:diamond_sword",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 1
-          },
-          {
-            "item": "minecraft:iron_sword",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 2
-          },
-          {
-            "item": "minecraft:stone_sword",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 3
-          },
-          {
-            "item": "minecraft:golden_sword",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 4
-          },
-          {
-            "item": "minecraft:wooden_sword",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 5
-          },
-          {
-            "item": "minecraft:netherite_helmet",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 0
-          },
-          {
-            "item": "minecraft:diamond_helmet",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 1
-          },
-          {
-            "item": "minecraft:iron_helmet",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 2
-          },
-          {
-            "item": "minecraft:chainmail_helmet",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 3
-          },
-          {
-            "item": "minecraft:golden_helmet",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 4
-          },
-          {
-            "item": "minecraft:leather_helmet",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 5
-          },
-          {
-            "item": "minecraft:turtle_helmet",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority":  6
-          },
-          {
-            "item": "minecraft:skull:0",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 7
-          },
-          {
-            "item": "minecraft:skull:1",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 7
-          },
-          {
-            "item": "minecraft:carved_pumpkin",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 7
-          },
-          {
-            "item": "minecraft:netherite_chestplate",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 0
-          },
-          {
-            "item": "minecraft:diamond_chestplate",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 1
-          },
-          {
-            "item": "minecraft:iron_chestplate",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 2
-          },
-          {
-            "item": "minecraft:chainmail_chestplate",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 3
-          },
-          {
-            "item": "minecraft:golden_chestplate",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 4
-          },
-          {
-            "item": "minecraft:leather_chestplate",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 5
-          },
-          {
-            "item": "minecraft:netherite_leggings",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 0
-          },
-          {
-            "item": "minecraft:diamond_leggings",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 1
-          },
-          {
-            "item": "minecraft:iron_leggings",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 2
-          },
-          {
-            "item": "minecraft:chainmail_leggings",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 3
-          },
-          {
-            "item": "minecraft:golden_leggings",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 4
-          },
-          {
-            "item": "minecraft:leather_leggings",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 5
-          },
-          {
-            "item": "minecraft:netherite_boots",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 0
-          },
-          {
-            "item": "minecraft:diamond_boots",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 1
-          },
-          {
-            "item": "minecraft:iron_boots",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 2
-          },
-          {
-            "item": "minecraft:chainmail_boots",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 3
-          },
-          {
-            "item": "minecraft:golden_boots",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 4
-          },
-          {
-            "item": "minecraft:leather_boots",
-            "want_amount": 1,
-            "surplus_amount": 1,
-            "priority": 5
-          }
-        ]
-      },
-      "minecraft:movement.basic": {
-      },
-      "minecraft:navigation.walk": {
-        "is_amphibious": true,
-        "can_pass_doors": true,
-        "can_walk": true,
-        "can_break_doors": true
-      },
-      "minecraft:annotation.break_door": {
-      },
-      "minecraft:jump.static": {
-      },
-      "minecraft:can_climb": {
-      },
-      "minecraft:health": {
-        "value": 40,
-        "max": 40
-      },
-      "minecraft:hurt_on_condition": {
-        "damage_conditions": [
-          {
-            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
-            "cause": "lava",
-            "damage_per_tick": 4
-          }
-        ]
-      },
-      "minecraft:breathable": {
-        "total_supply": 15,
-        "suffocate_time": 0,
-        "breathes_air": true,
-        "breathes_water": true
-      },
-      "minecraft:attack": {
-        "damage": 7
-      },
-      "minecraft:behavior.melee_attack": {
-        "priority": 3,
-        "speed_multiplier": 1,
-        "track_target": false
-      },
-      "minecraft:behavior.move_towards_restriction": {
-        "priority": 5,
-        "speed_multiplier": 1
-      },
-      "minecraft:behavior.random_stroll": {
-        "priority": 6,
-        "speed_multiplier": 1
-      },
-      "minecraft:behavior.look_at_player": {
-        "priority": 7,
-        "look_distance": 6,
-        "probability": 0.02
-      },
-      "minecraft:behavior.random_look_around": {
-        "priority": 7
-      },
-      "minecraft:behavior.hurt_by_target": {
-        "priority": 1,
-        "entity_types": {
-          "filters": { "test": "is_family", "subject": "other", "operator": "!=", "value": "player" }
-        }
-      },
-      "minecraft:behavior.nearest_attackable_target": {
-        "priority": 2,
-        "reselect_targets": true,
-        "entity_types": [
-          {
-            "filters": {
-              "any_of": [
-                { "test": "is_family", "subject": "other", "value": "monster"},
-                { "test": "is_family", "subject": "other", "value": "hoglin"},
-                { "test": "is_family", "subject": "other", "value": "zoglin"}
-              ]
-            },
-            "max_dist": 64
-          }
-        ],
-        "within_radius": 96,
-        "must_see": false,
-        "must_see_forget_duration": 17.0
-      },
-      "minecraft:physics": {
-      },
-      "minecraft:pushable": {
-        "is_pushable": true,
-        "is_pushable_by_piston": true
-      }
-    },
+		"components": {
+			"minecraft:nameable": {},
+			"minecraft:type_family": {
+				"family": ["zombie", "undead", "mob"]
+			},
+			"minecraft:collision_box": {
+				"width": 0.6,
+				"height": 1.9
+			},
+			"minecraft:shareables": {
+				"items": [
+					{
+						"item": "minecraft:netherite_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "minecraft:diamond_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 1
+					},
+					{
+						"item": "minecraft:iron_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 2
+					},
+					{
+						"item": "minecraft:stone_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 3
+					},
+					{
+						"item": "minecraft:golden_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "minecraft:wooden_sword",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 5
+					},
+					{
+						"item": "minecraft:netherite_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "minecraft:diamond_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 1
+					},
+					{
+						"item": "minecraft:iron_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 2
+					},
+					{
+						"item": "minecraft:chainmail_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 3
+					},
+					{
+						"item": "minecraft:golden_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "minecraft:leather_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 5
+					},
+					{
+						"item": "minecraft:turtle_helmet",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 6
+					},
+					{
+						"item": "minecraft:skull:0",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 7
+					},
+					{
+						"item": "minecraft:skull:1",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 7
+					},
+					{
+						"item": "minecraft:carved_pumpkin",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 7
+					},
+					{
+						"item": "minecraft:netherite_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "minecraft:diamond_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 1
+					},
+					{
+						"item": "minecraft:iron_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 2
+					},
+					{
+						"item": "minecraft:chainmail_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 3
+					},
+					{
+						"item": "minecraft:golden_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "minecraft:leather_chestplate",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 5
+					},
+					{
+						"item": "minecraft:netherite_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "minecraft:diamond_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 1
+					},
+					{
+						"item": "minecraft:iron_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 2
+					},
+					{
+						"item": "minecraft:chainmail_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 3
+					},
+					{
+						"item": "minecraft:golden_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "minecraft:leather_leggings",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 5
+					},
+					{
+						"item": "minecraft:netherite_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 0
+					},
+					{
+						"item": "minecraft:diamond_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 1
+					},
+					{
+						"item": "minecraft:iron_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 2
+					},
+					{
+						"item": "minecraft:chainmail_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 3
+					},
+					{
+						"item": "minecraft:golden_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 4
+					},
+					{
+						"item": "minecraft:leather_boots",
+						"want_amount": 1,
+						"surplus_amount": 1,
+						"priority": 5
+					}
+				]
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_walk": true,
+				"can_break_doors": true
+			},
+			"minecraft:annotation.break_door": {},
+			"minecraft:jump.static": {},
+			"minecraft:can_climb": {},
+			"minecraft:health": {
+				"value": 40,
+				"max": 40
+			},
+			"minecraft:hurt_on_condition": {
+				"damage_conditions": [
+					{
+						"filters": {
+							"test": "in_lava",
+							"subject": "self",
+							"operator": "==",
+							"value": true
+						},
+						"cause": "lava",
+						"damage_per_tick": 4
+					}
+				]
+			},
+			"minecraft:breathable": {
+				"total_supply": 15,
+				"suffocate_time": 0,
+				"breathes_air": true,
+				"breathes_water": true
+			},
+			"minecraft:attack": {
+				"damage": 7
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 3,
+				"speed_multiplier": 1,
+				"track_target": false
+			},
+			"minecraft:behavior.move_towards_restriction": {
+				"priority": 5,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.random_stroll": {
+				"priority": 6,
+				"speed_multiplier": 1
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 7,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 7
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1,
+				"entity_types": {
+					"filters": {
+						"test": "is_family",
+						"subject": "other",
+						"operator": "!=",
+						"value": "player"
+					}
+				}
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 2,
+				"reselect_targets": true,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{ "test": "is_family", "subject": "other", "value": "monster" },
+								{ "test": "is_family", "subject": "other", "value": "hoglin" },
+								{ "test": "is_family", "subject": "other", "value": "zoglin" }
+							]
+						},
+						"max_dist": 64
+					}
+				],
+				"within_radius": 96,
+				"must_see": false,
+				"must_see_forget_duration": 17.0
+			},
+			"minecraft:physics": {},
+			"minecraft:pushable": {
+				"is_pushable": true,
+				"is_pushable_by_piston": true
+			}
+		},
 
-    "events": {
-      "minecraft:entity_spawned": {
-        "add": {
-          "component_groups": [
-            "transform"
-          ]
-        }
-      },
-      "twilightforest:from_scepter": {
-        "add": {
-          "component_groups": [
-            "get_strength",
-            "minecraft:zombie_adult"
-          ]
-        },
-        "remove": {
-          "component_groups": [
-            "sunbathing"
-          ]
-        }
-      },
-      "sunbathing": {
-        "add": {
-          "component_groups": [
-            "sunbathing"
-          ]
-        }
-      },
-      "warming": {
-        "remove": {
-          "component_groups": [
-            "sunbathing"
-          ]
-        }
-      }
-    }
-  }
+		"events": {
+			"minecraft:entity_spawned": {
+				"add": {
+					"component_groups": ["transform"]
+				}
+			},
+			"twilightforest:from_scepter": {
+				"add": {
+					"component_groups": ["get_strength", "minecraft:zombie_adult"]
+				},
+				"remove": {
+					"component_groups": ["sunbathing"]
+				}
+			},
+			"sunbathing": {
+				"add": {
+					"component_groups": ["sunbathing"]
+				}
+			},
+			"warming": {
+				"remove": {
+					"component_groups": ["sunbathing"]
+				}
+			}
+		}
+	}
 }

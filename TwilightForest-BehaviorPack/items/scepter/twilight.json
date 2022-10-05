@@ -39,7 +39,7 @@
             "condition": "query.remaining_durability != 0",
             "shoot": {
               "launch_power": 1,
-              "projectile": "twilightforest:ender_pearl_player"
+              "projectile": "twilightforest:lich_bolt.player"
             },
             "damage": {
               "amount": 1,
