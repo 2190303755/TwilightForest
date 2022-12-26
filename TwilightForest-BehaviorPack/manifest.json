@@ -2,7 +2,7 @@
 	"format_version": 2,
 	"header": {
 		"description": "pack.description",
-		"min_engine_version": [1, 19, 40],
+		"min_engine_version": [1, 19, 60],
 		"name": "pack.name",
 		"uuid": "2c975b3c-c803-4add-9d9d-bec0c932ce01",
 		"version": [1, 0, 1]
@@ -12,14 +12,14 @@
 			"description": "https://github.com/2190303755/TwilightForest",
 			"type": "script",
 			"uuid": "25461ad2-b490-4add-a3f7-beada51f0001",
-			"version": [22, 10, 5],
+			"version": [22, 12, 26],
 			"entry": "scripts/main.js"
 		}
 	],
 	"dependencies": [
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.0.0-beta"
+			"version": "1.1.0-beta"
 		},
 		{
 			"module_name": "@minecraft/server-ui",

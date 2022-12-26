@@ -19,7 +19,11 @@
       "minecraft:use_duration": 3600,
       "minecraft:hand_equipped": true,
       "minecraft:durability": {
-        "max_durability": 32
+        "max_durability": 32,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
       },
       "minecraft:repairable": {
         "repair_items": [

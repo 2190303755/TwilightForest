@@ -42,7 +42,11 @@
         "max_draw_duration": 1.0
       },
       "minecraft:durability": {
-        "max_durability": 384
+        "max_durability": 384,
+        "damage_chance": {
+          "min": 60,
+          "max": 100
+        }
       },
       "minecraft:on_use": {
         "on_use": {

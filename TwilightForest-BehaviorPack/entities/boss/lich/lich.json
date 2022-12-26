@@ -27,11 +27,49 @@
 			}
 		},
 		"component_groups": {
-			"twilightforest:boss": {
+			"twilightforest:shield_strength_6": {
 				"minecraft:boss": {
-					"name": "entity.twilightforest:lich.name",
-					"hud_range": 256
-				},
+					"hud_range": 256,
+					"name": "entity.twilightforest.lich.shield_strength:6"
+				}
+			},
+			"twilightforest:shield_strength_5": {
+				"minecraft:boss": {
+					"hud_range": 256,
+					"name": "entity.twilightforest.lich.shield_strength:5"
+				}
+			},
+			"twilightforest:shield_strength_4": {
+				"minecraft:boss": {
+					"hud_range": 256,
+					"name": "entity.twilightforest.lich.shield_strength:4"
+				}
+			},
+			"twilightforest:shield_strength_3": {
+				"minecraft:boss": {
+					"hud_range": 256,
+					"name": "entity.twilightforest.lich.shield_strength:3"
+				}
+			},
+			"twilightforest:shield_strength_2": {
+				"minecraft:boss": {
+					"hud_range": 256,
+					"name": "entity.twilightforest.lich.shield_strength:2"
+				}
+			},
+			"twilightforest:shield_strength_1": {
+				"minecraft:boss": {
+					"hud_range": 256,
+					"name": "entity.twilightforest.lich.shield_strength:1"
+				}
+			},
+			"twilightforest:shield_strength_0": {
+				"minecraft:boss": {
+					"hud_range": 256,
+					"name": "entity.twilightforest:lich.name"
+				}
+			},
+			"twilightforest:boss": {
 				"minecraft:type_family": {
 					"family": ["lich", "skeleton", "undead", "monster", "mob", "boss"]
 				},
@@ -171,7 +209,7 @@
 			"minecraft:skin_id": {
 				"value": 6
 			},
-			"minecraft:fire_immune": true,
+			"minecraft:fire_immune": {},
 			"minecraft:navigation.walk": {
 				"is_amphibious": true,
 				"avoid_sun": true,
@@ -197,6 +235,11 @@
 												"test": "has_damage",
 												"subject": "self",
 												"value": "magic"
+											},
+											{
+												"test": "has_damage",
+												"subject": "self",
+												"value": "sonic_boom"
 											},
 											{
 												"test": "has_damage",
@@ -317,6 +360,7 @@
 				"add": {
 					"component_groups": [
 						"twilightforest:boss",
+						"twilightforest:shield_strength_6",
 						"twilightforest:attack_ranged",
 						"twilightforest:stop_summoning_minions"
 					]
@@ -471,7 +515,82 @@
 					}
 				]
 			},
-			"twilightforest:on_shield_broken": {},
+			"twilightforest:on_shield_broken": {
+				"sequence": [
+					{
+						"filters": {
+							"test": "is_skin_id",
+							"value": 6
+						},
+						"remove": {
+							"component_groups": ["twilightforest:shield_strength_6"]
+						},
+						"add": {
+							"component_groups": ["twilightforest:shield_strength_5"]
+						}
+					},
+					{
+						"filters": {
+							"test": "is_skin_id",
+							"value": 5
+						},
+						"remove": {
+							"component_groups": ["twilightforest:shield_strength_5"]
+						},
+						"add": {
+							"component_groups": ["twilightforest:shield_strength_4"]
+						}
+					},
+					{
+						"filters": {
+							"test": "is_skin_id",
+							"value": 4
+						},
+						"remove": {
+							"component_groups": ["twilightforest:shield_strength_4"]
+						},
+						"add": {
+							"component_groups": ["twilightforest:shield_strength_3"]
+						}
+					},
+					{
+						"filters": {
+							"test": "is_skin_id",
+							"value": 3
+						},
+						"remove": {
+							"component_groups": ["twilightforest:shield_strength_3"]
+						},
+						"add": {
+							"component_groups": ["twilightforest:shield_strength_2"]
+						}
+					},
+					{
+						"filters": {
+							"test": "is_skin_id",
+							"value": 2
+						},
+						"remove": {
+							"component_groups": ["twilightforest:shield_strength_2"]
+						},
+						"add": {
+							"component_groups": ["twilightforest:shield_strength_1"]
+						}
+					},
+					{
+						"filters": {
+							"test": "is_skin_id",
+							"value": 1
+						},
+						"remove": {
+							"component_groups": ["twilightforest:shield_strength_1"]
+						},
+						"add": {
+							"component_groups": ["twilightforest:shield_strength_0"]
+						}
+					}
+				]
+			},
 			"twilightforest:on_target_acquired": {}
 		}
 	}

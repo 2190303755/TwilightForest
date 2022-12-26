@@ -1,16 +1,20 @@
 import {
 	world,
 	system,
-	EntityDataDrivenTriggerEventOptions,
-} from "@minecraft/server";
+	EntityMarkVariantComponent,
+	EntityHealthComponent,
+	EntitySkinIdComponent
+} from "@minecraft/server"
 
 const SubscriptionMap = new Map()
-const CreationSubscriptionOptions = new EntityDataDrivenTriggerEventOptions()
-CreationSubscriptionOptions.entityTypes = ['twilightforest:lich']
-CreationSubscriptionOptions.eventTypes = ['twilightforest:on_target_acquired']
-const ShieldSubscriptionOptions = new EntityDataDrivenTriggerEventOptions()
-ShieldSubscriptionOptions.entityTypes = ['twilightforest:lich']
-ShieldSubscriptionOptions.eventTypes = ['twilightforest:on_shield_broken']
+const CreationSubscriptionOptions = {
+	entityTypes: ['twilightforest:lich'],
+	eventTypes: ['twilightforest:on_target_acquired']
+}
+const ShieldSubscriptionOptions = {
+	entityTypes: ['twilightforest:lich'],
+	eventTypes: ['twilightforest:on_shield_broken']
+}
 const CreateShadowQueryOptions = {
 	type: 'twilightforest:lich',
 	tags: 'ShadowClone',
@@ -48,7 +52,7 @@ class CreationSubscription {
 	}
 	run(shadowCooldown, minionCooldown) {
 		try {
-			if (this.entity.target && this.entity.getComponent('minecraft:health').current > 0) {
+			if (this.entity.target && this.entity.getComponent(EntityHealthComponent.componentId).current > 0) {
 				if (shadowCooldown > 0) {
 					shadowCooldown -= 1
 				} else if (shadowCooldown == 0) {
@@ -59,7 +63,7 @@ class CreationSubscription {
 				}
 				if (minionCooldown > 0) {
 					minionCooldown -= 1
-				} else if (minionCooldown == 0 && this.entity.getComponent('minecraft:mark_variant').value) {
+				} else if (minionCooldown == 0 && this.entity.getComponent(EntityMarkVariantComponent.componentId).value) {
 					this.#spawnCreation('twilightforest:lich_minion', CreateMinionQueryOptions, 3, (creation, location) => {
 						creation.runCommandAsync(`spreadplayers ${location.x} ${location.z} 0 2 @s`)
 						this.entity.triggerEvent('twilightforest:on_summon_minion')
@@ -88,8 +92,8 @@ function onTargetAcquired(args) {
 
 function onShieldBroken(args) {
 	try {
-		let health = args.entity.getComponent('minecraft:health')
-		let shields = args.entity.getComponent('minecraft:skin_id')
+		let health = args.entity.getComponent(EntityHealthComponent.componentId)
+		let shields = args.entity.getComponent(EntitySkinIdComponent.componentId)
 		shields.value -= 1
 		if (shields.value) {
 			health.setCurrent(health.value * shields.value / 6)
@@ -110,4 +114,5 @@ function unsubscribe() {
 	world.events.dataDrivenEntityTriggerEvent.unsubscribe(onTargetAcquired)
 	world.events.dataDrivenEntityTriggerEvent.unsubscribe(onShieldBroken)
 }
-export { subscribe, unsubscribe };
+
+export { subscribe, unsubscribe }
