@@ -1,26 +1,31 @@
 {
-  "format_version": "1.8.0",
-  "render_controllers": {
-    "controller.render.lich": {
-      "geometry": "Geometry.default",
-      "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Texture.default" ],
-      "overlay_color": {"r": 0,"g": 0,"b": 0,"a": "q.property('twilightforest:is_shadow') ? 0.75 : 0"},
-      "is_hurt_color" : {"r": 1,"g": 0,"b": 0,"a": "q.skin_id ? 0 : 0.5"}
-    },
-    "controller.render.lich.shields": {
-      "geometry": "Geometry.shields",
-      "materials": [ { "*": "Material.default" } ],
-      "textures": [ "Texture.shield" ],
-      "part_visibility": [
-        { "shield_1": "q.skin_id >= 1" },
-        { "shield_2": "q.skin_id >= 2" },
-        { "shield_3": "q.skin_id >= 3" },
-        { "shield_4": "q.skin_id >= 4" },
-        { "shield_5": "q.skin_id >= 5" },
-        { "shield_6": "q.skin_id >= 6" }
-      ],
-      "is_hurt_color" : {"r": 1,"g": 0,"b": 0,"a": 0}
-    }
-  }
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.lich": {
+			"geometry": "Geometry.default",
+			"materials": [{ "*": "Material.default" }],
+			"textures": ["Texture.default"],
+			"overlay_color": {
+				"r": 0,
+				"g": 0,
+				"b": 0,
+				"a": "q.property('twilightforest:is_shadow') ? 0.75 : 0"
+			},
+			"is_hurt_color": { "r": 1, "g": 0, "b": 0, "a": "q.skin_id ? 0 : 0.5" }
+		},
+		"controller.render.lich.shields": {
+			"geometry": "Geometry.shields",
+			"materials": [{ "*": "Material.shields" }],
+			"textures": ["Texture.shield"],
+			"part_visibility": [
+				{ "shield_1": "q.skin_id >= 1" },
+				{ "shield_2": "q.skin_id >= 2" },
+				{ "shield_3": "q.skin_id >= 3" },
+				{ "shield_4": "q.skin_id >= 4" },
+				{ "shield_5": "q.skin_id >= 5" },
+				{ "shield_6": "q.skin_id >= 6" }
+			],
+			"is_hurt_color": { "r": 1, "g": 0.8, "b": 0, "a": 0 }
+		}
+	}
 }

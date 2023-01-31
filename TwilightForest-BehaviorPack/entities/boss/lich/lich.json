@@ -163,16 +163,6 @@
 					"table": "loot_tables/entities/lich_gear.json"
 				}
 			},
-			"twilightforest:attack_lich_bolt": {
-				"minecraft:shooter": {
-					"def": "twilightforest:lich_bolt"
-				}
-			},
-			"twilightforest:attack_lich_bomb": {
-				"minecraft:shooter": {
-					"def": "twilightforest:lich_bomb"
-				}
-			},
 			"twilightforest:attack_ranged": {
 				"minecraft:behavior.ranged_attack": {
 					"priority": 3,
@@ -315,6 +305,28 @@
 				},
 				"event": "twilightforest:on_target_acquired"
 			},
+			"minecraft:shooter": {
+				"def": "twilightforest:lich_bolt",
+				"projectiles": [
+					{
+						"def": "twilightforest:lich_bolt",
+						"filters": {
+							"test": "int_property",
+							"domain": "twilightforest:attack_type",
+							"value": 0
+						}
+					},
+					{
+						"def": "twilightforest:lich_bomb",
+						"filters": {
+							"test": "int_property",
+							"domain": "twilightforest:attack_type",
+							"value": 1
+						}
+					}
+				],
+				"magic": true
+			},
 			"minecraft:behavior.hurt_by_target": {
 				"priority": 1,
 				"entity_types": {
@@ -389,16 +401,6 @@
 				},
 				"trigger": "twilightforest:set_attack_type"
 			},
-			"twilightforest:attack_lich_bolt": {
-				"add": {
-					"component_groups": ["twilightforest:attack_lich_bolt"]
-				}
-			},
-			"twilightforest:attack_lich_bomb": {
-				"add": {
-					"component_groups": ["twilightforest:attack_lich_bomb"]
-				}
-			},
 			"twilightforest:attack_ranged": {
 				"filters": {
 					"any_of": [
@@ -430,20 +432,47 @@
 				}
 			},
 			"twilightforest:set_attack_type": {
-				"randomize": [
+				"sequence": [
 					{
-						"weight": 3,
-						"set_property": {
-							"twilightforest:attack_type": 0
+						"filters": {
+							"test": "is_skin_id",
+							"value": 0
 						},
-						"trigger": "twilightforest:attack_lich_bolt"
+						"randomize": [
+							{
+								"weight": 1,
+								"set_property": {
+									"twilightforest:attack_type": 0
+								}
+							},
+							{
+								"weight": 1,
+								"set_property": {
+									"twilightforest:attack_type": 1
+								}
+							}
+						]
 					},
 					{
-						"weight": 1,
-						"set_property": {
-							"twilightforest:attack_type": 1
+						"filters": {
+							"test": "is_skin_id",
+							"operator": "not",
+							"value": 0
 						},
-						"trigger": "twilightforest:attack_lich_bomb"
+						"randomize": [
+							{
+								"weight": 3,
+								"set_property": {
+									"twilightforest:attack_type": 0
+								}
+							},
+							{
+								"weight": 1,
+								"set_property": {
+									"twilightforest:attack_type": 1
+								}
+							}
+						]
 					}
 				]
 			},

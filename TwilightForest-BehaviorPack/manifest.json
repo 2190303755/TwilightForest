@@ -2,8 +2,9 @@
 	"format_version": 2,
 	"header": {
 		"description": "pack.description",
-		"min_engine_version": [1, 19, 60],
+		"min_engine_version": [1, 19, 70],
 		"name": "pack.name",
+		"pack_scope": "world",
 		"uuid": "2c975b3c-c803-4add-9d9d-bec0c932ce01",
 		"version": [1, 0, 1]
 	},
@@ -12,8 +13,8 @@
 			"description": "https://github.com/2190303755/TwilightForest",
 			"type": "script",
 			"uuid": "25461ad2-b490-4add-a3f7-beada51f0001",
-			"version": [22, 12, 26],
-			"entry": "scripts/main.js"
+			"version": [23, 1, 31],
+			"entry": "scripts/Main.js"
 		}
 	],
 	"dependencies": [

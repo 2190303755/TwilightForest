@@ -4,7 +4,8 @@
     "description": {
       "identifier": "twilightforest:lich",
       "materials": {
-        "default": "lich"
+        "default": "lich",
+        "shields": "lich_shields"
       },
       "textures": {
         "default": "textures/entity/boss/twilight_lich",

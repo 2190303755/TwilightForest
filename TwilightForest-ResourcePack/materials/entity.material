@@ -1,25 +1,17 @@
 {
-"materials": {
-"version": "1.0.0",
-"hydra:entity": {},
-"bighorn:entity": {},
-"penguin:entity": {},
-"minoshroom:entity": {},
-"lich:entity_alphatest": {},
-"wild_deer:entity": {},
-"projectile:entity_alphatest": {},
-    "raven:entity_alphatest": {},
-    "raven_alpha:entity_emissive_alpha": {
-      "+states": [ "Blending" ]
-    }, 
-    "bunny:entity_alphatest": {},
-    "bunny_alpha:entity_emissive_alpha": {
-      "+states": [ "Blending" ]
-    },
-    "wild_boar:entity_alphatest": {
-      "depthFunc": "LessEqual"
-    },
-"bighorn_sheep:entity_change_color": {},
-"minotaur:entity": {}
-}
+	"materials": {
+		"version": "1.0.0",
+		"hydra:entity": {},
+		"penguin:entity": {},
+		"minoshroom:entity": {},
+		"lich:entity_alphatest": {},
+		"lich_shields:entity": {
+			"+states": ["Blending"]
+		},
+		"wild_deer:entity": {},
+		"raven:entity_alphatest": {},
+		"bunny:entity_alphatest": {},
+		"wild_boar:entity": {},
+		"minotaur:entity": {}
+	}
 }

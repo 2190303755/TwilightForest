@@ -4,12 +4,8 @@
 		"animation.lich.waving": {
 			"loop": true,
 			"bones": {
-				"leftarm": {
-					"rotation": [
-						"math.sin(query.life_time * 600) * 15 - this",
-						"-this",
-						"math.cos(query.life_time * 600) * 15 -180 - this"
-					]
+				"leftArm": {
+					"rotation": ["math.sin(query.life_time * math.pi * 200) * 15 - this", "- this", "math.cos(query.life_time * math.pi * 200) * 15 + 195 - this"]
 				}
 			}
 		},
@@ -17,46 +13,22 @@
 			"loop": true,
 			"bones": {
 				"shield_1": {
-					"rotation": [
-						0,
-						"(q.life_time - 2 / q.skin_id) * 180 - q.body_y_rotation",
-						0
-					]
+					"rotation": [0, "(q.life_time - 2 / q.skin_id) * 180 - q.body_y_rotation", 0]
 				},
 				"shield_2": {
-					"rotation": [
-						0,
-						"(q.life_time - 4 / q.skin_id) * 180 - q.body_y_rotation",
-						0
-					]
+					"rotation": [0, "(q.life_time - 4 / q.skin_id) * 180 - q.body_y_rotation", 0]
 				},
 				"shield_3": {
-					"rotation": [
-						0,
-						"(q.life_time - 6 / q.skin_id) * 180 - q.body_y_rotation",
-						0
-					]
+					"rotation": [0, "(q.life_time - 6 / q.skin_id) * 180 - q.body_y_rotation", 0]
 				},
 				"shield_4": {
-					"rotation": [
-						0,
-						"(q.life_time - 8 / q.skin_id) * 180 - q.body_y_rotation",
-						0
-					]
+					"rotation": [0, "(q.life_time - 8 / q.skin_id) * 180 - q.body_y_rotation", 0]
 				},
 				"shield_5": {
-					"rotation": [
-						0,
-						"(q.life_time - 10 / q.skin_id) * 180 - q.body_y_rotation",
-						0
-					]
+					"rotation": [0, "(q.life_time - 10 / q.skin_id) * 180 - q.body_y_rotation", 0]
 				},
 				"shield_6": {
-					"rotation": [
-						0,
-						"(q.life_time - 12 / q.skin_id) * 180 - q.body_y_rotation",
-						0
-					]
+					"rotation": [0, "(q.life_time - 12 / q.skin_id) * 180 - q.body_y_rotation", 0]
 				}
 			}
 		}
